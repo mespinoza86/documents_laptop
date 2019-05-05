@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<autopilotfilemapping:AutoPilotFileMapping xmlns:autopilotfilemapping="www.autoesl.com/autopilotfilemapping">
+  <source>
+    <originFiles name="Stream.cpp" path="/home/marco/Documents/tesis/buildroot_2018_05/Version_Actualizada/Archivos_from_Kaleb/Stream.cpp"/>
+  </source>
+  <testbench>
+    <originFiles name="StreamTest.cpp" path="/home/marco/Documents/tesis/buildroot_2018_05/Version_Actualizada/Archivos_from_Kaleb/StreamTest.cpp"/>
+  </testbench>
+</autopilotfilemapping:AutoPilotFileMapping>

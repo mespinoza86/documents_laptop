@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sat Nov  3 17:04:00 2018
+# Process ID: 25168
+# Current directory: /home/marco/Documents/tesis/buildroot_2018_05/Version_Actualizada/project_HLS/IP_2018v2/IP_2018_v2/solution1/impl/ip
+# Command line: vivado -notrace -mode batch -source run_ippack.tcl
+# Log file: /home/marco/Documents/tesis/buildroot_2018_05/Version_Actualizada/project_HLS/IP_2018v2/IP_2018_v2/solution1/impl/ip/vivado.log
+# Journal file: /home/marco/Documents/tesis/buildroot_2018_05/Version_Actualizada/project_HLS/IP_2018v2/IP_2018_v2/solution1/impl/ip/vivado.jou
+#-----------------------------------------------------------
+source run_ippack.tcl -notrace

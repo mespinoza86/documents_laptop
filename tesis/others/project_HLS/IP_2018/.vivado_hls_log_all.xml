@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<vivadoHLSLog:LogRoot xmlns:vivadoHLSLog="www.xilinx.com/vivadoHLSLog">
+  <errorLogs>
+    <logs>
+      <synLog/>
+      <simLog/>
+      <mgLog/>
+      <packageLog/>
+      <csimLog/>
+    </logs>
+  </errorLogs>
+  <warningLogs>
+    <logs>
+      <synLog>
+        <logs message="WARNING: [RTGEN 206-101] Register 'nextSavedData_7' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:04.305-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'nextSavedData_6' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.806-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'nextSavedData_5' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.800-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'nextSavedData_4' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.792-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'nextSavedData_3' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.779-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'nextSavedData_2' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.769-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'nextSavedData_1' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.760-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'nextSavedData_0' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.751-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'vertical' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.744-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'V_acc_7' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.735-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'F_acc_7' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.724-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'savedData_7' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.706-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'V_acc_6' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.697-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'F_acc_6' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.684-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'savedData_6' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.679-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'V_acc_5' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.674-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'F_acc_5' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.668-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'savedData_5' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.663-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'V_acc_4' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.652-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'F_acc_4' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.642-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'savedData_4' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.633-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'V_acc_3' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.626-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'F_acc_3' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.621-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'savedData_3' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.615-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'V_acc_2' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.609-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'F_acc_2' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.601-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'savedData_2' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.582-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'V_acc_1' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.576-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'F_acc_1' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.561-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'savedData_1' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.555-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'V_acc_0' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.547-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'F_acc_0' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.542-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'savedData_0' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.537-0600" type="Warning"/>
+        <logs message="WARNING: [RTGEN 206-101] Register 'blockNumber' is power-on initialization." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:03.533-0600" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] The critical path consists of the following:&#xA;&#x9;'load' operation ('vertical_load_2', ../Archivos_from_Kaleb/Stream.cpp:83) on static variable 'vertical' (0 ns)&#xA;&#x9;'add' operation ('tmp_8', ../Archivos_from_Kaleb/Stream.cpp:83) (2.44 ns)&#xA;&#x9;'store' operation (../Archivos_from_Kaleb/Stream.cpp:83) of variable 'tmp_8', ../Archivos_from_Kaleb/Stream.cpp:83 on static variable 'vertical' (1.57 ns)" projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:01.427-0600" type="Warning"/>
+        <logs message="WARNING: [SCHED 204-21] Estimated clock period (4.01ns) exceeds the target (target clock period: 10ns, clock uncertainty: 6ns, effective delay budget: 4ns)." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:25:01.418-0600" type="Warning"/>
+      </synLog>
+      <simLog/>
+      <mgLog/>
+      <packageLog>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Simulate_HW_ap_fpext_1_no_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:30:25.675-0600" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Simulate_HW_ap_fsub_8_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:30:24.936-0600" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Simulate_HW_ap_fexp_29_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:30:24.244-0600" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Simulate_HW_ap_dmul_15_max_dsp_64' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:30:23.444-0600" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Simulate_HW_ap_faddfsub_8_full_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:30:22.276-0600" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Simulate_HW_ap_fptrunc_3_no_dsp_64' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:30:21.586-0600" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Simulate_HW_ap_dadd_14_full_dsp_64' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:30:20.808-0600" type="Warning"/>
+        <logs message="WARNING: [IP_Flow 19-4832] The IP name 'Simulate_HW_ap_fmul_5_max_dsp_32' you have specified is long. The Windows operating system has path length limitations. It is recommended you use shorter names to reduce the likelihood of issues." projectName="IP_2018" solutionName="solution1" date="2018-10-27T15:30:19.939-0600" type="Warning"/>
+      </packageLog>
+      <csimLog/>
+    </logs>
+  </warningLogs>
+</vivadoHLSLog:LogRoot>
