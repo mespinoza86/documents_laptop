@@ -1,0 +1,556 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:19 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Sun Nov  4 01:00:14 2018
+# Process ID: 3046
+# Current directory: /home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1
+# Command line: vivado -log design_1_wrapper.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+# Log file: /home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/design_1_wrapper.vdi
+# Journal file: /home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source design_1_wrapper.tcl -notrace
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_Simulate_HW_0_0/design_1_Simulate_HW_0_0.dcp' for cell 'design_1_i/Simulate_HW_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.dcp' for cell 'design_1_i/axi_dma_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp' for cell 'design_1_i/processing_system7_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp' for cell 'design_1_i/rst_ps7_0_100M'
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_xlconcat_0_0/design_1_xlconcat_0_0.dcp' for cell 'design_1_i/xlconcat_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.dcp' for cell 'design_1_i/axi_mem_intercon/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp' for cell 'design_1_i/axi_mem_intercon/m00_couplers/auto_pc'
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0.dcp' for cell 'design_1_i/ps7_0_axi_periph/xbar'
+INFO: [Project 1-454] Reading design checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp' for cell 'design_1_i/ps7_0_axi_periph/s00_couplers/auto_pc'
+INFO: [Netlist 29-17] Analyzing 944 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7z020clg484-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Finished Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.xdc] for cell 'design_1_i/processing_system7_0/inst'
+Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0_board.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Finished Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.xdc] for cell 'design_1_i/rst_ps7_0_100M/U0'
+Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Finished Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.xdc] for cell 'design_1_i/axi_dma_0/U0'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_processing_system7_0_0/design_1_processing_system7_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_Simulate_HW_0_0/design_1_Simulate_HW_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_rst_ps7_0_100M_0/design_1_rst_ps7_0_100M_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0.dcp'
+INFO: [Project 1-538] Using original IP XDC constraints instead of the XDC constraints in dcp '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1.dcp'
+Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+Finished Parsing XDC File [/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.srcs/sources_1/bd/design_1/ip/design_1_axi_dma_0_0/design_1_axi_dma_0_0_clocks.xdc] for cell 'design_1_i/axi_dma_0/U0'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 6 instances were transformed.
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 5 instances
+  RAM32X1D => RAM32X1D (RAMD32, RAMD32): 1 instances
+
+link_design: Time (s): cpu = 00:00:16 ; elapsed = 00:00:16 . Memory (MB): peak = 1439.730 ; gain = 423.859 ; free physical = 11193 ; free virtual = 13853
+CRITICAL WARNING: [Pfi 67-13] Hardware Handoff file design_1_processing_system7_0_0.hwdef does not exist for instance design_1_i/processing_system7_0/inst
+Command: opt_design -directive Explore
+INFO: [Vivado_Tcl 4-136] Directive used for opt_design is: Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:00.67 . Memory (MB): peak = 1478.746 ; gain = 39.016 ; free physical = 11182 ; free virtual = 13843
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Starting Logic Optimization Task
+Implement Debug Cores | Checksum: 223c41c4a
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 35 inverter(s) to 237 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1b43361d1
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1955.238 ; gain = 0.000 ; free physical = 10745 ; free virtual = 13427
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 868 cells.
+Phase 2 Constant propagation | Checksum: 1724eb47e
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1955.238 ; gain = 0.000 ; free physical = 10736 ; free virtual = 13421
+
+Phase 3 Sweep
+INFO: [Opt 31-12] Eliminated 18787 unconnected nets.
+INFO: [Opt 31-11] Eliminated 1238 unconnected cells.
+Phase 3 Sweep | Checksum: c7d691c1
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1955.238 ; gain = 0.000 ; free physical = 10734 ; free virtual = 13421
+
+Phase 4 BUFG optimization
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 4 BUFG optimization | Checksum: 119c11b66
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1955.238 ; gain = 0.000 ; free physical = 10732 ; free virtual = 13421
+
+Phase 5 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-10] Eliminated 0 cells.
+Phase 5 Constant propagation | Checksum: 119c11b66
+
+Time (s): cpu = 00:00:17 ; elapsed = 00:00:17 . Memory (MB): peak = 1955.238 ; gain = 0.000 ; free physical = 10729 ; free virtual = 13418
+
+Phase 6 Sweep
+INFO: [Opt 31-12] Eliminated 0 unconnected nets.
+INFO: [Opt 31-11] Eliminated 0 unconnected cells.
+Phase 6 Sweep | Checksum: 119c11b66
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:18 . Memory (MB): peak = 1955.238 ; gain = 0.000 ; free physical = 10729 ; free virtual = 13418
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.15 . Memory (MB): peak = 1955.238 ; gain = 0.000 ; free physical = 10729 ; free virtual = 13418
+Ending Logic Optimization Task | Checksum: 119c11b66
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1955.238 ; gain = 0.000 ; free physical = 10728 ; free virtual = 13418
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 6 BRAM(s) out of a total of 6 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 8 newly gated: 0 Total Ports: 12
+Ending PowerOpt Patch Enables Task | Checksum: d4efdc93
+
+Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.14 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10475 ; free virtual = 13174
+Ending Power Optimization Task | Checksum: d4efdc93
+
+Time (s): cpu = 00:00:18 ; elapsed = 00:00:08 . Memory (MB): peak = 2305.598 ; gain = 350.359 ; free physical = 10474 ; free virtual = 13174
+INFO: [Common 17-83] Releasing license: Implementation
+49 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:38 . Memory (MB): peak = 2305.598 ; gain = 865.867 ; free physical = 10474 ; free virtual = 13174
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.03 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10472 ; free virtual = 13174
+INFO: [Common 17-1381] The checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/design_1_wrapper_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10457 ; free virtual = 13173
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/design_1_wrapper_drc_opted.rpt.
+INFO: [Chipscope 16-241] No debug cores found in the current design.
+Before running the implement_debug_core command, either use the Set Up Debug wizard (GUI mode)
+or use the create_debug_core and connect_debug_core Tcl commands to insert debug cores into the design.
+Command: place_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_faddfbkb_U1/Simulate_HW_ap_faddfsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_faddfbkb_U2/Simulate_HW_ap_faddfsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_faddfbkb_U3/Simulate_HW_ap_faddfsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_faddfbkb_U4/Simulate_HW_ap_faddfsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_faddfbkb_U5/Simulate_HW_ap_faddfsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_faddfbkb_U6/Simulate_HW_ap_faddfsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_faddfbkb_U7/Simulate_HW_ap_faddfsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_fsub_cud_U10/Simulate_HW_ap_fsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_fsub_cud_U11/Simulate_HW_ap_fsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_fsub_cud_U8/Simulate_HW_ap_fsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC 23-20] Rule violation (REQP-1725) DSP_Abus_sign_bit_alert - design_1_i/Simulate_HW_0/inst/Loop_ROW_LOOP_proc_U0/Simulate_HW_fsub_cud_U9/Simulate_HW_ap_fsub_8_full_dsp_32_u/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 11 Advisories
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 46-5] The placer was invoked with the 'Explore' directive.
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 4 CPUs
+
+Phase 1 Placer Initialization
+Netlist sorting complete. Time (s): cpu = 00:00:00.09 ; elapsed = 00:00:00.10 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10449 ; free virtual = 13173
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00.07 ; elapsed = 00:00:00.07 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10442 ; free virtual = 13168
+
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.1 IO Placement/ Clock Placement/ Build Placer Device | Checksum: b76c9e11
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:13 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10435 ; free virtual = 13166
+
+Phase 1.2 Build Placer Netlist Model
+Phase 1.2 Build Placer Netlist Model | Checksum: af5f9b23
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:23 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10442 ; free virtual = 13180
+
+Phase 1.3 Constrain Clocks/Macros
+Phase 1.3 Constrain Clocks/Macros | Checksum: af5f9b23
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:24 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10441 ; free virtual = 13180
+Phase 1 Placer Initialization | Checksum: af5f9b23
+
+Time (s): cpu = 00:00:39 ; elapsed = 00:00:24 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10441 ; free virtual = 13180
+
+Phase 2 Global Placement
+Phase 2 Global Placement | Checksum: 1902f9fe6
+
+Time (s): cpu = 00:01:46 ; elapsed = 00:00:58 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10421 ; free virtual = 13178
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 1902f9fe6
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:00:58 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10421 ; free virtual = 13178
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 1b244ddee
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:01:06 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10415 ; free virtual = 13178
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1724fa985
+
+Time (s): cpu = 00:02:07 ; elapsed = 00:01:07 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10415 ; free virtual = 13178
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 2022b0215
+
+Time (s): cpu = 00:02:07 ; elapsed = 00:01:07 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10415 ; free virtual = 13178
+
+Phase 3.5 Timing Path Optimizer
+Phase 3.5 Timing Path Optimizer | Checksum: 1e00e69e8
+
+Time (s): cpu = 00:02:12 ; elapsed = 00:01:09 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 10414 ; free virtual = 13177
+
+Phase 3.6 Small Shape Detail Placement
+Phase 3.6 Small Shape Detail Placement | Checksum: e158a21e
+
+Time (s): cpu = 00:02:39 ; elapsed = 00:01:34 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9930 ; free virtual = 13127
+
+Phase 3.7 Re-assign LUT pins
+Phase 3.7 Re-assign LUT pins | Checksum: 12acf4db3
+
+Time (s): cpu = 00:02:42 ; elapsed = 00:01:37 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9922 ; free virtual = 13122
+
+Phase 3.8 Pipeline Register Optimization
+Phase 3.8 Pipeline Register Optimization | Checksum: f6781d59
+
+Time (s): cpu = 00:02:44 ; elapsed = 00:01:39 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9921 ; free virtual = 13122
+Phase 3 Detail Placement | Checksum: f6781d59
+
+Time (s): cpu = 00:02:45 ; elapsed = 00:01:40 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9914 ; free virtual = 13116
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+INFO: [Place 30-746] Post Placement Timing Summary WNS=0.940. For the most accurate timing information please run report_timing.
+Phase 4.1.1 Post Placement Optimization | Checksum: b6794a74
+
+Time (s): cpu = 00:03:13 ; elapsed = 00:01:58 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9818 ; free virtual = 13035
+Phase 4.1 Post Commit Optimization | Checksum: b6794a74
+
+Time (s): cpu = 00:03:14 ; elapsed = 00:01:59 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9851 ; free virtual = 13071
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: b6794a74
+
+Time (s): cpu = 00:03:16 ; elapsed = 00:02:00 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9861 ; free virtual = 13082
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: b6794a74
+
+Time (s): cpu = 00:03:16 ; elapsed = 00:02:00 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9844 ; free virtual = 13066
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 51992e62
+
+Time (s): cpu = 00:03:17 ; elapsed = 00:02:01 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9829 ; free virtual = 13052
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 51992e62
+
+Time (s): cpu = 00:03:18 ; elapsed = 00:02:02 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9834 ; free virtual = 13058
+Ending Placer Task | Checksum: 29e9d633
+
+Time (s): cpu = 00:03:18 ; elapsed = 00:02:02 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9857 ; free virtual = 13082
+INFO: [Common 17-83] Releasing license: Implementation
+79 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:03:26 ; elapsed = 00:02:07 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9864 ; free virtual = 13090
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:06 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9815 ; free virtual = 13114
+INFO: [Common 17-1381] The checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/design_1_wrapper_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:21 ; elapsed = 00:00:12 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9852 ; free virtual = 13106
+report_io: Time (s): cpu = 00:00:00.14 ; elapsed = 00:00:00.18 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9859 ; free virtual = 13113
+report_utilization: Time (s): cpu = 00:00:00.52 ; elapsed = 00:00:00.55 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9853 ; free virtual = 13107
+report_control_sets: Time (s): cpu = 00:00:00.22 ; elapsed = 00:00:00.28 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9856 ; free virtual = 13111
+Command: phys_opt_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Vivado_Tcl 4-137] Directive used for phys_opt_design is: Explore
+Netlist sorting complete. Time (s): cpu = 00:00:00.12 ; elapsed = 00:00:00.13 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9857 ; free virtual = 13113
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 4 CPUs
+Phase 1 Physical Synthesis Initialization | Checksum: 1991499b5
+
+Time (s): cpu = 00:00:22 ; elapsed = 00:00:14 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9605 ; free virtual = 12882
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.500 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+Ending Physical Synthesis Task | Checksum: 1108cc29b
+
+Time (s): cpu = 00:00:27 ; elapsed = 00:00:18 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9542 ; free virtual = 12835
+INFO: [Common 17-83] Releasing license: Implementation
+86 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+phys_opt_design: Time (s): cpu = 00:00:28 ; elapsed = 00:00:19 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9539 ; free virtual = 12832
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:13 ; elapsed = 00:00:07 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9247 ; free virtual = 12609
+INFO: [Common 17-1381] The checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/design_1_wrapper_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:24 ; elapsed = 00:00:16 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9282 ; free virtual = 12605
+Command: route_design -directive Explore
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-270] Using Router directive 'Explore'.
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 4 CPUs
+Checksum: PlaceDB: 2303775b ConstDB: 0 ShapeSum: 288ce44d RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 8a34c6cc
+
+Time (s): cpu = 00:00:43 ; elapsed = 00:00:32 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9136 ; free virtual = 12492
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 8a34c6cc
+
+Time (s): cpu = 00:00:44 ; elapsed = 00:00:34 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9406 ; free virtual = 12763
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 8a34c6cc
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:35 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9347 ; free virtual = 12704
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 8a34c6cc
+
+Time (s): cpu = 00:00:45 ; elapsed = 00:00:35 . Memory (MB): peak = 2305.598 ; gain = 0.000 ; free physical = 9318 ; free virtual = 12676
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 1b50d8177
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:01:00 . Memory (MB): peak = 2337.254 ; gain = 31.656 ; free physical = 9003 ; free virtual = 12407
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=1.141  | TNS=0.000  | WHS=-0.243 | THS=-462.946|
+
+Phase 2 Router Initialization | Checksum: 1fb0964e0
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:11 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 8979 ; free virtual = 12399
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 12893d7de
+
+Time (s): cpu = 00:02:05 ; elapsed = 00:01:28 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9180 ; free virtual = 12615
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 21931
+ Number of Nodes with overlaps = 4522
+ Number of Nodes with overlaps = 1257
+ Number of Nodes with overlaps = 437
+ Number of Nodes with overlaps = 187
+ Number of Nodes with overlaps = 84
+ Number of Nodes with overlaps = 33
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+
+Phase 4.1.1 Update Timing
+Phase 4.1.1 Update Timing | Checksum: f4c76a12
+
+Time (s): cpu = 00:13:27 ; elapsed = 00:06:58 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9096 ; free virtual = 12913
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.557  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 155cf1a53
+
+Time (s): cpu = 00:13:28 ; elapsed = 00:06:59 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9096 ; free virtual = 12913
+
+Phase 4.2 Global Iteration 1
+ Number of Nodes with overlaps = 3254
+ Number of Nodes with overlaps = 2464
+ Number of Nodes with overlaps = 673
+ Number of Nodes with overlaps = 196
+ Number of Nodes with overlaps = 64
+ Number of Nodes with overlaps = 36
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 9
+ Number of Nodes with overlaps = 6
+ Number of Nodes with overlaps = 4
+ Number of Nodes with overlaps = 0
+
+Phase 4.2.1 Update Timing
+Phase 4.2.1 Update Timing | Checksum: 257b3b8ac
+
+Time (s): cpu = 00:16:34 ; elapsed = 00:08:12 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9062 ; free virtual = 12913
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.517  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.2 Global Iteration 1 | Checksum: 257b3b8ac
+
+Time (s): cpu = 00:16:34 ; elapsed = 00:08:12 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9062 ; free virtual = 12913
+Phase 4 Rip-up And Reroute | Checksum: 257b3b8ac
+
+Time (s): cpu = 00:16:34 ; elapsed = 00:08:12 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9062 ; free virtual = 12913
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+Phase 5.1 Delay CleanUp | Checksum: 257b3b8ac
+
+Time (s): cpu = 00:16:34 ; elapsed = 00:08:12 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9062 ; free virtual = 12913
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 257b3b8ac
+
+Time (s): cpu = 00:16:35 ; elapsed = 00:08:12 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9062 ; free virtual = 12913
+Phase 5 Delay and Skew Optimization | Checksum: 257b3b8ac
+
+Time (s): cpu = 00:16:35 ; elapsed = 00:08:13 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9062 ; free virtual = 12913
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 2930d1bf6
+
+Time (s): cpu = 00:16:39 ; elapsed = 00:08:14 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9061 ; free virtual = 12913
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.517  | TNS=0.000  | WHS=0.016  | THS=0.000  |
+
+Phase 6.1 Hold Fix Iter | Checksum: 234c28b8f
+
+Time (s): cpu = 00:16:39 ; elapsed = 00:08:15 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9061 ; free virtual = 12913
+Phase 6 Post Hold Fix | Checksum: 234c28b8f
+
+Time (s): cpu = 00:16:39 ; elapsed = 00:08:15 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9061 ; free virtual = 12913
+
+Phase 7 Timing Verification
+
+Phase 7.1 Update Timing
+Phase 7.1 Update Timing | Checksum: 2680a1f00
+
+Time (s): cpu = 00:16:49 ; elapsed = 00:08:18 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9059 ; free virtual = 12912
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=0.517  | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 7 Timing Verification | Checksum: 2680a1f00
+
+Time (s): cpu = 00:16:49 ; elapsed = 00:08:18 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9059 ; free virtual = 12912
+
+Phase 8 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 27.782 %
+  Global Horizontal Routing Utilization  = 32.2552 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 8 Route finalize | Checksum: 2680a1f00
+
+Time (s): cpu = 00:16:50 ; elapsed = 00:08:18 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9059 ; free virtual = 12912
+
+Phase 9 Verifying routed nets
+
+ Verification completed successfully
+Phase 9 Verifying routed nets | Checksum: 2680a1f00
+
+Time (s): cpu = 00:16:50 ; elapsed = 00:08:18 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9059 ; free virtual = 12913
+
+Phase 10 Depositing Routes
+Phase 10 Depositing Routes | Checksum: 19aab5ad7
+
+Time (s): cpu = 00:16:53 ; elapsed = 00:08:21 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9058 ; free virtual = 12913
+
+Phase 11 Post Router Timing
+INFO: [Route 35-20] Post Routing Timing Summary | WNS=0.519  | TNS=0.000  | WHS=0.018  | THS=0.000  |
+
+INFO: [Route 35-61] The design met the timing requirement.
+Phase 11 Post Router Timing | Checksum: 1a79083cb
+
+Time (s): cpu = 00:17:18 ; elapsed = 00:08:30 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9053 ; free virtual = 12911
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:17:18 ; elapsed = 00:08:30 . Memory (MB): peak = 2345.254 ; gain = 39.656 ; free physical = 9053 ; free virtual = 12912
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+102 Infos, 0 Warnings, 1 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:17:31 ; elapsed = 00:08:39 . Memory (MB): peak = 2379.160 ; gain = 73.562 ; free physical = 9053 ; free virtual = 12911
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:12 ; elapsed = 00:00:04 . Memory (MB): peak = 2387.062 ; gain = 0.000 ; free physical = 8960 ; free virtual = 12910
+INFO: [Common 17-1381] The checkpoint '/home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/design_1_wrapper_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:19 ; elapsed = 00:00:09 . Memory (MB): peak = 2387.062 ; gain = 7.902 ; free physical = 9025 ; free virtual = 12911
+INFO: [DRC 23-27] Running DRC with 4 threads
+INFO: [Coretcl 2-168] The results of DRC are in file /home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/design_1_wrapper_drc_routed.rpt.
+report_drc: Time (s): cpu = 00:00:20 ; elapsed = 00:00:06 . Memory (MB): peak = 2395.066 ; gain = 8.004 ; free physical = 9019 ; free virtual = 12908
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 4 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file /home/marco/Documents/tesis/others/vivado_2019_Version/vivado_2019_Version.runs/impl_1/design_1_wrapper_methodology_drc_routed.rpt.
+report_methodology: Time (s): cpu = 00:00:35 ; elapsed = 00:00:13 . Memory (MB): peak = 2463.066 ; gain = 68.000 ; free physical = 8942 ; free virtual = 12837
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 4 CPUs
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Command: report_power -file design_1_wrapper_power_routed.rpt -pb design_1_wrapper_power_summary_routed.pb -rpx design_1_wrapper_power_routed.rpx
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+WARNING: [Power 33-332] Found switching activity that implies high-fanout reset nets being asserted for excessive periods of time which may result in inaccurate power analysis.
+Resolution: To review and fix problems, please run Power Constraints Advisor in the GUI from Tools > Power Constraints Advisor or run report_power with the -advisory option to generate a text report.
+112 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:23 ; elapsed = 00:00:11 . Memory (MB): peak = 2572.867 ; gain = 85.801 ; free physical = 8836 ; free virtual = 12754
+INFO: [Common 17-206] Exiting Vivado at Sun Nov  4 01:13:48 2018...
