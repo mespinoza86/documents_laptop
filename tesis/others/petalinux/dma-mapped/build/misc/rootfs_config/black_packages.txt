@@ -1,0 +1,51 @@
+FULL_arm-trusted-firmware
+FULL_shadow-sysroot
+FULL_core-image-minimal
+FULL_linux-xlnx
+FULL_petalinux-image
+FULL_petalinux-minimal
+FULL_petalinux-user-image
+FULL_u-boot-xlnx
+FULL_pmu-firmware
+FULL_linux-libc-headers-xilinx
+SINGLE_gcc-runtime-xilinx gcc-runtime-xilinx
+SINGLE_gcc-runtime-dbg gcc-runtime-xilinx
+FULL_external-hdf
+FULL_device-tree-generation
+FULL_fsbl
+FULL_bsdl1.2-dev
+FULL_dbus-test
+FULL_perl-module-cpanplus
+SINGLE_liboggflac flac
+SINGLE_gettext-runtime-dev gettext-runtime
+SINGLE_libgcc-xilinx libgcc-xilinx
+FULL_libsdl   
+SINGLE_libwebp-gif2webp libwebp
+SINGLE_libxml2-utils libxml2
+SINGLE_qwt-examples qwt
+SINGLE_qwt-tools-dbg qwt
+SINGLE_qwt-qmlplugins qwt
+SINGLE_qwt-examples-dev qwt
+SINGLE_qwt-tools qwt
+SINGLE_qwt-qmlplugins-dbg qwt
+SINGLE_qwt-qmldesigner qwt
+SINGLE_qwt-examples-dbg qwt
+SINGLE_qwt-plugins-dbg qwt
+SINGLE_qwt-mkspecs qwt
+FULL_bigreqsproto
+FULL_calibrateproto
+FULL_compositeproto
+SINGLE_pam-plugin-ck-connector consolekit
+FULL_damageproto
+FULL_dmxproto
+FULL_dri2proto
+FULL_fixesproto
+FULL_fontsproto
+FULL_glproto	
+SINGLE_gstreamer1.0-plugins-base-glib gstreamer1.0-plugins-base
+FULL_inputproto
+FULL_kbproto	
+FULL_orc-examples
+FULL_pointercal-xinput
+FULL_presentproto
+SINGLE_qtbase-qmlplugins-dbg qtbase

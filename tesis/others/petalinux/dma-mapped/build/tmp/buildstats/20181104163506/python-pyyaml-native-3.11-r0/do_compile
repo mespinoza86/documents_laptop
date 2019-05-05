@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349459.55 
+python-pyyaml-native-3.11-r0: do_compile: Elapsed time: 2.54 seconds 
+utime: 12
+stime: 0
+cutime: 239
+cstime: 20
+IO write_bytes: 3080192
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 4160
+IO wchar: 6245532
+IO rchar: 12300181
+IO syscw: 1465
+rusage ru_utime: 0.129426
+rusage ru_stime: 0.004044
+rusage ru_maxrss: 96980
+rusage ru_minflt: 4479
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 127
+rusage ru_nivcsw: 0
+Child rusage ru_utime: 2.390822
+Child rusage ru_stime: 0.20459
+Child rusage ru_maxrss: 114464
+Child rusage ru_minflt: 41965
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 5808
+Child rusage ru_nvcsw: 199
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1541349462.09 

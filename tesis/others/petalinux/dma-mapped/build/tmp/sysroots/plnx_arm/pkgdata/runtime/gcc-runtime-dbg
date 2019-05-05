@@ -1,0 +1,14 @@
+PN: gcc-runtime-xilinx
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE_gcc-runtime-dbg: GPL-3.0-with-GCC-exception & GPL-3.0
+DESCRIPTION: External Xilinx toolchain.
+SUMMARY: External Xilinx toolchain
+RRECOMMENDS_gcc-runtime-dbg: libgcc-dbg glibc-xilinx-dbg
+SECTION: base
+PKG_gcc-runtime-dbg: gcc-runtime-dbg
+FILES_gcc-runtime-dbg: /usr/lib/.debug/
+FILES_INFO: {"/usr/lib/.debug/libatomic.so.1.1.0": 74788, "/usr/lib/.debug/libssp.so.0.0.0": 32488, "/usr/lib/.debug/libitm.so.1.0.0": 850168, "/usr/lib/.debug/libstdc++.so.6.0.21": 7851600}
+PKGSIZE_gcc-runtime-dbg: 8809044

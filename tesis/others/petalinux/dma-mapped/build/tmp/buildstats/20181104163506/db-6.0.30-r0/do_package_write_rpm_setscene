@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349344.17 
+db-6.0.30-r0: do_package_write_rpm_setscene: Elapsed time: 0.53 seconds 
+utime: 15
+stime: 1
+cutime: 21
+cstime: 21
+IO write_bytes: 34394112
+IO read_bytes: 33517568
+IO cancelled_write_bytes: 0
+IO syscr: 5423
+IO wchar: 68760973
+IO rchar: 68068227
+IO syscw: 4524
+rusage ru_utime: 0.157927
+rusage ru_stime: 0.012804
+rusage ru_maxrss: 97052
+rusage ru_minflt: 6078
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 61
+Child rusage ru_utime: 0.212579
+Child rusage ru_stime: 0.219084
+Child rusage ru_maxrss: 95352
+Child rusage ru_minflt: 1812
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 65464
+Child rusage ru_oublock: 67048
+Child rusage ru_nvcsw: 6846
+Child rusage ru_nivcsw: 5019
+Status: PASSED 
+Ended: 1541349344.69 

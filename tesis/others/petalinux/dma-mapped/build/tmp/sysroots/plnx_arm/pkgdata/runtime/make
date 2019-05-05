@@ -1,0 +1,18 @@
+PN: make
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0
+LICENSE: GPLv3 & LGPLv2
+DESCRIPTION: Make is a tool which controls the generation of executables and other non-source files of a program from the program\'s source files.  Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files.
+SUMMARY: GNU tool that controls the build process
+RDEPENDS_make: glibc-xilinx (>= 2.21)
+SECTION: devel
+PKG_make: make
+FILES_make: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/make /usr/lib/make/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILERPROVIDESFLIST_make: /usr/bin/make
+FILES_INFO: {"/usr/bin/make": 176068}
+FILERPROVIDES_/usr/bin/make_make: elf(buildid) (= 137aba3075947e8d76b5de0120b60a8b2e64da7e)
+FILERDEPENDSFLIST_make: /usr/bin/make
+FILERDEPENDS_/usr/bin/make_make: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) libdl.so.2 libdl.so.2(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_make: 176068

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349358.93 
+gcc-cross-xilinx-arm-2016.4-r1: do_populate_sysroot_setscene: Elapsed time: 0.44 seconds 
+utime: 20
+stime: 2
+cutime: 15
+cstime: 18
+IO write_bytes: 86016
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 190
+IO wchar: 115157
+IO rchar: 206467
+IO syscw: 119
+rusage ru_utime: 0.200409
+rusage ru_stime: 0.024539
+rusage ru_maxrss: 96788
+rusage ru_minflt: 6076
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 23
+Child rusage ru_utime: 0.155385
+Child rusage ru_stime: 0.18356
+Child rusage ru_maxrss: 95096
+Child rusage ru_minflt: 1759
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 7
+Status: PASSED 
+Ended: 1541349359.37 

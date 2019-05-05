@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349383.30 
+glibc-xilinx-2016.4-r1: do_rm_work: Elapsed time: 0.42 seconds 
+utime: 23
+stime: 0
+cutime: 20
+cstime: 15
+IO write_bytes: 28672
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 164
+IO wchar: 25268
+IO rchar: 165960
+IO syscw: 24
+rusage ru_utime: 0.232351
+rusage ru_stime: 0.007745
+rusage ru_maxrss: 97932
+rusage ru_minflt: 4758
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 27
+Child rusage ru_utime: 0.201723
+Child rusage ru_stime: 0.159472
+Child rusage ru_maxrss: 96264
+Child rusage ru_minflt: 1886
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 31
+Child rusage ru_nivcsw: 34
+Status: PASSED 
+Ended: 1541349383.72 

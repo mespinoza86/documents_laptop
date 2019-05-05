@@ -1,0 +1,26 @@
+PN: diffutils
+PV: 3.3
+PR: r0
+PKGV: 3.3
+PKGR: r0
+LICENSE: GPLv3+
+DESCRIPTION: Diffutils contains the GNU diff, diff3, sdiff, and cmp utilities. These programs are usually used for creating patch files.
+SUMMARY: Diffutils contains tools used for finding differences between files
+RDEPENDS_diffutils: update-alternatives-opkg glibc-xilinx (>= 2.21)
+SECTION: base
+PKG_diffutils: diffutils
+FILES_diffutils: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/diffutils /usr/lib/diffutils/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+pkg_postinst_diffutils: #!/bin/sh\n\tupdate-alternatives --install /usr/bin/diff diff /usr/bin/diff.diffutils 100\n\tupdate-alternatives --install /usr/bin/cmp cmp /usr/bin/cmp.diffutils 100\n
+pkg_prerm_diffutils: #!/bin/sh\n\tupdate-alternatives --remove  diff /usr/bin/diff.diffutils\n\tupdate-alternatives --remove  cmp /usr/bin/cmp.diffutils\n
+FILERPROVIDESFLIST_diffutils: /usr/bin/diff.diffutils /usr/bin/cmp.diffutils /usr/bin/diff3 /usr/bin/sdiff
+FILES_INFO: {"/usr/bin/diff.diffutils": 174264, "/usr/bin/cmp.diffutils": 38852, "/usr/bin/diff3": 48120, "/usr/bin/sdiff": 43008}
+FILERPROVIDES_/usr/bin/diff.diffutils_diffutils: elf(buildid) (= 188397ed7b7a20d2464fe40002ec6a29b0e166b9) /usr/bin/diff
+FILERPROVIDES_/usr/bin/cmp.diffutils_diffutils: elf(buildid) (= 465dad45ffe630357c8f6f0d1babe219423dcef4) /usr/bin/cmp
+FILERPROVIDES_/usr/bin/diff3_diffutils: elf(buildid) (= c9b67bd9a91b5144e1096831320e9bfbfb84350f)
+FILERPROVIDES_/usr/bin/sdiff_diffutils: elf(buildid) (= 1e6515650494b26d92767af4d834c0fd7663e421)
+FILERDEPENDSFLIST_diffutils: /usr/bin/diff.diffutils /usr/bin/cmp.diffutils /usr/bin/diff3 /usr/bin/sdiff
+FILERDEPENDS_/usr/bin/diff.diffutils_diffutils: libc.so.6 libc.so.6(GLIBC_2.17) libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/cmp.diffutils_diffutils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/diff3_diffutils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/bin/sdiff_diffutils: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_diffutils: 304244

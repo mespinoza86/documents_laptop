@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349340.67 
+cryptodev-linux-native-1.8-r0: do_populate_lic_setscene: Elapsed time: 0.34 seconds 
+utime: 17
+stime: 2
+cutime: 12
+cstime: 13
+IO write_bytes: 110592
+IO read_bytes: 12288
+IO cancelled_write_bytes: 0
+IO syscr: 196
+IO wchar: 178751
+IO rchar: 251657
+IO syscw: 125
+rusage ru_utime: 0.174188
+rusage ru_stime: 0.023225
+rusage ru_maxrss: 96960
+rusage ru_minflt: 8003
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.127666
+Child rusage ru_stime: 0.139911
+Child rusage ru_maxrss: 95256
+Child rusage ru_minflt: 2089
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 37
+Child rusage ru_nivcsw: 84
+Status: PASSED 
+Ended: 1541349341.01 

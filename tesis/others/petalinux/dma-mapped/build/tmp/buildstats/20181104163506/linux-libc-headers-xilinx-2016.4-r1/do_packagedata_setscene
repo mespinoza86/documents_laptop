@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349358.39 
+linux-libc-headers-xilinx-2016.4-r1: do_packagedata_setscene: Elapsed time: 0.42 seconds 
+utime: 17
+stime: 0
+cutime: 13
+cstime: 18
+IO write_bytes: 114688
+IO read_bytes: 12288
+IO cancelled_write_bytes: 0
+IO syscr: 185
+IO wchar: 195407
+IO rchar: 256133
+IO syscw: 126
+rusage ru_utime: 0.178532
+rusage ru_stime: 0.004057
+rusage ru_maxrss: 96784
+rusage ru_minflt: 5947
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 81
+Child rusage ru_utime: 0.138659
+Child rusage ru_stime: 0.183678
+Child rusage ru_maxrss: 95092
+Child rusage ru_minflt: 1774
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 96
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 29
+Status: PASSED 
+Ended: 1541349358.81 

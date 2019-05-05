@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349376.84 
+external-hdf-1.0-r0: do_package: Elapsed time: 1.42 seconds 
+utime: 32
+stime: 6
+cutime: 49
+cstime: 64
+IO write_bytes: 430080
+IO read_bytes: 20480
+IO cancelled_write_bytes: 0
+IO syscr: 1574
+IO wchar: 663225
+IO rchar: 507451
+IO syscw: 2360
+rusage ru_utime: 0.322492
+rusage ru_stime: 0.062925
+rusage ru_maxrss: 98112
+rusage ru_minflt: 14916
+rusage ru_majflt: 0
+rusage ru_inblock: 40
+rusage ru_oublock: 832
+rusage ru_nvcsw: 104
+rusage ru_nivcsw: 715
+Child rusage ru_utime: 0.495839
+Child rusage ru_stime: 0.649536
+Child rusage ru_maxrss: 96256
+Child rusage ru_minflt: 9438
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 233
+Child rusage ru_nivcsw: 1237
+Status: PASSED 
+Ended: 1541349378.26 

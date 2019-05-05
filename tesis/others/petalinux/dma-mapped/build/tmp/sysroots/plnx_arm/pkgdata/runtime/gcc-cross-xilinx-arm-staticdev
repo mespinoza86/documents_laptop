@@ -1,0 +1,14 @@
+PN: gcc-cross-xilinx-arm
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE: GPL-3.0-with-GCC-exception & GPL-3.0
+DESCRIPTION_gcc-cross-xilinx-arm-staticdev: External Xilinx toolchain.  This package contains static libraries for software development.
+SUMMARY_gcc-cross-xilinx-arm-staticdev: External Xilinx toolchain - Development files (Static Libraries)
+RDEPENDS_gcc-cross-xilinx-arm-staticdev: gcc-cross-xilinx-arm-dev (= 5.2.1-r1)
+SECTION_gcc-cross-xilinx-arm-staticdev: devel
+PKG_gcc-cross-xilinx-arm-staticdev: gcc-cross-xilinx-arm-staticdev
+FILES_gcc-cross-xilinx-arm-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/gcc-cross-xilinx-arm/*.a
+FILES_INFO: {}
+PKGSIZE_gcc-cross-xilinx-arm-staticdev: 0

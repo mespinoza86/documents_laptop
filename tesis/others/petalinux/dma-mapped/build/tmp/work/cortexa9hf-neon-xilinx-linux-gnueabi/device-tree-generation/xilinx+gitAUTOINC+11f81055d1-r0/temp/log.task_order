@@ -1,0 +1,16 @@
+do_fetch (15634): log.do_fetch.15634
+do_unpack (15777): log.do_unpack.15777
+do_patch (15950): log.do_patch.15950
+do_xsct_setup (15963): log.do_xsct_setup.15963
+do_populate_lic (17173): log.do_populate_lic.17173
+do_create_yaml (20288): log.do_create_yaml.20288
+do_configure (20290): log.do_configure.20290
+do_compile (20557): log.do_compile.20557
+do_populate_sysroot (20567): log.do_populate_sysroot.20567
+do_deploy (20565): log.do_deploy.20565
+do_package (20564): log.do_package.20564
+do_packagedata (20682): log.do_packagedata.20682
+do_package_write_rpm (20718): log.do_package_write_rpm.20718
+do_package_qa (20719): log.do_package_qa.20719
+do_rm_work (20905): log.do_rm_work.20905
+do_rm_work_all (20990): log.do_rm_work_all.20990

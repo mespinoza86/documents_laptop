@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349331.88 
+libtool-native-2.4.6-r0: do_populate_lic_setscene: Elapsed time: 0.35 seconds 
+utime: 11
+stime: 3
+cutime: 16
+cstime: 10
+IO write_bytes: 167936
+IO read_bytes: 28672
+IO cancelled_write_bytes: 0
+IO syscr: 228
+IO wchar: 297758
+IO rchar: 340378
+IO syscw: 142
+rusage ru_utime: 0.112847
+rusage ru_stime: 0.035021
+rusage ru_maxrss: 96888
+rusage ru_minflt: 7944
+rusage ru_majflt: 0
+rusage ru_inblock: 16
+rusage ru_oublock: 128
+rusage ru_nvcsw: 17
+rusage ru_nivcsw: 76
+Child rusage ru_utime: 0.163598
+Child rusage ru_stime: 0.106305
+Child rusage ru_maxrss: 95152
+Child rusage ru_minflt: 2109
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 200
+Child rusage ru_nvcsw: 49
+Child rusage ru_nivcsw: 47
+Status: PASSED 
+Ended: 1541349332.24 

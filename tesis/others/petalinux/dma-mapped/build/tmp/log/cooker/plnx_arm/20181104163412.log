@@ -1,0 +1,6 @@
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing RunQueue
+NOTE: PN build list saved to 'pn-buildlist'
+NOTE: PN dependencies saved to 'pn-depends.dot'
+NOTE: Package dependencies saved to 'package-depends.dot'
+NOTE: Task dependencies saved to 'task-depends.dot'

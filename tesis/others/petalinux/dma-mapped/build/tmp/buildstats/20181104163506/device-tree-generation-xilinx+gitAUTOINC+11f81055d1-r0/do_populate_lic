@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349397.60 
+device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: do_populate_lic: Elapsed time: 0.61 seconds 
+utime: 21
+stime: 5
+cutime: 15
+cstime: 23
+IO write_bytes: 106496
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 344
+IO wchar: 154361
+IO rchar: 346558
+IO syscw: 88
+rusage ru_utime: 0.213134
+rusage ru_stime: 0.055257
+rusage ru_maxrss: 96940
+rusage ru_minflt: 11243
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 54
+Child rusage ru_utime: 0.159546
+Child rusage ru_stime: 0.234886
+Child rusage ru_maxrss: 95232
+Child rusage ru_minflt: 4709
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 60
+Child rusage ru_nivcsw: 70
+Status: PASSED 
+Ended: 1541349398.22 

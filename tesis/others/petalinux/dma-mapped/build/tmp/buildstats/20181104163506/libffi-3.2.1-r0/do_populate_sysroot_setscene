@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349343.38 
+libffi-3.2.1-r0: do_populate_sysroot_setscene: Elapsed time: 0.36 seconds 
+utime: 21
+stime: 0
+cutime: 12
+cstime: 13
+IO write_bytes: 135168
+IO read_bytes: 24576
+IO cancelled_write_bytes: 0
+IO syscr: 184
+IO wchar: 219890
+IO rchar: 292998
+IO syscw: 141
+rusage ru_utime: 0.210774
+rusage ru_stime: 0.007953
+rusage ru_maxrss: 97012
+rusage ru_minflt: 6032
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 53
+Child rusage ru_utime: 0.125917
+Child rusage ru_stime: 0.13446
+Child rusage ru_maxrss: 95320
+Child rusage ru_minflt: 1799
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1541349343.74 

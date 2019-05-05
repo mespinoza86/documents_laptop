@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349334.36 
+binutils-cross-xilinx-arm-2016.4-r1: do_populate_lic_setscene: Elapsed time: 0.37 seconds 
+utime: 17
+stime: 1
+cutime: 14
+cstime: 11
+IO write_bytes: 106496
+IO read_bytes: 12288
+IO cancelled_write_bytes: 0
+IO syscr: 181
+IO wchar: 174521
+IO rchar: 240138
+IO syscw: 117
+rusage ru_utime: 0.174235
+rusage ru_stime: 0.012445
+rusage ru_maxrss: 96760
+rusage ru_minflt: 8428
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 114
+Child rusage ru_utime: 0.149532
+Child rusage ru_stime: 0.118341
+Child rusage ru_maxrss: 95084
+Child rusage ru_minflt: 2093
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 80
+Child rusage ru_nvcsw: 38
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1541349334.73 

@@ -1,0 +1,15 @@
+PN: make
+PV: 4.1
+PR: r0
+PKGV: 4.1
+PKGR: r0
+LICENSE: GPLv3 & LGPLv2
+DESCRIPTION_make-dbg: Make is a tool which controls the generation of executables and other non-source files of a program from the program\'s source files.  Make gets its knowledge of how to build your program from a file called the makefile, which lists each of the non-source files and how to compute it from other files.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_make-dbg: GNU tool that controls the build process - Debugging files
+RRECOMMENDS_make-dbg: glibc-xilinx-dbg
+SECTION_make-dbg: devel
+PKG_make-dbg: make-dbg
+ALLOW_EMPTY_make-dbg: 1
+FILES_make-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/usr/src/debug/make/4.1-r0/make-4.1/strcache.c": 8292, "/usr/src/debug/make/4.1-r0/make-4.1/file.c": 32015, "/usr/src/debug/make/4.1-r0/make-4.1/hash.h": 8553, "/usr/src/debug/make/4.1-r0/make-4.1/guile.c": 4015, "/usr/src/debug/make/4.1-r0/make-4.1/implicit.c": 34343, "/usr/src/debug/make/4.1-r0/make-4.1/vpath.c": 18519, "/usr/src/debug/make/4.1-r0/make-4.1/hash.c": 8246, "/usr/src/debug/make/4.1-r0/make-4.1/output.h": 1877, "/usr/src/debug/make/4.1-r0/make-4.1/expand.c": 18110, "/usr/src/debug/make/4.1-r0/make-4.1/output.c": 17646, "/usr/src/debug/make/4.1-r0/make-4.1/debug.h": 1427, "/usr/bin/.debug/make": 447852, "/usr/src/debug/make/4.1-r0/make-4.1/getopt.h": 4472, "/usr/src/debug/make/4.1-r0/make-4.1/default.c": 18236, "/usr/src/debug/make/4.1-r0/make-4.1/version.c": 1169, "/usr/src/debug/make/4.1-r0/make-4.1/gnumake.h": 2912, "/usr/src/debug/make/4.1-r0/make-4.1/job.h": 5052, "/usr/src/debug/make/4.1-r0/make-4.1/arscan.c": 27603, "/usr/src/debug/make/4.1-r0/make-4.1/job.c": 112492, "/usr/src/debug/make/4.1-r0/make-4.1/commands.h": 1902, "/usr/src/debug/make/4.1-r0/make-4.1/load.c": 6633, "/usr/src/debug/make/4.1-r0/make-4.1/remote-stub.c": 2865, "/usr/src/debug/make/4.1-r0/make-4.1/variable.c": 54891, "/usr/src/debug/make/4.1-r0/make-4.1/remake.c": 55145, "/usr/src/debug/make/4.1-r0/make-4.1/commands.c": 18519, "/usr/src/debug/make/4.1-r0/make-4.1/dep.h": 3225, "/usr/src/debug/make/4.1-r0/make-4.1/misc.c": 16611, "/usr/src/debug/make/4.1-r0/make-4.1/dir.c": 33448, "/usr/src/debug/make/4.1-r0/make-4.1/main.c": 106353, "/usr/src/debug/make/4.1-r0/make-4.1/function.c": 69112, "/usr/src/debug/make/4.1-r0/make-4.1/variable.h": 10412, "/usr/src/debug/make/4.1-r0/make-4.1/rule.c": 15404, "/usr/src/debug/make/4.1-r0/make-4.1/makeint.h": 20850, "/usr/src/debug/make/4.1-r0/make-4.1/rule.h": 2136, "/usr/src/debug/make/4.1-r0/make-4.1/read.c": 101288, "/usr/src/debug/make/4.1-r0/make-4.1/loadapi.c": 1886, "/usr/src/debug/make/4.1-r0/make-4.1/ar.c": 8463, "/usr/src/debug/make/4.1-r0/make-4.1/filedef.h": 9970}
+PKGSIZE_make-dbg: 1311944

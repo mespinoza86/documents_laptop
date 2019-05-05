@@ -1,0 +1,1 @@
+arm-linux-gnueabi-3.19.5-yocto-standard

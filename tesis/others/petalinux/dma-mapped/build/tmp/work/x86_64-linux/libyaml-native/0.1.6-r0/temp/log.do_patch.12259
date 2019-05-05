@@ -1,0 +1,18 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for libyaml-CVE-2014-9130.patch in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml-0.1.6/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml-0.1.6/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml-0.1.6/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml-0.1.6/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/
+NOTE: Applying patch 'libyaml-CVE-2014-9130.patch' (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/libyaml-CVE-2014-9130.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

@@ -1,0 +1,7 @@
+menu "PetaLinux RootFS Settings"
+config ROOTFS_ROOT_PASSWD
+        string "Root password"
+        default "root"
+        help
+          Default login password for the 'root' user, on your PetaLinux system.
+endmenu

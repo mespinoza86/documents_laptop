@@ -1,0 +1,13 @@
+PN: binutils-cross-xilinx-arm
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE: GPL-3.0
+DESCRIPTION_binutils-cross-xilinx-arm-doc: External Xilinx toolchain.  This package contains documentation.
+SUMMARY_binutils-cross-xilinx-arm-doc: External Xilinx toolchain - Documentation files
+SECTION_binutils-cross-xilinx-arm-doc: doc
+PKG_binutils-cross-xilinx-arm-doc: binutils-cross-xilinx-arm-doc
+FILES_binutils-cross-xilinx-arm-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {}
+PKGSIZE_binutils-cross-xilinx-arm-doc: 0

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349347.06 
+zlib-1.2.8-r0: do_populate_sysroot_setscene: Elapsed time: 0.36 seconds 
+utime: 15
+stime: 1
+cutime: 12
+cstime: 14
+IO write_bytes: 708608
+IO read_bytes: 290816
+IO cancelled_write_bytes: 0
+IO syscr: 316
+IO wchar: 1357258
+IO rchar: 1113550
+IO syscw: 225
+rusage ru_utime: 0.152714
+rusage ru_stime: 0.016509
+rusage ru_maxrss: 96852
+rusage ru_minflt: 5990
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 66
+Child rusage ru_utime: 0.129556
+Child rusage ru_stime: 0.145397
+Child rusage ru_maxrss: 95160
+Child rusage ru_minflt: 1785
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 568
+Child rusage ru_oublock: 1256
+Child rusage ru_nvcsw: 118
+Child rusage ru_nivcsw: 130
+Status: PASSED 
+Ended: 1541349347.43 

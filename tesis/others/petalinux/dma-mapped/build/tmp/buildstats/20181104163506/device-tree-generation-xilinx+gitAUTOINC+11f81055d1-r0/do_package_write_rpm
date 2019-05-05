@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349484.81 
+device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: do_package_write_rpm: Elapsed time: 1.99 seconds 
+utime: 19
+stime: 2
+cutime: 81
+cstime: 105
+IO write_bytes: 266240
+IO read_bytes: 0
+IO cancelled_write_bytes: 8192
+IO syscr: 1362
+IO wchar: 418813
+IO rchar: 665505
+IO syscw: 1557
+rusage ru_utime: 0.195956
+rusage ru_stime: 0.024494
+rusage ru_maxrss: 98208
+rusage ru_minflt: 14281
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 480
+rusage ru_nvcsw: 561
+rusage ru_nivcsw: 11
+Child rusage ru_utime: 0.818026
+Child rusage ru_stime: 1.052189
+Child rusage ru_maxrss: 96624
+Child rusage ru_minflt: 11103
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 40
+Child rusage ru_nvcsw: 881
+Child rusage ru_nivcsw: 49
+Status: PASSED 
+Ended: 1541349486.81 

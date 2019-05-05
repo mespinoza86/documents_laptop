@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349340.61 
+texinfo-dummy-native-1.0-r0: do_populate_lic_setscene: Elapsed time: 0.37 seconds 
+utime: 13
+stime: 2
+cutime: 11
+cstime: 14
+IO write_bytes: 77824
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 181
+IO wchar: 112946
+IO rchar: 213276
+IO syscw: 116
+rusage ru_utime: 0.132232
+rusage ru_stime: 0.020035
+rusage ru_maxrss: 96544
+rusage ru_minflt: 7574
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 334
+Child rusage ru_utime: 0.118232
+Child rusage ru_stime: 0.148212
+Child rusage ru_maxrss: 94864
+Child rusage ru_minflt: 2074
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 32
+Child rusage ru_nivcsw: 79
+Status: PASSED 
+Ended: 1541349340.98 

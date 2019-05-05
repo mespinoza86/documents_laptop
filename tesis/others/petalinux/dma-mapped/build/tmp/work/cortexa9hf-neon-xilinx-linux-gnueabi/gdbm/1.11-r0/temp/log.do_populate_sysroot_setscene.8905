@@ -1,0 +1,83 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz for 45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz;downloadfilename=45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz', '', '', {'downloadfilename': '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz;downloadfilename=45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz', '', '', {'downloadfilename': '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz;downloadfilename=45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz
+DEBUG: For url ['file', '', '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz;downloadfilename=45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz
+DEBUG: Searching for 45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo for 45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo;downloadfilename=45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo;downloadfilename=45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo;downloadfilename=45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/45/sstate%3Agdbm%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.11%3Ar0%3Acortexa9hf-neon%3A3%3A45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo;downloadfilename=45/sstate:gdbm:cortexa9hf-neon-xilinx-linux-gnueabi:1.11:r0:cortexa9hf-neon:3:45d8352ed33647a927a8119d0c497d18_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/gdbm
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libgdbm_compat.so.4.0.0
+sysroot-destdir/usr/lib/libgdbm.so.4.0.0
+sysroot-destdir/usr/lib/libgdbm_compat.so.4
+sysroot-destdir/usr/lib/libgdbm_compat.la
+sysroot-destdir/usr/lib/libgdbm.so.4
+sysroot-destdir/usr/lib/libgdbm.so
+sysroot-destdir/usr/lib/gdbm/
+sysroot-destdir/usr/lib/gdbm/ptest/
+sysroot-destdir/usr/lib/gdbm/ptest/run-ptest
+sysroot-destdir/usr/lib/gdbm/ptest/tests/
+sysroot-destdir/usr/lib/gdbm/ptest/tests/dtdel
+sysroot-destdir/usr/lib/gdbm/ptest/tests/dtfetch
+sysroot-destdir/usr/lib/gdbm/ptest/tests/testsuite
+sysroot-destdir/usr/lib/gdbm/ptest/tests/dtload
+sysroot-destdir/usr/lib/gdbm/ptest/tests/d_creat_ce
+sysroot-destdir/usr/lib/gdbm/ptest/tests/gtopt
+sysroot-destdir/usr/lib/gdbm/ptest/tests/fdop
+sysroot-destdir/usr/lib/gdbm/ptest/tests/dtdump
+sysroot-destdir/usr/lib/gdbm/ptest/tests/num2word
+sysroot-destdir/usr/lib/gdbm/ptest/tests/g_reorg_ce
+sysroot-destdir/usr/lib/gdbm/ptest/tests/gtver
+sysroot-destdir/usr/lib/gdbm/ptest/tests/gtdump
+sysroot-destdir/usr/lib/gdbm/ptest/tests/gtload
+sysroot-destdir/usr/lib/gdbm/ptest/tests/gtfetch
+sysroot-destdir/usr/lib/gdbm/ptest/tests/gtdel
+sysroot-destdir/usr/lib/gdbm/ptest/tests/g_open_ce
+sysroot-destdir/usr/lib/libgdbm.la
+sysroot-destdir/usr/lib/libgdbm_compat.so
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/dbm.h
+sysroot-destdir/usr/include/ndbm.h
+sysroot-destdir/usr/include/gdbm/
+sysroot-destdir/usr/include/gdbm/ndbm.h
+sysroot-destdir/usr/include/gdbm/gdbm.h
+sysroot-destdir/usr/include/gdbm.h
+sysroot-destdir/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/gdbm/1.11-r0/sysroot-destdir to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm
+DEBUG: Python function do_populate_sysroot_setscene finished

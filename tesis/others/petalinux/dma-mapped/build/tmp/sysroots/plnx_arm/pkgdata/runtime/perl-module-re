@@ -1,0 +1,18 @@
+PN: perl
+PV: 5.22.1
+PR: r0
+PKGV: 5.22.1
+PKGR: r0
+LICENSE: Artistic-1.0 | GPL-1.0+
+DESCRIPTION_perl-module-re: perl module re
+SUMMARY_perl-module-re: perl module re
+RDEPENDS_perl-module-re: perl-module-carp perl-module-warnings perl-module-xsloader perl-module-term-cap perl-module-exporter perl-module-strict glibc-xilinx (>= 2.21) perl
+SECTION: devel
+PKG_perl-module-re: perl-module-re
+FILES_perl-module-re: /usr/lib/perl/5.22.1/auto/re/re.so /usr/lib/perl/5.22.1/re.pm
+FILERPROVIDESFLIST_perl-module-re: /usr/lib/perl/5.22.1/auto/re/re.so
+FILES_INFO: {"/usr/lib/perl/5.22.1/auto/re/re.so": 434588, "/usr/lib/perl/5.22.1/re.pm": 22364}
+FILERPROVIDES_/usr/lib/perl/5.22.1/auto/re/re.so_perl-module-re: elf(buildid) (= 34998f6419ec6041f5e559d7715f87a3d9b76e50) re.so
+FILERDEPENDSFLIST_perl-module-re: /usr/lib/perl/5.22.1/auto/re/re.so
+FILERDEPENDS_/usr/lib/perl/5.22.1/auto/re/re.so_perl-module-re: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+PKGSIZE_perl-module-re: 456952

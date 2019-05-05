@@ -1,0 +1,98 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz for universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz;downloadfilename=universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz;downloadfilename=universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz;downloadfilename=universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz;downloadfilename=universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz
+DEBUG: Searching for universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo for universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo;downloadfilename=universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo;downloadfilename=universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo;downloadfilename=universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/1d/sstate%3Aquilt-native%3Ax86_64-linux%3A0.64%3Ar0%3Ax86_64%3A3%3A1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo;downloadfilename=universal/1d/sstate:quilt-native:x86_64-linux:0.64:r0:x86_64:3:1d0909db4dfd92d6e68509790e1a0b88_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/etc/
+x86_64-linux/etc/quilt.quiltrc
+x86_64-linux/etc/quiltrc
+x86_64-linux/etc/bash_completion.d/
+x86_64-linux/etc/bash_completion.d/quilt
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/quilt-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/quilt
+x86_64-linux/usr/bin/guards
+x86_64-linux/usr/share/
+x86_64-linux/usr/share/quilt/
+x86_64-linux/usr/share/quilt/snapshot
+x86_64-linux/usr/share/quilt/refresh
+x86_64-linux/usr/share/quilt/annotate
+x86_64-linux/usr/share/quilt/header
+x86_64-linux/usr/share/quilt/scripts/
+x86_64-linux/usr/share/quilt/scripts/patchfns
+x86_64-linux/usr/share/quilt/scripts/edmail
+x86_64-linux/usr/share/quilt/scripts/dependency-graph
+x86_64-linux/usr/share/quilt/scripts/backup-files
+x86_64-linux/usr/share/quilt/scripts/inspect-wrapper
+x86_64-linux/usr/share/quilt/scripts/utilfns
+x86_64-linux/usr/share/quilt/scripts/remove-trailing-ws
+x86_64-linux/usr/share/quilt/diff
+x86_64-linux/usr/share/quilt/push
+x86_64-linux/usr/share/quilt/graph
+x86_64-linux/usr/share/quilt/compat/
+x86_64-linux/usr/share/quilt/compat/awk
+x86_64-linux/usr/share/quilt/compat/sendmail
+x86_64-linux/usr/share/quilt/fork
+x86_64-linux/usr/share/quilt/import
+x86_64-linux/usr/share/quilt/unapplied
+x86_64-linux/usr/share/quilt/grep
+x86_64-linux/usr/share/quilt/fold
+x86_64-linux/usr/share/quilt/new
+x86_64-linux/usr/share/quilt/add
+x86_64-linux/usr/share/quilt/edit
+x86_64-linux/usr/share/quilt/patches
+x86_64-linux/usr/share/quilt/previous
+x86_64-linux/usr/share/quilt/files
+x86_64-linux/usr/share/quilt/delete
+x86_64-linux/usr/share/quilt/series
+x86_64-linux/usr/share/quilt/mail
+x86_64-linux/usr/share/quilt/next
+x86_64-linux/usr/share/quilt/rename
+x86_64-linux/usr/share/quilt/upgrade
+x86_64-linux/usr/share/quilt/remove
+x86_64-linux/usr/share/quilt/revert
+x86_64-linux/usr/share/quilt/applied
+x86_64-linux/usr/share/quilt/pop
+x86_64-linux/usr/share/quilt/setup
+x86_64-linux/usr/share/quilt/top
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/quilt-native/0.64-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/quilt-native/0.64-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/quilt-native/0.64-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

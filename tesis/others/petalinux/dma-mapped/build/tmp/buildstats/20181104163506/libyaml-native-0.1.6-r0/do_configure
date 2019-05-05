@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349382.72 
+libyaml-native-0.1.6-r0: do_configure: Elapsed time: 9.92 seconds 
+utime: 33
+stime: 3
+cutime: 681
+cstime: 134
+IO write_bytes: 11280384
+IO read_bytes: 7753728
+IO cancelled_write_bytes: 7528448
+IO syscr: 35486
+IO wchar: 11571075
+IO rchar: 62449629
+IO syscw: 11894
+rusage ru_utime: 0.339637
+rusage ru_stime: 0.033135
+rusage ru_maxrss: 97448
+rusage ru_minflt: 9958
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 208
+rusage ru_nvcsw: 148
+rusage ru_nivcsw: 53
+Child rusage ru_utime: 6.819133
+Child rusage ru_stime: 1.345204
+Child rusage ru_maxrss: 95760
+Child rusage ru_minflt: 476518
+Child rusage ru_majflt: 31
+Child rusage ru_inblock: 15144
+Child rusage ru_oublock: 21824
+Child rusage ru_nvcsw: 9107
+Child rusage ru_nivcsw: 6900
+Status: PASSED 
+Ended: 1541349392.64 

@@ -1,0 +1,8 @@
+DEBUG: Executing python function sysroot_cleansstate
+DEBUG: Python function sysroot_cleansstate finished
+DEBUG: Executing shell function do_configure
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+NOTE: dtc-native: md5 checksum matched for file://GPL;md5=94d55d512a9ba36caa9b7df079bae19f
+NOTE: dtc-native: md5 checksum matched for file://libfdt/libfdt.h;beginline=3;endline=52;md5=fb360963151f8ec2d6c06b055bcbb68c
+DEBUG: Python function do_qa_configure finished

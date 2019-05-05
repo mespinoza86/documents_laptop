@@ -1,0 +1,17 @@
+PN: glibc-xilinx
+PV: 2016.4
+PR: r1
+PKGV: 2.21
+PKGR: r1
+LICENSE: GPLv2 & LGPL-2.1
+DESCRIPTION_glibc-xilinx-dbg: External Xilinx toolchain.  This package contains ELF symbols and related sources for debugging purposes.
+SUMMARY_glibc-xilinx-dbg: External Xilinx toolchain - Debugging files
+RPROVIDES_glibc-xilinx-dbg: eglibc-dbg glibc-dbg glibc-dbg libc-dbg glibc-xilinx-dbg (=2.21)
+RREPLACES_glibc-xilinx-dbg:  libc-dbg
+RCONFLICTS_glibc-xilinx-dbg:  libc-dbg
+SECTION_glibc-xilinx-dbg: devel
+PKG_glibc-xilinx-dbg: libc6-dbg
+ALLOW_EMPTY_glibc-xilinx-dbg: 1
+FILES_glibc-xilinx-dbg: /usr/lib/debug /usr/src/debug
+FILES_INFO: {"/lib/.debug/libdl-2.21.so": 88232, "/lib/.debug/libresolv-2.21.so": 249432, "/lib/.debug/libnss_nis-2.21.so": 178136, "/lib/.debug/libnss_files-2.21.so": 180108, "/sbin/.debug/sln": 2251516, "/usr/bin/.debug/getent": 48496, "/sbin/.debug/ldconfig": 2874712, "/lib/.debug/libnss_nisplus-2.21.so": 235888, "/lib/.debug/libBrokenLocale-2.21.so": 17008, "/lib/.debug/libc-2.21.so": 8132124, "/usr/sbin/.debug/nscd": 487484, "/lib/.debug/libpcprofile.so": 8040, "/lib/.debug/libnss_dns-2.21.so": 64920, "/lib/.debug/libnss_db-2.21.so": 120080, "/usr/bin/.debug/gencat": 55564, "/usr/bin/.debug/pcprofiledump": 19164, "/lib/.debug/libSegFault.so": 29968, "/usr/sbin/.debug/zic": 96424, "/lib/.debug/ld-2.21.so": 655764, "/usr/bin/.debug/iconv": 166992, "/usr/bin/.debug/rpcgen": 175712, "/lib/.debug/libmemusage.so": 42676, "/lib/.debug/libnsl-2.21.so": 448468, "/usr/lib/audit/.debug/sotruss-lib.so": 24920, "/usr/bin/.debug/locale": 86092, "/usr/sbin/.debug/zdump": 31408, "/lib/.debug/libpthread-2.21.so": 898096, "/lib/.debug/libanl-2.21.so": 58216, "/usr/bin/.debug/pldd": 36572, "/lib/.debug/libm-2.21.so": 1328760, "/usr/bin/.debug/sprof": 55132, "/lib/.debug/libnss_hesiod-2.21.so": 66748, "/lib/.debug/libcrypt-2.21.so": 92716, "/usr/bin/.debug/makedb": 42976, "/lib/.debug/libutil-2.21.so": 24704, "/lib/.debug/libcidn-2.21.so": 75192, "/usr/sbin/.debug/iconvconfig": 56884, "/lib/.debug/libnss_compat-2.21.so": 94484, "/lib/.debug/libthread_db-1.0.so": 196628, "/lib/.debug/librt-2.21.so": 165224, "/usr/bin/.debug/getconf": 28768}
+PKGSIZE_glibc-xilinx-dbg: 19990428

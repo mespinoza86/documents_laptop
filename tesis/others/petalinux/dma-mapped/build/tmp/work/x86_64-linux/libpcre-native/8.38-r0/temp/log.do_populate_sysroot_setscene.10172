@@ -1,0 +1,79 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz for universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz;downloadfilename=universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz;downloadfilename=universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz;downloadfilename=universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz;downloadfilename=universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz
+DEBUG: Searching for universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo for universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo;downloadfilename=universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo;downloadfilename=universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo;downloadfilename=universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/82/sstate%3Alibpcre-native%3Ax86_64-linux%3A8.38%3Ar0%3Ax86_64%3A3%3A82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo;downloadfilename=universal/82/sstate:libpcre-native:x86_64-linux:8.38:r0:x86_64:3:82d5252511cffa75ed88d618548547d1_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/pcre-native
+x86_64-linux/sysroot-providers/libpcre-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/pcretest
+x86_64-linux/usr/bin/pcregrep
+x86_64-linux/usr/bin/pcre-config
+x86_64-linux/usr/bin/crossscripts/
+x86_64-linux/usr/bin/crossscripts/pcre-config
+x86_64-linux/usr/lib/
+x86_64-linux/usr/lib/libpcrecpp.so
+x86_64-linux/usr/lib/libpcre.so
+x86_64-linux/usr/lib/libpcreposix.so
+x86_64-linux/usr/lib/libpcreposix.la
+x86_64-linux/usr/lib/libpcrecpp.so.0.0.1
+x86_64-linux/usr/lib/libpcre.la
+x86_64-linux/usr/lib/libpcrecpp.la
+x86_64-linux/usr/lib/pkgconfig/
+x86_64-linux/usr/lib/pkgconfig/libpcre.pc
+x86_64-linux/usr/lib/pkgconfig/libpcreposix.pc
+x86_64-linux/usr/lib/pkgconfig/libpcrecpp.pc
+x86_64-linux/usr/lib/libpcre.so.1
+x86_64-linux/usr/lib/libpcreposix.so.0
+x86_64-linux/usr/lib/libpcre.so.1.2.6
+x86_64-linux/usr/lib/libpcreposix.so.0.0.3
+x86_64-linux/usr/lib/libpcrecpp.so.0
+x86_64-linux/usr/include/
+x86_64-linux/usr/include/pcre.h
+x86_64-linux/usr/include/pcrecpparg.h
+x86_64-linux/usr/include/pcrecpp.h
+x86_64-linux/usr/include/pcre_stringpiece.h
+x86_64-linux/usr/include/pcreposix.h
+x86_64-linux/usr/include/pcre_scanner.h
+x86_64-linux/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/libpcre-native/8.38-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/libpcre-native/8.38-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/libpcre-native/8.38-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

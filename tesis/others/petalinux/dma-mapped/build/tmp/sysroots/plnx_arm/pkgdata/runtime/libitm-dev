@@ -1,0 +1,15 @@
+PN: gcc-runtime-xilinx
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE: GPL-3.0-with-GCC-exception & GPL-3.0
+DESCRIPTION: External Xilinx toolchain.
+SUMMARY: External Xilinx toolchain
+RDEPENDS_libitm-dev: libitm
+RRECOMMENDS_libitm-dev: libgcc-dev glibc-xilinx-dev
+SECTION: base
+PKG_libitm-dev: libitm-dev
+FILES_libitm-dev:   /usr/lib/libitm*.so   /usr/lib/libitm*.la   /usr/lib/libitm.spec   
+FILES_INFO: {"/usr/lib/libitm.so": 15, "/usr/lib/libitm.spec": 162}
+PKGSIZE_libitm-dev: 177

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349334.45 
+binutils-cross-xilinx-arm-2016.4-r1: do_package_write_rpm_setscene: Elapsed time: 0.36 seconds 
+utime: 19
+stime: 0
+cutime: 10
+cstime: 16
+IO write_bytes: 65536
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 153
+IO wchar: 114073
+IO rchar: 196170
+IO syscw: 106
+rusage ru_utime: 0.190423
+rusage ru_stime: 0.004051
+rusage ru_maxrss: 96772
+rusage ru_minflt: 6073
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 81
+Child rusage ru_utime: 0.107865
+Child rusage ru_stime: 0.162122
+Child rusage ru_maxrss: 95080
+Child rusage ru_minflt: 1768
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 31
+Child rusage ru_nivcsw: 28
+Status: PASSED 
+Ended: 1541349334.81 

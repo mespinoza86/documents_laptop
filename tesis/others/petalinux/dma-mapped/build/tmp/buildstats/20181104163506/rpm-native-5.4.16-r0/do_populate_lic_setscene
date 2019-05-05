@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349329.71 
+rpm-native-5.4.16-r0: do_populate_lic_setscene: Elapsed time: 0.37 seconds 
+utime: 25
+stime: 2
+cutime: 9
+cstime: 16
+IO write_bytes: 253952
+IO read_bytes: 45056
+IO cancelled_write_bytes: 0
+IO syscr: 225
+IO wchar: 467452
+IO rchar: 473114
+IO syscw: 152
+rusage ru_utime: 0.255129
+rusage ru_stime: 0.023193
+rusage ru_maxrss: 97920
+rusage ru_minflt: 8450
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 968
+Child rusage ru_utime: 0.098703
+Child rusage ru_stime: 0.167392
+Child rusage ru_maxrss: 96228
+Child rusage ru_minflt: 2105
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 88
+Child rusage ru_oublock: 368
+Child rusage ru_nvcsw: 63
+Child rusage ru_nivcsw: 122
+Status: PASSED 
+Ended: 1541349330.08 

@@ -1,0 +1,15 @@
+PN: gcc-runtime-xilinx
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE_libatomic-dev: GPL-3.0-with-GCC-exception
+DESCRIPTION: External Xilinx toolchain.
+SUMMARY: External Xilinx toolchain
+RDEPENDS_libatomic-dev: libatomic
+RRECOMMENDS_libatomic-dev: libgcc-dev glibc-xilinx-dev
+SECTION: base
+PKG_libatomic-dev: libatomic-dev
+FILES_libatomic-dev: \t/usr/lib/libatomic.so \t/usr/lib/libatomic.la 
+FILES_INFO: {"/usr/lib/libatomic.so": 18}
+PKGSIZE_libatomic-dev: 18

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349349.70 
+sed-4.2.2-r0: do_packagedata_setscene: Elapsed time: 0.37 seconds 
+utime: 16
+stime: 2
+cutime: 13
+cstime: 14
+IO write_bytes: 307200
+IO read_bytes: 12288
+IO cancelled_write_bytes: 0
+IO syscr: 1676
+IO wchar: 446523
+IO rchar: 484986
+IO syscw: 614
+rusage ru_utime: 0.168864
+rusage ru_stime: 0.028144
+rusage ru_maxrss: 97480
+rusage ru_minflt: 6243
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 129
+rusage ru_nivcsw: 70
+Child rusage ru_utime: 0.136851
+Child rusage ru_stime: 0.142844
+Child rusage ru_maxrss: 95788
+Child rusage ru_minflt: 1813
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 400
+Child rusage ru_nvcsw: 69
+Child rusage ru_nivcsw: 165
+Status: PASSED 
+Ended: 1541349350.06 

@@ -1,0 +1,7220 @@
+menu "Filesystem Packages " 
+menu "base " 
+menu "base-files " 
+config base-files  
+	 bool "base-files"
+	 help
+	 Miscellaneous files for the base system
+	
+config base-files-dbg  
+	 bool "base-files-dbg"
+	 help
+	
+config base-files-dev  
+	 bool "base-files-dev"
+	 help
+	
+endmenu
+menu "base-passwd " 
+config base-passwd  
+	 bool "base-passwd"
+	 help
+	 Base system master password/group files
+	
+config base-passwd-dbg  
+	 bool "base-passwd-dbg"
+	 help
+	
+config base-passwd-dev  
+	 bool "base-passwd-dev"
+	 help
+	
+config base-passwd-update  
+	 bool "base-passwd-update"
+	 help
+	
+endmenu
+menu "bc " 
+config bc  
+	 bool "bc"
+	 help
+	 Arbitrary precision calculator language
+	
+config bc-dev  
+	 bool "bc-dev"
+	 help
+	
+config bc-dbg  
+	 bool "bc-dbg"
+	 help
+	
+endmenu
+menu "busybox " 
+config busybox  
+	 bool "busybox"
+	 help
+	 Tiny versions of many common UNIX utilities in a single small executable
+	
+config busybox-mdev  
+	 bool "busybox-mdev"
+	 help
+	
+config busybox-hwclock  
+	 bool "busybox-hwclock"
+	 help
+	
+config busybox-inetd  
+	 bool "busybox-inetd"
+	 help
+	
+config busybox-syslog  
+	 bool "busybox-syslog"
+	 help
+	
+config busybox-httpd  
+	 bool "busybox-httpd"
+	 help
+	
+config busybox-dbg  
+	 bool "busybox-dbg"
+	 help
+	
+config busybox-dev  
+	 bool "busybox-dev"
+	 help
+	
+config busybox-udhcpc  
+	 bool "busybox-udhcpc"
+	 help
+	
+config busybox-udhcpd  
+	 bool "busybox-udhcpd"
+	 help
+	
+endmenu
+menu "dbus " 
+config dbus  
+	 bool "dbus"
+	 help
+	 D-Bus message bus
+	
+config dbus-lib  
+	 bool "dbus-lib"
+	 help
+	
+config dbus-dbg  
+	 bool "dbus-dbg"
+	 help
+	
+config dbus-dev  
+	 bool "dbus-dev"
+	 help
+	
+endmenu
+menu "dbus-glib " 
+config dbus-glib  
+	 bool "dbus-glib"
+	 help
+	 High level language (GLib) binding for D-Bus
+	
+config dbus-glib-tests  
+	 bool "dbus-glib-tests"
+	 help
+	
+config dbus-glib-dbg  
+	 bool "dbus-glib-dbg"
+	 help
+	
+config dbus-glib-dev  
+	 bool "dbus-glib-dev"
+	 help
+	
+config dbus-glib-bash-completion  
+	 bool "dbus-glib-bash-completion"
+	 help
+	
+endmenu
+menu "dbus-wait " 
+config dbus-wait  
+	 bool "dbus-wait"
+	 help
+	 A simple tool to wait for a specific signal over DBus
+	
+config dbus-wait-dev  
+	 bool "dbus-wait-dev"
+	 help
+	
+config dbus-wait-dbg  
+	 bool "dbus-wait-dbg"
+	 help
+	
+endmenu
+menu "diffutils " 
+config diffutils  
+	 bool "diffutils"
+	 help
+	 Diffutils contains tools used for finding differences between files
+	
+config diffutils-dbg  
+	 bool "diffutils-dbg"
+	 help
+	
+config diffutils-dev  
+	 bool "diffutils-dev"
+	 help
+	
+endmenu
+menu "e2fsprogs " 
+config e2fsprogs  
+	 bool "e2fsprogs"
+	 help
+	 Ext2 Filesystem Utilities
+	
+config e2fsprogs-e2fsck  
+	 bool "e2fsprogs-e2fsck"
+	 help
+	
+config libext2fs  
+	 bool "libext2fs"
+	 help
+	
+config libe2p  
+	 bool "libe2p"
+	 help
+	
+config e2fsprogs-tune2fs  
+	 bool "e2fsprogs-tune2fs"
+	 help
+	
+config e2fsprogs-dev  
+	 bool "e2fsprogs-dev"
+	 help
+	
+config e2fsprogs-badblocks  
+	 bool "e2fsprogs-badblocks"
+	 help
+	
+config libcomerr  
+	 bool "libcomerr"
+	 help
+	
+config e2fsprogs-mke2fs  
+	 bool "e2fsprogs-mke2fs"
+	 help
+	
+config libss  
+	 bool "libss"
+	 help
+	
+config e2fsprogs-dbg  
+	 bool "e2fsprogs-dbg"
+	 help
+	
+config e2fsprogs-resize2fs  
+	 bool "e2fsprogs-resize2fs"
+	 help
+	
+endmenu
+menu "elfutils " 
+config elfutils  
+	 bool "elfutils"
+	 help
+	 Utilities and libraries for handling compiled object files
+	
+config libelf  
+	 bool "libelf"
+	 help
+	
+config libasm  
+	 bool "libasm"
+	 help
+	
+config elfutils-binutils  
+	 bool "elfutils-binutils"
+	 help
+	
+config elfutils-dev  
+	 bool "elfutils-dev"
+	 help
+	
+config libdw  
+	 bool "libdw"
+	 help
+	
+config elfutils-dbg  
+	 bool "elfutils-dbg"
+	 help
+	
+endmenu
+menu "formfactor " 
+config formfactor  
+	 bool "formfactor"
+	 help
+	 Device formfactor information
+	
+config formfactor-dbg  
+	 bool "formfactor-dbg"
+	 help
+	
+config formfactor-dev  
+	 bool "formfactor-dev"
+	 help
+	
+endmenu
+menu "i2c-tools " 
+config i2c-tools  
+	 bool "i2c-tools"
+	 help
+	 Set of i2c tools for linux
+	
+config i2c-tools-dev  
+	 bool "i2c-tools-dev"
+	 help
+	
+config i2c-tools-misc  
+	 bool "i2c-tools-misc"
+	 help
+	
+config i2c-tools-dbg  
+	 bool "i2c-tools-dbg"
+	 help
+	
+endmenu
+menu "init-ifupdown " 
+config init-ifupdown  
+	 bool "init-ifupdown"
+	 help
+	 Basic TCP/IP networking init scripts and configuration files
+	
+config init-ifupdown-dbg  
+	 bool "init-ifupdown-dbg"
+	 help
+	
+config init-ifupdown-dev  
+	 bool "init-ifupdown-dev"
+	 help
+	
+endmenu
+menu "initscripts " 
+config initscripts  
+	 bool "initscripts"
+	 help
+	 SysV init scripts
+	
+config initscripts-functions  
+	 bool "initscripts-functions"
+	 help
+	
+config initscripts-dev  
+	 bool "initscripts-dev"
+	 help
+	
+config initscripts-dbg  
+	 bool "initscripts-dbg"
+	 help
+	
+endmenu
+menu "iproute2 " 
+config iproute2  
+	 bool "iproute2"
+	 help
+	 TCP / IP networking and traffic control utilities
+	
+config iproute2-nstat  
+	 bool "iproute2-nstat"
+	 help
+	
+config iproute2-dbg  
+	 bool "iproute2-dbg"
+	 help
+	
+config iproute2-rtacct  
+	 bool "iproute2-rtacct"
+	 help
+	
+config iproute2-genl  
+	 bool "iproute2-genl"
+	 help
+	
+config iproute2-ifstat  
+	 bool "iproute2-ifstat"
+	 help
+	
+config iproute2-dev  
+	 bool "iproute2-dev"
+	 help
+	
+config iproute2-ss  
+	 bool "iproute2-ss"
+	 help
+	
+config iproute2-tc  
+	 bool "iproute2-tc"
+	 help
+	
+config iproute2-lnstat  
+	 bool "iproute2-lnstat"
+	 help
+	
+endmenu
+menu "kmod " 
+config kmod  
+	 bool "kmod"
+	 help
+	 Tools for managing Linux kernel modules
+	
+config libkmod  
+	 bool "libkmod"
+	 help
+	
+config kmod-bash-completion  
+	 bool "kmod-bash-completion"
+	 help
+	
+config kmod-dev  
+	 bool "kmod-dev"
+	 help
+	
+config kmod-dbg  
+	 bool "kmod-dbg"
+	 help
+	
+endmenu
+menu "modutils-initscripts " 
+config modutils-initscripts  
+	 bool "modutils-initscripts"
+	 help
+	 Initscript for auto-loading kernel modules on boot
+	
+config modutils-initscripts-dev  
+	 bool "modutils-initscripts-dev"
+	 help
+	
+config modutils-initscripts-dbg  
+	 bool "modutils-initscripts-dbg"
+	 help
+	
+endmenu
+menu "mtd-utils " 
+config mtd-utils  
+	 bool "mtd-utils"
+	 help
+	 Tools for managing memory technology devices
+	
+config mtd-utils-dev  
+	 bool "mtd-utils-dev"
+	 help
+	
+config mtd-utils-ubifs  
+	 bool "mtd-utils-ubifs"
+	 help
+	
+config mtd-utils-misc  
+	 bool "mtd-utils-misc"
+	 help
+	
+config mtd-utils-jffs2  
+	 bool "mtd-utils-jffs2"
+	 help
+	
+config mtd-utils-dbg  
+	 bool "mtd-utils-dbg"
+	 help
+	
+endmenu
+menu "netbase " 
+config netbase  
+	 bool "netbase"
+	 help
+	 Basic TCP/IP networking support
+	
+config netbase-dbg  
+	 bool "netbase-dbg"
+	 help
+	
+config netbase-dev  
+	 bool "netbase-dev"
+	 help
+	
+endmenu
+menu "opkg-utils " 
+config opkg-utils  
+	 bool "opkg-utils"
+	 help
+	 Additional utilities for the opkg package manager
+	
+config update-alternatives-opkg  
+	 bool "update-alternatives-opkg"
+	 help
+	
+config opkg-utils-dbg  
+	 bool "opkg-utils-dbg"
+	 help
+	
+config opkg-utils-dev  
+	 bool "opkg-utils-dev"
+	 help
+	
+endmenu
+menu "procps " 
+config procps  
+	 bool "procps"
+	 help
+	 System and process monitoring utilities
+	
+config procps-dbg  
+	 bool "procps-dbg"
+	 help
+	
+config procps-dev  
+	 bool "procps-dev"
+	 help
+	
+endmenu
+menu "shared-mime-info " 
+config shared-mime-info  
+	 bool "shared-mime-info"
+	 help
+	 Shared MIME type database and specification
+	
+config shared-mime-info-dbg  
+	 bool "shared-mime-info-dbg"
+	 help
+	
+config shared-mime-info-dev  
+	 bool "shared-mime-info-dev"
+	 help
+	
+config shared-mime-info-data  
+	 bool "shared-mime-info-data"
+	 help
+	
+endmenu
+menu "shell " 
+menu "bash " 
+config bash  
+	 bool "bash"
+	 help
+	 An sh-compatible command language interpreter
+	
+config bash-dbg  
+	 bool "bash-dbg"
+	 help
+	
+config bash-dev  
+	 bool "bash-dev"
+	 help
+	
+endmenu
+endmenu
+menu "sysvinit " 
+config sysvinit  
+	 bool "sysvinit"
+	 help
+	 System-V like init
+	
+config sysvinit-sulogin  
+	 bool "sysvinit-sulogin"
+	 help
+	
+config sysvinit-pidof  
+	 bool "sysvinit-pidof"
+	 help
+	
+config sysvinit-dbg  
+	 bool "sysvinit-dbg"
+	 help
+	
+config sysvinit-dev  
+	 bool "sysvinit-dev"
+	 help
+	
+endmenu
+menu "tzdata " 
+config tzdata  
+	 bool "tzdata"
+	 help
+	 Timezone data
+	
+config tzdata-arctic  
+	 bool "tzdata-arctic"
+	 help
+	
+config tzdata-posix  
+	 bool "tzdata-posix"
+	 help
+	
+config tzdata-africa  
+	 bool "tzdata-africa"
+	 help
+	
+config tzdata-antarctica  
+	 bool "tzdata-antarctica"
+	 help
+	
+config tzdata-asia  
+	 bool "tzdata-asia"
+	 help
+	
+config tzdata-americas  
+	 bool "tzdata-americas"
+	 help
+	
+config tzdata-australia  
+	 bool "tzdata-australia"
+	 help
+	
+config tzdata-europe  
+	 bool "tzdata-europe"
+	 help
+	
+config tzdata-right  
+	 bool "tzdata-right"
+	 help
+	
+config tzdata-pacific  
+	 bool "tzdata-pacific"
+	 help
+	
+config tzdata-atlantic  
+	 bool "tzdata-atlantic"
+	 help
+	
+config tzdata-misc  
+	 bool "tzdata-misc"
+	 help
+	
+endmenu
+menu "update-rc.d " 
+config update-rc.d  
+	 bool "update-rc.d"
+	 help
+	 manage symlinks in /etc/rcN.d
+	
+config update-rc.d-dev  
+	 bool "update-rc.d-dev"
+	 help
+	
+config update-rc.d-dbg  
+	 bool "update-rc.d-dbg"
+	 help
+	
+endmenu
+menu "usbutils " 
+config usbutils  
+	 bool "usbutils"
+	 help
+	 Host side USB console utilities
+	
+config usbutils-dev  
+	 bool "usbutils-dev"
+	 help
+	
+config usbutils-dbg  
+	 bool "usbutils-dbg"
+	 help
+	
+endmenu
+menu "util-linux " 
+config util-linux  
+	 bool "util-linux"
+	 help
+	 A suite of basic system administration utilities
+	
+config util-linux-agetty  
+	 bool "util-linux-agetty"
+	 help
+	
+config util-linux-fstrim  
+	 bool "util-linux-fstrim"
+	 help
+	
+config util-linux-mcookie  
+	 bool "util-linux-mcookie"
+	 help
+	
+config util-linux-dbg  
+	 bool "util-linux-dbg"
+	 help
+	
+config util-linux-swaponoff  
+	 bool "util-linux-swaponoff"
+	 help
+	
+config util-linux-uuidgen  
+	 bool "util-linux-uuidgen"
+	 help
+	
+config util-linux-cfdisk  
+	 bool "util-linux-cfdisk"
+	 help
+	
+config util-linux-lscpu  
+	 bool "util-linux-lscpu"
+	 help
+	
+config util-linux-mount  
+	 bool "util-linux-mount"
+	 help
+	
+config util-linux-partx  
+	 bool "util-linux-partx"
+	 help
+	
+config util-linux-bash-completion  
+	 bool "util-linux-bash-completion"
+	 help
+	
+config util-linux-sulogin  
+	 bool "util-linux-sulogin"
+	 help
+	
+config util-linux-mkfs  
+	 bool "util-linux-mkfs"
+	 help
+	
+config util-linux-sfdisk  
+	 bool "util-linux-sfdisk"
+	 help
+	
+config util-linux-blkid  
+	 bool "util-linux-blkid"
+	 help
+	
+config util-linux-hwclock  
+	 bool "util-linux-hwclock"
+	 help
+	
+config util-linux-mkfs.cramfs  
+	 bool "util-linux-mkfs.cramfs"
+	 help
+	
+config util-linux-dev  
+	 bool "util-linux-dev"
+	 help
+	
+config util-linux-readprofile  
+	 bool "util-linux-readprofile"
+	 help
+	
+config util-linux-reset  
+	 bool "util-linux-reset"
+	 help
+	
+config util-linux-losetup  
+	 bool "util-linux-losetup"
+	 help
+	
+config util-linux-fsck.cramfs  
+	 bool "util-linux-fsck.cramfs"
+	 help
+	
+config util-linux-fdisk  
+	 bool "util-linux-fdisk"
+	 help
+	
+config util-linux-getopt  
+	 bool "util-linux-getopt"
+	 help
+	
+config util-linux-fsck  
+	 bool "util-linux-fsck"
+	 help
+	
+config util-linux-findfs  
+	 bool "util-linux-findfs"
+	 help
+	
+config util-linux-umount  
+	 bool "util-linux-umount"
+	 help
+	
+config util-linux-mountpoint  
+	 bool "util-linux-mountpoint"
+	 help
+	
+config util-linux-uuidd  
+	 bool "util-linux-uuidd"
+	 help
+	
+endmenu
+menu "utils " 
+menu "shadow " 
+config shadow  
+	 bool "shadow"
+	 help
+	 Tools to change and administer password and group data
+	
+config shadow-dbg  
+	 bool "shadow-dbg"
+	 help
+	
+config shadow-dev  
+	 bool "shadow-dev"
+	 help
+	
+config shadow-base  
+	 bool "shadow-base"
+	 help
+	
+endmenu
+endmenu
+menu "xz " 
+config xz  
+	 bool "xz"
+	 help
+	 Utilities for managing LZMA compressed files
+	
+config xz-dev  
+	 bool "xz-dev"
+	 help
+	
+config xz-dbg  
+	 bool "xz-dbg"
+	 help
+	
+config liblzma  
+	 bool "liblzma"
+	 help
+	
+endmenu
+endmenu
+menu "baseutils " 
+menu "shadow-securetty " 
+config shadow-securetty  
+	 bool "shadow-securetty"
+	 help
+	 Provider of the machine specific securetty file
+	
+config shadow-securetty-dbg  
+	 bool "shadow-securetty-dbg"
+	 help
+	
+config shadow-securetty-dev  
+	 bool "shadow-securetty-dev"
+	 help
+	
+endmenu
+endmenu
+menu "console " 
+menu "network " 
+menu "canutils " 
+config canutils  
+	 bool "canutils"
+	 help
+	 canutils (PTX flavour)
+	
+config canutils-dev  
+	 bool "canutils-dev"
+	 help
+	
+config canutils-dbg  
+	 bool "canutils-dbg"
+	 help
+	
+endmenu
+menu "dropbear " 
+config dropbear  
+	 bool "dropbear"
+	 help
+	 A lightweight SSH and SCP implementation
+	
+config dropbear-openssh-sftp-server  
+	 bool "dropbear-openssh-sftp-server"
+	 help
+	
+config dropbear-dev  
+	 bool "dropbear-dev"
+	 help
+	
+config dropbear-dbg  
+	 bool "dropbear-dbg"
+	 help
+	
+endmenu
+menu "ethtool " 
+config ethtool  
+	 bool "ethtool"
+	 help
+	 Display or change ethernet card settings
+	
+config ethtool-dev  
+	 bool "ethtool-dev"
+	 help
+	
+config ethtool-dbg  
+	 bool "ethtool-dbg"
+	 help
+	
+endmenu
+menu "mailx " 
+config mailx  
+	 bool "mailx"
+	 help
+	 mailx is the traditional command-line-mode mail user agent
+	
+config mailx-dbg  
+	 bool "mailx-dbg"
+	 help
+	
+config mailx-dev  
+	 bool "mailx-dev"
+	 help
+	
+endmenu
+menu "openssh " 
+config openssh  
+	 bool "openssh"
+	 help
+	 Secure rlogin/rsh/rcp/telnet replacement
+	
+config openssh-dbg  
+	 bool "openssh-dbg"
+	 help
+	
+config openssh-sshd  
+	 bool "openssh-sshd"
+	 help
+	
+config openssh-sftp  
+	 bool "openssh-sftp"
+	 help
+	
+config openssh-ssh  
+	 bool "openssh-ssh"
+	 help
+	
+config openssh-dev  
+	 bool "openssh-dev"
+	 help
+	
+config openssh-keygen  
+	 bool "openssh-keygen"
+	 help
+	
+config openssh-sftp-server  
+	 bool "openssh-sftp-server"
+	 help
+	
+config openssh-scp  
+	 bool "openssh-scp"
+	 help
+	
+config openssh-misc  
+	 bool "openssh-misc"
+	 help
+	
+endmenu
+menu "portmap " 
+config portmap  
+	 bool "portmap"
+	 help
+	 RPC program number mapper
+	
+config portmap-dev  
+	 bool "portmap-dev"
+	 help
+	
+config portmap-dbg  
+	 bool "portmap-dbg"
+	 help
+	
+config portmap-utils  
+	 bool "portmap-utils"
+	 help
+	
+endmenu
+menu "tcp-wrappers " 
+config tcp-wrappers  
+	 bool "tcp-wrappers"
+	 help
+	 Security tool that is a wrapper for TCP daemons
+	
+config libwrap-dev  
+	 bool "libwrap-dev"
+	 help
+	
+config tcp-wrappers-dbg  
+	 bool "tcp-wrappers-dbg"
+	 help
+	
+config libwrap  
+	 bool "libwrap"
+	 help
+	
+endmenu
+endmenu
+menu "tools " 
+menu "protobuf " 
+config protobuf  
+	 bool "protobuf"
+	 help
+	 protobuf
+	
+config protobuf-dbg  
+	 bool "protobuf-dbg"
+	 help
+	
+config protobuf-dev  
+	 bool "protobuf-dev"
+	 help
+	
+endmenu
+endmenu
+menu "utils " 
+menu "bash-completion " 
+config bash-completion  
+	 bool "bash-completion"
+	 help
+	 Programmable Completion for Bash 4
+	
+config bash-completion-dbg  
+	 bool "bash-completion-dbg"
+	 help
+	
+config bash-completion-extra  
+	 bool "bash-completion-extra"
+	 help
+	
+config bash-completion-dev  
+	 bool "bash-completion-dev"
+	 help
+	
+endmenu
+menu "bzip2 " 
+config bzip2  
+	 bool "bzip2"
+	 help
+	 Very high-quality data compression program
+	
+config bzip2-dev  
+	 bool "bzip2-dev"
+	 help
+	
+config bzip2-dbg  
+	 bool "bzip2-dbg"
+	 help
+	
+config libbz2  
+	 bool "libbz2"
+	 help
+	
+endmenu
+menu "file " 
+config file  
+	 bool "file"
+	 help
+	 File classification tool
+	
+config file-dbg  
+	 bool "file-dbg"
+	 help
+	
+config file-dev  
+	 bool "file-dev"
+	 help
+	
+endmenu
+menu "gawk " 
+config gawk  
+	 bool "gawk"
+	 help
+	 GNU awk text processing utility
+	
+config gawk-dbg  
+	 bool "gawk-dbg"
+	 help
+	
+config gawk-dev  
+	 bool "gawk-dev"
+	 help
+	
+endmenu
+menu "grep " 
+config grep  
+	 bool "grep"
+	 help
+	 Pattern matching utilities
+	
+config grep-dev  
+	 bool "grep-dev"
+	 help
+	
+config grep-dbg  
+	 bool "grep-dbg"
+	 help
+	
+endmenu
+menu "pciutils " 
+config pciutils  
+	 bool "pciutils"
+	 help
+	 PCI utilities
+	
+config pciutils-dev  
+	 bool "pciutils-dev"
+	 help
+	
+config libpci  
+	 bool "libpci"
+	 help
+	
+config pciutils-ids  
+	 bool "pciutils-ids"
+	 help
+	
+config pciutils-dbg  
+	 bool "pciutils-dbg"
+	 help
+	
+endmenu
+menu "sed " 
+config sed  
+	 bool "sed"
+	 help
+	 Stream EDitor (text filtering utility)
+	
+config sed-dev  
+	 bool "sed-dev"
+	 help
+	
+config sed-dbg  
+	 bool "sed-dbg"
+	 help
+	
+endmenu
+menu "smartmontools " 
+config smartmontools  
+	 bool "smartmontools"
+	 help
+	 Control and monitor storage systems using S.M.A.R.T
+	
+config smartmontools-dev  
+	 bool "smartmontools-dev"
+	 help
+	
+config smartmontools-dbg  
+	 bool "smartmontools-dbg"
+	 help
+	
+endmenu
+menu "strace " 
+config strace  
+	 bool "strace"
+	 help
+	 System call tracing tool
+	
+config strace-dbg  
+	 bool "strace-dbg"
+	 help
+	
+config strace-dev  
+	 bool "strace-dev"
+	 help
+	
+endmenu
+menu "unzip " 
+config unzip  
+	 bool "unzip"
+	 help
+	 Utilities for extracting and viewing files in .zip archives
+	
+config unzip-dbg  
+	 bool "unzip-dbg"
+	 help
+	
+config unzip-dev  
+	 bool "unzip-dev"
+	 help
+	
+endmenu
+endmenu
+endmenu
+menu "devel " 
+menu "flex " 
+config flex  
+	 bool "flex"
+	 help
+	 Flex (The Fast Lexical Analyzer)
+	
+config flex-dev  
+	 bool "flex-dev"
+	 help
+	
+config flex-dbg  
+	 bool "flex-dbg"
+	 help
+	
+endmenu
+menu "gmp " 
+config gmp  
+	 bool "gmp"
+	 help
+	 GNU multiprecision arithmetic library
+	
+config gmp-dbg  
+	 bool "gmp-dbg"
+	 help
+	
+config gmp-dev  
+	 bool "gmp-dev"
+	 help
+	
+config libgmpxx  
+	 bool "libgmpxx"
+	 help
+	
+endmenu
+menu "libcheck " 
+config libcheck  
+	 bool "libcheck"
+	 help
+	
+config libcheck-dbg  
+	 bool "libcheck-dbg"
+	 help
+	
+config libcheck-dev  
+	 bool "libcheck-dev"
+	 help
+	
+endmenu
+menu "libpcre " 
+config libpcre  
+	 bool "libpcre"
+	 help
+	 Perl Compatible Regular Expressions
+	
+config libpcre-dbg  
+	 bool "libpcre-dbg"
+	 help
+	
+config pcregrep  
+	 bool "pcregrep"
+	 help
+	
+config libpcrecpp  
+	 bool "libpcrecpp"
+	 help
+	
+config libpcreposix  
+	 bool "libpcreposix"
+	 help
+	
+config pcretest  
+	 bool "pcretest"
+	 help
+	
+config libpcre-dev  
+	 bool "libpcre-dev"
+	 help
+	
+endmenu
+menu "make " 
+config make  
+	 bool "make"
+	 help
+	 GNU tool that controls the build process
+	
+config make-dev  
+	 bool "make-dev"
+	 help
+	
+config make-dbg  
+	 bool "make-dbg"
+	 help
+	
+endmenu
+menu "perl " 
+config perl  
+	 bool "perl"
+	 help
+	 Perl scripting language
+	
+config perl-dbg  
+	 bool "perl-dbg"
+	 help
+	
+config perl-module-unicore  
+	 bool "perl-module-unicore"
+	 help
+	
+config perl-dev  
+	 bool "perl-dev"
+	 help
+	
+config perl-pod  
+	 bool "perl-pod"
+	 help
+	
+config perl-modules  
+	 bool "perl-modules"
+	 help
+	
+config perl-module-cpan  
+	 bool "perl-module-cpan"
+	 help
+	
+config perl-misc  
+	 bool "perl-misc"
+	 help
+	
+config perl-lib  
+	 bool "perl-lib"
+	 help
+	
+config perl-module-cpanplus  
+	 bool "perl-module-cpanplus"
+	 help
+	
+endmenu
+menu "python " 
+menu "python " 
+config python  
+	 bool "python"
+	 help
+	 The Python Programming Language
+	
+config python-compile  
+	 bool "python-compile"
+	 help
+	
+config python-mime  
+	 bool "python-mime"
+	 help
+	
+config python-xml  
+	 bool "python-xml"
+	 help
+	
+config python-html  
+	 bool "python-html"
+	 help
+	
+config python-crypt  
+	 bool "python-crypt"
+	 help
+	
+config python-datetime  
+	 bool "python-datetime"
+	 help
+	
+config python-fcntl  
+	 bool "python-fcntl"
+	 help
+	
+config python-difflib  
+	 bool "python-difflib"
+	 help
+	
+config python-tkinter  
+	 bool "python-tkinter"
+	 help
+	
+config python-robotparser  
+	 bool "python-robotparser"
+	 help
+	
+config python-misc  
+	 bool "python-misc"
+	 help
+	
+config python-unittest  
+	 bool "python-unittest"
+	 help
+	
+config python-readline  
+	 bool "python-readline"
+	 help
+	
+config python-shell  
+	 bool "python-shell"
+	 help
+	
+config python-zlib  
+	 bool "python-zlib"
+	 help
+	
+config python-importlib  
+	 bool "python-importlib"
+	 help
+	
+config python-sqlite3  
+	 bool "python-sqlite3"
+	 help
+	
+config python-io  
+	 bool "python-io"
+	 help
+	
+config python-hotshot  
+	 bool "python-hotshot"
+	 help
+	
+config python-pickle  
+	 bool "python-pickle"
+	 help
+	
+config python-stringold  
+	 bool "python-stringold"
+	 help
+	
+config python-multiprocessing  
+	 bool "python-multiprocessing"
+	 help
+	
+config python-lang  
+	 bool "python-lang"
+	 help
+	
+config python-pkgutil  
+	 bool "python-pkgutil"
+	 help
+	
+config python-textutils  
+	 bool "python-textutils"
+	 help
+	
+config python-dbg  
+	 bool "python-dbg"
+	 help
+	
+config python-compression  
+	 bool "python-compression"
+	 help
+	
+config python-unixadmin  
+	 bool "python-unixadmin"
+	 help
+	
+config python-bsddb  
+	 bool "python-bsddb"
+	 help
+	
+config python-pydoc  
+	 bool "python-pydoc"
+	 help
+	
+config python-sqlite3-tests  
+	 bool "python-sqlite3-tests"
+	 help
+	
+config python-man  
+	 bool "python-man"
+	 help
+	
+config python-compiler  
+	 bool "python-compiler"
+	 help
+	
+config python-core  
+	 bool "python-core"
+	 help
+	
+config python-netclient  
+	 bool "python-netclient"
+	 help
+	
+config python-2to3  
+	 bool "python-2to3"
+	 help
+	
+config python-syslog  
+	 bool "python-syslog"
+	 help
+	
+config python-debugger  
+	 bool "python-debugger"
+	 help
+	
+config python-gdbm  
+	 bool "python-gdbm"
+	 help
+	
+config python-contextlib  
+	 bool "python-contextlib"
+	 help
+	
+config python-resource  
+	 bool "python-resource"
+	 help
+	
+config python-numbers  
+	 bool "python-numbers"
+	 help
+	
+config python-distutils  
+	 bool "python-distutils"
+	 help
+	
+config python-codecs  
+	 bool "python-codecs"
+	 help
+	
+config python-profile  
+	 bool "python-profile"
+	 help
+	
+config python-logging  
+	 bool "python-logging"
+	 help
+	
+config python-plistlib  
+	 bool "python-plistlib"
+	 help
+	
+config python-dev  
+	 bool "python-dev"
+	 help
+	
+config python-re  
+	 bool "python-re"
+	 help
+	
+config python-math  
+	 bool "python-math"
+	 help
+	
+config python-subprocess  
+	 bool "python-subprocess"
+	 help
+	
+config python-tests  
+	 bool "python-tests"
+	 help
+	
+config python-curses  
+	 bool "python-curses"
+	 help
+	
+config python-ctypes  
+	 bool "python-ctypes"
+	 help
+	
+config python-netserver  
+	 bool "python-netserver"
+	 help
+	
+config python-pprint  
+	 bool "python-pprint"
+	 help
+	
+config python-smtpd  
+	 bool "python-smtpd"
+	 help
+	
+config python-terminal  
+	 bool "python-terminal"
+	 help
+	
+config python-mmap  
+	 bool "python-mmap"
+	 help
+	
+config python-modules  
+	 bool "python-modules"
+	 help
+	
+config python-xmlrpc  
+	 bool "python-xmlrpc"
+	 help
+	
+config python-email  
+	 bool "python-email"
+	 help
+	
+config python-db  
+	 bool "python-db"
+	 help
+	
+config python-mailbox  
+	 bool "python-mailbox"
+	 help
+	
+config python-threading  
+	 bool "python-threading"
+	 help
+	
+config python-json  
+	 bool "python-json"
+	 help
+	
+config python-argparse  
+	 bool "python-argparse"
+	 help
+	
+config python-audio  
+	 bool "python-audio"
+	 help
+	
+config python-image  
+	 bool "python-image"
+	 help
+	
+config libpython2  
+	 bool "libpython2"
+	 help
+	
+config python-idle  
+	 bool "python-idle"
+	 help
+	
+endmenu
+menu "python-dbus " 
+config python-dbus  
+	 bool "python-dbus"
+	 help
+	 Python bindings for the DBus inter-process communication system
+	
+config python-dbus-dev  
+	 bool "python-dbus-dev"
+	 help
+	
+config python-dbus-dbg  
+	 bool "python-dbus-dbg"
+	 help
+	
+endmenu
+menu "python-nose " 
+config python-nose  
+	 bool "python-nose"
+	 help
+	 Extends Python unittest to make testing easier
+	
+config python-nose-dbg  
+	 bool "python-nose-dbg"
+	 help
+	
+config python-nose-dev  
+	 bool "python-nose-dev"
+	 help
+	
+endmenu
+menu "python-numpy " 
+config python-numpy  
+	 bool "python-numpy"
+	 help
+	 A sophisticated Numeric Processing Package for Python
+	
+config python-numpy-dbg  
+	 bool "python-numpy-dbg"
+	 help
+	
+config python-numpy-dev  
+	 bool "python-numpy-dev"
+	 help
+	
+endmenu
+menu "python-pygobject " 
+config python-pygobject  
+	 bool "python-pygobject"
+	 help
+	 Python GObject bindings
+	
+config python-pygobject-dev  
+	 bool "python-pygobject-dev"
+	 help
+	
+config python-pygobject-dbg  
+	 bool "python-pygobject-dbg"
+	 help
+	
+endmenu
+menu "python-scons " 
+config python-scons  
+	 bool "python-scons"
+	 help
+	 Software Construction tool (make/autotools replacement)
+	
+config python-scons-dev  
+	 bool "python-scons-dev"
+	 help
+	
+config python-scons-dbg  
+	 bool "python-scons-dbg"
+	 help
+	
+endmenu
+menu "python-setuptools " 
+config python-setuptools  
+	 bool "python-setuptools"
+	 help
+	 Download, build, install, upgrade, and uninstall Python packages
+	
+config python-setuptools-dbg  
+	 bool "python-setuptools-dbg"
+	 help
+	
+config python-setuptools-dev  
+	 bool "python-setuptools-dev"
+	 help
+	
+endmenu
+menu "python-smartpm " 
+config python-smartpm  
+	 bool "python-smartpm"
+	 help
+	 The Smart Package Manager
+	
+config python-smartpm-dev  
+	 bool "python-smartpm-dev"
+	 help
+	
+config python-smartpm-dbg  
+	 bool "python-smartpm-dbg"
+	 help
+	
+config python-smartpm-interface-images  
+	 bool "python-smartpm-interface-images"
+	 help
+	
+config python-smartpm-backend-rpm  
+	 bool "python-smartpm-backend-rpm"
+	 help
+	
+config smartpm  
+	 bool "smartpm"
+	 help
+	
+endmenu
+endmenu
+menu "ruby " 
+menu "ruby " 
+config ruby  
+	 bool "ruby"
+	 help
+	 An interpreter of object-oriented scripting language
+	
+config ruby-rdoc  
+	 bool "ruby-rdoc"
+	 help
+	
+config ruby-dbg  
+	 bool "ruby-dbg"
+	 help
+	
+config ruby-dev  
+	 bool "ruby-dev"
+	 help
+	
+endmenu
+endmenu
+menu "run-postinsts " 
+config run-postinsts  
+	 bool "run-postinsts"
+	 help
+	 Runs postinstall scripts on first boot of the target device
+	
+config run-postinsts-dev  
+	 bool "run-postinsts-dev"
+	 help
+	
+config run-postinsts-dbg  
+	 bool "run-postinsts-dbg"
+	 help
+	
+endmenu
+menu "swig " 
+config swig  
+	 bool "swig"
+	 help
+	 SWIG - Simplified Wrapper and Interface Generator
+	
+config swig-dbg  
+	 bool "swig-dbg"
+	 help
+	
+config swig-dev  
+	 bool "swig-dev"
+	 help
+	
+endmenu
+menu "tcltk " 
+menu "tcl " 
+config tcl  
+	 bool "tcl"
+	 help
+	 Tool Command Language
+	
+config tcl-dbg  
+	 bool "tcl-dbg"
+	 help
+	
+config tcl-lib  
+	 bool "tcl-lib"
+	 help
+	
+config tcl-dev  
+	 bool "tcl-dev"
+	 help
+	
+endmenu
+endmenu
+endmenu
+menu "fonts " 
+menu "cantarell-fonts " 
+config cantarell-fonts  
+	 bool "cantarell-fonts"
+	 help
+	 Cantarell, a Humanist sans-serif font family
+	
+config cantarell-fonts-dbg  
+	 bool "cantarell-fonts-dbg"
+	 help
+	
+config cantarell-fonts-dev  
+	 bool "cantarell-fonts-dev"
+	 help
+	
+endmenu
+endmenu
+menu "libs " 
+menu "acl " 
+config acl  
+	 bool "acl"
+	 help
+	 Utilities for managing POSIX Access Control Lists
+	
+config libacl  
+	 bool "libacl"
+	 help
+	
+config acl-dev  
+	 bool "acl-dev"
+	 help
+	
+config acl-dbg  
+	 bool "acl-dbg"
+	 help
+	
+endmenu
+menu "attr " 
+config attr  
+	 bool "attr"
+	 help
+	 Utilities for manipulating filesystem extended attributes
+	
+config attr-dbg  
+	 bool "attr-dbg"
+	 help
+	
+config attr-dev  
+	 bool "attr-dev"
+	 help
+	
+config libattr  
+	 bool "libattr"
+	 help
+	
+endmenu
+menu "bluez5 " 
+config bluez5  
+	 bool "bluez5"
+	 help
+	 Linux Bluetooth Stack Userland V5
+	
+config bluez5-obex  
+	 bool "bluez5-obex"
+	 help
+	
+config bluez5-dev  
+	 bool "bluez5-dev"
+	 help
+	
+config bluez5-noinst-tools  
+	 bool "bluez5-noinst-tools"
+	 help
+	
+config libasound-module-bluez  
+	 bool "libasound-module-bluez"
+	 help
+	
+config bluez5-dbg  
+	 bool "bluez5-dbg"
+	 help
+	
+config bluez5-testtools  
+	 bool "bluez5-testtools"
+	 help
+	
+endmenu
+menu "cairo " 
+config cairo  
+	 bool "cairo"
+	 help
+	 The Cairo 2D vector graphics library
+	
+config cairo-gobject  
+	 bool "cairo-gobject"
+	 help
+	
+config cairo-script-interpreter  
+	 bool "cairo-script-interpreter"
+	 help
+	
+config cairo-perf-utils  
+	 bool "cairo-perf-utils"
+	 help
+	
+config cairo-dev  
+	 bool "cairo-dev"
+	 help
+	
+config cairo-dbg  
+	 bool "cairo-dbg"
+	 help
+	
+endmenu
+menu "db " 
+config db  
+	 bool "db"
+	 help
+	 Berkeley Database v6
+	
+config db-dev  
+	 bool "db-dev"
+	 help
+	
+config db-bin  
+	 bool "db-bin"
+	 help
+	
+config db-cxx  
+	 bool "db-cxx"
+	 help
+	
+config db-dbg  
+	 bool "db-dbg"
+	 help
+	
+endmenu
+menu "devel " 
+menu "libyaml " 
+config libyaml  
+	 bool "libyaml"
+	 help
+	 LibYAML is a YAML 1.1 parser and emitter written in C.
+	
+config libyaml-dbg  
+	 bool "libyaml-dbg"
+	 help
+	
+config libyaml-dev  
+	 bool "libyaml-dev"
+	 help
+	
+endmenu
+endmenu
+menu "expat " 
+config expat  
+	 bool "expat"
+	 help
+	 A stream-oriented XML parser library
+	
+config expat-bin  
+	 bool "expat-bin"
+	 help
+	
+config expat-dev  
+	 bool "expat-dev"
+	 help
+	
+config expat-dbg  
+	 bool "expat-dbg"
+	 help
+	
+endmenu
+menu "ffmpeg " 
+config ffmpeg  
+	 bool "ffmpeg"
+	 help
+	 A complete, cross-platform solution to record, convert and stream audio and video.
+	
+config ffmpeg-dbg  
+	 bool "ffmpeg-dbg"
+	 help
+	
+config ffmpeg-dev  
+	 bool "ffmpeg-dev"
+	 help
+	
+endmenu
+menu "flac " 
+config flac  
+	 bool "flac"
+	 help
+	 Free Lossless Audio Codec
+	
+config libflacPLUSPLUS  
+	 bool "libflac++"
+	 help
+	
+config flac-dev  
+	 bool "flac-dev"
+	 help
+	
+config libflac  
+	 bool "libflac"
+	 help
+	
+config flac-dbg  
+	 bool "flac-dbg"
+	 help
+	
+config liboggflacPLUSPLUS  
+	 bool "liboggflac++"
+	 help
+	
+endmenu
+menu "fontconfig " 
+config fontconfig  
+	 bool "fontconfig"
+	 help
+	 Generic font configuration library
+	
+config fontconfig-utils  
+	 bool "fontconfig-utils"
+	 help
+	
+config fontconfig-dev  
+	 bool "fontconfig-dev"
+	 help
+	
+config fontconfig-dbg  
+	 bool "fontconfig-dbg"
+	 help
+	
+endmenu
+menu "freetype " 
+config freetype  
+	 bool "freetype"
+	 help
+	 Freetype font rendering library
+	
+config freetype-dev  
+	 bool "freetype-dev"
+	 help
+	
+config freetype-dbg  
+	 bool "freetype-dbg"
+	 help
+	
+endmenu
+menu "gdbm " 
+config gdbm  
+	 bool "gdbm"
+	 help
+	 Key/value database library with extensible hashing
+	
+config gdbm-compat  
+	 bool "gdbm-compat"
+	 help
+	
+config gdbm-dev  
+	 bool "gdbm-dev"
+	 help
+	
+config gdbm-dbg  
+	 bool "gdbm-dbg"
+	 help
+	
+config gdbm-bin  
+	 bool "gdbm-bin"
+	 help
+	
+endmenu
+menu "gdk-pixbuf " 
+config gdk-pixbuf  
+	 bool "gdk-pixbuf"
+	 help
+	 Image loading library for GTK+
+	
+config gdk-pixbuf-dbg  
+	 bool "gdk-pixbuf-dbg"
+	 help
+	
+config gdk-pixbuf-dev  
+	 bool "gdk-pixbuf-dev"
+	 help
+	
+config gdk-pixbuf-xlib  
+	 bool "gdk-pixbuf-xlib"
+	 help
+	
+endmenu
+menu "gettext " 
+config gettext  
+	 bool "gettext"
+	 help
+	 Utilities and libraries for producing multi-lingual messages
+	
+config libgettextlib  
+	 bool "libgettextlib"
+	 help
+	
+config libgettextsrc  
+	 bool "libgettextsrc"
+	 help
+	
+config gettext-dbg  
+	 bool "gettext-dbg"
+	 help
+	
+config gettext-runtime  
+	 bool "gettext-runtime"
+	 help
+	
+config gettext-dev  
+	 bool "gettext-dev"
+	 help
+	
+config gettext-runtime-dev  
+	 bool "gettext-runtime-dev"
+	 help
+	
+endmenu
+menu "gobject-introspection " 
+config gobject-introspection  
+	 bool "gobject-introspection"
+	 help
+	
+config gobject-introspection-dev  
+	 bool "gobject-introspection-dev"
+	 help
+	
+config gobject-introspection-dbg  
+	 bool "gobject-introspection-dbg"
+	 help
+	
+endmenu
+menu "gtk+ " 
+config gtkPLUS  
+	 bool "gtk+"
+	 help
+	 Multi-platform toolkit for creating GUIs
+	
+config gtk-demo  
+	 bool "gtk-demo"
+	 help
+	
+config libgail  
+	 bool "libgail"
+	 help
+	
+config gtkPLUS-dbg  
+	 bool "gtk+-dbg"
+	 help
+	
+config gtkPLUS-dev  
+	 bool "gtk+-dev"
+	 help
+	
+endmenu
+menu "gtk+3 " 
+config gtkPLUS3  
+	 bool "gtk+3"
+	 help
+	 Multi-platform toolkit for creating GUIs
+	
+config gtkPLUS3-dbg  
+	 bool "gtk+3-dbg"
+	 help
+	
+config gtkPLUS3-dev  
+	 bool "gtk+3-dev"
+	 help
+	
+config gtkPLUS3-demo  
+	 bool "gtk+3-demo"
+	 help
+	
+endmenu
+menu "harfbuzz " 
+config harfbuzz  
+	 bool "harfbuzz"
+	 help
+	 Text shaping library
+	
+config harfbuzz-dbg  
+	 bool "harfbuzz-dbg"
+	 help
+	
+config harfbuzz-bin  
+	 bool "harfbuzz-bin"
+	 help
+	
+config harfbuzz-icu  
+	 bool "harfbuzz-icu"
+	 help
+	
+config harfbuzz-dev  
+	 bool "harfbuzz-dev"
+	 help
+	
+config harfbuzz-icu-dev  
+	 bool "harfbuzz-icu-dev"
+	 help
+	
+endmenu
+menu "libcap " 
+config libcap  
+	 bool "libcap"
+	 help
+	 Library for getting/setting POSIX.1e capabilities
+	
+config libcap-dev  
+	 bool "libcap-dev"
+	 help
+	
+config libcap-bin  
+	 bool "libcap-bin"
+	 help
+	
+config libcap-dbg  
+	 bool "libcap-dbg"
+	 help
+	
+endmenu
+menu "libdaemon " 
+config libdaemon  
+	 bool "libdaemon"
+	 help
+	 Lightweight C library which eases the writing of UNIX daemons
+	
+config libdaemon-dev  
+	 bool "libdaemon-dev"
+	 help
+	
+config libdaemon-dbg  
+	 bool "libdaemon-dbg"
+	 help
+	
+endmenu
+menu "libdmx " 
+config libdmx  
+	 bool "libdmx"
+	 help
+	 DMX: Distributed Multihead X extension library
+	
+config libdmx-dbg  
+	 bool "libdmx-dbg"
+	 help
+	
+config libdmx-dev  
+	 bool "libdmx-dev"
+	 help
+	
+endmenu
+menu "libeigen " 
+config libeigen  
+	 bool "libeigen"
+	 help
+	
+config libeigen-dev  
+	 bool "libeigen-dev"
+	 help
+	
+config libeigen-dbg  
+	 bool "libeigen-dbg"
+	 help
+	
+endmenu
+menu "libepoxy " 
+config libepoxy  
+	 bool "libepoxy"
+	 help
+	 OpenGL function pointer management library
+	
+config libepoxy-dbg  
+	 bool "libepoxy-dbg"
+	 help
+	
+config libepoxy-dev  
+	 bool "libepoxy-dev"
+	 help
+	
+endmenu
+menu "libevdev " 
+config libevdev  
+	 bool "libevdev"
+	 help
+	 Wrapper library for evdev devices
+	
+config libevdev-dev  
+	 bool "libevdev-dev"
+	 help
+	
+config libevdev-dbg  
+	 bool "libevdev-dbg"
+	 help
+	
+endmenu
+menu "libexif " 
+config libexif  
+	 bool "libexif"
+	 help
+	 Library for reading extended image information (EXIF) from JPEG files
+	
+config libexif-dev  
+	 bool "libexif-dev"
+	 help
+	
+config libexif-dbg  
+	 bool "libexif-dbg"
+	 help
+	
+endmenu
+menu "libffi " 
+config libffi  
+	 bool "libffi"
+	 help
+	 A portable foreign function interface library
+	
+config libffi-dev  
+	 bool "libffi-dev"
+	 help
+	
+config libffi-dbg  
+	 bool "libffi-dbg"
+	 help
+	
+endmenu
+menu "libfontenc " 
+config libfontenc  
+	 bool "libfontenc"
+	 help
+	 X font encoding library
+	
+config libfontenc-dev  
+	 bool "libfontenc-dev"
+	 help
+	
+config libfontenc-dbg  
+	 bool "libfontenc-dbg"
+	 help
+	
+endmenu
+menu "libgcc-xilinx " 
+config libgcc-dev  
+	 bool "libgcc-dev"
+	 help
+	
+config libgcc  
+	 bool "libgcc"
+	 help
+	
+config libgcc-dbg  
+	 bool "libgcc-dbg"
+	 help
+	
+config libgcov-dev  
+	 bool "libgcov-dev"
+	 help
+	
+endmenu
+menu "libgphoto2 " 
+config libgphoto2  
+	 bool "libgphoto2"
+	 help
+	 libgphoto2 allows you to access digital cameras
+	
+config libgphoto2-dbg  
+	 bool "libgphoto2-dbg"
+	 help
+	
+config libgphotoport  
+	 bool "libgphotoport"
+	 help
+	
+config libgphoto2-dev  
+	 bool "libgphoto2-dev"
+	 help
+	
+config libgphoto2-camlibs  
+	 bool "libgphoto2-camlibs"
+	 help
+	
+config libgphoto2-bin  
+	 bool "libgphoto2-bin"
+	 help
+	
+endmenu
+menu "libhugetlbfs " 
+config libhugetlbfs  
+	 bool "libhugetlbfs"
+	 help
+	 A library which provides easy access to huge pages of memory
+	
+config libhugetlbfs-perl  
+	 bool "libhugetlbfs-perl"
+	 help
+	
+config libhugetlbfs-dbg  
+	 bool "libhugetlbfs-dbg"
+	 help
+	
+config libhugetlbfs-dev  
+	 bool "libhugetlbfs-dev"
+	 help
+	
+config libhugetlbfs-tests  
+	 bool "libhugetlbfs-tests"
+	 help
+	
+endmenu
+menu "libical " 
+config libical  
+	 bool "libical"
+	 help
+	 iCal and scheduling (RFC 2445, 2446, 2447) library
+	
+config libical-dev  
+	 bool "libical-dev"
+	 help
+	
+config libical-dbg  
+	 bool "libical-dbg"
+	 help
+	
+endmenu
+menu "libice " 
+config libice  
+	 bool "libice"
+	 help
+	 ICE: Inter-Client Exchange library
+	
+config libice-dev  
+	 bool "libice-dev"
+	 help
+	
+config libice-dbg  
+	 bool "libice-dbg"
+	 help
+	
+endmenu
+menu "libinput " 
+config libinput  
+	 bool "libinput"
+	 help
+	 Library to handle input devices in Wayland compositors
+	
+config libinput-dbg  
+	 bool "libinput-dbg"
+	 help
+	
+config libinput-dev  
+	 bool "libinput-dev"
+	 help
+	
+endmenu
+menu "libjpeg-turbo " 
+config libjpeg-turbo  
+	 bool "libjpeg-turbo"
+	 help
+	
+config libturbojpeg  
+	 bool "libturbojpeg"
+	 help
+	
+config libjpeg-turbo-dev  
+	 bool "libjpeg-turbo-dev"
+	 help
+	
+config jpeg-tools  
+	 bool "jpeg-tools"
+	 help
+	
+config libjpeg-turbo-dbg  
+	 bool "libjpeg-turbo-dbg"
+	 help
+	
+endmenu
+menu "libmetal " 
+config libmetal  
+	 bool "libmetal"
+	 help
+	 Libmetal : Libmetal implements an abstraction layer across user-space Linux, baremetal, and RTOS environments
+	
+config libmetal-dbg  
+	 bool "libmetal-dbg"
+	 help
+	
+config libmetal-dev  
+	 bool "libmetal-dev"
+	 help
+	
+endmenu
+menu "libnet " 
+config libnet  
+	 bool "libnet"
+	 help
+	 A packet dissection and creation library
+	
+config libnet-dbg  
+	 bool "libnet-dbg"
+	 help
+	
+config libnet-dev  
+	 bool "libnet-dev"
+	 help
+	
+endmenu
+menu "libnss-mdns " 
+config libnss-mdns  
+	 bool "libnss-mdns"
+	 help
+	 Name Service Switch module for Multicast DNS (zeroconf) name resolution
+	
+config libnss-mdns-dev  
+	 bool "libnss-mdns-dev"
+	 help
+	
+config libnss-mdns-dbg  
+	 bool "libnss-mdns-dbg"
+	 help
+	
+endmenu
+menu "libogg " 
+config libogg  
+	 bool "libogg"
+	 help
+	 Ogg bitstream and framing libary
+	
+config libogg-dev  
+	 bool "libogg-dev"
+	 help
+	
+config libogg-dbg  
+	 bool "libogg-dbg"
+	 help
+	
+endmenu
+menu "libpciaccess " 
+config libpciaccess  
+	 bool "libpciaccess"
+	 help
+	 Generic PCI access library for X
+	
+config libpciaccess-dev  
+	 bool "libpciaccess-dev"
+	 help
+	
+config libpciaccess-dbg  
+	 bool "libpciaccess-dbg"
+	 help
+	
+endmenu
+menu "libpng " 
+config libpng  
+	 bool "libpng"
+	 help
+	 PNG image format decoding library
+	
+config libpng-dbg  
+	 bool "libpng-dbg"
+	 help
+	
+config libpng-dev  
+	 bool "libpng-dev"
+	 help
+	
+config libpng-tools  
+	 bool "libpng-tools"
+	 help
+	
+endmenu
+menu "libsamplerate0 " 
+config libsamplerate0  
+	 bool "libsamplerate0"
+	 help
+	 Audio Sample Rate Conversion library
+	
+config libsamplerate0-dev  
+	 bool "libsamplerate0-dev"
+	 help
+	
+config libsamplerate0-dbg  
+	 bool "libsamplerate0-dbg"
+	 help
+	
+endmenu
+menu "libsm " 
+config libsm  
+	 bool "libsm"
+	 help
+	 SM: Session Management library
+	
+config libsm-dbg  
+	 bool "libsm-dbg"
+	 help
+	
+config libsm-dev  
+	 bool "libsm-dev"
+	 help
+	
+endmenu
+menu "libtheora " 
+config libtheora  
+	 bool "libtheora"
+	 help
+	 Theora Video Codec
+	
+config libtheora-dbg  
+	 bool "libtheora-dbg"
+	 help
+	
+config libtheora-dev  
+	 bool "libtheora-dev"
+	 help
+	
+endmenu
+menu "libtool " 
+config libtool  
+	 bool "libtool"
+	 help
+	
+config libtool-dev  
+	 bool "libtool-dev"
+	 help
+	
+config libtool-dbg  
+	 bool "libtool-dbg"
+	 help
+	
+config libltdl  
+	 bool "libltdl"
+	 help
+	
+endmenu
+menu "liburcu " 
+config liburcu  
+	 bool "liburcu"
+	 help
+	 Userspace RCU (read-copy-update) library
+	
+config liburcu-dbg  
+	 bool "liburcu-dbg"
+	 help
+	
+config liburcu-dev  
+	 bool "liburcu-dev"
+	 help
+	
+endmenu
+menu "libusb-compat " 
+config libusb-compat  
+	 bool "libusb-compat"
+	 help
+	 libusb-0.1 compatibility layer for libusb1
+	
+config libusb-compat-dbg  
+	 bool "libusb-compat-dbg"
+	 help
+	
+config libusb-compat-dev  
+	 bool "libusb-compat-dev"
+	 help
+	
+config libusb-compat-bin  
+	 bool "libusb-compat-bin"
+	 help
+	
+endmenu
+menu "libusb1 " 
+config libusb1  
+	 bool "libusb1"
+	 help
+	 Userspace library to access USB (version 1.0)
+	
+config libusb1-dev  
+	 bool "libusb1-dev"
+	 help
+	
+config libusb1-dbg  
+	 bool "libusb1-dbg"
+	 help
+	
+endmenu
+menu "libvorbis " 
+config libvorbis  
+	 bool "libvorbis"
+	 help
+	 Ogg Vorbis Audio Codec
+	
+config libvorbis-dbg  
+	 bool "libvorbis-dbg"
+	 help
+	
+config libvorbis-dev  
+	 bool "libvorbis-dev"
+	 help
+	
+endmenu
+menu "libwebp " 
+config libwebp  
+	 bool "libwebp"
+	 help
+	 WebP is an image format designed for the Web
+	
+config libwebp-dev  
+	 bool "libwebp-dev"
+	 help
+	
+config libwebp-bin  
+	 bool "libwebp-bin"
+	 help
+	
+config libwebp-dbg  
+	 bool "libwebp-dbg"
+	 help
+	
+endmenu
+menu "libx11 " 
+config libx11  
+	 bool "libx11"
+	 help
+	 Xlib: C Language X Interface library
+	
+config libx11-xcb  
+	 bool "libx11-xcb"
+	 help
+	
+config libx11-dev  
+	 bool "libx11-dev"
+	 help
+	
+config libx11-dbg  
+	 bool "libx11-dbg"
+	 help
+	
+endmenu
+menu "libxau " 
+config libxau  
+	 bool "libxau"
+	 help
+	 Xau: X Authority Database library
+	
+config libxau-dev  
+	 bool "libxau-dev"
+	 help
+	
+config libxau-dbg  
+	 bool "libxau-dbg"
+	 help
+	
+endmenu
+menu "libxcalibrate " 
+config libxcalibrate  
+	 bool "libxcalibrate"
+	 help
+	 XCalibrate: Touchscreen calibration library
+	
+config libxcalibrate-dbg  
+	 bool "libxcalibrate-dbg"
+	 help
+	
+config libxcalibrate-dev  
+	 bool "libxcalibrate-dev"
+	 help
+	
+endmenu
+menu "libxcomposite " 
+config libxcomposite  
+	 bool "libxcomposite"
+	 help
+	 Xcomposite: X Composite extension library
+	
+config libxcomposite-dev  
+	 bool "libxcomposite-dev"
+	 help
+	
+config libxcomposite-dbg  
+	 bool "libxcomposite-dbg"
+	 help
+	
+endmenu
+menu "libxcursor " 
+config libxcursor  
+	 bool "libxcursor"
+	 help
+	 Xcursor: X Cursor management library
+	
+config libxcursor-dbg  
+	 bool "libxcursor-dbg"
+	 help
+	
+config libxcursor-dev  
+	 bool "libxcursor-dev"
+	 help
+	
+endmenu
+menu "libxdamage " 
+config libxdamage  
+	 bool "libxdamage"
+	 help
+	 Xdamage: X Damage extension library
+	
+config libxdamage-dev  
+	 bool "libxdamage-dev"
+	 help
+	
+config libxdamage-dbg  
+	 bool "libxdamage-dbg"
+	 help
+	
+endmenu
+menu "libxdmcp " 
+config libxdmcp  
+	 bool "libxdmcp"
+	 help
+	 XDMCP: X Display Manager Control Protocol library
+	
+config libxdmcp-dev  
+	 bool "libxdmcp-dev"
+	 help
+	
+config libxdmcp-dbg  
+	 bool "libxdmcp-dbg"
+	 help
+	
+endmenu
+menu "libxext " 
+config libxext  
+	 bool "libxext"
+	 help
+	 XExt: X Extension library
+	
+config libxext-dev  
+	 bool "libxext-dev"
+	 help
+	
+config libxext-dbg  
+	 bool "libxext-dbg"
+	 help
+	
+endmenu
+menu "libxfixes " 
+config libxfixes  
+	 bool "libxfixes"
+	 help
+	 XFixes: X Fixes extension library
+	
+config libxfixes-dev  
+	 bool "libxfixes-dev"
+	 help
+	
+config libxfixes-dbg  
+	 bool "libxfixes-dbg"
+	 help
+	
+endmenu
+menu "libxfont " 
+config libxfont  
+	 bool "libxfont"
+	 help
+	 XFont: X Font rasterisation library
+	
+config libxfont-dbg  
+	 bool "libxfont-dbg"
+	 help
+	
+config libxfont-dev  
+	 bool "libxfont-dev"
+	 help
+	
+endmenu
+menu "libxft " 
+config libxft  
+	 bool "libxft"
+	 help
+	 XFt: X FreeType libary
+	
+config libxft-dev  
+	 bool "libxft-dev"
+	 help
+	
+config libxft-dbg  
+	 bool "libxft-dbg"
+	 help
+	
+endmenu
+menu "libxi " 
+config libxi  
+	 bool "libxi"
+	 help
+	 XI: X Input extension library
+	
+config libxi-dbg  
+	 bool "libxi-dbg"
+	 help
+	
+config libxi-dev  
+	 bool "libxi-dev"
+	 help
+	
+endmenu
+menu "libxinerama " 
+config libxinerama  
+	 bool "libxinerama"
+	 help
+	 Xinerama: Xinerama extension library
+	
+config libxinerama-dbg  
+	 bool "libxinerama-dbg"
+	 help
+	
+config libxinerama-dev  
+	 bool "libxinerama-dev"
+	 help
+	
+endmenu
+menu "libxkbcommon " 
+config libxkbcommon  
+	 bool "libxkbcommon"
+	 help
+	 Generic XKB keymap library
+	
+config libxkbcommon-dev  
+	 bool "libxkbcommon-dev"
+	 help
+	
+config libxkbcommon-dbg  
+	 bool "libxkbcommon-dbg"
+	 help
+	
+endmenu
+menu "libxkbfile " 
+config libxkbfile  
+	 bool "libxkbfile"
+	 help
+	 XKB: X Keyboard File manipulation library
+	
+config libxkbfile-dbg  
+	 bool "libxkbfile-dbg"
+	 help
+	
+config libxkbfile-dev  
+	 bool "libxkbfile-dev"
+	 help
+	
+endmenu
+menu "libxml2 " 
+config libxml2  
+	 bool "libxml2"
+	 help
+	 XML C Parser Library and Toolkit
+	
+config libxml2-dbg  
+	 bool "libxml2-dbg"
+	 help
+	
+config libxml2-dev  
+	 bool "libxml2-dev"
+	 help
+	
+config libxml2-python  
+	 bool "libxml2-python"
+	 help
+	
+endmenu
+menu "libxmu " 
+config libxmu  
+	 bool "libxmu"
+	 help
+	 Xmu and Xmuu: X Miscellaneous Utility libraries
+	
+config libxmu-dbg  
+	 bool "libxmu-dbg"
+	 help
+	
+config libxmuu  
+	 bool "libxmuu"
+	 help
+	
+config libxmu-dev  
+	 bool "libxmu-dev"
+	 help
+	
+endmenu
+menu "libxrandr " 
+config libxrandr  
+	 bool "libxrandr"
+	 help
+	 XRandR: X Resize, Rotate and Reflect extension library
+	
+config libxrandr-dev  
+	 bool "libxrandr-dev"
+	 help
+	
+config libxrandr-dbg  
+	 bool "libxrandr-dbg"
+	 help
+	
+endmenu
+menu "libxrender " 
+config libxrender  
+	 bool "libxrender"
+	 help
+	 XRender: X Rendering Extension library
+	
+config libxrender-dbg  
+	 bool "libxrender-dbg"
+	 help
+	
+config libxrender-dev  
+	 bool "libxrender-dev"
+	 help
+	
+endmenu
+menu "libxslt " 
+config libxslt  
+	 bool "libxslt"
+	 help
+	 GNOME XSLT library
+	
+config libxslt-dbg  
+	 bool "libxslt-dbg"
+	 help
+	
+config libxslt-bin  
+	 bool "libxslt-bin"
+	 help
+	
+config libxslt-dev  
+	 bool "libxslt-dev"
+	 help
+	
+endmenu
+menu "libxt " 
+config libxt  
+	 bool "libxt"
+	 help
+	 Xt: X Toolkit Intrinsics library
+	
+config libxt-dbg  
+	 bool "libxt-dbg"
+	 help
+	
+config libxt-dev  
+	 bool "libxt-dev"
+	 help
+	
+endmenu
+menu "libxtst " 
+config libxtst  
+	 bool "libxtst"
+	 help
+	 XTest: X Test extension library
+	
+config libxtst-dev  
+	 bool "libxtst-dev"
+	 help
+	
+config libxtst-dbg  
+	 bool "libxtst-dbg"
+	 help
+	
+endmenu
+menu "libxv " 
+config libxv  
+	 bool "libxv"
+	 help
+	 Xv: X Video extension library
+	
+config libxv-dbg  
+	 bool "libxv-dbg"
+	 help
+	
+config libxv-dev  
+	 bool "libxv-dev"
+	 help
+	
+endmenu
+menu "libxxf86dga " 
+config libxxf86dga  
+	 bool "libxxf86dga"
+	 help
+	 XFree86-DGA: XFree86 Direct Graphics Access extension library
+	
+config libxxf86dga-dbg  
+	 bool "libxxf86dga-dbg"
+	 help
+	
+config libxxf86dga-dev  
+	 bool "libxxf86dga-dev"
+	 help
+	
+endmenu
+menu "libxxf86misc " 
+config libxxf86misc  
+	 bool "libxxf86misc"
+	 help
+	 XFree86-Misc: XFree86 miscellaneous extension library
+	
+config libxxf86misc-dbg  
+	 bool "libxxf86misc-dbg"
+	 help
+	
+config libxxf86misc-dev  
+	 bool "libxxf86misc-dev"
+	 help
+	
+endmenu
+menu "libxxf86vm " 
+config libxxf86vm  
+	 bool "libxxf86vm"
+	 help
+	 XFree86-VM: XFree86 video mode extension library
+	
+config libxxf86vm-dbg  
+	 bool "libxxf86vm-dbg"
+	 help
+	
+config libxxf86vm-dev  
+	 bool "libxxf86vm-dev"
+	 help
+	
+endmenu
+menu "lzo " 
+config lzo  
+	 bool "lzo"
+	 help
+	 Lossless data compression library
+	
+config lzo-dev  
+	 bool "lzo-dev"
+	 help
+	
+config lzo-dbg  
+	 bool "lzo-dbg"
+	 help
+	
+endmenu
+menu "mtdev " 
+config mtdev  
+	 bool "mtdev"
+	 help
+	 Multitouch Protocol Translation Library
+	
+config mtdev-dbg  
+	 bool "mtdev-dbg"
+	 help
+	
+config mtdev-dev  
+	 bool "mtdev-dev"
+	 help
+	
+endmenu
+menu "multimedia " 
+menu "alsa-lib " 
+config alsa-lib  
+	 bool "alsa-lib"
+	 help
+	 ALSA sound library
+	
+config alsa-lib-dbg  
+	 bool "alsa-lib-dbg"
+	 help
+	
+config alsa-server  
+	 bool "alsa-server"
+	 help
+	
+config libasound  
+	 bool "libasound"
+	 help
+	
+config alsa-conf-base  
+	 bool "alsa-conf-base"
+	 help
+	
+config alsa-lib-dev  
+	 bool "alsa-lib-dev"
+	 help
+	
+config alsa-conf  
+	 bool "alsa-conf"
+	 help
+	
+endmenu
+menu "libsndfile1 " 
+config libsndfile1  
+	 bool "libsndfile1"
+	 help
+	 Audio format Conversion library
+	
+config libsndfile1-bin  
+	 bool "libsndfile1-bin"
+	 help
+	
+config libsndfile1-dbg  
+	 bool "libsndfile1-dbg"
+	 help
+	
+config libsndfile1-dev  
+	 bool "libsndfile1-dev"
+	 help
+	
+endmenu
+menu "pulseaudio " 
+config pulseaudio  
+	 bool "pulseaudio"
+	 help
+	 Sound server for Linux and Unix-like operating systems
+	
+config pulseaudio-server  
+	 bool "pulseaudio-server"
+	 help
+	
+config libpulse-simple  
+	 bool "libpulse-simple"
+	 help
+	
+config pulseaudio-module-console-kit  
+	 bool "pulseaudio-module-console-kit"
+	 help
+	
+config pulseaudio-misc  
+	 bool "pulseaudio-misc"
+	 help
+	
+config libpulse-mainloop-glib  
+	 bool "libpulse-mainloop-glib"
+	 help
+	
+config pulseaudio-bash-completion  
+	 bool "pulseaudio-bash-completion"
+	 help
+	
+config libpulse  
+	 bool "libpulse"
+	 help
+	
+config pulseaudio-dev  
+	 bool "pulseaudio-dev"
+	 help
+	
+config pulseaudio-dbg  
+	 bool "pulseaudio-dbg"
+	 help
+	
+config libpulsecore  
+	 bool "libpulsecore"
+	 help
+	
+config libpulsecommon  
+	 bool "libpulsecommon"
+	 help
+	
+endmenu
+endmenu
+menu "ncurses " 
+config ncurses  
+	 bool "ncurses"
+	 help
+	 The New Curses library
+	
+config ncurses-terminfo  
+	 bool "ncurses-terminfo"
+	 help
+	
+config ncurses-dev  
+	 bool "ncurses-dev"
+	 help
+	
+config ncurses-tools  
+	 bool "ncurses-tools"
+	 help
+	
+config ncurses-dbg  
+	 bool "ncurses-dbg"
+	 help
+	
+config ncurses-terminfo-base  
+	 bool "ncurses-terminfo-base"
+	 help
+	
+endmenu
+menu "network " 
+menu "libpcap " 
+config libpcap  
+	 bool "libpcap"
+	 help
+	 Interface for user-level network packet capture
+	
+config libpcap-dbg  
+	 bool "libpcap-dbg"
+	 help
+	
+config libpcap-dev  
+	 bool "libpcap-dev"
+	 help
+	
+endmenu
+menu "libsocketcan " 
+config libsocketcan  
+	 bool "libsocketcan"
+	 help
+	 Control basic functions in socketcan from userspace
+	
+config libsocketcan-dev  
+	 bool "libsocketcan-dev"
+	 help
+	
+config libsocketcan-dbg  
+	 bool "libsocketcan-dbg"
+	 help
+	
+endmenu
+menu "openssl " 
+config openssl  
+	 bool "openssl"
+	 help
+	 Secure Socket Layer
+	
+config openssl-engines  
+	 bool "openssl-engines"
+	 help
+	
+config openssl-misc  
+	 bool "openssl-misc"
+	 help
+	
+config openssl-dev  
+	 bool "openssl-dev"
+	 help
+	
+config libcrypto  
+	 bool "libcrypto"
+	 help
+	
+config libssl  
+	 bool "libssl"
+	 help
+	
+config openssl-dbg  
+	 bool "openssl-dbg"
+	 help
+	
+config openssl-conf  
+	 bool "openssl-conf"
+	 help
+	
+endmenu
+endmenu
+menu "open-amp " 
+config open-amp  
+	 bool "open-amp"
+	 help
+	 Libopen_amp : Libmetal implements an abstraction layer across user-space Linux, baremetal, and RTOS environments
+	
+config open-amp-dev  
+	 bool "open-amp-dev"
+	 help
+	
+config open-amp-dbg  
+	 bool "open-amp-dbg"
+	 help
+	
+endmenu
+menu "opencv " 
+config opencv  
+	 bool "opencv"
+	 help
+	 Opencv : The Open Computer Vision Library
+	
+config opencv-samples  
+	 bool "opencv-samples"
+	 help
+	 Opencv : The Open Computer Vision Library
+	
+config opencv-apps  
+	 bool "opencv-apps"
+	 help
+	
+config opencv-dbg  
+	 bool "opencv-dbg"
+	 help
+	
+config python-opencv  
+	 bool "python-opencv"
+	 help
+	
+config opencv-samples-dbg  
+	 bool "opencv-samples-dbg"
+	 help
+	
+config opencv-dev  
+	 bool "opencv-dev"
+	 help
+	
+endmenu
+menu "ossp-uuid " 
+config ossp-uuid  
+	 bool "ossp-uuid"
+	 help
+	 Universally Unique Identifier (UUID) library
+	
+config uuid  
+	 bool "uuid"
+	 help
+	
+config ossp-uuid-dbg  
+	 bool "ossp-uuid-dbg"
+	 help
+	
+config ossp-uuid-dev  
+	 bool "ossp-uuid-dev"
+	 help
+	
+endmenu
+menu "pango " 
+config pango  
+	 bool "pango"
+	 help
+	 Framework for layout and rendering of internationalized text
+	
+config pango-dev  
+	 bool "pango-dev"
+	 help
+	
+config pango-dbg  
+	 bool "pango-dbg"
+	 help
+	
+endmenu
+menu "popt " 
+config popt  
+	 bool "popt"
+	 help
+	 Library for parsing command line options
+	
+config popt-dbg  
+	 bool "popt-dbg"
+	 help
+	
+config popt-dev  
+	 bool "popt-dev"
+	 help
+	
+endmenu
+menu "qwt " 
+config qwt  
+	 bool "qwt"
+	 help
+	
+config qwt-plugins  
+	 bool "qwt-plugins"
+	 help
+	
+config qwt-dbg  
+	 bool "qwt-dbg"
+	 help
+	
+config qwt-dev  
+	 bool "qwt-dev"
+	 help
+	
+config qwt-features  
+	 bool "qwt-features"
+	 help
+	
+endmenu
+menu "readline " 
+config readline  
+	 bool "readline"
+	 help
+	 Library for editing typed command lines
+	
+config readline-dbg  
+	 bool "readline-dbg"
+	 help
+	
+config readline-dev  
+	 bool "readline-dev"
+	 help
+	
+endmenu
+menu "sbc " 
+config sbc  
+	 bool "sbc"
+	 help
+	 SBC Audio Codec
+	
+config sbc-dbg  
+	 bool "sbc-dbg"
+	 help
+	
+config sbc-dev  
+	 bool "sbc-dev"
+	 help
+	
+endmenu
+menu "speexdsp " 
+config speexdsp  
+	 bool "speexdsp"
+	 help
+	 A patent-free DSP library
+	
+config speexdsp-dbg  
+	 bool "speexdsp-dbg"
+	 help
+	
+config speexdsp-dev  
+	 bool "speexdsp-dev"
+	 help
+	
+endmenu
+menu "sqlite3 " 
+config sqlite3  
+	 bool "sqlite3"
+	 help
+	 Embeddable SQL database engine
+	
+config libsqlite3  
+	 bool "libsqlite3"
+	 help
+	
+config libsqlite3-dev  
+	 bool "libsqlite3-dev"
+	 help
+	
+config sqlite3-dbg  
+	 bool "sqlite3-dbg"
+	 help
+	
+endmenu
+menu "startup-notification " 
+config startup-notification  
+	 bool "startup-notification"
+	 help
+	 Enables monitoring and display of application startup
+	
+config startup-notification-dbg  
+	 bool "startup-notification-dbg"
+	 help
+	
+config startup-notification-dev  
+	 bool "startup-notification-dev"
+	 help
+	
+endmenu
+menu "tremor " 
+config tremor  
+	 bool "tremor"
+	 help
+	 Fixed-point decoder
+	
+config tremor-dbg  
+	 bool "tremor-dbg"
+	 help
+	
+config tremor-dev  
+	 bool "tremor-dev"
+	 help
+	
+endmenu
+menu "zlib " 
+config zlib  
+	 bool "zlib"
+	 help
+	 Zlib Compression Library
+	
+config zlib-dbg  
+	 bool "zlib-dbg"
+	 help
+	
+config zlib-dev  
+	 bool "zlib-dev"
+	 help
+	
+endmenu
+endmenu
+menu "misc " 
+menu "at-spi2-atk " 
+config at-spi2-atk  
+	 bool "at-spi2-atk"
+	 help
+	 AT-SPI 2 Toolkit Bridge
+	
+config at-spi2-atk-dbg  
+	 bool "at-spi2-atk-dbg"
+	 help
+	
+config at-spi2-atk-dev  
+	 bool "at-spi2-atk-dev"
+	 help
+	
+config at-spi2-atk-gtk2  
+	 bool "at-spi2-atk-gtk2"
+	 help
+	
+config at-spi2-atk-gnome  
+	 bool "at-spi2-atk-gnome"
+	 help
+	
+endmenu
+menu "at-spi2-core " 
+config at-spi2-core  
+	 bool "at-spi2-core"
+	 help
+	 Assistive Technology Service Provider Interface (dbus core)
+	
+config at-spi2-core-dbg  
+	 bool "at-spi2-core-dbg"
+	 help
+	
+config at-spi2-core-dev  
+	 bool "at-spi2-core-dev"
+	 help
+	
+endmenu
+menu "consolekit " 
+config consolekit  
+	 bool "consolekit"
+	 help
+	 Framework for defining and tracking users, login sessions, and seats
+	
+config consolekit-dev  
+	 bool "consolekit-dev"
+	 help
+	
+config consolekit-dbg  
+	 bool "consolekit-dbg"
+	 help
+	
+endmenu
+menu "coreutils " 
+config coreutils  
+	 bool "coreutils"
+	 help
+	 The basic file, shell and text manipulation utilities
+	
+config coreutils-dev  
+	 bool "coreutils-dev"
+	 help
+	
+config coreutils-dbg  
+	 bool "coreutils-dbg"
+	 help
+	
+endmenu
+menu "cpufrequtils " 
+config cpufrequtils  
+	 bool "cpufrequtils"
+	 help
+	
+config cpufrequtils-dev  
+	 bool "cpufrequtils-dev"
+	 help
+	
+config cpufrequtils-dbg  
+	 bool "cpufrequtils-dbg"
+	 help
+	
+endmenu
+menu "cryptodev-linux " 
+config cryptodev-linux  
+	 bool "cryptodev-linux"
+	 help
+	 A /dev/crypto device driver header file
+	
+config cryptodev-linux-dev  
+	 bool "cryptodev-linux-dev"
+	 help
+	
+config cryptodev-linux-dbg  
+	 bool "cryptodev-linux-dbg"
+	 help
+	
+endmenu
+menu "encodings " 
+config encodings  
+	 bool "encodings"
+	 help
+	 The Xorg font encoding files
+	
+config encodings-dbg  
+	 bool "encodings-dbg"
+	 help
+	
+config encodings-dev  
+	 bool "encodings-dev"
+	 help
+	
+endmenu
+menu "eudev " 
+config eudev  
+	 bool "eudev"
+	 help
+	 eudev is a fork of systemd's udev
+	
+config eudev-dbg  
+	 bool "eudev-dbg"
+	 help
+	
+config eudev-hwdb  
+	 bool "eudev-hwdb"
+	 help
+	
+config libudev  
+	 bool "libudev"
+	 help
+	
+config udev-cache  
+	 bool "udev-cache"
+	 help
+	
+config eudev-dev  
+	 bool "eudev-dev"
+	 help
+	
+endmenu
+menu "fbset " 
+config fbset  
+	 bool "fbset"
+	 help
+	 The fbset console tool
+	
+config fbset-dbg  
+	 bool "fbset-dbg"
+	 help
+	
+config fbset-dev  
+	 bool "fbset-dev"
+	 help
+	
+endmenu
+menu "fbset-modes " 
+config fbset-modes  
+	 bool "fbset-modes"
+	 help
+	 Default display timings and resolutions for fbset
+	
+config fbset-modes-dev  
+	 bool "fbset-modes-dev"
+	 help
+	
+config fbset-modes-dbg  
+	 bool "fbset-modes-dbg"
+	 help
+	
+endmenu
+menu "font-util " 
+config font-util  
+	 bool "font-util"
+	 help
+	 X.Org font package creation/installation utilities
+	
+config font-util-dbg  
+	 bool "font-util-dbg"
+	 help
+	
+config font-util-dev  
+	 bool "font-util-dev"
+	 help
+	
+endmenu
+menu "gcc-runtime-xilinx " 
+config libstdcPLUSPLUS  
+	 bool "libstdc++"
+	 help
+	
+config libitm  
+	 bool "libitm"
+	 help
+	
+config libssp  
+	 bool "libssp"
+	 help
+	
+config libstdcPLUSPLUS-dev  
+	 bool "libstdc++-dev"
+	 help
+	
+config libatomic  
+	 bool "libatomic"
+	 help
+	
+config libatomic-dev  
+	 bool "libatomic-dev"
+	 help
+	
+config libssp-dev  
+	 bool "libssp-dev"
+	 help
+	
+config libitm-dev  
+	 bool "libitm-dev"
+	 help
+	
+endmenu
+menu "gdb " 
+config gdb  
+	 bool "gdb"
+	 help
+	
+config gdb-dev  
+	 bool "gdb-dev"
+	 help
+	
+config gdbserver  
+	 bool "gdbserver"
+	 help
+	
+config gdb-dbg  
+	 bool "gdb-dbg"
+	 help
+	
+endmenu
+menu "glib-2.0 " 
+config glib-2.0  
+	 bool "glib-2.0"
+	 help
+	
+config glib-2.0-dbg  
+	 bool "glib-2.0-dbg"
+	 help
+	
+config glib-2.0-bash-completion  
+	 bool "glib-2.0-bash-completion"
+	 help
+	
+config glib-2.0-dev  
+	 bool "glib-2.0-dev"
+	 help
+	
+config glib-2.0-utils  
+	 bool "glib-2.0-utils"
+	 help
+	
+config glib-2.0-codegen  
+	 bool "glib-2.0-codegen"
+	 help
+	
+endmenu
+menu "glibc-xilinx " 
+config glibc-xilinx  
+	 bool "glibc-xilinx"
+	 help
+	 External Xilinx toolchain
+	
+config glibc-xilinx-dbg  
+	 bool "glibc-xilinx-dbg"
+	 help
+	
+config glibc-extra-nss  
+	 bool "glibc-extra-nss"
+	 help
+	
+config libsegfault  
+	 bool "libsegfault"
+	 help
+	
+config sln  
+	 bool "sln"
+	 help
+	
+config glibc-xilinx-dev  
+	 bool "glibc-xilinx-dev"
+	 help
+	
+config glibc-xilinx-pic  
+	 bool "glibc-xilinx-pic"
+	 help
+	
+config libmemusage  
+	 bool "libmemusage"
+	 help
+	
+config glibc-xilinx-utils  
+	 bool "glibc-xilinx-utils"
+	 help
+	
+config tzcode  
+	 bool "tzcode"
+	 help
+	
+config glibc-thread-db  
+	 bool "glibc-thread-db"
+	 help
+	
+config ldd  
+	 bool "ldd"
+	 help
+	
+config glibc-xilinx-pcprofile  
+	 bool "glibc-xilinx-pcprofile"
+	 help
+	
+config nscd  
+	 bool "nscd"
+	 help
+	
+config catchsegv  
+	 bool "catchsegv"
+	 help
+	
+config libsotruss  
+	 bool "libsotruss"
+	 help
+	
+config libcidn  
+	 bool "libcidn"
+	 help
+	
+endmenu
+menu "gnome-desktop-testing " 
+config gnome-desktop-testing  
+	 bool "gnome-desktop-testing"
+	 help
+	 Test runner for GNOME-style installed tests
+	
+config gnome-desktop-testing-dev  
+	 bool "gnome-desktop-testing-dev"
+	 help
+	
+config gnome-desktop-testing-dbg  
+	 bool "gnome-desktop-testing-dbg"
+	 help
+	
+endmenu
+menu "gstreamer1.0-plugins-base " 
+config gstreamer1.0-plugins-base  
+	 bool "gstreamer1.0-plugins-base"
+	 help
+	
+config gstreamer1.0-plugins-base-dbg  
+	 bool "gstreamer1.0-plugins-base-dbg"
+	 help
+	
+config gstreamer1.0-plugins-base-meta  
+	 bool "gstreamer1.0-plugins-base-meta"
+	 help
+	
+config gstreamer1.0-plugins-base-apps  
+	 bool "gstreamer1.0-plugins-base-apps"
+	 help
+	
+config gstreamer1.0-plugins-base-dev  
+	 bool "gstreamer1.0-plugins-base-dev"
+	 help
+	
+endmenu
+menu "hicolor-icon-theme " 
+config hicolor-icon-theme  
+	 bool "hicolor-icon-theme"
+	 help
+	 Default icon theme that all icon themes automatically inherit from
+	
+config hicolor-icon-theme-dev  
+	 bool "hicolor-icon-theme-dev"
+	 help
+	
+config hicolor-icon-theme-dbg  
+	 bool "hicolor-icon-theme-dbg"
+	 help
+	
+endmenu
+menu "icu " 
+config icu  
+	 bool "icu"
+	 help
+	 International Component for Unicode libraries
+	
+config libicuuc  
+	 bool "libicuuc"
+	 help
+	
+config libicudata  
+	 bool "libicudata"
+	 help
+	
+config icu-dev  
+	 bool "icu-dev"
+	 help
+	
+config libicuio  
+	 bool "libicuio"
+	 help
+	
+config icu-dbg  
+	 bool "icu-dbg"
+	 help
+	
+config libicutu  
+	 bool "libicutu"
+	 help
+	
+config libicui18n  
+	 bool "libicui18n"
+	 help
+	
+config libiculx  
+	 bool "libiculx"
+	 help
+	
+config libicule  
+	 bool "libicule"
+	 help
+	
+endmenu
+menu "iptables " 
+config iptables  
+	 bool "iptables"
+	 help
+	 Tools for managing kernel packet filtering capabilities
+	
+config iptables-dbg  
+	 bool "iptables-dbg"
+	 help
+	
+config iptables-dev  
+	 bool "iptables-dev"
+	 help
+	
+endmenu
+menu "iso-codes " 
+config iso-codes  
+	 bool "iso-codes"
+	 help
+	 ISO language, territory, currency, script codes and their translations
+	
+config iso-codes-dev  
+	 bool "iso-codes-dev"
+	 help
+	
+config iso-codes-dbg  
+	 bool "iso-codes-dbg"
+	 help
+	
+endmenu
+menu "json-c " 
+config json-c  
+	 bool "json-c"
+	 help
+	 C bindings for apps which will manipulate JSON data
+	
+config json-c-dev  
+	 bool "json-c-dev"
+	 help
+	
+config json-c-dbg  
+	 bool "json-c-dbg"
+	 help
+	
+endmenu
+menu "lttng-ust " 
+config lttng-ust  
+	 bool "lttng-ust"
+	 help
+	 Linux Trace Toolkit Userspace Tracer 2.x
+	
+config lttng-ust-dbg  
+	 bool "lttng-ust-dbg"
+	 help
+	
+config lttng-ust-dev  
+	 bool "lttng-ust-dev"
+	 help
+	
+config lttng-ust-bin  
+	 bool "lttng-ust-bin"
+	 help
+	
+endmenu
+menu "m4 " 
+config m4  
+	 bool "m4"
+	 help
+	 Traditional Unix macro processor
+	
+config m4-dbg  
+	 bool "m4-dbg"
+	 help
+	
+config m4-dev  
+	 bool "m4-dev"
+	 help
+	
+endmenu
+menu "matchbox-config-gtk " 
+config matchbox-config-gtk  
+	 bool "matchbox-config-gtk"
+	 help
+	 Matchbox GTK+ theme configuration application
+	
+config matchbox-config-gtk-dev  
+	 bool "matchbox-config-gtk-dev"
+	 help
+	
+config matchbox-config-gtk-dbg  
+	 bool "matchbox-config-gtk-dbg"
+	 help
+	
+endmenu
+menu "matchbox-panel-2 " 
+config matchbox-panel-2  
+	 bool "matchbox-panel-2"
+	 help
+	 Simple GTK+ based panel for handheld devices
+	
+config matchbox-panel-2-dbg  
+	 bool "matchbox-panel-2-dbg"
+	 help
+	
+config matchbox-panel-2-dev  
+	 bool "matchbox-panel-2-dev"
+	 help
+	
+endmenu
+menu "mkfontdir " 
+config mkfontdir  
+	 bool "mkfontdir"
+	 help
+	 A program to create an index of X font files in a directory
+	
+config mkfontdir-dbg  
+	 bool "mkfontdir-dbg"
+	 help
+	
+config mkfontdir-dev  
+	 bool "mkfontdir-dev"
+	 help
+	
+endmenu
+menu "mkfontscale " 
+config mkfontscale  
+	 bool "mkfontscale"
+	 help
+	 A program to create an index of scalable font files for X
+	
+config mkfontscale-dev  
+	 bool "mkfontscale-dev"
+	 help
+	
+config mkfontscale-dbg  
+	 bool "mkfontscale-dbg"
+	 help
+	
+endmenu
+menu "net-tools " 
+config net-tools  
+	 bool "net-tools"
+	 help
+	 Basic networking tools
+	
+config net-tools-dev  
+	 bool "net-tools-dev"
+	 help
+	
+config net-tools-dbg  
+	 bool "net-tools-dbg"
+	 help
+	
+endmenu
+menu "ofono " 
+config ofono  
+	 bool "ofono"
+	 help
+	
+config ofono-tests  
+	 bool "ofono-tests"
+	 help
+	
+config ofono-dev  
+	 bool "ofono-dev"
+	 help
+	
+config ofono-dbg  
+	 bool "ofono-dbg"
+	 help
+	
+endmenu
+menu "orc " 
+config orc  
+	 bool "orc"
+	 help
+	 Optimised Inner Loop Runtime Compiler
+	
+config orc-examples  
+	 bool "orc-examples"
+	 help
+	
+config orc-dbg  
+	 bool "orc-dbg"
+	 help
+	
+config orc-dev  
+	 bool "orc-dev"
+	 help
+	
+endmenu
+menu "packagegroup-core-boot " 
+config packagegroup-core-boot  
+	 bool "packagegroup-core-boot"
+	 help
+	 Minimal boot requirements
+	
+config packagegroup-core-boot-dbg  
+	 bool "packagegroup-core-boot-dbg"
+	 help
+	
+config packagegroup-core-boot-dev  
+	 bool "packagegroup-core-boot-dev"
+	 help
+	
+endmenu
+menu "packagegroup-core-ssh-dropbear " 
+config packagegroup-core-ssh-dropbear  
+	 bool "packagegroup-core-ssh-dropbear"
+	 help
+	 Dropbear SSH client/server
+	
+config packagegroup-core-ssh-dropbear-dev  
+	 bool "packagegroup-core-ssh-dropbear-dev"
+	 help
+	
+config packagegroup-core-ssh-dropbear-dbg  
+	 bool "packagegroup-core-ssh-dropbear-dbg"
+	 help
+	
+endmenu
+menu "packagegroup-petalinux " 
+config packagegroup-petalinux  
+	 bool "packagegroup-petalinux"
+	 help
+	
+config packagegroup-petalinux-dev  
+	 bool "packagegroup-petalinux-dev"
+	 help
+	
+config packagegroup-petalinux-dbg  
+	 bool "packagegroup-petalinux-dbg"
+	 help
+	
+endmenu
+menu "packagegroup-petalinux-opencv " 
+config packagegroup-petalinux-opencv  
+	 bool "packagegroup-petalinux-opencv"
+	 help
+	
+config packagegroup-petalinux-opencv-dev  
+	 bool "packagegroup-petalinux-opencv-dev"
+	 help
+	
+config packagegroup-petalinux-opencv-dbg  
+	 bool "packagegroup-petalinux-opencv-dbg"
+	 help
+	
+endmenu
+menu "packagegroup-petalinux-qt " 
+config packagegroup-petalinux-qt  
+	 bool "packagegroup-petalinux-qt"
+	 help
+	
+config packagegroup-petalinux-qt-dev  
+	 bool "packagegroup-petalinux-qt-dev"
+	 help
+	
+config packagegroup-petalinux-qt-dbg  
+	 bool "packagegroup-petalinux-qt-dbg"
+	 help
+	
+endmenu
+menu "packagegroup-petalinux-x11 " 
+config packagegroup-petalinux-x11  
+	 bool "packagegroup-petalinux-x11"
+	 help
+	
+config packagegroup-petalinux-x11-dev  
+	 bool "packagegroup-petalinux-x11-dev"
+	 help
+	
+config packagegroup-petalinux-x11-dbg  
+	 bool "packagegroup-petalinux-x11-dbg"
+	 help
+	
+endmenu
+menu "pixman " 
+config pixman  
+	 bool "pixman"
+	 help
+	 Pixman: Pixel Manipulation library
+	
+config pixman-dbg  
+	 bool "pixman-dbg"
+	 help
+	
+config pixman-dev  
+	 bool "pixman-dev"
+	 help
+	
+endmenu
+menu "ptest-runner " 
+config ptest-runner  
+	 bool "ptest-runner"
+	 help
+	 A C program to run all installed ptests
+	
+config ptest-runner-dbg  
+	 bool "ptest-runner-dbg"
+	 help
+	
+config ptest-runner-dev  
+	 bool "ptest-runner-dev"
+	 help
+	
+endmenu
+menu "qtbase " 
+config qtbase  
+	 bool "qtbase"
+	 help
+	
+config qtbase-dev  
+	 bool "qtbase-dev"
+	 help
+	
+config qtbase-examples  
+	 bool "qtbase-examples"
+	 help
+	
+config qtbase-fonts-ttf-vera  
+	 bool "qtbase-fonts-ttf-vera"
+	 help
+	
+config qtbase-examples-dev  
+	 bool "qtbase-examples-dev"
+	 help
+	
+config qtbase-fonts  
+	 bool "qtbase-fonts"
+	 help
+	
+config qtbase-plugins-dbg  
+	 bool "qtbase-plugins-dbg"
+	 help
+	
+config qtbase-tools  
+	 bool "qtbase-tools"
+	 help
+	
+config qtbase-plugins  
+	 bool "qtbase-plugins"
+	 help
+	
+config qtbase-qmlplugins  
+	 bool "qtbase-qmlplugins"
+	 help
+	
+config qtbase-qmldesigner  
+	 bool "qtbase-qmldesigner"
+	 help
+	
+config qtbase-mkspecs  
+	 bool "qtbase-mkspecs"
+	 help
+	
+config qtbase-examples-dbg  
+	 bool "qtbase-examples-dbg"
+	 help
+	
+config qtbase-tools-dbg  
+	 bool "qtbase-tools-dbg"
+	 help
+	
+config qtbase-fonts-qpf  
+	 bool "qtbase-fonts-qpf"
+	 help
+	
+config qtbase-dbg  
+	 bool "qtbase-dbg"
+	 help
+	
+config qtbase-fonts-ttf-dejavu  
+	 bool "qtbase-fonts-ttf-dejavu"
+	 help
+	
+config qtbase-fonts-pfa  
+	 bool "qtbase-fonts-pfa"
+	 help
+	
+config qtbase-fonts-pfb  
+	 bool "qtbase-fonts-pfb"
+	 help
+	
+endmenu
+menu "qtconnectivity " 
+config qtconnectivity  
+	 bool "qtconnectivity"
+	 help
+	
+config qtconnectivity-tools  
+	 bool "qtconnectivity-tools"
+	 help
+	
+config qtconnectivity-dbg  
+	 bool "qtconnectivity-dbg"
+	 help
+	
+config qtconnectivity-qmldesigner  
+	 bool "qtconnectivity-qmldesigner"
+	 help
+	
+config qtconnectivity-qmlplugins  
+	 bool "qtconnectivity-qmlplugins"
+	 help
+	
+config qtconnectivity-mkspecs  
+	 bool "qtconnectivity-mkspecs"
+	 help
+	
+config qtconnectivity-tools-dbg  
+	 bool "qtconnectivity-tools-dbg"
+	 help
+	
+config qtconnectivity-dev  
+	 bool "qtconnectivity-dev"
+	 help
+	
+config qtconnectivity-plugins-dbg  
+	 bool "qtconnectivity-plugins-dbg"
+	 help
+	
+config qtconnectivity-qmlplugins-dbg  
+	 bool "qtconnectivity-qmlplugins-dbg"
+	 help
+	
+config qtconnectivity-examples  
+	 bool "qtconnectivity-examples"
+	 help
+	
+config qtconnectivity-examples-dev  
+	 bool "qtconnectivity-examples-dev"
+	 help
+	
+config qtconnectivity-plugins  
+	 bool "qtconnectivity-plugins"
+	 help
+	
+config qtconnectivity-examples-dbg  
+	 bool "qtconnectivity-examples-dbg"
+	 help
+	
+endmenu
+menu "qtdeclarative " 
+config qtdeclarative  
+	 bool "qtdeclarative"
+	 help
+	
+config qtdeclarative-mkspecs  
+	 bool "qtdeclarative-mkspecs"
+	 help
+	
+config qtdeclarative-examples  
+	 bool "qtdeclarative-examples"
+	 help
+	
+config qtdeclarative-examples-dbg  
+	 bool "qtdeclarative-examples-dbg"
+	 help
+	
+config qtdeclarative-plugins-dbg  
+	 bool "qtdeclarative-plugins-dbg"
+	 help
+	
+config qtdeclarative-qmlplugins  
+	 bool "qtdeclarative-qmlplugins"
+	 help
+	
+config qtdeclarative-tools-dbg  
+	 bool "qtdeclarative-tools-dbg"
+	 help
+	
+config qtdeclarative-qmldesigner  
+	 bool "qtdeclarative-qmldesigner"
+	 help
+	
+config qtdeclarative-plugins  
+	 bool "qtdeclarative-plugins"
+	 help
+	
+config qtdeclarative-dev  
+	 bool "qtdeclarative-dev"
+	 help
+	
+config qtdeclarative-qmlplugins-dbg  
+	 bool "qtdeclarative-qmlplugins-dbg"
+	 help
+	
+config qtdeclarative-tools  
+	 bool "qtdeclarative-tools"
+	 help
+	
+config qtdeclarative-examples-dev  
+	 bool "qtdeclarative-examples-dev"
+	 help
+	
+config qtdeclarative-dbg  
+	 bool "qtdeclarative-dbg"
+	 help
+	
+endmenu
+menu "qtenginio " 
+config qtenginio  
+	 bool "qtenginio"
+	 help
+	
+config qtenginio-examples  
+	 bool "qtenginio-examples"
+	 help
+	
+config qtenginio-tools  
+	 bool "qtenginio-tools"
+	 help
+	
+config qtenginio-qmlplugins  
+	 bool "qtenginio-qmlplugins"
+	 help
+	
+config qtenginio-dbg  
+	 bool "qtenginio-dbg"
+	 help
+	
+config qtenginio-examples-dev  
+	 bool "qtenginio-examples-dev"
+	 help
+	
+config qtenginio-dev  
+	 bool "qtenginio-dev"
+	 help
+	
+config qtenginio-mkspecs  
+	 bool "qtenginio-mkspecs"
+	 help
+	
+config qtenginio-plugins-dbg  
+	 bool "qtenginio-plugins-dbg"
+	 help
+	
+config qtenginio-qmldesigner  
+	 bool "qtenginio-qmldesigner"
+	 help
+	
+config qtenginio-tools-dbg  
+	 bool "qtenginio-tools-dbg"
+	 help
+	
+config qtenginio-plugins  
+	 bool "qtenginio-plugins"
+	 help
+	
+config qtenginio-examples-dbg  
+	 bool "qtenginio-examples-dbg"
+	 help
+	
+config qtenginio-qmlplugins-dbg  
+	 bool "qtenginio-qmlplugins-dbg"
+	 help
+	
+endmenu
+menu "qtimageformats " 
+config qtimageformats  
+	 bool "qtimageformats"
+	 help
+	
+config qtimageformats-examples-dbg  
+	 bool "qtimageformats-examples-dbg"
+	 help
+	
+config qtimageformats-dev  
+	 bool "qtimageformats-dev"
+	 help
+	
+config qtimageformats-mkspecs  
+	 bool "qtimageformats-mkspecs"
+	 help
+	
+config qtimageformats-dbg  
+	 bool "qtimageformats-dbg"
+	 help
+	
+config qtimageformats-plugins  
+	 bool "qtimageformats-plugins"
+	 help
+	
+config qtimageformats-plugins-dbg  
+	 bool "qtimageformats-plugins-dbg"
+	 help
+	
+config qtimageformats-qmlplugins  
+	 bool "qtimageformats-qmlplugins"
+	 help
+	
+config qtimageformats-tools-dbg  
+	 bool "qtimageformats-tools-dbg"
+	 help
+	
+config qtimageformats-examples-dev  
+	 bool "qtimageformats-examples-dev"
+	 help
+	
+config qtimageformats-examples  
+	 bool "qtimageformats-examples"
+	 help
+	
+config qtimageformats-qmldesigner  
+	 bool "qtimageformats-qmldesigner"
+	 help
+	
+config qtimageformats-tools  
+	 bool "qtimageformats-tools"
+	 help
+	
+config qtimageformats-qmlplugins-dbg  
+	 bool "qtimageformats-qmlplugins-dbg"
+	 help
+	
+endmenu
+menu "qtlocation " 
+config qtlocation  
+	 bool "qtlocation"
+	 help
+	
+config qtlocation-dbg  
+	 bool "qtlocation-dbg"
+	 help
+	
+config qtlocation-qmlplugins-dbg  
+	 bool "qtlocation-qmlplugins-dbg"
+	 help
+	
+config qtlocation-examples-dbg  
+	 bool "qtlocation-examples-dbg"
+	 help
+	
+config qtlocation-qmlplugins  
+	 bool "qtlocation-qmlplugins"
+	 help
+	
+config qtlocation-tools  
+	 bool "qtlocation-tools"
+	 help
+	
+config qtlocation-mkspecs  
+	 bool "qtlocation-mkspecs"
+	 help
+	
+config qtlocation-plugins-dbg  
+	 bool "qtlocation-plugins-dbg"
+	 help
+	
+config qtlocation-dev  
+	 bool "qtlocation-dev"
+	 help
+	
+config qtlocation-examples  
+	 bool "qtlocation-examples"
+	 help
+	
+config qtlocation-examples-dev  
+	 bool "qtlocation-examples-dev"
+	 help
+	
+config qtlocation-tools-dbg  
+	 bool "qtlocation-tools-dbg"
+	 help
+	
+config qtlocation-qmldesigner  
+	 bool "qtlocation-qmldesigner"
+	 help
+	
+config qtlocation-plugins  
+	 bool "qtlocation-plugins"
+	 help
+	
+endmenu
+menu "qtmultimedia " 
+config qtmultimedia  
+	 bool "qtmultimedia"
+	 help
+	
+config qtmultimedia-dev  
+	 bool "qtmultimedia-dev"
+	 help
+	
+config qtmultimedia-qmldesigner  
+	 bool "qtmultimedia-qmldesigner"
+	 help
+	
+config qtmultimedia-examples-dev  
+	 bool "qtmultimedia-examples-dev"
+	 help
+	
+config qtmultimedia-tools  
+	 bool "qtmultimedia-tools"
+	 help
+	
+config qtmultimedia-qmlplugins-dbg  
+	 bool "qtmultimedia-qmlplugins-dbg"
+	 help
+	
+config qtmultimedia-examples  
+	 bool "qtmultimedia-examples"
+	 help
+	
+config qtmultimedia-examples-dbg  
+	 bool "qtmultimedia-examples-dbg"
+	 help
+	
+config qtmultimedia-qmlplugins  
+	 bool "qtmultimedia-qmlplugins"
+	 help
+	
+config qtmultimedia-mkspecs  
+	 bool "qtmultimedia-mkspecs"
+	 help
+	
+config qtmultimedia-plugins-dbg  
+	 bool "qtmultimedia-plugins-dbg"
+	 help
+	
+config qtmultimedia-dbg  
+	 bool "qtmultimedia-dbg"
+	 help
+	
+config qtmultimedia-tools-dbg  
+	 bool "qtmultimedia-tools-dbg"
+	 help
+	
+config qtmultimedia-plugins  
+	 bool "qtmultimedia-plugins"
+	 help
+	
+endmenu
+menu "qtquick1 " 
+config qtquick1  
+	 bool "qtquick1"
+	 help
+	
+config qtquick1-plugins  
+	 bool "qtquick1-plugins"
+	 help
+	
+config qtquick1-dev  
+	 bool "qtquick1-dev"
+	 help
+	
+config qtquick1-dbg  
+	 bool "qtquick1-dbg"
+	 help
+	
+config qtquick1-examples  
+	 bool "qtquick1-examples"
+	 help
+	
+config qtquick1-tools-dbg  
+	 bool "qtquick1-tools-dbg"
+	 help
+	
+config qtquick1-qmlplugins-dbg  
+	 bool "qtquick1-qmlplugins-dbg"
+	 help
+	
+config qtquick1-mkspecs  
+	 bool "qtquick1-mkspecs"
+	 help
+	
+config qtquick1-tools  
+	 bool "qtquick1-tools"
+	 help
+	
+config qtquick1-qmlplugins  
+	 bool "qtquick1-qmlplugins"
+	 help
+	
+config qtquick1-examples-dbg  
+	 bool "qtquick1-examples-dbg"
+	 help
+	
+config qtquick1-qmldesigner  
+	 bool "qtquick1-qmldesigner"
+	 help
+	
+config qtquick1-examples-dev  
+	 bool "qtquick1-examples-dev"
+	 help
+	
+config qtquick1-plugins-dbg  
+	 bool "qtquick1-plugins-dbg"
+	 help
+	
+endmenu
+menu "qtquickcontrols " 
+config qtquickcontrols  
+	 bool "qtquickcontrols"
+	 help
+	
+config qtquickcontrols-tools-dbg  
+	 bool "qtquickcontrols-tools-dbg"
+	 help
+	
+config qtquickcontrols-qmldesigner  
+	 bool "qtquickcontrols-qmldesigner"
+	 help
+	
+config qtquickcontrols-tools  
+	 bool "qtquickcontrols-tools"
+	 help
+	
+config qtquickcontrols-examples-dbg  
+	 bool "qtquickcontrols-examples-dbg"
+	 help
+	
+config qtquickcontrols-dev  
+	 bool "qtquickcontrols-dev"
+	 help
+	
+config qtquickcontrols-mkspecs  
+	 bool "qtquickcontrols-mkspecs"
+	 help
+	
+config qtquickcontrols-dbg  
+	 bool "qtquickcontrols-dbg"
+	 help
+	
+config qtquickcontrols-examples  
+	 bool "qtquickcontrols-examples"
+	 help
+	
+config qtquickcontrols-qmlplugins  
+	 bool "qtquickcontrols-qmlplugins"
+	 help
+	
+config qtquickcontrols-plugins  
+	 bool "qtquickcontrols-plugins"
+	 help
+	
+config qtquickcontrols-qmlplugins-dbg  
+	 bool "qtquickcontrols-qmlplugins-dbg"
+	 help
+	
+config qtquickcontrols-examples-dev  
+	 bool "qtquickcontrols-examples-dev"
+	 help
+	
+config qtquickcontrols-plugins-dbg  
+	 bool "qtquickcontrols-plugins-dbg"
+	 help
+	
+endmenu
+menu "qtscript " 
+config qtscript  
+	 bool "qtscript"
+	 help
+	
+config qtscript-qmldesigner  
+	 bool "qtscript-qmldesigner"
+	 help
+	
+config qtscript-dbg  
+	 bool "qtscript-dbg"
+	 help
+	
+config qtscript-plugins-dbg  
+	 bool "qtscript-plugins-dbg"
+	 help
+	
+config qtscript-tools-dbg  
+	 bool "qtscript-tools-dbg"
+	 help
+	
+config qtscript-examples  
+	 bool "qtscript-examples"
+	 help
+	
+config qtscript-plugins  
+	 bool "qtscript-plugins"
+	 help
+	
+config qtscript-mkspecs  
+	 bool "qtscript-mkspecs"
+	 help
+	
+config qtscript-dev  
+	 bool "qtscript-dev"
+	 help
+	
+config qtscript-examples-dev  
+	 bool "qtscript-examples-dev"
+	 help
+	
+config qtscript-tools  
+	 bool "qtscript-tools"
+	 help
+	
+config qtscript-examples-dbg  
+	 bool "qtscript-examples-dbg"
+	 help
+	
+config qtscript-qmlplugins  
+	 bool "qtscript-qmlplugins"
+	 help
+	
+config qtscript-qmlplugins-dbg  
+	 bool "qtscript-qmlplugins-dbg"
+	 help
+	
+endmenu
+menu "qtsensors " 
+config qtsensors  
+	 bool "qtsensors"
+	 help
+	
+config qtsensors-qmldesigner  
+	 bool "qtsensors-qmldesigner"
+	 help
+	
+config qtsensors-examples-dev  
+	 bool "qtsensors-examples-dev"
+	 help
+	
+config qtsensors-examples  
+	 bool "qtsensors-examples"
+	 help
+	
+config qtsensors-mkspecs  
+	 bool "qtsensors-mkspecs"
+	 help
+	
+config qtsensors-plugins  
+	 bool "qtsensors-plugins"
+	 help
+	
+config qtsensors-plugins-dbg  
+	 bool "qtsensors-plugins-dbg"
+	 help
+	
+config qtsensors-tools  
+	 bool "qtsensors-tools"
+	 help
+	
+config qtsensors-tools-dbg  
+	 bool "qtsensors-tools-dbg"
+	 help
+	
+config qtsensors-examples-dbg  
+	 bool "qtsensors-examples-dbg"
+	 help
+	
+config qtsensors-qmlplugins  
+	 bool "qtsensors-qmlplugins"
+	 help
+	
+config qtsensors-qmlplugins-dbg  
+	 bool "qtsensors-qmlplugins-dbg"
+	 help
+	
+config qtsensors-dbg  
+	 bool "qtsensors-dbg"
+	 help
+	
+config qtsensors-dev  
+	 bool "qtsensors-dev"
+	 help
+	
+endmenu
+menu "qtserialport " 
+config qtserialport  
+	 bool "qtserialport"
+	 help
+	
+config qtserialport-plugins-dbg  
+	 bool "qtserialport-plugins-dbg"
+	 help
+	
+config qtserialport-tools-dbg  
+	 bool "qtserialport-tools-dbg"
+	 help
+	
+config qtserialport-examples  
+	 bool "qtserialport-examples"
+	 help
+	
+config qtserialport-dbg  
+	 bool "qtserialport-dbg"
+	 help
+	
+config qtserialport-examples-dbg  
+	 bool "qtserialport-examples-dbg"
+	 help
+	
+config qtserialport-tools  
+	 bool "qtserialport-tools"
+	 help
+	
+config qtserialport-plugins  
+	 bool "qtserialport-plugins"
+	 help
+	
+config qtserialport-dev  
+	 bool "qtserialport-dev"
+	 help
+	
+config qtserialport-mkspecs  
+	 bool "qtserialport-mkspecs"
+	 help
+	
+config qtserialport-qmlplugins  
+	 bool "qtserialport-qmlplugins"
+	 help
+	
+config qtserialport-qmldesigner  
+	 bool "qtserialport-qmldesigner"
+	 help
+	
+config qtserialport-qmlplugins-dbg  
+	 bool "qtserialport-qmlplugins-dbg"
+	 help
+	
+config qtserialport-examples-dev  
+	 bool "qtserialport-examples-dev"
+	 help
+	
+endmenu
+menu "qtsvg " 
+config qtsvg  
+	 bool "qtsvg"
+	 help
+	
+config qtsvg-qmlplugins  
+	 bool "qtsvg-qmlplugins"
+	 help
+	
+config qtsvg-plugins  
+	 bool "qtsvg-plugins"
+	 help
+	
+config qtsvg-tools  
+	 bool "qtsvg-tools"
+	 help
+	
+config qtsvg-qmlplugins-dbg  
+	 bool "qtsvg-qmlplugins-dbg"
+	 help
+	
+config qtsvg-dbg  
+	 bool "qtsvg-dbg"
+	 help
+	
+config qtsvg-mkspecs  
+	 bool "qtsvg-mkspecs"
+	 help
+	
+config qtsvg-examples-dbg  
+	 bool "qtsvg-examples-dbg"
+	 help
+	
+config qtsvg-tools-dbg  
+	 bool "qtsvg-tools-dbg"
+	 help
+	
+config qtsvg-qmldesigner  
+	 bool "qtsvg-qmldesigner"
+	 help
+	
+config qtsvg-dev  
+	 bool "qtsvg-dev"
+	 help
+	
+config qtsvg-examples  
+	 bool "qtsvg-examples"
+	 help
+	
+config qtsvg-plugins-dbg  
+	 bool "qtsvg-plugins-dbg"
+	 help
+	
+config qtsvg-examples-dev  
+	 bool "qtsvg-examples-dev"
+	 help
+	
+endmenu
+menu "qtsystems " 
+config qtsystems  
+	 bool "qtsystems"
+	 help
+	
+config qtsystems-dbg  
+	 bool "qtsystems-dbg"
+	 help
+	
+config qtsystems-qmlplugins-dbg  
+	 bool "qtsystems-qmlplugins-dbg"
+	 help
+	
+config qtsystems-tools  
+	 bool "qtsystems-tools"
+	 help
+	
+config qtsystems-mkspecs  
+	 bool "qtsystems-mkspecs"
+	 help
+	
+config qtsystems-examples-dev  
+	 bool "qtsystems-examples-dev"
+	 help
+	
+config qtsystems-tools-dbg  
+	 bool "qtsystems-tools-dbg"
+	 help
+	
+config qtsystems-examples-dbg  
+	 bool "qtsystems-examples-dbg"
+	 help
+	
+config qtsystems-dev  
+	 bool "qtsystems-dev"
+	 help
+	
+config qtsystems-plugins-dbg  
+	 bool "qtsystems-plugins-dbg"
+	 help
+	
+config qtsystems-qmlplugins  
+	 bool "qtsystems-qmlplugins"
+	 help
+	
+config qtsystems-qmldesigner  
+	 bool "qtsystems-qmldesigner"
+	 help
+	
+config qtsystems-examples  
+	 bool "qtsystems-examples"
+	 help
+	
+config qtsystems-plugins  
+	 bool "qtsystems-plugins"
+	 help
+	
+endmenu
+menu "qttools " 
+config qttools  
+	 bool "qttools"
+	 help
+	
+config qttools-plugins-dbg  
+	 bool "qttools-plugins-dbg"
+	 help
+	
+config qttools-dev  
+	 bool "qttools-dev"
+	 help
+	
+config qttools-examples  
+	 bool "qttools-examples"
+	 help
+	
+config qttools-tools-dbg  
+	 bool "qttools-tools-dbg"
+	 help
+	
+config qttools-qmlplugins-dbg  
+	 bool "qttools-qmlplugins-dbg"
+	 help
+	
+config qttools-plugins  
+	 bool "qttools-plugins"
+	 help
+	
+config qttools-qmlplugins  
+	 bool "qttools-qmlplugins"
+	 help
+	
+config qttools-tools  
+	 bool "qttools-tools"
+	 help
+	
+config qttools-mkspecs  
+	 bool "qttools-mkspecs"
+	 help
+	
+config qttools-dbg  
+	 bool "qttools-dbg"
+	 help
+	
+config qttools-qmldesigner  
+	 bool "qttools-qmldesigner"
+	 help
+	
+config qttools-examples-dbg  
+	 bool "qttools-examples-dbg"
+	 help
+	
+config qttools-examples-dev  
+	 bool "qttools-examples-dev"
+	 help
+	
+endmenu
+menu "qttranslations " 
+config qttranslations  
+	 bool "qttranslations"
+	 help
+	
+config qttranslations-qtwebengine  
+	 bool "qttranslations-qtwebengine"
+	 help
+	
+config qttranslations-plugins-dbg  
+	 bool "qttranslations-plugins-dbg"
+	 help
+	
+config qttranslations-qt  
+	 bool "qttranslations-qt"
+	 help
+	
+config qttranslations-qtquickcontrols2  
+	 bool "qttranslations-qtquickcontrols2"
+	 help
+	
+config qttranslations-qmlplugins-dbg  
+	 bool "qttranslations-qmlplugins-dbg"
+	 help
+	
+config qttranslations-assistant  
+	 bool "qttranslations-assistant"
+	 help
+	
+config qttranslations-tools  
+	 bool "qttranslations-tools"
+	 help
+	
+config qttranslations-tools-dbg  
+	 bool "qttranslations-tools-dbg"
+	 help
+	
+config qttranslations-qtquick1  
+	 bool "qttranslations-qtquick1"
+	 help
+	
+config qttranslations-qmldesigner  
+	 bool "qttranslations-qmldesigner"
+	 help
+	
+config qttranslations-qmlplugins  
+	 bool "qttranslations-qmlplugins"
+	 help
+	
+config qttranslations-qtlocation  
+	 bool "qttranslations-qtlocation"
+	 help
+	
+config qttranslations-designer  
+	 bool "qttranslations-designer"
+	 help
+	
+config qttranslations-qtscript  
+	 bool "qttranslations-qtscript"
+	 help
+	
+config qttranslations-qtdeclarative  
+	 bool "qttranslations-qtdeclarative"
+	 help
+	
+config qttranslations-qmlviewer  
+	 bool "qttranslations-qmlviewer"
+	 help
+	
+config qttranslations-dev  
+	 bool "qttranslations-dev"
+	 help
+	
+config qttranslations-qtwebsockets  
+	 bool "qttranslations-qtwebsockets"
+	 help
+	
+config qttranslations-qtconfig  
+	 bool "qttranslations-qtconfig"
+	 help
+	
+config qttranslations-qtbase  
+	 bool "qttranslations-qtbase"
+	 help
+	
+config qttranslations-qtmultimedia  
+	 bool "qttranslations-qtmultimedia"
+	 help
+	
+config qttranslations-qtserialport  
+	 bool "qttranslations-qtserialport"
+	 help
+	
+config qttranslations-qtquickcontrols  
+	 bool "qttranslations-qtquickcontrols"
+	 help
+	
+config qttranslations-qtconnectivity  
+	 bool "qttranslations-qtconnectivity"
+	 help
+	
+config qttranslations-linguist  
+	 bool "qttranslations-linguist"
+	 help
+	
+config qttranslations-dbg  
+	 bool "qttranslations-dbg"
+	 help
+	
+config qttranslations-qtxmlpatterns  
+	 bool "qttranslations-qtxmlpatterns"
+	 help
+	
+config qttranslations-mkspecs  
+	 bool "qttranslations-mkspecs"
+	 help
+	
+config qttranslations-examples  
+	 bool "qttranslations-examples"
+	 help
+	
+config qttranslations-examples-dev  
+	 bool "qttranslations-examples-dev"
+	 help
+	
+config qttranslations-plugins  
+	 bool "qttranslations-plugins"
+	 help
+	
+config qttranslations-examples-dbg  
+	 bool "qttranslations-examples-dbg"
+	 help
+	
+config qttranslations-qthelp  
+	 bool "qttranslations-qthelp"
+	 help
+	
+endmenu
+menu "qtwebchannel " 
+config qtwebchannel  
+	 bool "qtwebchannel"
+	 help
+	
+config qtwebchannel-mkspecs  
+	 bool "qtwebchannel-mkspecs"
+	 help
+	
+config qtwebchannel-qmldesigner  
+	 bool "qtwebchannel-qmldesigner"
+	 help
+	
+config qtwebchannel-examples-dev  
+	 bool "qtwebchannel-examples-dev"
+	 help
+	
+config qtwebchannel-plugins  
+	 bool "qtwebchannel-plugins"
+	 help
+	
+config qtwebchannel-plugins-dbg  
+	 bool "qtwebchannel-plugins-dbg"
+	 help
+	
+config qtwebchannel-dbg  
+	 bool "qtwebchannel-dbg"
+	 help
+	
+config qtwebchannel-qmlplugins-dbg  
+	 bool "qtwebchannel-qmlplugins-dbg"
+	 help
+	
+config qtwebchannel-dev  
+	 bool "qtwebchannel-dev"
+	 help
+	
+config qtwebchannel-examples-dbg  
+	 bool "qtwebchannel-examples-dbg"
+	 help
+	
+config qtwebchannel-tools  
+	 bool "qtwebchannel-tools"
+	 help
+	
+config qtwebchannel-qmlplugins  
+	 bool "qtwebchannel-qmlplugins"
+	 help
+	
+config qtwebchannel-tools-dbg  
+	 bool "qtwebchannel-tools-dbg"
+	 help
+	
+config qtwebchannel-examples  
+	 bool "qtwebchannel-examples"
+	 help
+	
+endmenu
+menu "qtwebkit " 
+config qtwebkit  
+	 bool "qtwebkit"
+	 help
+	
+config qtwebkit-tools-dbg  
+	 bool "qtwebkit-tools-dbg"
+	 help
+	
+config qtwebkit-plugins  
+	 bool "qtwebkit-plugins"
+	 help
+	
+config qtwebkit-dbg  
+	 bool "qtwebkit-dbg"
+	 help
+	
+config qtwebkit-qmlplugins-dbg  
+	 bool "qtwebkit-qmlplugins-dbg"
+	 help
+	
+config qtwebkit-mkspecs  
+	 bool "qtwebkit-mkspecs"
+	 help
+	
+config qtwebkit-plugins-dbg  
+	 bool "qtwebkit-plugins-dbg"
+	 help
+	
+config qtwebkit-dev  
+	 bool "qtwebkit-dev"
+	 help
+	
+config qtwebkit-qmldesigner  
+	 bool "qtwebkit-qmldesigner"
+	 help
+	
+config qtwebkit-qmlplugins  
+	 bool "qtwebkit-qmlplugins"
+	 help
+	
+config qtwebkit-tools  
+	 bool "qtwebkit-tools"
+	 help
+	
+endmenu
+menu "qtwebsockets " 
+config qtwebsockets  
+	 bool "qtwebsockets"
+	 help
+	
+config qtwebsockets-mkspecs  
+	 bool "qtwebsockets-mkspecs"
+	 help
+	
+config qtwebsockets-dev  
+	 bool "qtwebsockets-dev"
+	 help
+	
+config qtwebsockets-examples  
+	 bool "qtwebsockets-examples"
+	 help
+	
+config qtwebsockets-examples-dev  
+	 bool "qtwebsockets-examples-dev"
+	 help
+	
+config qtwebsockets-qmlplugins  
+	 bool "qtwebsockets-qmlplugins"
+	 help
+	
+config qtwebsockets-tools  
+	 bool "qtwebsockets-tools"
+	 help
+	
+config qtwebsockets-tools-dbg  
+	 bool "qtwebsockets-tools-dbg"
+	 help
+	
+config qtwebsockets-qmlplugins-dbg  
+	 bool "qtwebsockets-qmlplugins-dbg"
+	 help
+	
+config qtwebsockets-plugins  
+	 bool "qtwebsockets-plugins"
+	 help
+	
+config qtwebsockets-examples-dbg  
+	 bool "qtwebsockets-examples-dbg"
+	 help
+	
+config qtwebsockets-dbg  
+	 bool "qtwebsockets-dbg"
+	 help
+	
+config qtwebsockets-plugins-dbg  
+	 bool "qtwebsockets-plugins-dbg"
+	 help
+	
+config qtwebsockets-qmldesigner  
+	 bool "qtwebsockets-qmldesigner"
+	 help
+	
+endmenu
+menu "qtxmlpatterns " 
+config qtxmlpatterns  
+	 bool "qtxmlpatterns"
+	 help
+	
+config qtxmlpatterns-plugins  
+	 bool "qtxmlpatterns-plugins"
+	 help
+	
+config qtxmlpatterns-examples  
+	 bool "qtxmlpatterns-examples"
+	 help
+	
+config qtxmlpatterns-qmlplugins  
+	 bool "qtxmlpatterns-qmlplugins"
+	 help
+	
+config qtxmlpatterns-qmlplugins-dbg  
+	 bool "qtxmlpatterns-qmlplugins-dbg"
+	 help
+	
+config qtxmlpatterns-mkspecs  
+	 bool "qtxmlpatterns-mkspecs"
+	 help
+	
+config qtxmlpatterns-dev  
+	 bool "qtxmlpatterns-dev"
+	 help
+	
+config qtxmlpatterns-tools-dbg  
+	 bool "qtxmlpatterns-tools-dbg"
+	 help
+	
+config qtxmlpatterns-tools  
+	 bool "qtxmlpatterns-tools"
+	 help
+	
+config qtxmlpatterns-examples-dev  
+	 bool "qtxmlpatterns-examples-dev"
+	 help
+	
+config qtxmlpatterns-qmldesigner  
+	 bool "qtxmlpatterns-qmldesigner"
+	 help
+	
+config qtxmlpatterns-examples-dbg  
+	 bool "qtxmlpatterns-examples-dbg"
+	 help
+	
+config qtxmlpatterns-dbg  
+	 bool "qtxmlpatterns-dbg"
+	 help
+	
+config qtxmlpatterns-plugins-dbg  
+	 bool "qtxmlpatterns-plugins-dbg"
+	 help
+	
+endmenu
+menu "randrproto " 
+config randrproto  
+	 bool "randrproto"
+	 help
+	 XRandR: X Resize, Rotate and Reflect extension headers
+	
+config randrproto-dbg  
+	 bool "randrproto-dbg"
+	 help
+	
+config randrproto-dev  
+	 bool "randrproto-dev"
+	 help
+	
+endmenu
+menu "recordproto " 
+config recordproto  
+	 bool "recordproto"
+	 help
+	 XRecord: X Record extension headers
+	
+config recordproto-dbg  
+	 bool "recordproto-dbg"
+	 help
+	
+config recordproto-dev  
+	 bool "recordproto-dev"
+	 help
+	
+endmenu
+menu "renderproto " 
+config renderproto  
+	 bool "renderproto"
+	 help
+	 XRender: X rendering Extension headers
+	
+config renderproto-dev  
+	 bool "renderproto-dev"
+	 help
+	
+config renderproto-dbg  
+	 bool "renderproto-dbg"
+	 help
+	
+endmenu
+menu "resourceproto " 
+config resourceproto  
+	 bool "resourceproto"
+	 help
+	 XRes: X Resource extension headers
+	
+config resourceproto-dbg  
+	 bool "resourceproto-dbg"
+	 help
+	
+config resourceproto-dev  
+	 bool "resourceproto-dev"
+	 help
+	
+endmenu
+menu "rgb " 
+config rgb  
+	 bool "rgb"
+	 help
+	 X11 color name database
+	
+config rgb-dbg  
+	 bool "rgb-dbg"
+	 help
+	
+config rgb-dev  
+	 bool "rgb-dev"
+	 help
+	
+endmenu
+menu "rpm " 
+config rpm  
+	 bool "rpm"
+	 help
+	 The RPM package management system
+	
+config rpm-build  
+	 bool "rpm-build"
+	 help
+	
+config rpm-common  
+	 bool "rpm-common"
+	 help
+	
+config rpm-libs  
+	 bool "rpm-libs"
+	 help
+	
+config rpm-dev  
+	 bool "rpm-dev"
+	 help
+	
+config python-rpm  
+	 bool "python-rpm"
+	 help
+	
+config perl-module-rpm  
+	 bool "perl-module-rpm"
+	 help
+	
+config rpm-dbg  
+	 bool "rpm-dbg"
+	 help
+	
+endmenu
+menu "scrnsaverproto " 
+config scrnsaverproto  
+	 bool "scrnsaverproto"
+	 help
+	 Xscrnsaver: X Screen Saver extension headers
+	
+config scrnsaverproto-dev  
+	 bool "scrnsaverproto-dev"
+	 help
+	
+config scrnsaverproto-dbg  
+	 bool "scrnsaverproto-dbg"
+	 help
+	
+endmenu
+menu "sysfsutils " 
+config sysfsutils  
+	 bool "sysfsutils"
+	 help
+	 Tools for working with sysfs
+	
+config sysfsutils-dev  
+	 bool "sysfsutils-dev"
+	 help
+	
+config sysfsutils-dbg  
+	 bool "sysfsutils-dbg"
+	 help
+	
+config libsysfs  
+	 bool "libsysfs"
+	 help
+	
+endmenu
+menu "sysvinit-inittab " 
+config sysvinit-inittab  
+	 bool "sysvinit-inittab"
+	 help
+	 Inittab configuration for SysVinit
+	
+config sysvinit-inittab-dbg  
+	 bool "sysvinit-inittab-dbg"
+	 help
+	
+config sysvinit-inittab-dev  
+	 bool "sysvinit-inittab-dev"
+	 help
+	
+endmenu
+menu "tbb " 
+config tbb  
+	 bool "tbb"
+	 help
+	
+config tbb-dev  
+	 bool "tbb-dev"
+	 help
+	
+config tbb-dbg  
+	 bool "tbb-dbg"
+	 help
+	
+endmenu
+menu "tcf-agent " 
+config tcf-agent  
+	 bool "tcf-agent"
+	 help
+	 Target Communication Framework for the Eclipse IDE
+	
+config tcf-agent-dev  
+	 bool "tcf-agent-dev"
+	 help
+	
+config tcf-agent-dbg  
+	 bool "tcf-agent-dbg"
+	 help
+	
+endmenu
+menu "tiff " 
+config tiff  
+	 bool "tiff"
+	 help
+	 Provides support for the Tag Image File Format (TIFF)
+	
+config tiff-dev  
+	 bool "tiff-dev"
+	 help
+	
+config tiff-dbg  
+	 bool "tiff-dbg"
+	 help
+	
+config tiffxx  
+	 bool "tiffxx"
+	 help
+	
+config tiff-utils  
+	 bool "tiff-utils"
+	 help
+	
+endmenu
+menu "util-macros " 
+config util-macros  
+	 bool "util-macros"
+	 help
+	 X autotools macros
+	
+config util-macros-dbg  
+	 bool "util-macros-dbg"
+	 help
+	
+config util-macros-dev  
+	 bool "util-macros-dev"
+	 help
+	
+endmenu
+menu "v4l-utils " 
+config v4l-utils  
+	 bool "v4l-utils"
+	 help
+	 v4l2 and IR applications
+	
+config ir-keytable  
+	 bool "ir-keytable"
+	 help
+	
+config v4l-utils-dbg  
+	 bool "v4l-utils-dbg"
+	 help
+	
+config libv4l-dbg  
+	 bool "libv4l-dbg"
+	 help
+	
+config media-ctl  
+	 bool "media-ctl"
+	 help
+	
+config rc-keymaps  
+	 bool "rc-keymaps"
+	 help
+	
+config libv4l  
+	 bool "libv4l"
+	 help
+	
+config libv4l-dev  
+	 bool "libv4l-dev"
+	 help
+	
+config v4l-utils-dev  
+	 bool "v4l-utils-dev"
+	 help
+	
+endmenu
+menu "videoproto " 
+config videoproto  
+	 bool "videoproto"
+	 help
+	 Xv: X Video extension headers
+	
+config videoproto-dev  
+	 bool "videoproto-dev"
+	 help
+	
+config videoproto-dbg  
+	 bool "videoproto-dbg"
+	 help
+	
+endmenu
+menu "vte " 
+config vte  
+	 bool "vte"
+	 help
+	 Virtual terminal emulator GTK+ widget library
+	
+config vte-termcap  
+	 bool "vte-termcap"
+	 help
+	
+config libvte  
+	 bool "libvte"
+	 help
+	
+config vte-dbg  
+	 bool "vte-dbg"
+	 help
+	
+config vte-dev  
+	 bool "vte-dev"
+	 help
+	
+endmenu
+menu "x264 " 
+config x264  
+	 bool "x264"
+	 help
+	 H.264/MPEG-4 AVC video encoder
+	
+config x264-dev  
+	 bool "x264-dev"
+	 help
+	
+config x264-dbg  
+	 bool "x264-dbg"
+	 help
+	
+config x264-bin  
+	 bool "x264-bin"
+	 help
+	
+endmenu
+menu "xauth " 
+config xauth  
+	 bool "xauth"
+	 help
+	 X authority utilities
+	
+config xauth-dev  
+	 bool "xauth-dev"
+	 help
+	
+config xauth-dbg  
+	 bool "xauth-dbg"
+	 help
+	
+endmenu
+menu "xcb-util-image " 
+config xcb-util-image  
+	 bool "xcb-util-image"
+	 help
+	
+config xcb-util-image-dbg  
+	 bool "xcb-util-image-dbg"
+	 help
+	
+config xcb-util-image-dev  
+	 bool "xcb-util-image-dev"
+	 help
+	
+endmenu
+menu "xcb-util-keysyms " 
+config xcb-util-keysyms  
+	 bool "xcb-util-keysyms"
+	 help
+	
+config xcb-util-keysyms-dev  
+	 bool "xcb-util-keysyms-dev"
+	 help
+	
+config xcb-util-keysyms-dbg  
+	 bool "xcb-util-keysyms-dbg"
+	 help
+	
+endmenu
+menu "xcb-util-renderutil " 
+config xcb-util-renderutil  
+	 bool "xcb-util-renderutil"
+	 help
+	
+config xcb-util-renderutil-dbg  
+	 bool "xcb-util-renderutil-dbg"
+	 help
+	
+config xcb-util-renderutil-dev  
+	 bool "xcb-util-renderutil-dev"
+	 help
+	
+endmenu
+menu "xcb-util-wm " 
+config xcb-util-wm  
+	 bool "xcb-util-wm"
+	 help
+	
+config xcb-util-wm-dbg  
+	 bool "xcb-util-wm-dbg"
+	 help
+	
+config xcb-util-wm-dev  
+	 bool "xcb-util-wm-dev"
+	 help
+	
+endmenu
+menu "xcmiscproto " 
+config xcmiscproto  
+	 bool "xcmiscproto"
+	 help
+	 XC-MISC: X XC-Miscellaneous extension headers
+	
+config xcmiscproto-dbg  
+	 bool "xcmiscproto-dbg"
+	 help
+	
+config xcmiscproto-dev  
+	 bool "xcmiscproto-dev"
+	 help
+	
+endmenu
+menu "xdpyinfo " 
+config xdpyinfo  
+	 bool "xdpyinfo"
+	 help
+	 Display information utility for X
+	
+config xdpyinfo-dev  
+	 bool "xdpyinfo-dev"
+	 help
+	
+config xdpyinfo-dbg  
+	 bool "xdpyinfo-dbg"
+	 help
+	
+endmenu
+menu "xextproto " 
+config xextproto  
+	 bool "xextproto"
+	 help
+	 XExt: X Extension headers
+	
+config xextproto-dev  
+	 bool "xextproto-dev"
+	 help
+	
+config xextproto-dbg  
+	 bool "xextproto-dbg"
+	 help
+	
+endmenu
+menu "xf86-input-evdev " 
+config xf86-input-evdev  
+	 bool "xf86-input-evdev"
+	 help
+	 X.Org X server -- event devices (evdev) input driver
+	
+config xf86-input-evdev-dbg  
+	 bool "xf86-input-evdev-dbg"
+	 help
+	
+config xf86-input-evdev-dev  
+	 bool "xf86-input-evdev-dev"
+	 help
+	
+endmenu
+menu "xf86-input-keyboard " 
+config xf86-input-keyboard  
+	 bool "xf86-input-keyboard"
+	 help
+	 X.Org X server -- keyboard input driver
+	
+config xf86-input-keyboard-dbg  
+	 bool "xf86-input-keyboard-dbg"
+	 help
+	
+config xf86-input-keyboard-dev  
+	 bool "xf86-input-keyboard-dev"
+	 help
+	
+endmenu
+menu "xf86-input-mouse " 
+config xf86-input-mouse  
+	 bool "xf86-input-mouse"
+	 help
+	 X.Org X server -- mouse input driver
+	
+config xf86-input-mouse-dev  
+	 bool "xf86-input-mouse-dev"
+	 help
+	
+config xf86-input-mouse-dbg  
+	 bool "xf86-input-mouse-dbg"
+	 help
+	
+endmenu
+menu "xf86-video-fbdev " 
+config xf86-video-fbdev  
+	 bool "xf86-video-fbdev"
+	 help
+	 X.Org X server -- fbdev display driver
+	
+config xf86-video-fbdev-dbg  
+	 bool "xf86-video-fbdev-dbg"
+	 help
+	
+config xf86-video-fbdev-dev  
+	 bool "xf86-video-fbdev-dev"
+	 help
+	
+endmenu
+menu "xf86dgaproto " 
+config xf86dgaproto  
+	 bool "xf86dgaproto"
+	 help
+	 XFree86-DGA: XFree86 Direct Graphics Access extension headers
+	
+config xf86dgaproto-dev  
+	 bool "xf86dgaproto-dev"
+	 help
+	
+config xf86dgaproto-dbg  
+	 bool "xf86dgaproto-dbg"
+	 help
+	
+endmenu
+menu "xf86driproto " 
+config xf86driproto  
+	 bool "xf86driproto"
+	 help
+	 XFree86-DRI: XFree86 Direct Rendering Infrastructure extension headers
+	
+config xf86driproto-dev  
+	 bool "xf86driproto-dev"
+	 help
+	
+config xf86driproto-dbg  
+	 bool "xf86driproto-dbg"
+	 help
+	
+endmenu
+menu "xf86miscproto " 
+config xf86miscproto  
+	 bool "xf86miscproto"
+	 help
+	 XFree86-Misc: XFree86 miscellaneous extension headers
+	
+config xf86miscproto-dbg  
+	 bool "xf86miscproto-dbg"
+	 help
+	
+config xf86miscproto-dev  
+	 bool "xf86miscproto-dev"
+	 help
+	
+endmenu
+menu "xf86vidmodeproto " 
+config xf86vidmodeproto  
+	 bool "xf86vidmodeproto"
+	 help
+	 XFree86-VM: XFree86 video mode extension headers
+	
+config xf86vidmodeproto-dev  
+	 bool "xf86vidmodeproto-dev"
+	 help
+	
+config xf86vidmodeproto-dbg  
+	 bool "xf86vidmodeproto-dbg"
+	 help
+	
+endmenu
+menu "xhost " 
+config xhost  
+	 bool "xhost"
+	 help
+	 Server access control program for X
+	
+config xhost-dev  
+	 bool "xhost-dev"
+	 help
+	
+config xhost-dbg  
+	 bool "xhost-dbg"
+	 help
+	
+endmenu
+menu "xineramaproto " 
+config xineramaproto  
+	 bool "xineramaproto"
+	 help
+	 Xinerama: Xinerama extension headers
+	
+config xineramaproto-dev  
+	 bool "xineramaproto-dev"
+	 help
+	
+config xineramaproto-dbg  
+	 bool "xineramaproto-dbg"
+	 help
+	
+endmenu
+menu "xinit " 
+config xinit  
+	 bool "xinit"
+	 help
+	 X Window System initializer
+	
+config xinit-dbg  
+	 bool "xinit-dbg"
+	 help
+	
+config xinit-dev  
+	 bool "xinit-dev"
+	 help
+	
+endmenu
+menu "xinput " 
+config xinput  
+	 bool "xinput"
+	 help
+	 Runtime configuration and test of XInput devices
+	
+config xinput-dev  
+	 bool "xinput-dev"
+	 help
+	
+config xinput-dbg  
+	 bool "xinput-dbg"
+	 help
+	
+endmenu
+menu "xinput-calibrator " 
+config xinput-calibrator  
+	 bool "xinput-calibrator"
+	 help
+	 Touchscreen calibration program for X11
+	
+config xinput-calibrator-dev  
+	 bool "xinput-calibrator-dev"
+	 help
+	
+config xinput-calibrator-dbg  
+	 bool "xinput-calibrator-dbg"
+	 help
+	
+endmenu
+menu "xkbcomp " 
+config xkbcomp  
+	 bool "xkbcomp"
+	 help
+	 A program to compile XKB keyboard description
+	
+config xkbcomp-dev  
+	 bool "xkbcomp-dev"
+	 help
+	
+config xkbcomp-dbg  
+	 bool "xkbcomp-dbg"
+	 help
+	
+endmenu
+menu "xmodmap " 
+config xmodmap  
+	 bool "xmodmap"
+	 help
+	 Utility for modifying keymaps and pointer button mappings in X
+	
+config xmodmap-dev  
+	 bool "xmodmap-dev"
+	 help
+	
+config xmodmap-dbg  
+	 bool "xmodmap-dbg"
+	 help
+	
+endmenu
+menu "xproto " 
+config xproto  
+	 bool "xproto"
+	 help
+	 Xlib: C Language X interface headers
+	
+config xproto-dev  
+	 bool "xproto-dev"
+	 help
+	
+config xproto-dbg  
+	 bool "xproto-dbg"
+	 help
+	
+endmenu
+menu "xrandr " 
+config xrandr  
+	 bool "xrandr"
+	 help
+	 XRandR: X Resize, Rotate and Reflect extension command
+	
+config xrandr-dev  
+	 bool "xrandr-dev"
+	 help
+	
+config xrandr-dbg  
+	 bool "xrandr-dbg"
+	 help
+	
+endmenu
+menu "xserver-common " 
+config xserver-common  
+	 bool "xserver-common"
+	 help
+	 Common X11 scripts and support files
+	
+config xserver-common-dev  
+	 bool "xserver-common-dev"
+	 help
+	
+config xserver-common-dbg  
+	 bool "xserver-common-dbg"
+	 help
+	
+endmenu
+menu "xset " 
+config xset  
+	 bool "xset"
+	 help
+	 Utility for setting various user preference options of the display
+	
+config xset-dbg  
+	 bool "xset-dbg"
+	 help
+	
+config xset-dev  
+	 bool "xset-dev"
+	 help
+	
+endmenu
+menu "xtrans " 
+config xtrans  
+	 bool "xtrans"
+	 help
+	 XTrans: X Transport library
+	
+config xtrans-dbg  
+	 bool "xtrans-dbg"
+	 help
+	
+config xtrans-dev  
+	 bool "xtrans-dev"
+	 help
+	
+endmenu
+menu "yavta " 
+config yavta  
+	 bool "yavta"
+	 help
+	 Yet Another V4L2 Test Application
+	
+config yavta-dbg  
+	 bool "yavta-dbg"
+	 help
+	
+config yavta-dev  
+	 bool "yavta-dev"
+	 help
+	
+endmenu
+endmenu
+menu "multimedia " 
+menu "alsa-plugins " 
+config alsa-plugins  
+	 bool "alsa-plugins"
+	 help
+	 ALSA Plugins
+	
+config alsa-plugins-dbg  
+	 bool "alsa-plugins-dbg"
+	 help
+	
+config alsa-plugins-dev  
+	 bool "alsa-plugins-dev"
+	 help
+	
+config alsa-plugins-pulseaudio-conf  
+	 bool "alsa-plugins-pulseaudio-conf"
+	 help
+	
+endmenu
+menu "gstreamer1.0 " 
+config gstreamer1.0  
+	 bool "gstreamer1.0"
+	 help
+	 GStreamer 1.0 multimedia framework
+	
+config gstreamer1.0-dev  
+	 bool "gstreamer1.0-dev"
+	 help
+	
+config gstreamer1.0-dbg  
+	 bool "gstreamer1.0-dbg"
+	 help
+	
+config gstreamer1.0-bash-completion  
+	 bool "gstreamer1.0-bash-completion"
+	 help
+	
+endmenu
+endmenu
+menu "net " 
+menu "bridge-utils " 
+config bridge-utils  
+	 bool "bridge-utils"
+	 help
+	 Tools for ethernet bridging
+	
+config bridge-utils-dev  
+	 bool "bridge-utils-dev"
+	 help
+	
+config bridge-utils-dbg  
+	 bool "bridge-utils-dbg"
+	 help
+	
+endmenu
+menu "netcat " 
+config netcat  
+	 bool "netcat"
+	 help
+	 GNU Netcat
+	
+config netcat-dev  
+	 bool "netcat-dev"
+	 help
+	
+config netcat-dbg  
+	 bool "netcat-dbg"
+	 help
+	
+endmenu
+menu "tcpdump " 
+config tcpdump  
+	 bool "tcpdump"
+	 help
+	 A sophisticated network protocol analyzer
+	
+config tcpdump-dbg  
+	 bool "tcpdump-dbg"
+	 help
+	
+config tcpdump-dev  
+	 bool "tcpdump-dev"
+	 help
+	
+endmenu
+endmenu
+menu "network " 
+menu "avahi " 
+config avahi  
+	 bool "avahi"
+	 help
+	 Avahi IPv4LL network address configuration daemon
+	
+config libavahi-common  
+	 bool "libavahi-common"
+	 help
+	
+config avahi-autoipd  
+	 bool "avahi-autoipd"
+	 help
+	
+config libavahi-gobject  
+	 bool "libavahi-gobject"
+	 help
+	
+config avahi-daemon  
+	 bool "avahi-daemon"
+	 help
+	
+config libavahi-glib  
+	 bool "libavahi-glib"
+	 help
+	
+config libavahi-client  
+	 bool "libavahi-client"
+	 help
+	
+config avahi-dnsconfd  
+	 bool "avahi-dnsconfd"
+	 help
+	
+config libavahi-ui  
+	 bool "libavahi-ui"
+	 help
+	
+config libavahi-core  
+	 bool "libavahi-core"
+	 help
+	
+config avahi-dbg  
+	 bool "avahi-dbg"
+	 help
+	
+config avahi-utils  
+	 bool "avahi-utils"
+	 help
+	
+config avahi-dev  
+	 bool "avahi-dev"
+	 help
+	
+endmenu
+menu "mobile-broadband-provider-info " 
+config mobile-broadband-provider-info  
+	 bool "mobile-broadband-provider-info"
+	 help
+	 Mobile Broadband Service Provider Database
+	
+config mobile-broadband-provider-info-dbg  
+	 bool "mobile-broadband-provider-info-dbg"
+	 help
+	
+config mobile-broadband-provider-info-dev  
+	 bool "mobile-broadband-provider-info-dev"
+	 help
+	
+endmenu
+endmenu
+menu "optional " 
+menu "libatomic-ops " 
+config libatomic-ops  
+	 bool "libatomic-ops"
+	 help
+	 A library for atomic integer operations
+	
+config libatomic-ops-dev  
+	 bool "libatomic-ops-dev"
+	 help
+	
+config libatomic-ops-dbg  
+	 bool "libatomic-ops-dbg"
+	 help
+	
+endmenu
+endmenu
+menu "x " 
+menu "libs " 
+menu "libxsettings-client " 
+config libxsettings-client  
+	 bool "libxsettings-client"
+	 help
+	 utility functions for the Xsettings protocol
+	
+config libxsettings-client-dev  
+	 bool "libxsettings-client-dev"
+	 help
+	
+config libxsettings-client-dbg  
+	 bool "libxsettings-client-dbg"
+	 help
+	
+endmenu
+endmenu
+endmenu
+menu "x11 " 
+menu "base " 
+menu "gtk-sato-engine " 
+config gtk-sato-engine  
+	 bool "gtk-sato-engine"
+	 help
+	 Sato theme engine for GTK+
+	
+config gtk-sato-engine-dbg  
+	 bool "gtk-sato-engine-dbg"
+	 help
+	
+config gtk-sato-engine-dev  
+	 bool "gtk-sato-engine-dev"
+	 help
+	
+config gtk-theme-sato  
+	 bool "gtk-theme-sato"
+	 help
+	
+endmenu
+menu "libdrm " 
+config libdrm  
+	 bool "libdrm"
+	 help
+	 Userspace interface to the kernel DRM services
+	
+config libdrm-exynos  
+	 bool "libdrm-exynos"
+	 help
+	
+config libdrm-dbg  
+	 bool "libdrm-dbg"
+	 help
+	
+config libdrm-freedreno  
+	 bool "libdrm-freedreno"
+	 help
+	
+config libdrm-nouveau  
+	 bool "libdrm-nouveau"
+	 help
+	
+config libdrm-drivers  
+	 bool "libdrm-drivers"
+	 help
+	
+config libdrm-omap  
+	 bool "libdrm-omap"
+	 help
+	
+config libdrm-amdgpu  
+	 bool "libdrm-amdgpu"
+	 help
+	
+config libdrm-radeon  
+	 bool "libdrm-radeon"
+	 help
+	
+config libdrm-intel  
+	 bool "libdrm-intel"
+	 help
+	
+config libdrm-dev  
+	 bool "libdrm-dev"
+	 help
+	
+config libdrm-kms  
+	 bool "libdrm-kms"
+	 help
+	
+config libdrm-tests  
+	 bool "libdrm-tests"
+	 help
+	
+endmenu
+menu "xcursor-transparent-theme " 
+config xcursor-transparent-theme  
+	 bool "xcursor-transparent-theme"
+	 help
+	 Transparent X11 cursor theme for touchscreens
+	
+config xcursor-transparent-theme-dev  
+	 bool "xcursor-transparent-theme-dev"
+	 help
+	
+config xcursor-transparent-theme-dbg  
+	 bool "xcursor-transparent-theme-dbg"
+	 help
+	
+endmenu
+menu "xserver-xf86-config " 
+config xserver-xf86-config  
+	 bool "xserver-xf86-config"
+	 help
+	 X.Org X server configuration file
+	
+config xserver-xf86-config-dev  
+	 bool "xserver-xf86-config-dev"
+	 help
+	
+config xserver-xf86-config-dbg  
+	 bool "xserver-xf86-config-dbg"
+	 help
+	
+endmenu
+menu "xserver-xorg " 
+config xserver-xorg  
+	 bool "xserver-xorg"
+	 help
+	 The X.Org X server
+	
+config xserver-xorg-dbg  
+	 bool "xserver-xorg-dbg"
+	 help
+	
+config xserver-xorg-module-exa  
+	 bool "xserver-xorg-module-exa"
+	 help
+	
+config xserver-xorg-module-libint10  
+	 bool "xserver-xorg-module-libint10"
+	 help
+	
+config xserver-xorg-extension-dri  
+	 bool "xserver-xorg-extension-dri"
+	 help
+	
+config xserver-xorg-module-libafb  
+	 bool "xserver-xorg-module-libafb"
+	 help
+	
+config xserver-xorg-module-libmfb  
+	 bool "xserver-xorg-module-libmfb"
+	 help
+	
+config xserver-xorg-utils  
+	 bool "xserver-xorg-utils"
+	 help
+	
+config xserver-xorg-xephyr  
+	 bool "xserver-xorg-xephyr"
+	 help
+	
+config xserver-xorg-dev  
+	 bool "xserver-xorg-dev"
+	 help
+	
+config xserver-xorg-extension-dbe  
+	 bool "xserver-xorg-extension-dbe"
+	 help
+	
+config xserver-xorg-module-libcfb  
+	 bool "xserver-xorg-module-libcfb"
+	 help
+	
+config xserver-xorg-multimedia-modules  
+	 bool "xserver-xorg-multimedia-modules"
+	 help
+	
+config xserver-xorg-module-xaa  
+	 bool "xserver-xorg-module-xaa"
+	 help
+	
+config xserver-xorg-module-libwfb  
+	 bool "xserver-xorg-module-libwfb"
+	 help
+	
+config xserver-xorg-xvfb  
+	 bool "xserver-xorg-xvfb"
+	 help
+	
+config xf86-video-modesetting  
+	 bool "xf86-video-modesetting"
+	 help
+	
+config xserver-xorg-xwayland  
+	 bool "xserver-xorg-xwayland"
+	 help
+	
+config xserver-xorg-extension-extmod  
+	 bool "xserver-xorg-extension-extmod"
+	 help
+	
+config xserver-xorg-extension-glx  
+	 bool "xserver-xorg-extension-glx"
+	 help
+	
+config xserver-xorg-extension-record  
+	 bool "xserver-xorg-extension-record"
+	 help
+	
+config xserver-xorg-module-libxf1bpp  
+	 bool "xserver-xorg-module-libxf1bpp"
+	 help
+	
+config xserver-xorg-module-libxf4bpp  
+	 bool "xserver-xorg-module-libxf4bpp"
+	 help
+	
+config xserver-xorg-fbdev  
+	 bool "xserver-xorg-fbdev"
+	 help
+	
+config xserver-xorg-sdl  
+	 bool "xserver-xorg-sdl"
+	 help
+	
+config xserver-xorg-extension-dri2  
+	 bool "xserver-xorg-extension-dri2"
+	 help
+	
+endmenu
+menu "xtscal " 
+config xtscal  
+	 bool "xtscal"
+	 help
+	 Touchscreen calibration utility
+	
+config xtscal-dev  
+	 bool "xtscal-dev"
+	 help
+	
+config xtscal-dbg  
+	 bool "xtscal-dbg"
+	 help
+	
+endmenu
+endmenu
+menu "fonts " 
+menu "liberation-fonts " 
+config liberation-fonts  
+	 bool "liberation-fonts"
+	 help
+	 Liberation(tm) Fonts
+	
+endmenu
+endmenu
+menu "gnome " 
+menu "adwaita-icon-theme " 
+config adwaita-icon-theme  
+	 bool "adwaita-icon-theme"
+	 help
+	 GTK+ icon theme
+	
+config adwaita-icon-theme-symbolic  
+	 bool "adwaita-icon-theme-symbolic"
+	 help
+	
+config adwaita-icon-theme-cursors  
+	 bool "adwaita-icon-theme-cursors"
+	 help
+	
+config adwaita-icon-theme-hires  
+	 bool "adwaita-icon-theme-hires"
+	 help
+	
+endmenu
+menu "gconf " 
+config gconf  
+	 bool "gconf"
+	 help
+	 GNOME configuration system
+	
+config gconf-dev  
+	 bool "gconf-dev"
+	 help
+	
+config gconf-dbg  
+	 bool "gconf-dbg"
+	 help
+	
+endmenu
+menu "gnome-common " 
+config gnome-common  
+	 bool "gnome-common"
+	 help
+	 Common macros for building GNOME applications
+	
+config gnome-common-dev  
+	 bool "gnome-common-dev"
+	 help
+	
+config gnome-common-dbg  
+	 bool "gnome-common-dbg"
+	 help
+	
+endmenu
+endmenu
+menu "libglu " 
+config libglu  
+	 bool "libglu"
+	 help
+	 The OpenGL utility toolkit
+	
+config libglu-dbg  
+	 bool "libglu-dbg"
+	 help
+	
+config libglu-dev  
+	 bool "libglu-dev"
+	 help
+	
+endmenu
+menu "libs " 
+menu "atk " 
+config atk  
+	 bool "atk"
+	 help
+	 Accessibility toolkit for GNOME
+	
+config atk-dbg  
+	 bool "atk-dbg"
+	 help
+	
+config atk-dev  
+	 bool "atk-dev"
+	 help
+	
+endmenu
+menu "libmatchbox " 
+config libmatchbox  
+	 bool "libmatchbox"
+	 help
+	 Matchbox window manager core library
+	
+config libmatchbox-dev  
+	 bool "libmatchbox-dev"
+	 help
+	
+config libmatchbox-dbg  
+	 bool "libmatchbox-dbg"
+	 help
+	
+endmenu
+menu "libpthread-stubs " 
+config libpthread-stubs  
+	 bool "libpthread-stubs"
+	 help
+	 Library that provides weak aliases for pthread functions
+	
+config libpthread-stubs-dbg  
+	 bool "libpthread-stubs-dbg"
+	 help
+	
+config libpthread-stubs-dev  
+	 bool "libpthread-stubs-dev"
+	 help
+	
+endmenu
+menu "libxcb " 
+config libxcb  
+	 bool "libxcb"
+	 help
+	 XCB: The X protocol C binding library
+	
+config libxcb-dbg  
+	 bool "libxcb-dbg"
+	 help
+	
+config libxcb-dev  
+	 bool "libxcb-dev"
+	 help
+	
+endmenu
+menu "xcb-proto " 
+config xcb-proto  
+	 bool "xcb-proto"
+	 help
+	 XCB: The X protocol C binding headers
+	
+config xcb-proto-dev  
+	 bool "xcb-proto-dev"
+	 help
+	
+config python-xcbgen  
+	 bool "python-xcbgen"
+	 help
+	
+config xcb-proto-dbg  
+	 bool "xcb-proto-dbg"
+	 help
+	
+endmenu
+menu "xcb-util " 
+config xcb-util  
+	 bool "xcb-util"
+	 help
+	 XCB: The X protocol C binding utilities
+	
+config xcb-util-dbg  
+	 bool "xcb-util-dbg"
+	 help
+	
+config xcb-util-dev  
+	 bool "xcb-util-dev"
+	 help
+	
+endmenu
+menu "xkeyboard-config " 
+config xkeyboard-config  
+	 bool "xkeyboard-config"
+	 help
+	 Keyboard configuration database for X Window
+	
+config xkeyboard-config-dbg  
+	 bool "xkeyboard-config-dbg"
+	 help
+	
+config xkeyboard-config-dev  
+	 bool "xkeyboard-config-dev"
+	 help
+	
+endmenu
+endmenu
+menu "matchbox-desktop-sato " 
+config matchbox-desktop-sato  
+	 bool "matchbox-desktop-sato"
+	 help
+	 Matchbox desktop folders for the Sato environment
+	
+config matchbox-desktop-sato-dbg  
+	 bool "matchbox-desktop-sato-dbg"
+	 help
+	
+config matchbox-desktop-sato-dev  
+	 bool "matchbox-desktop-sato-dev"
+	 help
+	
+endmenu
+menu "matchbox-keyboard " 
+config matchbox-keyboard  
+	 bool "matchbox-keyboard"
+	 help
+	 Matchbox virtual keyboard for X11
+	
+config matchbox-keyboard-dbg  
+	 bool "matchbox-keyboard-dbg"
+	 help
+	
+config matchbox-keyboard-dev  
+	 bool "matchbox-keyboard-dev"
+	 help
+	
+config matchbox-keyboard-applet  
+	 bool "matchbox-keyboard-applet"
+	 help
+	
+config matchbox-keyboard-im  
+	 bool "matchbox-keyboard-im"
+	 help
+	
+endmenu
+menu "matchbox-session " 
+config matchbox-session  
+	 bool "matchbox-session"
+	 help
+	 Custom Matchbox session files
+	
+config matchbox-session-dev  
+	 bool "matchbox-session-dev"
+	 help
+	
+config matchbox-session-dbg  
+	 bool "matchbox-session-dbg"
+	 help
+	
+endmenu
+menu "matchbox-session-sato " 
+config matchbox-session-sato  
+	 bool "matchbox-session-sato"
+	 help
+	 Custom Matchbox session files for the Sato environment
+	
+config matchbox-session-sato-dbg  
+	 bool "matchbox-session-sato-dbg"
+	 help
+	
+config matchbox-session-sato-dev  
+	 bool "matchbox-session-sato-dev"
+	 help
+	
+endmenu
+menu "mesa " 
+config mesa  
+	 bool "mesa"
+	 help
+	 A free implementation of the OpenGL API
+	
+config libosmesa  
+	 bool "libosmesa"
+	 help
+	
+config libglapi  
+	 bool "libglapi"
+	 help
+	
+config libglapi-dev  
+	 bool "libglapi-dev"
+	 help
+	
+config libgles1-mesa-dev  
+	 bool "libgles1-mesa-dev"
+	 help
+	
+config libgbm  
+	 bool "libgbm"
+	 help
+	
+config libgles2-mesa-dev  
+	 bool "libgles2-mesa-dev"
+	 help
+	
+config libgl-mesa-dev  
+	 bool "libgl-mesa-dev"
+	 help
+	
+config libgl-mesa  
+	 bool "libgl-mesa"
+	 help
+	
+config libxvmcsoftpipe  
+	 bool "libxvmcsoftpipe"
+	 help
+	
+config mesa-megadriver  
+	 bool "mesa-megadriver"
+	 help
+	
+config libxatracker-dev  
+	 bool "libxatracker-dev"
+	 help
+	
+config libgles3-mesa  
+	 bool "libgles3-mesa"
+	 help
+	
+config libegl-mesa-dev  
+	 bool "libegl-mesa-dev"
+	 help
+	
+config mesa-dbg  
+	 bool "mesa-dbg"
+	 help
+	
+config libxvmcsoftpipe-dev  
+	 bool "libxvmcsoftpipe-dev"
+	 help
+	
+config libgbm-dev  
+	 bool "libgbm-dev"
+	 help
+	
+config libgles2-mesa  
+	 bool "libgles2-mesa"
+	 help
+	
+config libosmesa-dev  
+	 bool "libosmesa-dev"
+	 help
+	
+config libwayland-egl  
+	 bool "libwayland-egl"
+	 help
+	
+config libwayland-egl-dev  
+	 bool "libwayland-egl-dev"
+	 help
+	
+config mesa-dev  
+	 bool "mesa-dev"
+	 help
+	
+config libegl-mesa  
+	 bool "libegl-mesa"
+	 help
+	
+config libgles1-mesa  
+	 bool "libgles1-mesa"
+	 help
+	
+config libxatracker  
+	 bool "libxatracker"
+	 help
+	
+config libgles3-mesa-dev  
+	 bool "libgles3-mesa-dev"
+	 help
+	
+endmenu
+menu "sato-icon-theme " 
+config sato-icon-theme  
+	 bool "sato-icon-theme"
+	 help
+	 Sato icon theme
+	
+config sato-icon-theme-dev  
+	 bool "sato-icon-theme-dev"
+	 help
+	
+config sato-icon-theme-dbg  
+	 bool "sato-icon-theme-dbg"
+	 help
+	
+endmenu
+menu "settings-daemon " 
+config settings-daemon  
+	 bool "settings-daemon"
+	 help
+	 Provides a bridge between gconf and xsettings
+	
+config settings-daemon-dbg  
+	 bool "settings-daemon-dbg"
+	 help
+	
+config settings-daemon-dev  
+	 bool "settings-daemon-dev"
+	 help
+	
+endmenu
+menu "utils " 
+menu "matchbox-terminal " 
+config matchbox-terminal  
+	 bool "matchbox-terminal"
+	 help
+	 Lightweight GTK+ terminal application
+	
+config matchbox-terminal-dev  
+	 bool "matchbox-terminal-dev"
+	 help
+	
+config matchbox-terminal-dbg  
+	 bool "matchbox-terminal-dbg"
+	 help
+	
+endmenu
+endmenu
+menu "wm " 
+menu "libfakekey " 
+config libfakekey  
+	 bool "libfakekey"
+	 help
+	 Library for converting characters to X key-presses
+	
+config libfakekey-dbg  
+	 bool "libfakekey-dbg"
+	 help
+	
+config libfakekey-dev  
+	 bool "libfakekey-dev"
+	 help
+	
+endmenu
+menu "matchbox-desktop " 
+config matchbox-desktop  
+	 bool "matchbox-desktop"
+	 help
+	 Matchbox Window Manager Desktop
+	
+config matchbox-desktop-dev  
+	 bool "matchbox-desktop-dev"
+	 help
+	
+config matchbox-desktop-dbg  
+	 bool "matchbox-desktop-dbg"
+	 help
+	
+endmenu
+menu "matchbox-theme-sato " 
+config matchbox-theme-sato  
+	 bool "matchbox-theme-sato"
+	 help
+	 Matchbox window manager Sato themes
+	
+config matchbox-theme-sato-dbg  
+	 bool "matchbox-theme-sato-dbg"
+	 help
+	
+config matchbox-theme-sato-dev  
+	 bool "matchbox-theme-sato-dev"
+	 help
+	
+endmenu
+menu "matchbox-wm " 
+config matchbox-wm  
+	 bool "matchbox-wm"
+	 help
+	 Matchbox lightweight window manager
+	
+config matchbox-wm-dev  
+	 bool "matchbox-wm-dev"
+	 help
+	
+config matchbox-wm-dbg  
+	 bool "matchbox-wm-dbg"
+	 help
+	
+endmenu
+endmenu
+menu "xserver-nodm-init " 
+config xserver-nodm-init  
+	 bool "xserver-nodm-init"
+	 help
+	 Simple Xserver Init Script (no dm)
+	
+config xserver-nodm-init-dbg  
+	 bool "xserver-nodm-init-dbg"
+	 help
+	
+config xserver-nodm-init-dev  
+	 bool "xserver-nodm-init-dev"
+	 help
+	
+endmenu
+endmenu
+endmenu
+menu "apps " 
+menu "gpio-demo " 
+config gpio-demo  
+	 bool "gpio-demo"
+	 help
+	 gpio-demo application
+	
+config gpio-demo-dbg  
+	 bool "gpio-demo-dbg"
+	 help
+	
+config gpio-demo-dev  
+	 bool "gpio-demo-dev"
+	 help
+	
+endmenu
+menu "peekpoke " 
+config peekpoke  
+	 bool "peekpoke"
+	 help
+	 peekpoke application
+	
+config peekpoke-dev  
+	 bool "peekpoke-dev"
+	 help
+	
+config peekpoke-dbg  
+	 bool "peekpoke-dbg"
+	 help
+	
+endmenu
+endmenu
+menu "PetaLinux RootFS Settings"
+config ROOTFS_ROOT_PASSWD
+        string "Root password"
+        default "root"
+        help
+          Default login password for the 'root' user, on your PetaLinux system.
+endmenu

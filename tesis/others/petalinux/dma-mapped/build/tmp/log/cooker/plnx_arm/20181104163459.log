@@ -1,0 +1,1243 @@
+NOTE: Resolving any missing task queue dependencies
+NOTE: Preparing RunQueue
+NOTE: Checking sstate mirror object availability (for 294 objects)
+NOTE: Executing SetScene Tasks
+NOTE: Running setscene task 7 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/quilt/quilt-native_0.64.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 11 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/pseudo/pseudo_1.7.5.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 12 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/pseudo/pseudo_1.7.5.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 13 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/prelink/prelink_git.bb, do_populate_lic_setscene)
+NOTE: recipe quilt-native-0.64-r0: task do_populate_lic_setscene: Started
+NOTE: recipe pseudo-native-1.7.5-r0: task do_populate_lic_setscene: Started
+NOTE: recipe pseudo-native-1.7.5-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe prelink-native-1.0+gitAUTOINC+927979bbd1-r0: task do_populate_lic_setscene: Started
+NOTE: recipe quilt-native-0.64-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 14 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/rpm/rpm_5.4.16.bb, do_populate_lic_setscene)
+NOTE: recipe prelink-native-1.0+gitAUTOINC+927979bbd1-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe pseudo-native-1.7.5-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 16 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-cross-xilinx.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 17 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-cross-xilinx.bb, do_package_qa_setscene)
+NOTE: recipe pseudo-native-1.7.5-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 24 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-cross-xilinx.bb, do_package_write_rpm_setscene)
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_populate_lic_setscene: Started
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_package_qa_setscene: Started
+NOTE: recipe rpm-native-5.4.16-r0: task do_populate_lic_setscene: Started
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_package_write_rpm_setscene: Started
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 25 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-runtime-xilinx.bb, do_populate_lic_setscene)
+NOTE: recipe rpm-native-5.4.16-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 26 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-runtime-xilinx.bb, do_package_qa_setscene)
+NOTE: Running setscene task 27 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-runtime-xilinx.bb, do_package_write_rpm_setscene)
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 28 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/glibc-xilinx.bb, do_populate_lic_setscene)
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_populate_lic_setscene: Started
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_package_qa_setscene: Started
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_package_write_rpm_setscene: Started
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_populate_lic_setscene: Started
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 29 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/glibc-xilinx.bb, do_package_qa_setscene)
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 30 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/glibc-xilinx.bb, do_package_write_rpm_setscene)
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 33 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bash/bash_4.3.30.bb, do_populate_sysroot_setscene)
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_package_qa_setscene: Started
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_package_write_rpm_setscene: Started
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 34 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bash/bash_4.3.30.bb, do_populate_lic_setscene)
+NOTE: recipe bash-4.3.30-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe bash-4.3.30-r0: task do_populate_lic_setscene: Started
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 35 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bash/bash_4.3.30.bb, do_package_qa_setscene)
+NOTE: recipe bash-4.3.30-r0: task do_package_qa_setscene: Started
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 36 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bash/bash_4.3.30.bb, do_package_write_rpm_setscene)
+NOTE: recipe bash-4.3.30-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 37 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_populate_lic_setscene)
+NOTE: recipe bash-4.3.30-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 38 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/attr/attr_2.4.47.bb, do_populate_lic_setscene)
+NOTE: recipe bash-4.3.30-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe sqlite3-native-3_3.11.0-r0: task do_populate_lic_setscene: Started
+NOTE: recipe attr-native-2.4.47-r0: task do_populate_lic_setscene: Started
+NOTE: recipe bash-4.3.30-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 39 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/autoconf/autoconf_2.69.bb, do_populate_lic_setscene)
+NOTE: recipe autoconf-native-2.69-r11: task do_populate_lic_setscene: Started
+NOTE: recipe bash-4.3.30-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: recipe sqlite3-native-3_3.11.0-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 40 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/automake/automake_1.15.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 41 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-native_2.4.6.bb, do_populate_lic_setscene)
+NOTE: recipe libtool-native-2.4.6-r0: task do_populate_lic_setscene: Started
+NOTE: recipe automake-native-1.15-r0: task do_populate_lic_setscene: Started
+NOTE: recipe autoconf-native-2.69-r11: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 42 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb, do_populate_lic_setscene)
+NOTE: recipe attr-native-2.4.47-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 43 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/elfutils/elfutils_0.164.bb, do_populate_lic_setscene)
+NOTE: recipe gnu-config-native-20150728+gitAUTOINC+b576fa87c1-r0: task do_populate_lic_setscene: Started
+NOTE: recipe libtool-native-2.4.6-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 44 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/binutils/binutils_2.26.bb, do_populate_lic_setscene)
+NOTE: recipe automake-native-1.15-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 45 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext-minimal-native_0.19.4.bb, do_populate_lic_setscene)
+NOTE: recipe elfutils-native-0.164-r0: task do_populate_lic_setscene: Started
+NOTE: recipe gettext-minimal-native-0.19.4-r0: task do_populate_lic_setscene: Started
+NOTE: recipe binutils-native-2.26-r0: task do_populate_lic_setscene: Started
+NOTE: recipe gnu-config-native-20150728+gitAUTOINC+b576fa87c1-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 46 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libpcre/libpcre_8.38.bb, do_populate_lic_setscene)
+NOTE: recipe elfutils-native-0.164-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe gettext-minimal-native-0.19.4-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 47 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/attr/acl_2.2.52.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 48 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/ossp-uuid/ossp-uuid_1.6.2.bb, do_populate_lic_setscene)
+NOTE: recipe libpcre-native-8.38-r0: task do_populate_lic_setscene: Started
+NOTE: recipe binutils-native-2.26-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 49 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/byacc/byacc_20150711.bb, do_populate_lic_setscene)
+NOTE: recipe ossp-uuid-native-1.6.2-r2: task do_populate_lic_setscene: Started
+NOTE: recipe acl-native-2.2.52-r0: task do_populate_lic_setscene: Started
+NOTE: recipe byacc-native-20150711-r0: task do_populate_lic_setscene: Started
+NOTE: recipe libpcre-native-8.38-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 50 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_populate_lic_setscene)
+NOTE: recipe gettext-native-0.19.6-r0: task do_populate_lic_setscene: Started
+NOTE: recipe ossp-uuid-native-1.6.2-r2: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 51 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/file/file_5.25.bb, do_populate_lic_setscene)
+NOTE: recipe byacc-native-20150711-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 52 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_populate_lic_setscene)
+NOTE: recipe file-native-5.25-r0: task do_populate_lic_setscene: Started
+NOTE: recipe db-native-6.0.30-r0: task do_populate_lic_setscene: Started
+NOTE: recipe acl-native-2.2.52-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe gettext-native-0.19.6-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 53 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 54 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/popt/popt_1.16.bb, do_populate_lic_setscene)
+NOTE: recipe file-native-5.25-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 55 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-native_2.7.11.bb, do_populate_lic_setscene)
+NOTE: recipe popt-native-1.16-r3: task do_populate_lic_setscene: Started
+NOTE: recipe openssl-native-1.0.2h-r0: task do_populate_lic_setscene: Started
+NOTE: recipe python-native-2.7.11-r1.1: task do_populate_lic_setscene: Started
+NOTE: recipe db-native-6.0.30-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 56 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_populate_lic_setscene)
+NOTE: recipe zlib-native-1.2.8-r0: task do_populate_lic_setscene: Started
+NOTE: recipe popt-native-1.16-r3: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 61 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/binutils-cross-xilinx.bb, do_populate_lic_setscene)
+NOTE: recipe openssl-native-1.0.2h-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 62 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/binutils-cross-xilinx.bb, do_package_qa_setscene)
+NOTE: recipe python-native-2.7.11-r1.1: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 63 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/binutils-cross-xilinx.bb, do_package_write_rpm_setscene)
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_populate_lic_setscene: Started
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_package_qa_setscene: Started
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_package_write_rpm_setscene: Started
+NOTE: recipe zlib-native-1.2.8-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 64 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/libgcc-xilinx.bb, do_populate_lic_setscene)
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_populate_lic_setscene: Started
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 65 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/libgcc-xilinx.bb, do_package_qa_setscene)
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 66 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/libgcc-xilinx.bb, do_package_write_rpm_setscene)
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 67 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/linux-libc-headers-xilinx.bb, do_populate_lic_setscene)
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_package_qa_setscene: Started
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_package_write_rpm_setscene: Started
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_populate_lic_setscene: Started
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 68 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/linux-libc-headers-xilinx.bb, do_package_qa_setscene)
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_package_qa_setscene: Started
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 69 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/linux-libc-headers-xilinx.bb, do_package_write_rpm_setscene)
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 70 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_populate_lic_setscene)
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 71 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/bison/bison_3.0.4.bb, do_populate_lic_setscene)
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_package_write_rpm_setscene: Started
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 72 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/xz/xz_5.2.2.bb, do_populate_lic_setscene)
+NOTE: recipe flex-native-2.6.0-r0: task do_populate_lic_setscene: Started
+NOTE: recipe bison-native-3.0.4-r0: task do_populate_lic_setscene: Started
+NOTE: recipe xz-native-5.2.2-r0: task do_populate_lic_setscene: Started
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 73 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/pkgconfig/pkgconfig_git.bb, do_populate_lic_setscene)
+NOTE: recipe flex-native-2.6.0-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 74 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_populate_lic_setscene)
+NOTE: recipe bison-native-3.0.4-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 75 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-cross_2.4.6.bb, do_populate_lic_setscene)
+NOTE: recipe pkgconfig-native-0.29+gitAUTOINC+5914edfe96-r0: task do_populate_lic_setscene: Started
+NOTE: recipe xz-native-5.2.2-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe libtool-cross-2.4.6-r0: task do_populate_lic_setscene: Started
+NOTE: Running setscene task 76 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-cross_2.4.6.bb, do_package_qa_setscene)
+NOTE: recipe ncurses-native-6.0+20160213-r0: task do_populate_lic_setscene: Started
+NOTE: recipe libtool-cross-2.4.6-r0: task do_package_qa_setscene: Started
+NOTE: recipe pkgconfig-native-0.29+gitAUTOINC+5914edfe96-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 77 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-cross_2.4.6.bb, do_package_write_rpm_setscene)
+NOTE: recipe libtool-cross-2.4.6-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 78 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_populate_lic_setscene)
+NOTE: recipe ncurses-native-6.0+20160213-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe libtool-cross-2.4.6-r0: task do_package_write_rpm_setscene: Started
+NOTE: Running setscene task 79 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_package_qa_setscene)
+NOTE: recipe libtool-cross-2.4.6-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 80 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_package_write_rpm_setscene)
+NOTE: recipe gettext-0.19.6-r0: task do_populate_lic_setscene: Started
+NOTE: recipe gettext-0.19.6-r0: task do_package_qa_setscene: Started
+NOTE: recipe gettext-0.19.6-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe libtool-cross-2.4.6-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 81 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_populate_lic_setscene)
+NOTE: recipe gettext-0.19.6-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe gettext-0.19.6-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 82 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_package_qa_setscene)
+NOTE: Running setscene task 83 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_package_write_rpm_setscene)
+NOTE: recipe ncurses-6.0+20160213-r0: task do_populate_lic_setscene: Started
+NOTE: recipe gettext-0.19.6-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: recipe ncurses-6.0+20160213-r0: task do_package_qa_setscene: Started
+NOTE: recipe ncurses-6.0+20160213-r0: task do_package_write_rpm_setscene: Started
+NOTE: Running setscene task 84 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/opkg-utils/opkg-utils_git.bb, do_populate_lic_setscene)
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_populate_lic_setscene: Started
+NOTE: recipe ncurses-6.0+20160213-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 85 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/opkg-utils/opkg-utils_git.bb, do_package_qa_setscene)
+NOTE: recipe ncurses-6.0+20160213-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 86 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/opkg-utils/opkg-utils_git.bb, do_package_write_rpm_setscene)
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_package_qa_setscene: Started
+NOTE: recipe ncurses-6.0+20160213-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 87 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/make/make_4.1.bb, do_populate_sysroot_setscene)
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 88 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/make/make_4.1.bb, do_populate_lic_setscene)
+NOTE: recipe make-4.1-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe make-4.1-r0: task do_populate_lic_setscene: Started
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 89 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/make/make_4.1.bb, do_package_qa_setscene)
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 90 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/make/make_4.1.bb, do_package_write_rpm_setscene)
+NOTE: recipe make-4.1-r0: task do_package_qa_setscene: Started
+NOTE: recipe make-4.1-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe make-4.1-r0: task do_package_write_rpm_setscene: Started
+NOTE: Running setscene task 97 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/ptest-runner/ptest-runner_2.0.bb, do_populate_sysroot_setscene)
+NOTE: recipe make-4.1-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 98 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/ptest-runner/ptest-runner_2.0.bb, do_populate_lic_setscene)
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_populate_lic_setscene: Started
+NOTE: recipe make-4.1-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 99 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/ptest-runner/ptest-runner_2.0.bb, do_package_qa_setscene)
+NOTE: recipe make-4.1-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 100 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/ptest-runner/ptest-runner_2.0.bb, do_package_write_rpm_setscene)
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_package_qa_setscene: Started
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 101 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_populate_lic_setscene)
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 102 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python_2.7.11.bb, do_populate_sysroot_setscene)
+NOTE: recipe m4-native-1.4.17-r0: task do_populate_lic_setscene: Started
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_package_qa_setscene: Succeeded
+NOTE: recipe python-2.7.11-r1: task do_populate_sysroot_setscene: Started
+NOTE: Running setscene task 103 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python_2.7.11.bb, do_populate_lic_setscene)
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 104 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python_2.7.11.bb, do_package_qa_setscene)
+NOTE: recipe python-2.7.11-r1: task do_populate_lic_setscene: Started
+NOTE: recipe m4-native-1.4.17-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 105 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python_2.7.11.bb, do_package_write_rpm_setscene)
+NOTE: recipe python-2.7.11-r1: task do_package_qa_setscene: Started
+NOTE: recipe python-2.7.11-r1: task do_package_write_rpm_setscene: Started
+NOTE: recipe python-2.7.11-r1: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 106 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl_5.22.1.bb, do_populate_sysroot_setscene)
+NOTE: recipe python-2.7.11-r1: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 107 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl_5.22.1.bb, do_populate_lic_setscene)
+NOTE: recipe perl-5.22.1-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe perl-5.22.1-r0: task do_populate_lic_setscene: Started
+NOTE: recipe python-2.7.11-r1: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 108 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl_5.22.1.bb, do_package_qa_setscene)
+NOTE: recipe python-2.7.11-r1: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 109 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python_2.7.11.bb, do_packagedata_setscene)
+NOTE: recipe python-2.7.11-r1: task do_packagedata_setscene: Started
+NOTE: recipe perl-5.22.1-r0: task do_package_qa_setscene: Started
+NOTE: recipe perl-5.22.1-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 110 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl_5.22.1.bb, do_package_write_rpm_setscene)
+NOTE: recipe perl-5.22.1-r0: task do_package_qa_setscene: Succeeded
+NOTE: recipe python-2.7.11-r1: task do_packagedata_setscene: Succeeded
+NOTE: recipe perl-5.22.1-r0: task do_package_write_rpm_setscene: Started
+NOTE: Running setscene task 112 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 113 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_populate_lic_setscene)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_lic_setscene: Started
+NOTE: recipe cryptodev-linux-native-1.8-r0: task do_populate_lic_setscene: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 114 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_populate_lic_setscene)
+NOTE: recipe cryptodev-linux-native-1.8-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 115 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_populate_lic_setscene)
+NOTE: recipe bzip2-native-1.0.6-r5: task do_populate_lic_setscene: Started
+NOTE: recipe readline-native-6.3-r0: task do_populate_lic_setscene: Started
+NOTE: recipe perl-5.22.1-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 118 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/expat/expat_2.1.0.bb, do_populate_lic_setscene)
+NOTE: recipe expat-2.1.0-r0: task do_populate_lic_setscene: Started
+NOTE: recipe bzip2-native-1.0.6-r5: task do_populate_lic_setscene: Succeeded
+NOTE: recipe readline-native-6.3-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 119 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/expat/expat_2.1.0.bb, do_package_qa_setscene)
+NOTE: Running setscene task 120 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/expat/expat_2.1.0.bb, do_package_write_rpm_setscene)
+NOTE: recipe expat-2.1.0-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe expat-2.1.0-r0: task do_package_qa_setscene: Started
+NOTE: recipe expat-2.1.0-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 121 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_populate_lic_setscene)
+NOTE: recipe zlib-1.2.8-r0: task do_populate_lic_setscene: Started
+NOTE: recipe expat-2.1.0-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: recipe expat-2.1.0-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 122 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_package_qa_setscene)
+NOTE: Running setscene task 123 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_package_write_rpm_setscene)
+NOTE: recipe zlib-1.2.8-r0: task do_package_qa_setscene: Started
+NOTE: recipe zlib-1.2.8-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe perl-5.22.1-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 124 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_populate_sysroot_setscene)
+NOTE: recipe bzip2-1.0.6-r5: task do_populate_sysroot_setscene: Started
+NOTE: recipe zlib-1.2.8-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 125 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_populate_lic_setscene)
+NOTE: recipe zlib-1.2.8-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 126 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_package_qa_setscene)
+NOTE: recipe zlib-1.2.8-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: recipe bzip2-1.0.6-r5: task do_populate_lic_setscene: Started
+NOTE: Running setscene task 127 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_package_write_rpm_setscene)
+NOTE: recipe bzip2-1.0.6-r5: task do_package_qa_setscene: Started
+NOTE: recipe bzip2-1.0.6-r5: task do_package_write_rpm_setscene: Started
+NOTE: recipe bzip2-1.0.6-r5: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 128 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl-native_5.22.1.bb, do_populate_lic_setscene)
+NOTE: recipe perl-native-5.22.1-r0: task do_populate_lic_setscene: Started
+NOTE: recipe bzip2-1.0.6-r5: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 129 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libffi/libffi_3.2.1.bb, do_populate_sysroot_setscene)
+NOTE: recipe bzip2-1.0.6-r5: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 130 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libffi/libffi_3.2.1.bb, do_populate_lic_setscene)
+NOTE: recipe bzip2-1.0.6-r5: task do_package_write_rpm_setscene: Succeeded
+NOTE: recipe libffi-3.2.1-r0: task do_populate_sysroot_setscene: Started
+NOTE: Running setscene task 131 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_packagedata_setscene)
+NOTE: recipe libffi-3.2.1-r0: task do_populate_lic_setscene: Started
+NOTE: recipe bzip2-1.0.6-r5: task do_packagedata_setscene: Started
+NOTE: recipe perl-native-5.22.1-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 132 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libffi/libffi_3.2.1.bb, do_package_qa_setscene)
+NOTE: recipe libffi-3.2.1-r0: task do_package_qa_setscene: Started
+NOTE: recipe libffi-3.2.1-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 133 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libffi/libffi_3.2.1.bb, do_package_write_rpm_setscene)
+NOTE: recipe libffi-3.2.1-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 134 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_populate_lic_setscene)
+NOTE: recipe libffi-3.2.1-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe bzip2-1.0.6-r5: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 136 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_package_qa_setscene)
+NOTE: recipe db-6.0.30-r0: task do_populate_lic_setscene: Started
+NOTE: recipe libffi-3.2.1-r0: task do_package_qa_setscene: Succeeded
+NOTE: recipe db-6.0.30-r0: task do_package_qa_setscene: Started
+NOTE: Running setscene task 137 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_package_write_rpm_setscene)
+NOTE: recipe db-6.0.30-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe libffi-3.2.1-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 138 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libffi/libffi_3.2.1.bb, do_packagedata_setscene)
+NOTE: recipe db-6.0.30-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 139 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/gdbm/gdbm_1.11.bb, do_populate_lic_setscene)
+NOTE: recipe libffi-3.2.1-r0: task do_packagedata_setscene: Started
+NOTE: recipe db-6.0.30-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 140 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/gdbm/gdbm_1.11.bb, do_package_qa_setscene)
+NOTE: recipe gdbm-1.11-r0: task do_populate_lic_setscene: Started
+NOTE: recipe gdbm-1.11-r0: task do_package_qa_setscene: Started
+NOTE: recipe db-6.0.30-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 141 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/gdbm/gdbm_1.11.bb, do_package_write_rpm_setscene)
+NOTE: recipe libffi-3.2.1-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 143 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_populate_sysroot_setscene)
+NOTE: recipe gdbm-1.11-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe gdbm-1.11-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 144 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_populate_lic_setscene)
+NOTE: recipe gdbm-1.11-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 145 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_package_qa_setscene)
+NOTE: recipe openssl-1.0.2h-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe openssl-1.0.2h-r0: task do_populate_lic_setscene: Started
+NOTE: recipe openssl-1.0.2h-r0: task do_package_qa_setscene: Started
+NOTE: recipe gdbm-1.11-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 146 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_package_write_rpm_setscene)
+NOTE: recipe openssl-1.0.2h-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe openssl-1.0.2h-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 147 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_populate_lic_setscene)
+NOTE: recipe openssl-1.0.2h-r0: task do_package_write_rpm_setscene: Started
+NOTE: Running setscene task 148 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_package_qa_setscene)
+NOTE: recipe readline-6.3-r0: task do_populate_lic_setscene: Started
+NOTE: recipe openssl-1.0.2h-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe readline-6.3-r0: task do_package_qa_setscene: Started
+NOTE: Running setscene task 149 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_package_write_rpm_setscene)
+NOTE: recipe readline-6.3-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe openssl-1.0.2h-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 150 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl_5.22.1.bb, do_packagedata_setscene)
+NOTE: recipe readline-6.3-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 151 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_packagedata_setscene)
+NOTE: recipe readline-6.3-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 152 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_populate_sysroot_setscene)
+NOTE: recipe openssl-1.0.2h-r0: task do_packagedata_setscene: Started
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe readline-6.3-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 153 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_populate_lic_setscene)
+NOTE: recipe perl-5.22.1-r0: task do_packagedata_setscene: Started
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_populate_lic_setscene: Started
+NOTE: recipe openssl-1.0.2h-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 155 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_package_qa_setscene)
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 156 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_package_write_rpm_setscene)
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_package_qa_setscene: Started
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 157 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/sed/sed_4.2.2.bb, do_populate_sysroot_setscene)
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe perl-5.22.1-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 159 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_populate_sysroot_setscene)
+NOTE: recipe sed-4.2.2-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe zlib-1.2.8-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 160 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_packagedata_setscene)
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: recipe zlib-1.2.8-r0: task do_packagedata_setscene: Started
+NOTE: Running setscene task 161 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl-native_5.22.1.bb, do_populate_sysroot_setscene)
+NOTE: recipe sed-4.2.2-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe perl-native-5.22.1-r0: task do_populate_sysroot_setscene: Started
+NOTE: Running setscene task 162 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_populate_sysroot_setscene)
+NOTE: recipe zlib-1.2.8-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 163 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_packagedata_setscene)
+NOTE: recipe db-6.0.30-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe db-6.0.30-r0: task do_packagedata_setscene: Started
+NOTE: recipe zlib-1.2.8-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 165 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/gdbm/gdbm_1.11.bb, do_populate_sysroot_setscene)
+NOTE: recipe gdbm-1.11-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe db-6.0.30-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 166 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/gdbm/gdbm_1.11.bb, do_packagedata_setscene)
+NOTE: recipe db-6.0.30-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 168 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_packagedata_setscene)
+NOTE: recipe gdbm-1.11-r0: task do_packagedata_setscene: Started
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_packagedata_setscene: Started
+NOTE: recipe gdbm-1.11-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 169 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/sed/sed_4.2.2.bb, do_populate_lic_setscene)
+NOTE: recipe perl-native-5.22.1-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 170 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/sed/sed_4.2.2.bb, do_package_qa_setscene)
+NOTE: recipe sed-4.2.2-r0: task do_populate_lic_setscene: Started
+NOTE: recipe sed-4.2.2-r0: task do_package_qa_setscene: Started
+NOTE: recipe gdbm-1.11-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 172 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/sed/sed_4.2.2.bb, do_package_write_rpm_setscene)
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 174 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/diffutils/diffutils_3.3.bb, do_populate_sysroot_setscene)
+NOTE: recipe sed-4.2.2-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe diffutils-3.3-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe sed-4.2.2-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 175 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/diffutils/diffutils_3.3.bb, do_populate_lic_setscene)
+NOTE: recipe sed-4.2.2-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 176 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/diffutils/diffutils_3.3.bb, do_package_qa_setscene)
+NOTE: recipe diffutils-3.3-r0: task do_populate_lic_setscene: Started
+NOTE: recipe diffutils-3.3-r0: task do_package_qa_setscene: Started
+NOTE: recipe diffutils-3.3-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 177 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/diffutils/diffutils_3.3.bb, do_package_write_rpm_setscene)
+NOTE: recipe sed-4.2.2-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 178 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/make/make_4.1.bb, do_packagedata_setscene)
+NOTE: recipe diffutils-3.3-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe make-4.1-r0: task do_packagedata_setscene: Started
+NOTE: recipe diffutils-3.3-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe diffutils-3.3-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 179 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/sed/sed_4.2.2.bb, do_packagedata_setscene)
+NOTE: Running setscene task 180 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bc/bc_1.06.bb, do_populate_sysroot_setscene)
+NOTE: recipe bc-1.06-r3: task do_populate_sysroot_setscene: Started
+NOTE: recipe sed-4.2.2-r0: task do_packagedata_setscene: Started
+NOTE: recipe diffutils-3.3-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: recipe make-4.1-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 182 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bc/bc_1.06.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 183 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/diffutils/diffutils_3.3.bb, do_packagedata_setscene)
+NOTE: recipe bc-1.06-r3: task do_populate_lic_setscene: Started
+NOTE: recipe diffutils-3.3-r0: task do_packagedata_setscene: Started
+NOTE: recipe bc-1.06-r3: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe sed-4.2.2-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 185 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bc/bc_1.06.bb, do_package_qa_setscene)
+NOTE: Running setscene task 186 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bc/bc_1.06.bb, do_package_write_rpm_setscene)
+NOTE: recipe bc-1.06-r3: task do_package_qa_setscene: Started
+NOTE: recipe bc-1.06-r3: task do_package_write_rpm_setscene: Started
+NOTE: recipe bc-1.06-r3: task do_populate_lic_setscene: Succeeded
+NOTE: recipe diffutils-3.3-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 187 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/pigz/pigz_2.3.3.bb, do_populate_lic_setscene)
+NOTE: Running setscene task 189 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_populate_sysroot_setscene)
+NOTE: recipe cryptodev-linux-1.8-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe pigz-native-2.3.3-r0: task do_populate_lic_setscene: Started
+NOTE: recipe bc-1.06-r3: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 190 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_populate_lic_setscene)
+NOTE: recipe bc-1.06-r3: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 191 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bc/bc_1.06.bb, do_packagedata_setscene)
+NOTE: recipe cryptodev-linux-1.8-r0: task do_populate_lic_setscene: Started
+NOTE: recipe bc-1.06-r3: task do_packagedata_setscene: Started
+NOTE: recipe cryptodev-linux-1.8-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 192 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_package_qa_setscene)
+NOTE: recipe pigz-native-2.3.3-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 193 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_package_write_rpm_setscene)
+NOTE: recipe cryptodev-linux-1.8-r0: task do_package_qa_setscene: Started
+NOTE: recipe cryptodev-linux-1.8-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe cryptodev-linux-1.8-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 194 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_populate_lic_setscene)
+NOTE: recipe bc-1.06-r3: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 196 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_populate_sysroot_setscene)
+NOTE: recipe flex-2.6.0-r0: task do_populate_lic_setscene: Started
+NOTE: recipe cryptodev-linux-1.8-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 197 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_package_qa_setscene)
+NOTE: recipe flex-2.6.0-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe cryptodev-linux-1.8-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 198 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_packagedata_setscene)
+NOTE: recipe flex-2.6.0-r0: task do_package_qa_setscene: Started
+NOTE: recipe cryptodev-linux-1.8-r0: task do_packagedata_setscene: Started
+NOTE: recipe flex-2.6.0-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 199 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_package_write_rpm_setscene)
+NOTE: recipe flex-2.6.0-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 200 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/glibc/glibc-locale_2.23.bb, do_populate_sysroot_setscene)
+NOTE: recipe flex-2.6.0-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 201 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/glibc/glibc-locale_2.23.bb, do_populate_lic_setscene)
+NOTE: recipe flex-2.6.0-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe cryptodev-linux-1.8-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 203 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/glibc/glibc-locale_2.23.bb, do_package_qa_setscene)
+NOTE: recipe glibc-locale-2.23-r0: task do_populate_lic_setscene: Started
+NOTE: recipe glibc-locale-2.23-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe glibc-locale-2.23-r0: task do_package_qa_setscene: Started
+NOTE: recipe flex-2.6.0-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 204 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bash/bash_4.3.30.bb, do_packagedata_setscene)
+NOTE: recipe glibc-locale-2.23-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 205 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_packagedata_setscene)
+NOTE: recipe glibc-locale-2.23-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 206 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/glibc/glibc-locale_2.23.bb, do_package_write_rpm_setscene)
+NOTE: recipe bash-4.3.30-r0: task do_packagedata_setscene: Started
+NOTE: recipe glibc-locale-2.23-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe flex-2.6.0-r0: task do_packagedata_setscene: Started
+NOTE: recipe glibc-locale-2.23-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 207 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4_1.4.17.bb, do_populate_sysroot_setscene)
+NOTE: recipe m4-1.4.17-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe bash-4.3.30-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 209 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4_1.4.17.bb, do_populate_lic_setscene)
+NOTE: recipe flex-2.6.0-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 211 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4_1.4.17.bb, do_package_qa_setscene)
+NOTE: recipe m4-1.4.17-r0: task do_populate_lic_setscene: Started
+NOTE: recipe m4-1.4.17-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 212 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4_1.4.17.bb, do_package_write_rpm_setscene)
+NOTE: recipe glibc-locale-2.23-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 213 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/glibc/glibc-locale_2.23.bb, do_packagedata_setscene)
+NOTE: recipe m4-1.4.17-r0: task do_package_qa_setscene: Started
+NOTE: recipe m4-1.4.17-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe glibc-locale-2.23-r0: task do_packagedata_setscene: Started
+NOTE: recipe m4-1.4.17-r0: task do_populate_lic_setscene: Succeeded
+NOTE: Running setscene task 214 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/gawk/gawk_4.1.3.bb, do_populate_sysroot_setscene)
+NOTE: recipe m4-1.4.17-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 215 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/gawk/gawk_4.1.3.bb, do_populate_lic_setscene)
+NOTE: recipe gawk-4.1.3-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe m4-1.4.17-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 216 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4_1.4.17.bb, do_packagedata_setscene)
+NOTE: recipe gawk-4.1.3-r0: task do_populate_lic_setscene: Started
+NOTE: recipe m4-1.4.17-r0: task do_packagedata_setscene: Started
+NOTE: recipe glibc-locale-2.23-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 218 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/gawk/gawk_4.1.3.bb, do_package_qa_setscene)
+NOTE: recipe gawk-4.1.3-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 219 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/gawk/gawk_4.1.3.bb, do_package_write_rpm_setscene)
+NOTE: recipe gawk-4.1.3-r0: task do_package_qa_setscene: Started
+NOTE: recipe gawk-4.1.3-r0: task do_populate_lic_setscene: Succeeded
+NOTE: recipe gawk-4.1.3-r0: task do_package_write_rpm_setscene: Started
+NOTE: recipe m4-1.4.17-r0: task do_packagedata_setscene: Succeeded
+NOTE: recipe gawk-4.1.3-r0: task do_package_qa_setscene: Succeeded
+NOTE: Running setscene task 221 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/prelink/prelink_git.bb, do_populate_sysroot_setscene)
+NOTE: recipe gawk-4.1.3-r0: task do_package_write_rpm_setscene: Succeeded
+NOTE: Running setscene task 222 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/ptest-runner/ptest-runner_2.0.bb, do_packagedata_setscene)
+NOTE: Running setscene task 223 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/gawk/gawk_4.1.3.bb, do_packagedata_setscene)
+NOTE: recipe prelink-native-1.0+gitAUTOINC+927979bbd1-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_packagedata_setscene: Started
+NOTE: recipe gawk-4.1.3-r0: task do_packagedata_setscene: Started
+NOTE: recipe prelink-native-1.0+gitAUTOINC+927979bbd1-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 224 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/binutils/binutils_2.26.bb, do_populate_sysroot_setscene)
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_packagedata_setscene: Succeeded
+NOTE: recipe gawk-4.1.3-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 227 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 228 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_packagedata_setscene)
+NOTE: Running setscene task 229 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_populate_sysroot_setscene)
+NOTE: recipe binutils-native-2.26-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe gettext-0.19.6-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe gettext-0.19.6-r0: task do_packagedata_setscene: Started
+NOTE: recipe readline-6.3-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe gettext-0.19.6-r0: task do_packagedata_setscene: Succeeded
+NOTE: recipe gettext-0.19.6-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 231 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/expat/expat_2.1.0.bb, do_packagedata_setscene)
+NOTE: Running setscene task 232 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/expat/expat_2.1.0.bb, do_populate_sysroot_setscene)
+NOTE: recipe readline-6.3-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 233 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_packagedata_setscene)
+NOTE: recipe binutils-native-2.26-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 234 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_populate_sysroot_setscene)
+NOTE: recipe expat-2.1.0-r0: task do_packagedata_setscene: Started
+NOTE: recipe expat-2.1.0-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe readline-6.3-r0: task do_packagedata_setscene: Started
+NOTE: recipe flex-native-2.6.0-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe expat-2.1.0-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 235 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/bison/bison_3.0.4.bb, do_populate_sysroot_setscene)
+NOTE: recipe expat-2.1.0-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 237 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/pigz/pigz_2.3.3.bb, do_populate_sysroot_setscene)
+NOTE: recipe readline-6.3-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 239 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_populate_sysroot_setscene)
+NOTE: recipe flex-native-2.6.0-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 240 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_packagedata_setscene)
+NOTE: recipe bison-native-3.0.4-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe pigz-native-2.3.3-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe ncurses-6.0+20160213-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe ncurses-6.0+20160213-r0: task do_packagedata_setscene: Started
+NOTE: recipe bison-native-3.0.4-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe pigz-native-2.3.3-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe ncurses-6.0+20160213-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 242 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-cross_2.4.6.bb, do_packagedata_setscene)
+NOTE: Running setscene task 243 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/opkg-utils/opkg-utils_git.bb, do_packagedata_setscene)
+NOTE: recipe ncurses-6.0+20160213-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 244 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-cross_2.4.6.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 245 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/opkg-utils/opkg-utils_git.bb, do_populate_sysroot_setscene)
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_packagedata_setscene: Started
+NOTE: recipe libtool-cross-2.4.6-r0: task do_packagedata_setscene: Started
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe libtool-cross-2.4.6-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_packagedata_setscene: Succeeded
+NOTE: recipe libtool-cross-2.4.6-r0: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 248 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-runtime-xilinx.bb, do_packagedata_setscene)
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_packagedata_setscene: Started
+NOTE: recipe libtool-cross-2.4.6-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 249 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-runtime-xilinx.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 250 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/glibc-xilinx.bb, do_populate_sysroot_setscene)
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_populate_sysroot_setscene: Started
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_populate_sysroot_setscene: Started
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 252 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/glibc-xilinx.bb, do_packagedata_setscene)
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_packagedata_setscene: Started
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 253 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/libgcc-xilinx.bb, do_populate_sysroot_setscene)
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 255 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/libgcc-xilinx.bb, do_packagedata_setscene)
+NOTE: Running setscene task 256 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/linux-libc-headers-xilinx.bb, do_packagedata_setscene)
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_populate_sysroot_setscene: Started
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_packagedata_setscene: Started
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_packagedata_setscene: Started
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 258 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-cross-xilinx.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 259 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-cross-xilinx.bb, do_packagedata_setscene)
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_packagedata_setscene: Succeeded
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 261 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/linux-libc-headers-xilinx.bb, do_populate_sysroot_setscene)
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_packagedata_setscene: Started
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_populate_sysroot_setscene: Started
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_populate_sysroot_setscene: Started
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 263 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/binutils-cross-xilinx.bb, do_packagedata_setscene)
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 264 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/binutils-cross-xilinx.bb, do_populate_sysroot_setscene)
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_packagedata_setscene: Started
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_populate_sysroot_setscene: Started
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_packagedata_setscene: Succeeded
+NOTE: Running setscene task 266 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/rpm/rpm_5.4.16.bb, do_populate_sysroot_setscene)
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe rpm-native-5.4.16-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe rpm-native-5.4.16-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 267 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/elfutils/elfutils_0.164.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 268 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libpcre/libpcre_8.38.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 269 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/attr/acl_2.2.52.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 270 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/ossp-uuid/ossp-uuid_1.6.2.bb, do_populate_sysroot_setscene)
+NOTE: recipe elfutils-native-0.164-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe libpcre-native-8.38-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe acl-native-2.2.52-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe ossp-uuid-native-1.6.2-r2: task do_populate_sysroot_setscene: Started
+NOTE: recipe libpcre-native-8.38-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 271 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/byacc/byacc_20150711.bb, do_populate_sysroot_setscene)
+NOTE: recipe ossp-uuid-native-1.6.2-r2: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 272 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_populate_sysroot_setscene)
+NOTE: recipe elfutils-native-0.164-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 273 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/file/file_5.25.bb, do_populate_sysroot_setscene)
+NOTE: recipe gettext-native-0.19.6-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe byacc-native-20150711-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe file-native-5.25-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe acl-native-2.2.52-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 274 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/attr/attr_2.4.47.bb, do_populate_sysroot_setscene)
+NOTE: recipe byacc-native-20150711-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe attr-native-2.4.47-r0: task do_populate_sysroot_setscene: Started
+NOTE: Running setscene task 275 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_populate_sysroot_setscene)
+NOTE: recipe file-native-5.25-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 276 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/popt/popt_1.16.bb, do_populate_sysroot_setscene)
+NOTE: recipe db-native-6.0.30-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe gettext-native-0.19.6-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 277 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-native_2.7.11.bb, do_populate_sysroot_setscene)
+NOTE: recipe python-native-2.7.11-r1.1: task do_populate_sysroot_setscene: Started
+NOTE: recipe popt-native-1.16-r3: task do_populate_sysroot_setscene: Started
+NOTE: recipe db-native-6.0.30-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe attr-native-2.4.47-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe popt-native-1.16-r3: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe python-native-2.7.11-r1.1: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 278 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 279 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 280 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 281 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_populate_sysroot_setscene)
+NOTE: recipe zlib-native-1.2.8-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe sqlite3-native-3_3.11.0-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe openssl-native-1.0.2h-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe bzip2-native-1.0.6-r5: task do_populate_sysroot_setscene: Started
+NOTE: recipe zlib-native-1.2.8-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 282 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/xz/xz_5.2.2.bb, do_populate_sysroot_setscene)
+NOTE: recipe bzip2-native-1.0.6-r5: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 283 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_populate_sysroot_setscene)
+NOTE: recipe sqlite3-native-3_3.11.0-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe openssl-native-1.0.2h-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 284 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_populate_sysroot_setscene)
+NOTE: recipe xz-native-5.2.2-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe readline-native-6.3-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe cryptodev-linux-native-1.8-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe cryptodev-linux-native-1.8-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe readline-native-6.3-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 285 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_populate_sysroot_setscene)
+NOTE: recipe xz-native-5.2.2-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 286 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext-minimal-native_0.19.4.bb, do_populate_sysroot_setscene)
+NOTE: recipe gettext-minimal-native-0.19.4-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe ncurses-native-6.0+20160213-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe gettext-minimal-native-0.19.4-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe ncurses-native-6.0+20160213-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 287 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/pkgconfig/pkgconfig_git.bb, do_populate_sysroot_setscene)
+NOTE: recipe pkgconfig-native-0.29+gitAUTOINC+5914edfe96-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe pkgconfig-native-0.29+gitAUTOINC+5914edfe96-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 288 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-native_2.4.6.bb, do_populate_sysroot_setscene)
+NOTE: recipe libtool-native-2.4.6-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe libtool-native-2.4.6-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 289 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/automake/automake_1.15.bb, do_populate_sysroot_setscene)
+NOTE: recipe automake-native-1.15-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe automake-native-1.15-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 290 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/autoconf/autoconf_2.69.bb, do_populate_sysroot_setscene)
+NOTE: recipe autoconf-native-2.69-r11: task do_populate_sysroot_setscene: Started
+NOTE: recipe autoconf-native-2.69-r11: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 291 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_populate_sysroot_setscene)
+NOTE: recipe m4-native-1.4.17-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe m4-native-1.4.17-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 292 of 294 (virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb, do_populate_sysroot_setscene)
+NOTE: Running setscene task 293 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_populate_sysroot_setscene)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe gnu-config-native-20150728+gitAUTOINC+b576fa87c1-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: recipe gnu-config-native-20150728+gitAUTOINC+b576fa87c1-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Running setscene task 294 of 294 (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/quilt/quilt-native_0.64.bb, do_populate_sysroot_setscene)
+NOTE: recipe quilt-native-0.64-r0: task do_populate_sysroot_setscene: Started
+NOTE: recipe quilt-native-0.64-r0: task do_populate_sysroot_setscene: Succeeded
+NOTE: Executing RunQueue Tasks
+NOTE: Running noexec task 9 of 940 (ID: 26, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/quilt/quilt-native_0.64.bb, do_build)
+NOTE: Running task 10 of 940 (ID: 27, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/quilt/quilt-native_0.64.bb, do_rm_work)
+NOTE: Running noexec task 19 of 940 (ID: 616, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_build)
+NOTE: Running task 20 of 940 (ID: 617, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/texinfo-dummy-native/texinfo-dummy-native.bb, do_rm_work)
+NOTE: Running noexec task 29 of 940 (ID: 212, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb, do_build)
+NOTE: Running task 30 of 940 (ID: 213, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/gnu-config/gnu-config_git.bb, do_rm_work)
+NOTE: Running noexec task 39 of 940 (ID: 572, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_build)
+NOTE: Running task 40 of 940 (ID: 573, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4-native_1.4.17.bb, do_rm_work)
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_rm_work: Started
+NOTE: recipe quilt-native-0.64-r0: task do_rm_work: Started
+NOTE: recipe m4-native-1.4.17-r0: task do_rm_work: Started
+NOTE: recipe gnu-config-native-20150728+gitAUTOINC+b576fa87c1-r0: task do_rm_work: Started
+NOTE: recipe texinfo-dummy-native-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 49 of 940 (ID: 182, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/autoconf/autoconf_2.69.bb, do_build)
+NOTE: Running task 50 of 940 (ID: 183, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/autoconf/autoconf_2.69.bb, do_rm_work)
+NOTE: recipe quilt-native-0.64-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 59 of 940 (ID: 192, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/automake/automake_1.15.bb, do_build)
+NOTE: Running task 60 of 940 (ID: 193, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/automake/automake_1.15.bb, do_rm_work)
+NOTE: recipe m4-native-1.4.17-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 69 of 940 (ID: 202, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-native_2.4.6.bb, do_build)
+NOTE: Running task 70 of 940 (ID: 203, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-native_2.4.6.bb, do_rm_work)
+NOTE: recipe gnu-config-native-20150728+gitAUTOINC+b576fa87c1-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 79 of 940 (ID: 454, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/pkgconfig/pkgconfig_git.bb, do_build)
+NOTE: Running task 80 of 940 (ID: 455, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/pkgconfig/pkgconfig_git.bb, do_rm_work)
+NOTE: recipe libtool-native-2.4.6-r0: task do_rm_work: Started
+NOTE: recipe autoconf-native-2.69-r11: task do_rm_work: Started
+NOTE: recipe automake-native-1.15-r0: task do_rm_work: Started
+NOTE: recipe pkgconfig-native-0.29+gitAUTOINC+5914edfe96-r0: task do_rm_work: Started
+NOTE: recipe autoconf-native-2.69-r11: task do_rm_work: Succeeded
+NOTE: Running noexec task 89 of 940 (ID: 242, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext-minimal-native_0.19.4.bb, do_build)
+NOTE: Running task 90 of 940 (ID: 243, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext-minimal-native_0.19.4.bb, do_rm_work)
+NOTE: recipe automake-native-1.15-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 99 of 940 (ID: 464, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_build)
+NOTE: Running task 100 of 940 (ID: 465, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_rm_work)
+NOTE: recipe libtool-native-2.4.6-r0: task do_rm_work: Succeeded
+NOTE: recipe pkgconfig-native-0.29+gitAUTOINC+5914edfe96-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 109 of 940 (ID: 172, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/attr/attr_2.4.47.bb, do_build)
+NOTE: Running task 110 of 940 (ID: 173, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/attr/attr_2.4.47.bb, do_rm_work)
+NOTE: Running noexec task 119 of 940 (ID: 162, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_build)
+NOTE: Running task 120 of 940 (ID: 163, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_rm_work)
+NOTE: recipe gettext-minimal-native-0.19.4-r0: task do_rm_work: Started
+NOTE: recipe sqlite3-native-3_3.11.0-r0: task do_rm_work: Started
+NOTE: recipe ncurses-native-6.0+20160213-r0: task do_rm_work: Started
+NOTE: recipe attr-native-2.4.47-r0: task do_rm_work: Started
+NOTE: recipe gettext-minimal-native-0.19.4-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 129 of 940 (ID: 51, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/pseudo/pseudo_1.7.5.bb, do_build)
+NOTE: Running task 130 of 940 (ID: 52, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/pseudo/pseudo_1.7.5.bb, do_rm_work)
+NOTE: recipe sqlite3-native-3_3.11.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 147 of 940 (ID: 444, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/xz/xz_5.2.2.bb, do_build)
+NOTE: Running task 148 of 940 (ID: 445, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/xz/xz_5.2.2.bb, do_rm_work)
+NOTE: recipe attr-native-2.4.47-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 157 of 940 (ID: 352, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_build)
+NOTE: Running task 158 of 940 (ID: 353, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_rm_work)
+NOTE: recipe ncurses-native-6.0+20160213-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 193 of 940 (ID: 626, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_build)
+NOTE: Running task 194 of 940 (ID: 627, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_rm_work)
+NOTE: recipe pseudo-native-1.7.5-r0: task do_rm_work: Started
+NOTE: recipe xz-native-5.2.2-r0: task do_rm_work: Started
+NOTE: recipe zlib-native-1.2.8-r0: task do_rm_work: Started
+NOTE: recipe cryptodev-linux-native-1.8-r0: task do_rm_work: Started
+NOTE: recipe pseudo-native-1.7.5-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 203 of 940 (ID: 322, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_build)
+NOTE: Running task 204 of 940 (ID: 323, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_rm_work)
+NOTE: recipe xz-native-5.2.2-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 221 of 940 (ID: 292, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_build)
+NOTE: Running task 222 of 940 (ID: 293, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_rm_work)
+NOTE: recipe zlib-native-1.2.8-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 239 of 940 (ID: 646, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_build)
+NOTE: Running task 240 of 940 (ID: 647, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_rm_work)
+NOTE: recipe cryptodev-linux-native-1.8-r0: task do_rm_work: Succeeded
+NOTE: recipe openssl-native-1.0.2h-r0: task do_rm_work: Started
+NOTE: Running noexec task 249 of 940 (ID: 636, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_build)
+NOTE: Running task 250 of 940 (ID: 637, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_rm_work)
+NOTE: recipe gettext-native-0.19.6-r0: task do_rm_work: Started
+NOTE: recipe readline-native-6.3-r0: task do_rm_work: Started
+NOTE: recipe bzip2-native-1.0.6-r5: task do_rm_work: Started
+NOTE: recipe openssl-native-1.0.2h-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 259 of 940 (ID: 342, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-native_2.7.11.bb, do_build)
+NOTE: Running task 260 of 940 (ID: 343, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-native_2.7.11.bb, do_rm_work)
+NOTE: recipe python-native-2.7.11-r1.1: task do_rm_work: Started
+NOTE: recipe gettext-native-0.19.6-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 269 of 940 (ID: 222, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/elfutils/elfutils_0.164.bb, do_build)
+NOTE: Running task 270 of 940 (ID: 223, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/elfutils/elfutils_0.164.bb, do_rm_work)
+NOTE: recipe readline-native-6.3-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 279 of 940 (ID: 332, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/popt/popt_1.16.bb, do_build)
+NOTE: Running task 280 of 940 (ID: 333, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/popt/popt_1.16.bb, do_rm_work)
+NOTE: recipe bzip2-native-1.0.6-r5: task do_rm_work: Succeeded
+NOTE: Running noexec task 289 of 940 (ID: 312, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_build)
+NOTE: Running task 290 of 940 (ID: 313, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_rm_work)
+NOTE: recipe elfutils-native-0.164-r0: task do_rm_work: Started
+NOTE: recipe popt-native-1.16-r3: task do_rm_work: Started
+NOTE: recipe db-native-6.0.30-r0: task do_rm_work: Started
+NOTE: recipe python-native-2.7.11-r1.1: task do_rm_work: Succeeded
+NOTE: Running noexec task 299 of 940 (ID: 302, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/file/file_5.25.bb, do_build)
+NOTE: Running task 300 of 940 (ID: 303, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/file/file_5.25.bb, do_rm_work)
+NOTE: recipe file-native-5.25-r0: task do_rm_work: Started
+NOTE: recipe elfutils-native-0.164-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 309 of 940 (ID: 282, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/byacc/byacc_20150711.bb, do_build)
+NOTE: Running task 310 of 940 (ID: 283, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/byacc/byacc_20150711.bb, do_rm_work)
+NOTE: recipe popt-native-1.16-r3: task do_rm_work: Succeeded
+NOTE: Running noexec task 319 of 940 (ID: 272, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/ossp-uuid/ossp-uuid_1.6.2.bb, do_build)
+NOTE: Running task 320 of 940 (ID: 273, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/ossp-uuid/ossp-uuid_1.6.2.bb, do_rm_work)
+NOTE: recipe db-native-6.0.30-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 329 of 940 (ID: 262, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/attr/acl_2.2.52.bb, do_build)
+NOTE: Running task 330 of 940 (ID: 263, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/attr/acl_2.2.52.bb, do_rm_work)
+NOTE: recipe byacc-native-20150711-r0: task do_rm_work: Started
+NOTE: recipe ossp-uuid-native-1.6.2-r2: task do_rm_work: Started
+NOTE: recipe acl-native-2.2.52-r0: task do_rm_work: Started
+NOTE: recipe file-native-5.25-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 339 of 940 (ID: 252, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libpcre/libpcre_8.38.bb, do_build)
+NOTE: Running task 340 of 940 (ID: 253, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libpcre/libpcre_8.38.bb, do_rm_work)
+NOTE: recipe byacc-native-20150711-r0: task do_rm_work: Succeeded
+NOTE: recipe libpcre-native-8.38-r0: task do_rm_work: Started
+NOTE: Running noexec task 366 of 940 (ID: 71, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/rpm/rpm_5.4.16.bb, do_build)
+NOTE: Running task 367 of 940 (ID: 72, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/rpm/rpm_5.4.16.bb, do_rm_work)
+NOTE: recipe acl-native-2.2.52-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 388 of 940 (ID: 862, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/pigz/pigz_2.3.3.bb, do_build)
+NOTE: Running task 389 of 940 (ID: 863, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/pigz/pigz_2.3.3.bb, do_rm_work)
+NOTE: recipe ossp-uuid-native-1.6.2-r2: task do_rm_work: Succeeded
+NOTE: Running noexec task 504 of 940 (ID: 434, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/bison/bison_3.0.4.bb, do_build)
+NOTE: Running task 505 of 940 (ID: 435, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/bison/bison_3.0.4.bb, do_rm_work)
+NOTE: recipe rpm-native-5.4.16-r0: task do_rm_work: Started
+NOTE: recipe pigz-native-2.3.3-r0: task do_rm_work: Started
+NOTE: recipe libpcre-native-8.38-r0: task do_rm_work: Succeeded
+NOTE: recipe bison-native-3.0.4-r0: task do_rm_work: Started
+NOTE: Running noexec task 514 of 940 (ID: 424, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_build)
+NOTE: Running task 515 of 940 (ID: 425, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_rm_work)
+NOTE: recipe flex-native-2.6.0-r0: task do_rm_work: Started
+NOTE: recipe rpm-native-5.4.16-r0: task do_rm_work: Succeeded
+NOTE: recipe pigz-native-2.3.3-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 595 of 940 (ID: 714, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl-native_5.22.1.bb, do_build)
+NOTE: Running task 596 of 940 (ID: 715, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl-native_5.22.1.bb, do_rm_work)
+NOTE: Running task 692 of 940 (ID: 540, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_fetch)
+NOTE: recipe bison-native-3.0.4-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 737 of 940 (ID: 232, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/binutils/binutils_2.26.bb, do_build)
+NOTE: Running task 738 of 940 (ID: 233, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/binutils/binutils_2.26.bb, do_rm_work)
+NOTE: recipe perl-native-5.22.1-r0: task do_rm_work: Started
+NOTE: recipe base-files-3.0.14-r89: task do_fetch: Started
+NOTE: recipe base-files-3.0.14-r89: task do_fetch: Succeeded
+NOTE: Running task 739 of 940 (ID: 536, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_unpack)
+NOTE: recipe flex-native-2.6.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 748 of 940 (ID: 384, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/binutils-cross-xilinx.bb, do_build)
+NOTE: Running task 749 of 940 (ID: 385, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/binutils-cross-xilinx.bb, do_rm_work)
+NOTE: recipe base-files-3.0.14-r89: task do_unpack: Started
+NOTE: recipe binutils-native-2.26-r0: task do_rm_work: Started
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_rm_work: Started
+NOTE: recipe perl-native-5.22.1-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 751 of 940 (ID: 93, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-cross-xilinx.bb, do_build)
+NOTE: Running task 752 of 940 (ID: 94, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-cross-xilinx.bb, do_rm_work)
+NOTE: recipe base-files-3.0.14-r89: task do_unpack: Succeeded
+NOTE: Running noexec task 754 of 940 (ID: 412, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/linux-libc-headers-xilinx.bb, do_build)
+NOTE: Running task 755 of 940 (ID: 413, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/linux-libc-headers-xilinx.bb, do_rm_work)
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_rm_work: Started
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_rm_work: Started
+NOTE: recipe binutils-native-2.26-r0: task do_rm_work: Succeeded
+NOTE: Running task 780 of 940 (ID: 537, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_patch)
+NOTE: recipe binutils-cross-xilinx-arm-2016.4-r1: task do_rm_work: Succeeded
+NOTE: Running noexec task 785 of 940 (ID: 61, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/prelink/prelink_git.bb, do_build)
+NOTE: Running task 786 of 940 (ID: 62, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/prelink/prelink_git.bb, do_rm_work)
+NOTE: recipe base-files-3.0.14-r89: task do_patch: Started
+NOTE: recipe base-files-3.0.14-r89: task do_patch: Succeeded
+NOTE: Running task 787 of 940 (ID: 541, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_configure)
+NOTE: recipe gcc-cross-xilinx-arm-2016.4-r1: task do_rm_work: Succeeded
+NOTE: recipe prelink-native-1.0+gitAUTOINC+927979bbd1-r0: task do_rm_work: Started
+NOTE: Running task 788 of 940 (ID: 543, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_populate_lic)
+NOTE: recipe base-files-3.0.14-r89: task do_configure: Started
+NOTE: recipe linux-libc-headers-xilinx-2016.4-r1: task do_rm_work: Succeeded
+NOTE: Running task 789 of 940 (ID: 32, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_fetch)
+NOTE: recipe base-files-3.0.14-r89: task do_populate_lic: Started
+NOTE: recipe external-hdf-1.0-r0: task do_fetch: Started
+NOTE: recipe external-hdf-1.0-r0: task do_fetch: Succeeded
+NOTE: Running task 790 of 940 (ID: 28, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_unpack)
+NOTE: recipe external-hdf-1.0-r0: task do_unpack: Started
+NOTE: recipe prelink-native-1.0+gitAUTOINC+927979bbd1-r0: task do_rm_work: Succeeded
+NOTE: Running task 791 of 940 (ID: 652, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_fetch)
+NOTE: recipe external-hdf-1.0-r0: task do_unpack: Succeeded
+NOTE: Running task 792 of 940 (ID: 29, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_patch)
+NOTE: recipe base-files-3.0.14-r89: task do_configure: Succeeded
+NOTE: Running task 793 of 940 (ID: 542, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_compile)
+NOTE: recipe external-hdf-1.0-r0: task do_patch: Started
+NOTE: recipe base-files-3.0.14-r89: task do_compile: Started
+NOTE: recipe external-hdf-1.0-r0: task do_patch: Succeeded
+NOTE: recipe base-files-3.0.14-r89: task do_populate_lic: Succeeded
+NOTE: Running noexec task 794 of 940 (ID: 33, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_configure)
+NOTE: Running noexec task 795 of 940 (ID: 34, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_compile)
+NOTE: Running task 796 of 940 (ID: 30, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_install)
+NOTE: recipe python-setuptools-native-19.4-r0: task do_fetch: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_fetch: Succeeded
+NOTE: recipe base-files-3.0.14-r89: task do_compile: Succeeded
+NOTE: Running task 797 of 940 (ID: 538, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_install)
+NOTE: Running task 798 of 940 (ID: 35, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_populate_lic)
+NOTE: Running task 799 of 940 (ID: 648, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_unpack)
+NOTE: recipe external-hdf-1.0-r0: task do_populate_lic: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_unpack: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_unpack: Succeeded
+NOTE: Running task 800 of 940 (ID: 649, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_patch)
+NOTE: recipe external-hdf-1.0-r0: task do_install: Started
+NOTE: recipe base-files-3.0.14-r89: task do_install: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_patch: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_patch: Succeeded
+NOTE: Running task 801 of 940 (ID: 653, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_configure)
+NOTE: recipe external-hdf-1.0-r0: task do_populate_lic: Succeeded
+NOTE: Running task 802 of 940 (ID: 655, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_populate_lic)
+NOTE: recipe python-setuptools-native-19.4-r0: task do_configure: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_populate_lic: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_configure: Succeeded
+NOTE: Running task 803 of 940 (ID: 654, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_compile)
+NOTE: recipe python-setuptools-native-19.4-r0: task do_populate_lic: Succeeded
+NOTE: Running task 804 of 940 (ID: 368, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_fetch)
+NOTE: recipe python-setuptools-native-19.4-r0: task do_compile: Started
+NOTE: recipe python-cython-native-0.24-r0: task do_fetch: Started
+NOTE: recipe python-cython-native-0.24-r0: task do_fetch: Succeeded
+NOTE: Running task 805 of 940 (ID: 364, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_unpack)
+NOTE: recipe python-cython-native-0.24-r0: task do_unpack: Started
+NOTE: recipe external-hdf-1.0-r0: task do_install: Succeeded
+NOTE: Running task 806 of 940 (ID: 40, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_package)
+NOTE: recipe python-cython-native-0.24-r0: task do_unpack: Succeeded
+NOTE: Running task 807 of 940 (ID: 42, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_deploy)
+NOTE: recipe python-setuptools-native-19.4-r0: task do_compile: Succeeded
+NOTE: Running task 808 of 940 (ID: 31, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_populate_sysroot)
+NOTE: recipe base-files-3.0.14-r89: task do_install: Succeeded
+NOTE: Running task 809 of 940 (ID: 548, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_package)
+NOTE: recipe external-hdf-1.0-r0: task do_deploy: Started
+NOTE: recipe external-hdf-1.0-r0: task do_package: Started
+NOTE: recipe external-hdf-1.0-r0: task do_populate_sysroot: Started
+NOTE: recipe base-files-3.0.14-r89: task do_package: Started
+NOTE: recipe external-hdf-1.0-r0: task do_deploy: Succeeded
+NOTE: recipe external-hdf-1.0-r0: task do_populate_sysroot: Succeeded
+NOTE: Running task 810 of 940 (ID: 539, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_populate_sysroot)
+NOTE: Running task 811 of 940 (ID: 650, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_install)
+NOTE: recipe base-files-3.0.14-r89: task do_populate_sysroot: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_install: Started
+NOTE: recipe external-hdf-1.0-r0: task do_package: Succeeded
+NOTE: Running task 812 of 940 (ID: 36, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_packagedata)
+NOTE: recipe external-hdf-1.0-r0: task do_packagedata: Started
+NOTE: recipe base-files-3.0.14-r89: task do_populate_sysroot: Succeeded
+NOTE: recipe python-setuptools-native-19.4-r0: task do_install: Succeeded
+NOTE: Running task 813 of 940 (ID: 651, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_populate_sysroot)
+NOTE: Running task 814 of 940 (ID: 365, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_patch)
+NOTE: recipe python-cython-native-0.24-r0: task do_patch: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_populate_sysroot: Started
+NOTE: recipe python-cython-native-0.24-r0: task do_patch: Succeeded
+NOTE: Running task 815 of 940 (ID: 371, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_populate_lic)
+NOTE: recipe python-cython-native-0.24-r0: task do_populate_lic: Started
+NOTE: recipe base-files-3.0.14-r89: task do_package: Succeeded
+NOTE: Running task 816 of 940 (ID: 544, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_packagedata)
+NOTE: recipe external-hdf-1.0-r0: task do_packagedata: Succeeded
+NOTE: Running task 817 of 940 (ID: 41, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_package_write_rpm)
+NOTE: recipe base-files-3.0.14-r89: task do_packagedata: Started
+NOTE: recipe external-hdf-1.0-r0: task do_package_write_rpm: Started
+NOTE: recipe python-cython-native-0.24-r0: task do_populate_lic: Succeeded
+NOTE: Running task 818 of 940 (ID: 37, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_package_qa)
+NOTE: recipe external-hdf-1.0-r0: task do_package_qa: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_populate_sysroot: Succeeded
+NOTE: Running noexec task 819 of 940 (ID: 656, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_build)
+NOTE: Running task 820 of 940 (ID: 657, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python-setuptools_19.4.bb, do_rm_work)
+NOTE: recipe python-setuptools-native-19.4-r0: task do_rm_work: Started
+NOTE: recipe base-files-3.0.14-r89: task do_packagedata: Succeeded
+NOTE: Running task 823 of 940 (ID: 549, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_package_write_rpm)
+NOTE: recipe base-files-3.0.14-r89: task do_package_write_rpm: Started
+NOTE: recipe python-setuptools-native-19.4-r0: task do_rm_work: Succeeded
+NOTE: Running task 824 of 940 (ID: 545, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_package_qa)
+NOTE: recipe base-files-3.0.14-r89: task do_package_qa: Started
+NOTE: recipe external-hdf-1.0-r0: task do_package_qa: Succeeded
+NOTE: Running task 825 of 940 (ID: 369, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_configure)
+NOTE: recipe python-cython-native-0.24-r0: task do_configure: Started
+NOTE: recipe python-cython-native-0.24-r0: task do_configure: Succeeded
+NOTE: Running task 826 of 940 (ID: 370, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_compile)
+NOTE: recipe python-cython-native-0.24-r0: task do_compile: Started
+NOTE: recipe base-files-3.0.14-r89: task do_package_qa: Succeeded
+NOTE: Running task 827 of 940 (ID: 358, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_fetch)
+NOTE: recipe libyaml-native-0.1.6-r0: task do_fetch: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_fetch: Succeeded
+NOTE: Running task 828 of 940 (ID: 354, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_unpack)
+NOTE: recipe external-hdf-1.0-r0: task do_package_write_rpm: Succeeded
+NOTE: Running task 829 of 940 (ID: 77, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_fetch)
+NOTE: recipe libyaml-native-0.1.6-r0: task do_unpack: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_unpack: Succeeded
+NOTE: Running task 830 of 940 (ID: 355, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_patch)
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_fetch: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_fetch: Succeeded
+NOTE: Running task 831 of 940 (ID: 73, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_unpack)
+NOTE: recipe libyaml-native-0.1.6-r0: task do_patch: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_patch: Succeeded
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_unpack: Started
+NOTE: Running task 832 of 940 (ID: 359, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_configure)
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_unpack: Succeeded
+NOTE: Running task 833 of 940 (ID: 361, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_populate_lic)
+NOTE: recipe libyaml-native-0.1.6-r0: task do_configure: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_populate_lic: Started
+NOTE: recipe base-files-3.0.14-r89: task do_package_write_rpm: Succeeded
+NOTE: Running noexec task 834 of 940 (ID: 123, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/glibc-xilinx.bb, do_build)
+NOTE: Running task 835 of 940 (ID: 124, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/glibc-xilinx.bb, do_rm_work)
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_rm_work: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_populate_lic: Succeeded
+NOTE: Running noexec task 836 of 940 (ID: 398, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/libgcc-xilinx.bb, do_build)
+NOTE: Running task 837 of 940 (ID: 399, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/libgcc-xilinx.bb, do_rm_work)
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_rm_work: Started
+NOTE: recipe glibc-xilinx-2016.4-r1: task do_rm_work: Succeeded
+NOTE: Running noexec task 838 of 940 (ID: 107, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-runtime-xilinx.bb, do_build)
+NOTE: Running task 839 of 940 (ID: 108, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-petalinux/recipes-external/external-xilinx-toolchain/gcc-runtime-xilinx.bb, do_rm_work)
+NOTE: recipe libgcc-xilinx-2016.4-r1: task do_rm_work: Succeeded
+NOTE: Running noexec task 840 of 940 (ID: 476, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-cross_2.4.6.bb, do_build)
+NOTE: Running task 841 of 940 (ID: 477, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/libtool/libtool-cross_2.4.6.bb, do_rm_work)
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_rm_work: Started
+NOTE: recipe libtool-cross-2.4.6-r0: task do_rm_work: Started
+NOTE: recipe gcc-runtime-xilinx-2016.4-r1: task do_rm_work: Succeeded
+NOTE: Running noexec task 842 of 940 (ID: 668, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/expat/expat_2.1.0.bb, do_build)
+NOTE: Running task 843 of 940 (ID: 669, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/expat/expat_2.1.0.bb, do_rm_work)
+NOTE: recipe expat-2.1.0-r0: task do_rm_work: Started
+NOTE: recipe libtool-cross-2.4.6-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 844 of 940 (ID: 490, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_build)
+NOTE: Running task 845 of 940 (ID: 491, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/gettext/gettext_0.19.6.bb, do_rm_work)
+NOTE: recipe gettext-0.19.6-r0: task do_rm_work: Started
+NOTE: recipe expat-2.1.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 846 of 940 (ID: 518, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/opkg-utils/opkg-utils_git.bb, do_build)
+NOTE: Running task 847 of 940 (ID: 519, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/opkg-utils/opkg-utils_git.bb, do_rm_work)
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_rm_work: Started
+NOTE: recipe gettext-0.19.6-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 848 of 940 (ID: 757, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/gdbm/gdbm_1.11.bb, do_build)
+NOTE: Running task 849 of 940 (ID: 758, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/gdbm/gdbm_1.11.bb, do_rm_work)
+NOTE: recipe gdbm-1.11-r0: task do_rm_work: Started
+NOTE: recipe opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 850 of 940 (ID: 685, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_build)
+NOTE: Running task 851 of 940 (ID: 686, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/zlib/zlib_1.2.8.bb, do_rm_work)
+NOTE: recipe zlib-1.2.8-r0: task do_rm_work: Started
+NOTE: recipe gdbm-1.11-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 852 of 940 (ID: 874, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_build)
+NOTE: Running task 853 of 940 (ID: 875, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/cryptodev/cryptodev-linux_1.8.bb, do_rm_work)
+NOTE: recipe cryptodev-linux-1.8-r0: task do_rm_work: Started
+NOTE: recipe zlib-1.2.8-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 854 of 940 (ID: 774, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_build)
+NOTE: Running task 855 of 940 (ID: 775, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-connectivity/openssl/openssl_1.0.2h.bb, do_rm_work)
+NOTE: recipe openssl-1.0.2h-r0: task do_rm_work: Started
+NOTE: recipe cryptodev-linux-1.8-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 856 of 940 (ID: 702, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_build)
+NOTE: Running task 857 of 940 (ID: 703, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bzip2/bzip2_1.0.6.bb, do_rm_work)
+NOTE: recipe bzip2-1.0.6-r5: task do_rm_work: Started
+NOTE: recipe openssl-1.0.2h-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 858 of 940 (ID: 504, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_build)
+NOTE: Running task 859 of 940 (ID: 505, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/ncurses/ncurses_6.0+20160213.bb, do_rm_work)
+NOTE: recipe ncurses-6.0+20160213-r0: task do_rm_work: Started
+NOTE: recipe bzip2-1.0.6-r5: task do_rm_work: Succeeded
+NOTE: Running noexec task 860 of 940 (ID: 891, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_build)
+NOTE: Running task 861 of 940 (ID: 892, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/flex/flex_2.6.0.bb, do_rm_work)
+NOTE: recipe flex-2.6.0-r0: task do_rm_work: Started
+NOTE: recipe ncurses-6.0+20160213-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 862 of 940 (ID: 788, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_build)
+NOTE: Running task 863 of 940 (ID: 789, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/readline/readline_6.3.bb, do_rm_work)
+NOTE: recipe readline-6.3-r0: task do_rm_work: Started
+NOTE: recipe flex-2.6.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 864 of 940 (ID: 740, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_build)
+NOTE: Running task 865 of 940 (ID: 741, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/db/db_6.0.30.bb, do_rm_work)
+NOTE: recipe db-6.0.30-r0: task do_rm_work: Started
+NOTE: recipe readline-6.3-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 866 of 940 (ID: 150, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bash/bash_4.3.30.bb, do_build)
+NOTE: Running task 867 of 940 (ID: 151, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bash/bash_4.3.30.bb, do_rm_work)
+NOTE: recipe bash-4.3.30-r0: task do_rm_work: Started
+NOTE: recipe db-6.0.30-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 868 of 940 (ID: 802, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_build)
+NOTE: Running task 869 of 940 (ID: 803, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/sqlite/sqlite3_3.11.0.bb, do_rm_work)
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_rm_work: Started
+NOTE: recipe bash-4.3.30-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 870 of 940 (ID: 726, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libffi/libffi_3.2.1.bb, do_build)
+NOTE: Running task 871 of 940 (ID: 727, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libffi/libffi_3.2.1.bb, do_rm_work)
+NOTE: recipe libffi-3.2.1-r0: task do_rm_work: Started
+NOTE: recipe sqlite3-3_3.11.0-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 872 of 940 (ID: 936, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/gawk/gawk_4.1.3.bb, do_build)
+NOTE: Running task 873 of 940 (ID: 937, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/gawk/gawk_4.1.3.bb, do_rm_work)
+NOTE: recipe gawk-4.1.3-r0: task do_rm_work: Started
+NOTE: recipe libffi-3.2.1-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 874 of 940 (ID: 836, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/diffutils/diffutils_3.3.bb, do_build)
+NOTE: Running task 875 of 940 (ID: 837, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/diffutils/diffutils_3.3.bb, do_rm_work)
+NOTE: recipe diffutils-3.3-r0: task do_rm_work: Started
+NOTE: recipe gawk-4.1.3-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 876 of 940 (ID: 819, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/sed/sed_4.2.2.bb, do_build)
+NOTE: Running task 877 of 940 (ID: 820, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/sed/sed_4.2.2.bb, do_rm_work)
+NOTE: recipe sed-4.2.2-r0: task do_rm_work: Started
+NOTE: recipe diffutils-3.3-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 878 of 940 (ID: 604, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl_5.22.1.bb, do_build)
+NOTE: Running task 879 of 940 (ID: 605, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/perl/perl_5.22.1.bb, do_rm_work)
+NOTE: recipe sed-4.2.2-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 880 of 940 (ID: 587, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python_2.7.11.bb, do_build)
+NOTE: Running task 881 of 940 (ID: 588, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/python/python_2.7.11.bb, do_rm_work)
+NOTE: recipe perl-5.22.1-r0: task do_rm_work: Started
+NOTE: recipe python-2.7.11-r1: task do_rm_work: Started
+NOTE: recipe perl-5.22.1-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 882 of 940 (ID: 560, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/ptest-runner/ptest-runner_2.0.bb, do_build)
+NOTE: Running task 883 of 940 (ID: 561, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/ptest-runner/ptest-runner_2.0.bb, do_rm_work)
+NOTE: recipe python-2.7.11-r1: task do_rm_work: Succeeded
+NOTE: Running noexec task 884 of 940 (ID: 532, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/make/make_4.1.bb, do_build)
+NOTE: Running task 885 of 940 (ID: 533, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/make/make_4.1.bb, do_rm_work)
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_rm_work: Started
+NOTE: recipe make-4.1-r0: task do_rm_work: Started
+NOTE: recipe ptest-runner-2.0+gitAUTOINC+8bfdf946e7-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 886 of 940 (ID: 546, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_build)
+NOTE: Running task 887 of 940 (ID: 547, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files_3.0.14.bb, do_rm_work)
+NOTE: recipe make-4.1-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 888 of 940 (ID: 919, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4_1.4.17.bb, do_build)
+NOTE: Running task 889 of 940 (ID: 920, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-devtools/m4/m4_1.4.17.bb, do_rm_work)
+NOTE: recipe base-files-3.0.14-r89: task do_rm_work: Started
+NOTE: recipe m4-1.4.17-r0: task do_rm_work: Started
+NOTE: recipe base-files-3.0.14-r89: task do_rm_work: Succeeded
+NOTE: Running noexec task 890 of 940 (ID: 905, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/glibc/glibc-locale_2.23.bb, do_build)
+NOTE: Running task 891 of 940 (ID: 906, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/glibc/glibc-locale_2.23.bb, do_rm_work)
+NOTE: recipe m4-1.4.17-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 892 of 940 (ID: 850, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bc/bc_1.06.bb, do_build)
+NOTE: Running task 893 of 940 (ID: 851, /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-extended/bc/bc_1.06.bb, do_rm_work)
+NOTE: recipe glibc-locale-2.23-r0: task do_rm_work: Started
+NOTE: recipe bc-1.06-r3: task do_rm_work: Started
+NOTE: recipe glibc-locale-2.23-r0: task do_rm_work: Succeeded
+NOTE: Running noexec task 894 of 940 (ID: 38, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_build)
+NOTE: Running task 895 of 940 (ID: 39, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-hdf/hdf/external-hdf.bb, do_rm_work)
+NOTE: recipe bc-1.06-r3: task do_rm_work: Succeeded
+NOTE: Running task 896 of 940 (ID: 74, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_patch)
+NOTE: recipe external-hdf-1.0-r0: task do_rm_work: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_patch: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_patch: Succeeded
+NOTE: Running task 897 of 940 (ID: 80, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_populate_lic)
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_populate_lic: Started
+NOTE: recipe external-hdf-1.0-r0: task do_rm_work: Succeeded
+NOTE: Running task 898 of 940 (ID: 131, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_fetch)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_fetch: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_populate_lic: Succeeded
+NOTE: recipe libyaml-native-0.1.6-r0: task do_configure: Succeeded
+NOTE: Running task 899 of 940 (ID: 360, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_compile)
+NOTE: Running task 900 of 940 (ID: 4, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_fetch)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_fetch: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_compile: Started
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_fetch: Succeeded
+NOTE: Running task 901 of 940 (ID: 127, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_unpack)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_unpack: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_fetch: Succeeded
+NOTE: Running task 902 of 940 (ID: 0, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_unpack)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_unpack: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_unpack: Succeeded
+NOTE: Running task 903 of 940 (ID: 1, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_patch)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_unpack: Succeeded
+NOTE: Running task 904 of 940 (ID: 128, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_patch)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_patch: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_patch: Succeeded
+NOTE: Running task 905 of 940 (ID: 6, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_xsct_setup)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_patch: Started
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_patch: Succeeded
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_xsct_setup: Started
+NOTE: Running task 906 of 940 (ID: 132, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_configure)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_configure: Started
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_configure: Succeeded
+NOTE: Running task 907 of 940 (ID: 133, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_compile)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_compile: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_xsct_setup: Succeeded
+NOTE: Running task 908 of 940 (ID: 134, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_populate_lic)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_populate_lic: Started
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_populate_lic: Succeeded
+NOTE: Running task 909 of 940 (ID: 9, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_populate_lic)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_populate_lic: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_populate_lic: Succeeded
+NOTE: recipe libyaml-native-0.1.6-r0: task do_compile: Succeeded
+NOTE: Running task 910 of 940 (ID: 356, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_install)
+NOTE: recipe libyaml-native-0.1.6-r0: task do_install: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_install: Succeeded
+NOTE: Running task 911 of 940 (ID: 357, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_populate_sysroot)
+NOTE: recipe libyaml-native-0.1.6-r0: task do_populate_sysroot: Started
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_compile: Succeeded
+NOTE: Running task 912 of 940 (ID: 129, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_install)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_install: Started
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_install: Succeeded
+NOTE: Running task 913 of 940 (ID: 130, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_populate_sysroot)
+NOTE: recipe libyaml-native-0.1.6-r0: task do_populate_sysroot: Succeeded
+NOTE: Running noexec task 914 of 940 (ID: 362, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_build)
+NOTE: Running task 915 of 940 (ID: 363, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml_0.1.6.bb, do_rm_work)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_populate_sysroot: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_rm_work: Started
+NOTE: recipe libyaml-native-0.1.6-r0: task do_rm_work: Succeeded
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_populate_sysroot: Succeeded
+NOTE: Running noexec task 916 of 940 (ID: 135, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_build)
+NOTE: Running task 917 of 940 (ID: 136, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc_git.bb, do_rm_work)
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_rm_work: Started
+NOTE: recipe dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: task do_rm_work: Succeeded
+NOTE: recipe python-cython-native-0.24-r0: task do_compile: Succeeded
+NOTE: Running task 918 of 940 (ID: 366, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_install)
+NOTE: recipe python-cython-native-0.24-r0: task do_install: Started
+NOTE: recipe python-cython-native-0.24-r0: task do_install: Succeeded
+NOTE: Running task 919 of 940 (ID: 367, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_populate_sysroot)
+NOTE: recipe python-cython-native-0.24-r0: task do_populate_sysroot: Started
+NOTE: recipe python-cython-native-0.24-r0: task do_populate_sysroot: Succeeded
+NOTE: Running noexec task 920 of 940 (ID: 372, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_build)
+NOTE: Running task 921 of 940 (ID: 373, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-cython_0.24.bb, do_rm_work)
+NOTE: Running task 922 of 940 (ID: 78, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_configure)
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_configure: Started
+NOTE: recipe python-cython-native-0.24-r0: task do_rm_work: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_configure: Succeeded
+NOTE: Running task 923 of 940 (ID: 79, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_compile)
+NOTE: recipe python-cython-native-0.24-r0: task do_rm_work: Succeeded
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_compile: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_compile: Succeeded
+NOTE: Running task 924 of 940 (ID: 75, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_install)
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_install: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_install: Succeeded
+NOTE: Running task 925 of 940 (ID: 76, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_populate_sysroot)
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_populate_sysroot: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_populate_sysroot: Succeeded
+NOTE: Running noexec task 926 of 940 (ID: 81, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_build)
+NOTE: Running task 927 of 940 (ID: 82, virtual:native:/opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml_3.11.bb, do_rm_work)
+NOTE: Running task 928 of 940 (ID: 5, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_create_yaml)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_create_yaml: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_rm_work: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_create_yaml: Succeeded
+NOTE: Running task 929 of 940 (ID: 7, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_configure)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_configure: Started
+NOTE: recipe python-pyyaml-native-3.11-r0: task do_rm_work: Succeeded
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_configure: Succeeded
+NOTE: Running task 930 of 940 (ID: 8, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_compile)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_compile: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_compile: Succeeded
+NOTE: Running noexec task 931 of 940 (ID: 2, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_install)
+NOTE: Running task 932 of 940 (ID: 15, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_package)
+NOTE: Running task 933 of 940 (ID: 17, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_deploy)
+NOTE: Running task 934 of 940 (ID: 3, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_populate_sysroot)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_populate_sysroot: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_deploy: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_package: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_populate_sysroot: Succeeded
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_deploy: Succeeded
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_package: Succeeded
+NOTE: Running task 935 of 940 (ID: 10, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_packagedata)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_packagedata: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_packagedata: Succeeded
+NOTE: Running task 936 of 940 (ID: 16, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_package_write_rpm)
+NOTE: Running task 937 of 940 (ID: 11, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_package_qa)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_package_write_rpm: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_package_qa: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_package_qa: Succeeded
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_package_write_rpm: Succeeded
+NOTE: Running noexec task 938 of 940 (ID: 12, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_build)
+NOTE: Running task 939 of 940 (ID: 13, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_rm_work)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_rm_work: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_rm_work: Succeeded
+NOTE: Running task 940 of 940 (ID: 14, /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-xilinx-tools/recipes-dt/device-tree/device-tree-generation_git.bb, do_rm_work_all)
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_rm_work_all: Started
+NOTE: recipe device-tree-generation-xilinx+gitAUTOINC+11f81055d1-r0: task do_rm_work_all: Succeeded
+NOTE: Tasks Summary: Attempted 940 tasks of which 707 didn't need to be rerun and all succeeded.

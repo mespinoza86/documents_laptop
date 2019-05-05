@@ -1,0 +1,123 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz for universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz;downloadfilename=universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz;downloadfilename=universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz;downloadfilename=universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz;downloadfilename=universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz
+DEBUG: Searching for universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo for universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo;downloadfilename=universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo;downloadfilename=universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo;downloadfilename=universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/d8/sstate%3Aelfutils-native%3Ax86_64-linux%3A0.164%3Ar0%3Ax86_64%3A3%3Ad845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo;downloadfilename=universal/d8/sstate:elfutils-native:x86_64-linux:0.164:r0:x86_64:3:d845fde27ffb4745525ac961ae1ed1bb_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/elfutils-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/eu-elflint
+x86_64-linux/usr/bin/eu-readelf
+x86_64-linux/usr/bin/eu-size
+x86_64-linux/usr/bin/eu-addr2line
+x86_64-linux/usr/bin/eu-unstrip
+x86_64-linux/usr/bin/eu-strip
+x86_64-linux/usr/bin/eu-objdump
+x86_64-linux/usr/bin/eu-strings
+x86_64-linux/usr/bin/eu-stack
+x86_64-linux/usr/bin/eu-ar
+x86_64-linux/usr/bin/eu-findtextrel
+x86_64-linux/usr/bin/eu-elfcmp
+x86_64-linux/usr/bin/eu-nm
+x86_64-linux/usr/bin/eu-make-debug-archive
+x86_64-linux/usr/bin/eu-ld
+x86_64-linux/usr/bin/eu-ranlib
+x86_64-linux/usr/lib/
+x86_64-linux/usr/lib/libelf-0.164.so
+x86_64-linux/usr/lib/libasm.so
+x86_64-linux/usr/lib/libdw-0.164.so
+x86_64-linux/usr/lib/libdw.a
+x86_64-linux/usr/lib/libdw.so.1
+x86_64-linux/usr/lib/libelf.so
+x86_64-linux/usr/lib/libasm.a
+x86_64-linux/usr/lib/libasm.so.1
+x86_64-linux/usr/lib/libelf.so.1
+x86_64-linux/usr/lib/libebl.a
+x86_64-linux/usr/lib/elfutils/
+x86_64-linux/usr/lib/elfutils/libebl_alpha-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_i386-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_m68k.so
+x86_64-linux/usr/lib/elfutils/libebl_ppc.so
+x86_64-linux/usr/lib/elfutils/libebl_x86_64-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_arm.so
+x86_64-linux/usr/lib/elfutils/libebl_aarch64-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_ppc-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_alpha.so
+x86_64-linux/usr/lib/elfutils/libebl_x86_64.so
+x86_64-linux/usr/lib/elfutils/libebl_m68k-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_i386.so
+x86_64-linux/usr/lib/elfutils/libebl_sparc-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_parisc-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_ppc64-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_sh.so
+x86_64-linux/usr/lib/elfutils/libebl_tilegx-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_ia64-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_sparc.so
+x86_64-linux/usr/lib/elfutils/libebl_ppc64.so
+x86_64-linux/usr/lib/elfutils/libebl_ia64.so
+x86_64-linux/usr/lib/elfutils/libebl_arm-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_aarch64.so
+x86_64-linux/usr/lib/elfutils/libebl_mips.so
+x86_64-linux/usr/lib/elfutils/libebl_s390.so
+x86_64-linux/usr/lib/elfutils/libebl_sh-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_parisc.so
+x86_64-linux/usr/lib/elfutils/libebl_mips-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_s390-0.164.so
+x86_64-linux/usr/lib/elfutils/libebl_tilegx.so
+x86_64-linux/usr/lib/libelf.a
+x86_64-linux/usr/lib/libdw.so
+x86_64-linux/usr/lib/libasm-0.164.so
+x86_64-linux/usr/include/
+x86_64-linux/usr/include/dwarf.h
+x86_64-linux/usr/include/elfutils/
+x86_64-linux/usr/include/elfutils/version.h
+x86_64-linux/usr/include/elfutils/libdwelf.h
+x86_64-linux/usr/include/elfutils/known-dwarf.h
+x86_64-linux/usr/include/elfutils/libdwfl.h
+x86_64-linux/usr/include/elfutils/libasm.h
+x86_64-linux/usr/include/elfutils/elf-knowledge.h
+x86_64-linux/usr/include/elfutils/libebl.h
+x86_64-linux/usr/include/elfutils/libdw.h
+x86_64-linux/usr/include/gelf.h
+x86_64-linux/usr/include/nlist.h
+x86_64-linux/usr/include/libelf.h
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/elfutils-native/0.164-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/elfutils-native/0.164-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/elfutils-native/0.164-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

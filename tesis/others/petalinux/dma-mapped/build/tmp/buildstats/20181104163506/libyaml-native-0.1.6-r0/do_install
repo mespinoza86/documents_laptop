@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349399.46 
+libyaml-native-0.1.6-r0: do_install: Elapsed time: 0.52 seconds 
+utime: 22
+stime: 0
+cutime: 17
+cstime: 18
+IO write_bytes: 233472
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 1209
+IO wchar: 235595
+IO rchar: 1075899
+IO syscw: 160
+rusage ru_utime: 0.221518
+rusage ru_stime: 0.008055
+rusage ru_maxrss: 97308
+rusage ru_minflt: 6471
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 39
+rusage ru_nivcsw: 31
+Child rusage ru_utime: 0.174098
+Child rusage ru_stime: 0.186338
+Child rusage ru_maxrss: 95556
+Child rusage ru_minflt: 10717
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 400
+Child rusage ru_nvcsw: 160
+Child rusage ru_nivcsw: 143
+Status: PASSED 
+Ended: 1541349399.99 

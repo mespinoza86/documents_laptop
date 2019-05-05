@@ -1,0 +1,27 @@
+{
+
+"virtual/atf":{
+	"globalvar":{
+		"SRC_URI":["=","CONFIG_SUBSYSTEM_COMPONENT_ARM__TRUSTED__FIRMWARE_NAME_REMOTE","CONFIG_SUBSYSTEM_COMPONENT_ARM__TRUSTED__FIRMWARE_NAME_REMOTE_DOWNLOAD_PATH"],
+		"SRCREV":["=","CONFIG_SUBSYSTEM_COMPONENT_ARM__TRUSTED__FIRMWARE_NAME_REMOTE","CONFIG_SUBSYSTEM_COMPONENT_ARM__TRUSTED__FIRMWARE_NAME_REMOTE_REFERENCE"],
+		"sysconf":"${TOPDIR}/../project-spec/configs/config",
+		"extra_settings":"CONFIG_SUBSYSTEM_ATF_COMPILE_EXTRA_SETTINGS",
+		"atf_mem_base":"CONFIG_SUBSYSTEM_ZYNQMP_ATF_MEM_BASE",
+		"atf_mem_size":"CONFIG_SUBSYSTEM_ZYNQMP_ATF_MEM_SIZE",
+		"EXTRA_OEMAKE_append":"${extra_settings} ZYNQMP_ATF_MEM_BASE=${atf_mem_base} ZYNQMP_ATF_MEM_SIZE=${atf_mem_size}"
+	}
+	},
+
+"virtual/pmufw":{
+	"globalvar":{
+		"export":"PETALINUX",
+		"XSCTH_REPO":["?=","1","none"],
+		"do_configure[noexec]":["=","!CONFIG_SUBSYSTEM_AUTOCONFIG_PMUFW", "1"],
+		"XSCTH_WS":"${TOPDIR}/../components/plnx_workspace",
+		"YAML_BSP_CONFIG":"stdin stdout",
+		"YAML_BSP_CONFIG[stdin]":"set,CONFIG_SUBSYSTEM_SERIAL_IP_NAME",
+		"YAML_BSP_CONFIG[stdout]":"set,CONFIG_SUBSYSTEM_SERIAL_IP_NAME"
+	}
+	}
+
+}

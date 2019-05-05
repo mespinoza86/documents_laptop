@@ -1,0 +1,116 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz for universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz;downloadfilename=universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz;downloadfilename=universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz;downloadfilename=universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz;downloadfilename=universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz
+DEBUG: Searching for universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo for universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo;downloadfilename=universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo;downloadfilename=universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo;downloadfilename=universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/f9/sstate%3Alibtool-native%3Ax86_64-linux%3A2.4.6%3Ar0%3Ax86_64%3A3%3Af9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo;downloadfilename=universal/f9/sstate:libtool-native:x86_64-linux:2.4.6:r0:x86_64:3:f9becd3ed51bc0e4ccf1a1a842bd32ed_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/libtool-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/x86_64-linux-libtool
+x86_64-linux/usr/bin/libtoolize
+x86_64-linux/usr/lib/
+x86_64-linux/usr/lib/libltdl.so.7.3.1
+x86_64-linux/usr/lib/libltdl.la
+x86_64-linux/usr/lib/libltdl.so.7
+x86_64-linux/usr/lib/libltdl.so
+x86_64-linux/usr/include/
+x86_64-linux/usr/include/libltdl/
+x86_64-linux/usr/include/libltdl/lt_system.h
+x86_64-linux/usr/include/libltdl/lt_error.h
+x86_64-linux/usr/include/libltdl/lt_dlloader.h
+x86_64-linux/usr/include/ltdl.h
+x86_64-linux/usr/share/
+x86_64-linux/usr/share/aclocal/
+x86_64-linux/usr/share/aclocal/lt~obsolete.m4
+x86_64-linux/usr/share/aclocal/libtool.m4
+x86_64-linux/usr/share/aclocal/ltoptions.m4
+x86_64-linux/usr/share/aclocal/ltsugar.m4
+x86_64-linux/usr/share/aclocal/ltargz.m4
+x86_64-linux/usr/share/aclocal/ltversion.m4
+x86_64-linux/usr/share/aclocal/ltdl.m4
+x86_64-linux/usr/share/libtool/
+x86_64-linux/usr/share/libtool/aclocal.m4
+x86_64-linux/usr/share/libtool/Makefile.am
+x86_64-linux/usr/share/libtool/slist.c
+x86_64-linux/usr/share/libtool/Makefile.in
+x86_64-linux/usr/share/libtool/configure.ac
+x86_64-linux/usr/share/libtool/ltdl.c
+x86_64-linux/usr/share/libtool/libltdl/
+x86_64-linux/usr/share/libtool/libltdl/lt__argz_.h
+x86_64-linux/usr/share/libtool/libltdl/lt_system.h
+x86_64-linux/usr/share/libtool/libltdl/lt__glibc.h
+x86_64-linux/usr/share/libtool/libltdl/lt__private.h
+x86_64-linux/usr/share/libtool/libltdl/lt__dirent.h
+x86_64-linux/usr/share/libtool/libltdl/lt__strl.h
+x86_64-linux/usr/share/libtool/libltdl/lt_error.h
+x86_64-linux/usr/share/libtool/libltdl/lt_dlloader.h
+x86_64-linux/usr/share/libtool/libltdl/slist.h
+x86_64-linux/usr/share/libtool/libltdl/lt__alloc.h
+x86_64-linux/usr/share/libtool/ltdl.h
+x86_64-linux/usr/share/libtool/lt_dlloader.c
+x86_64-linux/usr/share/libtool/lt__dirent.c
+x86_64-linux/usr/share/libtool/COPYING.LIB
+x86_64-linux/usr/share/libtool/build-aux/
+x86_64-linux/usr/share/libtool/build-aux/ltmain.sh
+x86_64-linux/usr/share/libtool/build-aux/install-sh
+x86_64-linux/usr/share/libtool/build-aux/depcomp
+x86_64-linux/usr/share/libtool/build-aux/compile
+x86_64-linux/usr/share/libtool/build-aux/config.sub
+x86_64-linux/usr/share/libtool/build-aux/config.guess
+x86_64-linux/usr/share/libtool/build-aux/missing
+x86_64-linux/usr/share/libtool/ltdl.mk
+x86_64-linux/usr/share/libtool/lt__alloc.c
+x86_64-linux/usr/share/libtool/lt__argz.c
+x86_64-linux/usr/share/libtool/config-h.in
+x86_64-linux/usr/share/libtool/README
+x86_64-linux/usr/share/libtool/lt_error.c
+x86_64-linux/usr/share/libtool/lt__strl.c
+x86_64-linux/usr/share/libtool/configure
+x86_64-linux/usr/share/libtool/loaders/
+x86_64-linux/usr/share/libtool/loaders/loadlibrary.c
+x86_64-linux/usr/share/libtool/loaders/dlopen.c
+x86_64-linux/usr/share/libtool/loaders/dyld.c
+x86_64-linux/usr/share/libtool/loaders/shl_load.c
+x86_64-linux/usr/share/libtool/loaders/dld_link.c
+x86_64-linux/usr/share/libtool/loaders/preopen.c
+x86_64-linux/usr/share/libtool/loaders/load_add_on.c
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/libtool-native/2.4.6-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/libtool-native/2.4.6-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/libtool-native/2.4.6-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

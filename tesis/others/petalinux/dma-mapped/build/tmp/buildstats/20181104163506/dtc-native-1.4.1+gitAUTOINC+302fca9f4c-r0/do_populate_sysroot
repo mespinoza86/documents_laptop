@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349401.22 
+dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: do_populate_sysroot: Elapsed time: 1.07 seconds 
+utime: 27
+stime: 9
+cutime: 37
+cstime: 48
+IO write_bytes: 1314816
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 2218
+IO wchar: 1738543
+IO rchar: 4142501
+IO syscw: 438
+rusage ru_utime: 0.276407
+rusage ru_stime: 0.094768
+rusage ru_maxrss: 97336
+rusage ru_minflt: 19884
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1824
+rusage ru_nvcsw: 128
+rusage ru_nivcsw: 81
+Child rusage ru_utime: 0.372548
+Child rusage ru_stime: 0.482807
+Child rusage ru_maxrss: 95968
+Child rusage ru_minflt: 22866
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 744
+Child rusage ru_nvcsw: 299
+Child rusage ru_nivcsw: 169
+Status: PASSED 
+Ended: 1541349402.29 

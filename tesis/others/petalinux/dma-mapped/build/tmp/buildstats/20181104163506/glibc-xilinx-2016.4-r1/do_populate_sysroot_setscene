@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349357.65 
+glibc-xilinx-2016.4-r1: do_populate_sysroot_setscene: Elapsed time: 1.26 seconds 
+utime: 14
+stime: 6
+cutime: 75
+cstime: 40
+IO write_bytes: 127406080
+IO read_bytes: 39608320
+IO cancelled_write_bytes: 0
+IO syscr: 28835
+IO wchar: 251187830
+IO rchar: 166444890
+IO syscw: 19970
+rusage ru_utime: 0.148655
+rusage ru_stime: 0.06861
+rusage ru_maxrss: 97660
+rusage ru_minflt: 6469
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 864
+rusage ru_nvcsw: 754
+rusage ru_nivcsw: 52
+Child rusage ru_utime: 0.757555
+Child rusage ru_stime: 0.405923
+Child rusage ru_maxrss: 95984
+Child rusage ru_minflt: 2006
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 77360
+Child rusage ru_oublock: 247976
+Child rusage ru_nvcsw: 16801
+Child rusage ru_nivcsw: 8554
+Status: PASSED 
+Ended: 1541349358.91 

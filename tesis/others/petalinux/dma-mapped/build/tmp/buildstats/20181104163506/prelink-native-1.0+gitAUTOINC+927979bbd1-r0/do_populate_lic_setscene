@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349329.17 
+prelink-native-1.0+gitAUTOINC+927979bbd1-r0: do_populate_lic_setscene: Elapsed time: 0.35 seconds 
+utime: 22
+stime: 1
+cutime: 9
+cstime: 17
+IO write_bytes: 110592
+IO read_bytes: 12288
+IO cancelled_write_bytes: 0
+IO syscr: 191
+IO wchar: 186058
+IO rchar: 265428
+IO syscw: 128
+rusage ru_utime: 0.2287
+rusage ru_stime: 0.015772
+rusage ru_maxrss: 97552
+rusage ru_minflt: 8431
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 84
+Child rusage ru_utime: 0.092431
+Child rusage ru_stime: 0.177471
+Child rusage ru_maxrss: 95824
+Child rusage ru_minflt: 2089
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 33
+Child rusage ru_nivcsw: 42
+Status: PASSED 
+Ended: 1541349329.52 

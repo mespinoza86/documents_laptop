@@ -1,0 +1,7 @@
+DEBUG: Executing python function sysroot_cleansstate
+DEBUG: Python function sysroot_cleansstate finished
+DEBUG: Executing shell function do_configure
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+NOTE: python-setuptools-native: md5 checksum matched for file://setup.py;beginline=78;endline=78;md5=8a314270dd7a8dbca741775415f1716e
+DEBUG: Python function do_qa_configure finished

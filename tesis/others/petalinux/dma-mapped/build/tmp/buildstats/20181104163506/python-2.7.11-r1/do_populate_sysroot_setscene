@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349338.66 
+python-2.7.11-r1: do_populate_sysroot_setscene: Elapsed time: 1.10 seconds 
+utime: 27
+stime: 8
+cutime: 53
+cstime: 35
+IO write_bytes: 64053248
+IO read_bytes: 17887232
+IO cancelled_write_bytes: 118784
+IO syscr: 23658
+IO wchar: 115903003
+IO rchar: 77091687
+IO syscw: 18261
+rusage ru_utime: 0.27735
+rusage ru_stime: 0.084746
+rusage ru_maxrss: 99628
+rusage ru_minflt: 7886
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 1328
+rusage ru_nvcsw: 1189
+rusage ru_nivcsw: 75
+Child rusage ru_utime: 0.532132
+Child rusage ru_stime: 0.354382
+Child rusage ru_maxrss: 97964
+Child rusage ru_minflt: 2570
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 34936
+Child rusage ru_oublock: 123776
+Child rusage ru_nvcsw: 9810
+Child rusage ru_nivcsw: 7928
+Status: PASSED 
+Ended: 1541349339.76 

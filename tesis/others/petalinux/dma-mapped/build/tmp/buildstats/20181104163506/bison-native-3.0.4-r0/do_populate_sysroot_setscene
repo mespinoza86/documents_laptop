@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349356.49 
+bison-native-3.0.4-r0: do_populate_sysroot_setscene: Elapsed time: 0.36 seconds 
+utime: 20
+stime: 2
+cutime: 12
+cstime: 15
+IO write_bytes: 1462272
+IO read_bytes: 315392
+IO cancelled_write_bytes: 393216
+IO syscr: 505
+IO wchar: 2393481
+IO rchar: 1911669
+IO syscw: 325
+rusage ru_utime: 0.208467
+rusage ru_stime: 0.024525
+rusage ru_maxrss: 97536
+rusage ru_minflt: 7602
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 26
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.128965
+Child rusage ru_stime: 0.151282
+Child rusage ru_maxrss: 95808
+Child rusage ru_minflt: 2867
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 616
+Child rusage ru_oublock: 2720
+Child rusage ru_nvcsw: 200
+Child rusage ru_nivcsw: 141
+Status: PASSED 
+Ended: 1541349356.85 

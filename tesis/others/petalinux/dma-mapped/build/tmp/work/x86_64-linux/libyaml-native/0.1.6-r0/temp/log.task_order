@@ -1,0 +1,9 @@
+do_fetch (12228): log.do_fetch.12228
+do_unpack (12238): log.do_unpack.12238
+do_patch (12259): log.do_patch.12259
+do_configure (12327): log.do_configure.12327
+do_populate_lic (12331): log.do_populate_lic.12331
+do_compile (15633): log.do_compile.15633
+do_install (18869): log.do_install.18869
+do_populate_sysroot (18982): log.do_populate_sysroot.18982
+do_rm_work (19149): log.do_rm_work.19149

@@ -1,0 +1,81 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz for 8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz;downloadfilename=8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz', '', '', {'downloadfilename': '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz;downloadfilename=8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz', '', '', {'downloadfilename': '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz;downloadfilename=8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz
+DEBUG: For url ['file', '', '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz;downloadfilename=8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz
+DEBUG: Searching for 8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo for 8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo;downloadfilename=8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo;downloadfilename=8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo;downloadfilename=8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/8b/sstate%3Areadline%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A6.3%3Ar0%3Acortexa9hf-neon%3A3%3A8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo;downloadfilename=8b/sstate:readline:cortexa9hf-neon-xilinx-linux-gnueabi:6.3:r0:cortexa9hf-neon:3:8bbb714c363ea396260f7994b62979e1_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/readline
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libreadline.so
+sysroot-destdir/usr/lib/libhistory.so.6.3
+sysroot-destdir/usr/lib/libhistory.so.6
+sysroot-destdir/usr/lib/libreadline.a
+sysroot-destdir/usr/lib/libreadline.so.6
+sysroot-destdir/usr/lib/libhistory.a
+sysroot-destdir/usr/lib/libreadline.so.6.3
+sysroot-destdir/usr/lib/libhistory.so
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/readline/
+sysroot-destdir/usr/include/readline/rlconf.h
+sysroot-destdir/usr/include/readline/rlstdc.h
+sysroot-destdir/usr/include/readline/rltypedefs.h
+sysroot-destdir/usr/include/readline/keymaps.h
+sysroot-destdir/usr/include/readline/chardefs.h
+sysroot-destdir/usr/include/readline/readline.h
+sysroot-destdir/usr/include/readline/tilde.h
+sysroot-destdir/usr/include/readline/history.h
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/readline/
+sysroot-destdir/usr/share/readline/rl-fgets.c
+sysroot-destdir/usr/share/readline/excallback.c
+sysroot-destdir/usr/share/readline/manexamp.c
+sysroot-destdir/usr/share/readline/fileman.c
+sysroot-destdir/usr/share/readline/histexamp.c
+sysroot-destdir/usr/share/readline/hist_purgecmd.c
+sysroot-destdir/usr/share/readline/rltest.c
+sysroot-destdir/usr/share/readline/rlcat.c
+sysroot-destdir/usr/share/readline/rlptytest.c
+sysroot-destdir/usr/share/readline/rlversion.c
+sysroot-destdir/usr/share/readline/rl.c
+sysroot-destdir/usr/share/readline/hist_erasedups.c
+sysroot-destdir/usr/share/readline/rl-callbacktest.c
+sysroot-destdir/usr/share/readline/rlevent.c
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/readline/6.3-r0/sysroot-destdir to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm
+DEBUG: Python function do_populate_sysroot_setscene finished

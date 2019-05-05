@@ -1,0 +1,172 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export prefix="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr"
+export STRIP="strip"
+export localstatedir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/var"
+export USER="marco"
+export libexecdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/libexec"
+export datadir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share"
+export PKG_CONFIG_SYSROOT_DIR=""
+export BUILD_CXX="g++ "
+export LD="ld "
+export LDFLAGS="-L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export bindir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin"
+export CCLD="gcc "
+export TARGET_CXXFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -D_GLIBCXX_USE_CXX11_ABI=0"
+export BUILD_CC="gcc "
+export BUILD_LDFLAGS="-L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export STAGING_LIBDIR="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib"
+unset TARGET_ARCH
+export STRINGS="strings"
+export READELF="readelf"
+export CCACHE_DIR="/home/marco/.ccache"
+export BUILD_LD="ld "
+export oldincludedir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+unset PKG_CONFIG_SYSTEM_LIBRARY_PATH
+unset SHELL
+export docdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/doc"
+export infodir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/info"
+export base_prefix="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux"
+export CC="gcc "
+export TERM="xterm-256color"
+export RANLIB="ranlib"
+export CPPFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include"
+unset PKG_CONFIG_SYSTEM_INCLUDE_PATH
+export base_sbindir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/sbin"
+export CXX="g++ "
+export HOME="/home/marco"
+export BUILD_RANLIB="ranlib"
+export PKG_CONFIG_PATH="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/pkgconfig"
+export BUILD_FC="gfortran "
+export sbindir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/sbin"
+export AS="as "
+export AR="ar"
+export BUILD_CPPFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_AR="ar"
+export CPP="gcc  -E"
+export mandir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/man"
+export sharedstatedir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/com"
+export CONFIG_SITE="/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/site/native"
+export BUILD_CXXFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -D_GLIBCXX_USE_CXX11_ABI=0"
+export OBJCOPY="objcopy"
+export base_libdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib"
+export CCACHE_DISABLE="1"
+export servicedir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/srv"
+export FC="gfortran "
+export LC_ALL="C"
+export TARGET_CPPFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include"
+export systemd_user_unitdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib/systemd/user"
+export exec_prefix="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr"
+export BUILD_NM="nm"
+export nonarch_libdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib"
+export sysconfdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/etc"
+export MAKE="make"
+export LOGNAME="marco"
+export PATH="/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/scripts/native-intercept:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin/python-native:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/scripts:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin/x86_64-linux:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/sbin:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/bin:\${EXTERNAL_TOOLCHAIN}/bin:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/scripts:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/bitbake/bin:/opt/pkg/petalinux/components/yocto/source/arm/sysroots/x86_64-petalinux-linux/usr/bin:/opt/pkg/petalinux/components/yocto/source/arm/buildtools/sysroots/x86_64-petalinux-linux/usr/bin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/bin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/sbin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin/../x86_64-petalinux-linux/bin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin/arm-xilinx-linux-gnueabi:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin/arm-xilinx-linux-uclibc:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin/arm-xilinx-linux-musl:/opt/pkg/petalinux/tools/linux-i386/microblaze-xilinx-elf/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-none-elf/bin:/opt/pkg/petalinux/tools/linux-i386/microblazeel-xilinx-linux-gnu/bin:/opt/pkg/petalinux/tools/linux-i386/arm-linux-gnueabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-linux-gnu/bin:/opt/pkg/petalinux/tools/common/petalinux/utils:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin/unexport:/opt/pkg/petalinux/tools/hsm/bin:/opt/pkg/petalinux/tools/webtalk/bin:/opt/pkg/petalinux/tools/linux-i386/microblaze-xilinx-elf/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-none-elf/bin:/opt/pkg/petalinux/tools/linux-i386/microblazeel-xilinx-linux-gnu/bin:/opt/pkg/petalinux/tools/linux-i386/arm-linux-gnueabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-linux-gnu/bin:/opt/pkg/petalinux/tools/common/petalinux/utils:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin/unexport:/opt/pkg/petalinux/tools/hsm/bin:/opt/pkg/petalinux/tools/webtalk/bin:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin:/opt/pkg/petalinux/tools/common/petalinux/bin:/opt/pkg/petalinux/tools/linux-i386/microblaze-xilinx-elf/bin:/opt/pkg/petalinux/tools/linux-i386/microblazeel-xilinx-linux-gnu/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-linux-gnueabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-none-elf/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-linux-gnu/bin:/home/marco/bin:/home/marco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+export TARGET_CFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export base_bindir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/bin"
+export includedir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include"
+export PKG_CONFIG_LIBDIR="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig"
+unset MACHINE
+export CFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export BUILD_AS="as "
+export OBJDUMP="objdump"
+unset DISTRO
+export LDSHARED="gcc  -shared"
+export systemd_system_unitdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib/systemd/system"
+export BUILD_STRIP="strip"
+export PKG_CONFIG_DIR="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib/pkgconfig"
+export TARGET_LDFLAGS="-L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export libdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib"
+export nonarch_base_libdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib"
+export PSEUDO_DISABLED="1"
+export PSEUDO_UNLOAD="1"
+export systemd_unitdir="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib/systemd"
+export BUILD_CPP="gcc  -E"
+unset lt_cv_sys_lib_dlsearch_path_spec
+export CXXFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -D_GLIBCXX_USE_CXX11_ABI=0"
+export NM="nm"
+export STAGING_INCDIR="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include"
+
+sysroot_stage_all() {
+	sysroot_stage_dirs /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/python-setuptools-native/19.4-r0/image /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/python-setuptools-native/19.4-r0/sysroot-destdir
+}
+
+sysroot_stage_dirs() {
+	from="$1"
+	to="$2"
+
+	sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include
+	if [ "x86_64-linux" = "x86_64-linux" ]; then
+		sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin
+		sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/sbin $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/sbin
+		sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/bin $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/bin
+		sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/sbin $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/sbin
+		sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/libexec $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/libexec
+		sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/etc $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/etc
+		sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/var $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/var
+	fi
+	if [ -d $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib ]
+	then
+		sysroot_stage_libdir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib
+	fi
+	if [ -d $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib ]
+	then
+		sysroot_stage_libdir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib
+	fi
+	if [ -d $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib ]
+	then
+		sysroot_stage_libdir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib
+	fi
+	sysroot_stage_dir $from/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share
+	# We don't care about docs/info/manpages/locales
+	rm -rf $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/man/ $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/doc/ $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/info/ ${to}/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/locale/
+	rm -rf $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/applications/ $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/fonts/ $to/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/share/pixmaps/
+}
+
+sysroot_stage_dir() {
+	src="$1"
+	dest="$2"
+	# if the src doesn't exist don't do anything
+	if [ ! -d "$src" ]; then
+		 return
+	fi
+
+	mkdir -p "$dest"
+	(
+		cd $src
+		find . -print0 | cpio --null -pdlu $dest
+	)
+}
+
+sysroot_stage_libdir() {
+	src="$1"
+	dest="$2"
+
+	sysroot_stage_dir $src $dest
+}
+
+cd '/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/python-setuptools-native/19.4-r0/setuptools-19.4'
+sysroot_stage_all
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

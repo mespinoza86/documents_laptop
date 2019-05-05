@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349357.18 
+libtool-cross-2.4.6-r0: do_populate_sysroot_setscene: Elapsed time: 0.37 seconds 
+utime: 16
+stime: 2
+cutime: 15
+cstime: 14
+IO write_bytes: 1986560
+IO read_bytes: 348160
+IO cancelled_write_bytes: 512000
+IO syscr: 712
+IO wchar: 3379056
+IO rchar: 2480262
+IO syscw: 17376
+rusage ru_utime: 0.165408
+rusage ru_stime: 0.02308
+rusage ru_maxrss: 96952
+rusage ru_minflt: 6743
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 24
+rusage ru_nivcsw: 141
+Child rusage ru_utime: 0.154268
+Child rusage ru_stime: 0.141589
+Child rusage ru_maxrss: 95260
+Child rusage ru_minflt: 2433
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 680
+Child rusage ru_oublock: 3752
+Child rusage ru_nvcsw: 176
+Child rusage ru_nivcsw: 67
+Status: PASSED 
+Ended: 1541349357.55 

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349375.37 
+external-hdf-1.0-r0: do_install: Elapsed time: 1.26 seconds 
+utime: 12
+stime: 2
+cutime: 49
+cstime: 70
+IO write_bytes: 24576
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 112
+IO wchar: 29889
+IO rchar: 114114
+IO syscw: 146
+rusage ru_utime: 0.127586
+rusage ru_stime: 0.023197
+rusage ru_maxrss: 97452
+rusage ru_minflt: 6469
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 40
+rusage ru_nvcsw: 14
+rusage ru_nivcsw: 168
+Child rusage ru_utime: 0.495066
+Child rusage ru_stime: 0.703456
+Child rusage ru_maxrss: 95848
+Child rusage ru_minflt: 1014
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 9
+Child rusage ru_nivcsw: 104
+Status: PASSED 
+Ended: 1541349376.64 

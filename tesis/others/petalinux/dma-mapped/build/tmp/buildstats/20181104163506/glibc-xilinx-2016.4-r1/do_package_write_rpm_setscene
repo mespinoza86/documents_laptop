@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349330.76 
+glibc-xilinx-2016.4-r1: do_package_write_rpm_setscene: Elapsed time: 0.48 seconds 
+utime: 19
+stime: 1
+cutime: 17
+cstime: 19
+IO write_bytes: 18919424
+IO read_bytes: 18530304
+IO cancelled_write_bytes: 0
+IO syscr: 3165
+IO wchar: 37794217
+IO rchar: 37594176
+IO syscw: 2571
+rusage ru_utime: 0.193645
+rusage ru_stime: 0.018984
+rusage ru_maxrss: 97628
+rusage ru_minflt: 6226
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 94
+Child rusage ru_utime: 0.174316
+Child rusage ru_stime: 0.197991
+Child rusage ru_maxrss: 95944
+Child rusage ru_minflt: 1805
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 36192
+Child rusage ru_oublock: 36824
+Child rusage ru_nvcsw: 3729
+Child rusage ru_nivcsw: 2918
+Status: PASSED 
+Ended: 1541349331.23 

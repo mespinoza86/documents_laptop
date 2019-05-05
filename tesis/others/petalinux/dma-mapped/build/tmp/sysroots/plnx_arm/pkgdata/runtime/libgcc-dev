@@ -1,0 +1,15 @@
+PN: libgcc-xilinx
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE: GPL-3.0-with-GCC-exception
+DESCRIPTION: External Xilinx toolchain.
+SUMMARY: External Xilinx toolchain
+RPROVIDES_libgcc-dev:  libgcc-dev (=5.2.1)
+RRECOMMENDS_libgcc-dev: glibc-xilinx-dev glibc-dev
+SECTION: base
+PKG_libgcc-dev: libgcc-s-dev
+FILES_libgcc-dev: /lib/libgcc*.so \t\t   /usr/lib/arm-xilinx-linux-gnueabi/${BINV}*                    /usr/lib/arm-linux-gnueabihf/5.2.1/*crt* \t\t   /usr/lib/arm-linux-gnueabihf/5.2.1/libgcc.a \t\t   /usr/lib/arm-linux-gnueabihf/5.2.1/libgcc_eh.a                    
+FILES_INFO: {"/lib/libgcc_s.so": 132, "/usr/lib/arm-linux-gnueabihf/5.2.1/libgcc_eh.a": 77208, "/usr/lib/arm-linux-gnueabihf/5.2.1/crtfastmath.o": 2848, "/usr/lib/arm-linux-gnueabihf/5.2.1/crtbegin.o": 2172, "/usr/lib/arm-linux-gnueabihf/5.2.1/crtbeginS.o": 2624, "/usr/lib/arm-linux-gnueabihf/5.2.1/crtbeginT.o": 2536, "/usr/lib/arm-linux-gnueabihf/5.2.1/crtend.o": 1108, "/usr/lib/arm-linux-gnueabihf/5.2.1/crtendS.o": 1108, "/usr/lib/arm-linux-gnueabihf/5.2.1/libgcc.a": 5933692}
+PKGSIZE_libgcc-dev: 6023428

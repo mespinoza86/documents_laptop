@@ -1,0 +1,20 @@
+PN: gcc-runtime-xilinx
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE: GPL-3.0-with-GCC-exception & GPL-3.0
+DESCRIPTION: External Xilinx toolchain.
+SUMMARY: External Xilinx toolchain
+RDEPENDS_libitm: glibc-xilinx (>= 2.21) libgcc (>= 5.2.1)
+RPROVIDES_libitm:  libitm (=5.2.1)
+SECTION: base
+PKG_libitm: libitm1
+FILES_libitm: /usr/lib/libitm*.so.*
+pkg_postinst_libitm: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libitm: /usr/lib/libitm.so.1.0.0
+FILES_INFO: {"/usr/lib/libitm.so.1": 15, "/usr/lib/libitm.so.1.0.0": 77560}
+FILERPROVIDES_/usr/lib/libitm.so.1.0.0_libitm: elf(buildid) (= dd85d6ca307be0fcfa0890f063ec7f0289f2198b) libitm.so.1 libitm.so.1(LIBITM_1.0)
+FILERDEPENDSFLIST_libitm: /usr/lib/libitm.so.1.0.0
+FILERDEPENDS_/usr/lib/libitm.so.1.0.0_libitm: libc.so.6 libc.so.6(GLIBC_2.4) libgcc_s.so.1 libgcc_s.so.1(GCC_3.0) libgcc_s.so.1(GCC_3.5) libpthread.so.0 libpthread.so.0(GLIBC_2.4)
+PKGSIZE_libitm: 77575

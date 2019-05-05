@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349350.90 
+cryptodev-linux-1.8-r0: do_package_write_rpm_setscene: Elapsed time: 0.46 seconds 
+utime: 14
+stime: 2
+cutime: 11
+cstime: 23
+IO write_bytes: 81920
+IO read_bytes: 8192
+IO cancelled_write_bytes: 0
+IO syscr: 174
+IO wchar: 135598
+IO rchar: 220803
+IO syscw: 114
+rusage ru_utime: 0.146169
+rusage ru_stime: 0.025057
+rusage ru_maxrss: 96756
+rusage ru_minflt: 5912
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.119369
+Child rusage ru_stime: 0.232685
+Child rusage ru_maxrss: 95064
+Child rusage ru_minflt: 1765
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 117
+Status: PASSED 
+Ended: 1541349351.36 

@@ -1,0 +1,22 @@
+PN: python
+PV: 2.7.11
+PR: r1
+PKGV: 2.7.11
+PKGR: r1
+LICENSE: PSFv2
+DESCRIPTION: The Python Programming Language.
+SUMMARY_python-math: Python math support
+RDEPENDS_python-math: python-core glibc-xilinx (>= 2.21) libpython2 (>= 2.7.11) python-crypt
+SECTION: devel/python
+PKG_python-math: python-math
+FILES_python-math: /usr/lib/python2.7/lib-dynload/cmath.so /usr/lib/python2.7/lib-dynload/math.so /usr/lib/python2.7/lib-dynload/_random.so /usr/lib/python2.7/random.* /usr/lib/python2.7/sets.* 
+FILERPROVIDESFLIST_python-math: /usr/lib/python2.7/lib-dynload/math.so /usr/lib/python2.7/lib-dynload/cmath.so /usr/lib/python2.7/lib-dynload/@underscore@random.so
+FILES_INFO: {"/usr/lib/python2.7/random.pyc": 25484, "/usr/lib/python2.7/lib-dynload/math.so": 34380, "/usr/lib/python2.7/sets.pyc": 16783, "/usr/lib/python2.7/lib-dynload/_random.so": 11220, "/usr/lib/python2.7/sets.py": 19050, "/usr/lib/python2.7/lib-dynload/cmath.so": 52632, "/usr/lib/python2.7/random.py": 32323}
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/math.so_python-math: elf(buildid) (= e6f974b2df38bde988f9f3d73d414e23e075a4a6) math.so
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/cmath.so_python-math: cmath.so elf(buildid) (= 0ac3f00daeddabc9ccb398cb1e74def82b312cf7)
+FILERPROVIDES_/usr/lib/python2.7/lib-dynload/@underscore@random.so_python-math: _random.so elf(buildid) (= ae26b37c9416a84339a685ce7f6bf44b4ed3476a)
+FILERDEPENDSFLIST_python-math: /usr/lib/python2.7/lib-dynload/math.so /usr/lib/python2.7/lib-dynload/cmath.so /usr/lib/python2.7/lib-dynload/@underscore@random.so
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/math.so_python-math: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/cmath.so_python-math: libc.so.6 libc.so.6(GLIBC_2.4) libm.so.6 libm.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/python2.7/lib-dynload/@underscore@random.so_python-math: libc.so.6 libc.so.6(GLIBC_2.4) libpython2.7.so.1.0 rtld(GNU_HASH)
+PKGSIZE_python-math: 191872

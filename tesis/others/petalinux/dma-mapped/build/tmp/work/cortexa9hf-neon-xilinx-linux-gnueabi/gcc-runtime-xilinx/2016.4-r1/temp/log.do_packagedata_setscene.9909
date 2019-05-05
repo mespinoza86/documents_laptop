@@ -1,0 +1,103 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz for 6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz;downloadfilename=6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz', '', '', {'downloadfilename': '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz;downloadfilename=6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz', '', '', {'downloadfilename': '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz;downloadfilename=6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz
+DEBUG: For url ['file', '', '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz;downloadfilename=6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz
+DEBUG: Searching for 6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo for 6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo;downloadfilename=6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo', '', '', {'downloadfilename': '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo;downloadfilename=6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo', '', '', {'downloadfilename': '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo;downloadfilename=6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/6d/sstate%3Agcc-runtime-xilinx%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A2016.4%3Ar1%3Acortexa9hf-neon%3A3%3A6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo;downloadfilename=6d/sstate:gcc-runtime-xilinx:cortexa9hf-neon-xilinx-linux-gnueabi:2016.4:r1:cortexa9hf-neon:3:6dbd9613c692be853e9ed61a1f45993e_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/libitm-dev
+pkgdata/runtime-reverse/libatomic-staticdev
+pkgdata/runtime-reverse/libssp-staticdev
+pkgdata/runtime-reverse/gcc-runtime-dbg
+pkgdata/runtime-reverse/libstdc++-staticdev
+pkgdata/runtime-reverse/libitm1
+pkgdata/runtime-reverse/libitm-staticdev
+pkgdata/runtime-reverse/libstdc++6
+pkgdata/runtime-reverse/libssp0
+pkgdata/runtime-reverse/libatomic-dev
+pkgdata/runtime-reverse/libstdc++-dev
+pkgdata/runtime-reverse/libatomic1
+pkgdata/runtime-reverse/libssp-dev
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/libitm/
+pkgdata/runtime-rprovides/libitm/libitm
+pkgdata/runtime-rprovides/libatomic/
+pkgdata/runtime-rprovides/libatomic/libatomic
+pkgdata/runtime-rprovides/(=5.2.1)/
+pkgdata/runtime-rprovides/(=5.2.1)/libitm
+pkgdata/runtime-rprovides/(=5.2.1)/libatomic
+pkgdata/runtime-rprovides/(=5.2.1)/libssp
+pkgdata/runtime-rprovides/(=5.2.1)/libstdc++
+pkgdata/runtime-rprovides/libssp/
+pkgdata/runtime-rprovides/libssp/libssp
+pkgdata/runtime-rprovides/libstdc++/
+pkgdata/runtime-rprovides/libstdc++/libstdc++
+pkgdata/runtime/
+pkgdata/runtime/libitm-dev.packaged
+pkgdata/runtime/libitm-staticdev.packaged
+pkgdata/runtime/libstdc++-dev.packaged
+pkgdata/runtime/libitm-dev
+pkgdata/runtime/libatomic-staticdev
+pkgdata/runtime/libssp-staticdev
+pkgdata/runtime/libssp-staticdev.packaged
+pkgdata/runtime/libitm
+pkgdata/runtime/libssp.packaged
+pkgdata/runtime/gcc-runtime-dbg.packaged
+pkgdata/runtime/gcc-runtime-dbg
+pkgdata/runtime/libitm.packaged
+pkgdata/runtime/libstdc++-staticdev
+pkgdata/runtime/libatomic-staticdev.packaged
+pkgdata/runtime/libssp-dev.packaged
+pkgdata/runtime/libatomic
+pkgdata/runtime/libitm-staticdev
+pkgdata/runtime/libstdc++-staticdev.packaged
+pkgdata/runtime/libatomic.packaged
+pkgdata/runtime/libatomic-dev.packaged
+pkgdata/runtime/libatomic-dev
+pkgdata/runtime/libstdc++.packaged
+pkgdata/runtime/libstdc++-dev
+pkgdata/runtime/libssp
+pkgdata/runtime/libstdc++
+pkgdata/runtime/libssp-dev
+pkgdata/gcc-runtime-xilinx
+pkgdata/shlibs2/
+pkgdata/shlibs2/libssp.list
+pkgdata/shlibs2/libatomic.list
+pkgdata/shlibs2/libitm.list
+pkgdata/shlibs2/libstdc++.list
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/gcc-runtime-xilinx/2016.4-r1/pkgdata to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/pkgdata
+DEBUG: Python function do_packagedata_setscene finished

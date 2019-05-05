@@ -1,0 +1,22 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/downloads/yaml-0.1.6.tar.gz to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/libyaml-native/0.1.6-r0/
+DEBUG: Searching for libyaml-CVE-2014-9130.patch in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml-0.1.6/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml-0.1.6/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml-0.1.6/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml-0.1.6/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/libyaml/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-support/libyaml/files/libyaml-CVE-2014-9130.patch to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/libyaml-native/0.1.6-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+NOTE: Checking has ${S} been created
+DEBUG: Python function do_qa_unpack finished

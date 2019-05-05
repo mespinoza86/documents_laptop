@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349360.71 
+ossp-uuid-native-1.6.2-r2: do_populate_sysroot_setscene: Elapsed time: 0.36 seconds 
+utime: 22
+stime: 1
+cutime: 11
+cstime: 16
+IO write_bytes: 192512
+IO read_bytes: 36864
+IO cancelled_write_bytes: 32768
+IO syscr: 313
+IO wchar: 305209
+IO rchar: 416756
+IO syscw: 391
+rusage ru_utime: 0.22636
+rusage ru_stime: 0.019513
+rusage ru_maxrss: 97648
+rusage ru_minflt: 7575
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 15
+rusage ru_nivcsw: 159
+Child rusage ru_utime: 0.114936
+Child rusage ru_stime: 0.160119
+Child rusage ru_maxrss: 95924
+Child rusage ru_minflt: 2747
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 72
+Child rusage ru_oublock: 248
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1541349361.07 

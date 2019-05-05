@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349343.88 
+libffi-3.2.1-r0: do_package_write_rpm_setscene: Elapsed time: 0.36 seconds 
+utime: 17
+stime: 0
+cutime: 14
+cstime: 12
+IO write_bytes: 237568
+IO read_bytes: 151552
+IO cancelled_write_bytes: 0
+IO syscr: 213
+IO wchar: 448176
+IO rchar: 539231
+IO syscw: 145
+rusage ru_utime: 0.179551
+rusage ru_stime: 0.00798
+rusage ru_maxrss: 97012
+rusage ru_minflt: 6031
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 49
+Child rusage ru_utime: 0.142826
+Child rusage ru_stime: 0.126164
+Child rusage ru_maxrss: 95320
+Child rusage ru_minflt: 1799
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 296
+Child rusage ru_oublock: 336
+Child rusage ru_nvcsw: 62
+Child rusage ru_nivcsw: 77
+Status: PASSED 
+Ended: 1541349344.24 

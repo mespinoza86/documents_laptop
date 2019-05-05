@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349357.06 
+opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: do_packagedata_setscene: Elapsed time: 0.37 seconds 
+utime: 16
+stime: 0
+cutime: 7
+cstime: 19
+IO write_bytes: 98304
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 175
+IO wchar: 146589
+IO rchar: 228579
+IO syscw: 138
+rusage ru_utime: 0.160479
+rusage ru_stime: 0.004337
+rusage ru_maxrss: 96828
+rusage ru_minflt: 5960
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 65
+Child rusage ru_utime: 0.07427
+Child rusage ru_stime: 0.193342
+Child rusage ru_maxrss: 95136
+Child rusage ru_minflt: 1798
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 64
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 48
+Status: PASSED 
+Ended: 1541349357.42 

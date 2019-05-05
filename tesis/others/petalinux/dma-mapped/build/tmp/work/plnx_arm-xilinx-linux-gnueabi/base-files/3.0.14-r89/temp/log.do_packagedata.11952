@@ -1,0 +1,15 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing shell function do_packagedata
+DEBUG: Shell function do_packagedata finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/pkgdata to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/pkgdata
+DEBUG: Preparing tree /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/pkgdata for packaging at /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/sstate-build-packagedata/pkgdata
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/sstate-build-packagedata/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm' | tee /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/sstate-build-packagedata/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Python function sstate_task_postfunc finished

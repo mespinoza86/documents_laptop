@@ -1,0 +1,7 @@
+DEBUG: Executing shell function do_install
+NOTE: make -j 4 PREFIX=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr LIBDIR=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib DESTDIR=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/dtc-native/1.4.1+gitAUTOINC+302fca9f4c-r0/image install
+	CHK version_gen.h
+	 INSTALL-BIN
+	 INSTALL-INC
+	 INSTALL-LIB
+DEBUG: Shell function do_install finished

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349456.49 
+python-cython-native-0.24-r0: do_populate_sysroot: Elapsed time: 2.58 seconds 
+utime: 26
+stime: 61
+cutime: 139
+cstime: 103
+IO write_bytes: 23293952
+IO read_bytes: 0
+IO cancelled_write_bytes: 4096
+IO syscr: 10178
+IO wchar: 34417702
+IO rchar: 59383016
+IO syscw: 4402
+rusage ru_utime: 0.267707
+rusage ru_stime: 0.615258
+rusage ru_maxrss: 97472
+rusage ru_minflt: 106326
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 31184
+rusage ru_nvcsw: 1076
+rusage ru_nivcsw: 9
+Child rusage ru_utime: 1.391636
+Child rusage ru_stime: 1.030247
+Child rusage ru_maxrss: 96076
+Child rusage ru_minflt: 161635
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 14312
+Child rusage ru_nvcsw: 1415
+Child rusage ru_nivcsw: 494
+Status: PASSED 
+Ended: 1541349459.07 

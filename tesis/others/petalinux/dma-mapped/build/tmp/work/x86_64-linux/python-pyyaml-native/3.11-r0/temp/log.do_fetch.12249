@@ -1,0 +1,64 @@
+DEBUG: Executing python function do_fetch
+DEBUG: Executing python function base_do_fetch
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['http', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url http://pyyaml.org/download/pyyaml/PyYAML-3.11.tar.gz returning file:///opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['https', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['https?$', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['npm', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['https', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['https?$', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url http://pyyaml.org/download/pyyaml/PyYAML-3.11.tar.gz returning https://www.author.xilinx.com/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['http', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['https', '.*', '/.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/downloads/', '', '', {}]
+DEBUG: For url https://www.author.xilinx.com/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz returning file:///opt/pkg/petalinux/components/yocto/downloads/PyYAML-3.11.tar.gz
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['cvs', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['svn', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['git', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['gitsm', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['hg', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['bzr', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['p4', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['osc', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads/PyYAML-3.11.tar.gz', '', '', {}] comparing ['npm', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['ftp', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: For url ['http', 'pyyaml.org', '/download/pyyaml/PyYAML-3.11.tar.gz', '', '', {}] comparing ['npm', '.*', '/.*', '', '', {}] to ['https', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/downloads', '', '', {}]
+DEBUG: Searching for setup.py in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml-3.11/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml-3.11/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml-3.11/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/files/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml-3.11/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/files/
+DEBUG: Python function base_do_fetch finished
+DEBUG: Python function do_fetch finished

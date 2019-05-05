@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349337.43 
+opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: do_package_write_rpm_setscene: Elapsed time: 0.34 seconds 
+utime: 15
+stime: 2
+cutime: 12
+cstime: 13
+IO write_bytes: 118784
+IO read_bytes: 36864
+IO cancelled_write_bytes: 0
+IO syscr: 202
+IO wchar: 200906
+IO rchar: 274628
+IO syscw: 123
+rusage ru_utime: 0.152146
+rusage ru_stime: 0.022822
+rusage ru_maxrss: 96828
+rusage ru_minflt: 5951
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 56
+Child rusage ru_utime: 0.127239
+Child rusage ru_stime: 0.135617
+Child rusage ru_maxrss: 95136
+Child rusage ru_minflt: 1801
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 72
+Child rusage ru_oublock: 104
+Child rusage ru_nvcsw: 39
+Child rusage ru_nivcsw: 95
+Status: PASSED 
+Ended: 1541349337.77 

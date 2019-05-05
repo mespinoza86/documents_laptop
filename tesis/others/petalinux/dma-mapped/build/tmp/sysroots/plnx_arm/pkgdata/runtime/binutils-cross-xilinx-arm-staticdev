@@ -1,0 +1,14 @@
+PN: binutils-cross-xilinx-arm
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE: GPL-3.0
+DESCRIPTION_binutils-cross-xilinx-arm-staticdev: External Xilinx toolchain.  This package contains static libraries for software development.
+SUMMARY_binutils-cross-xilinx-arm-staticdev: External Xilinx toolchain - Development files (Static Libraries)
+RDEPENDS_binutils-cross-xilinx-arm-staticdev: binutils-cross-xilinx-arm-dev (= 5.2.1-r1)
+SECTION_binutils-cross-xilinx-arm-staticdev: devel
+PKG_binutils-cross-xilinx-arm-staticdev: binutils-cross-xilinx-arm-staticdev
+FILES_binutils-cross-xilinx-arm-staticdev: /usr/lib/*.a /lib/*.a /usr/lib/binutils/*.a
+FILES_INFO: {}
+PKGSIZE_binutils-cross-xilinx-arm-staticdev: 0

@@ -1,0 +1,10 @@
+prefix=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr
+includedir=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include
+libdir=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib
+
+Name: LibYAML
+Description: Library to parse and emit YAML
+Version: 0.1.6
+Cflags:
+Libs: -L${libdir} -lyaml

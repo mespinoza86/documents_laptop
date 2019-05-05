@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349376.54 
+python-cython-native-0.24-r0: do_unpack: Elapsed time: 0.12 seconds 
+utime: 17
+stime: 1
+cutime: 6
+cstime: 4
+IO write_bytes: 12427264
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 1107
+IO wchar: 15445138
+IO rchar: 10202261
+IO syscw: 2656
+rusage ru_utime: 0.17736
+rusage ru_stime: 0.015765
+rusage ru_maxrss: 96888
+rusage ru_minflt: 5630
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 40
+rusage ru_nvcsw: 3
+rusage ru_nivcsw: 26
+Child rusage ru_utime: 0.062392
+Child rusage ru_stime: 0.045485
+Child rusage ru_maxrss: 95172
+Child rusage ru_minflt: 895
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 24232
+Child rusage ru_nvcsw: 242
+Child rusage ru_nivcsw: 208
+Status: PASSED 
+Ended: 1541349376.66 

@@ -1,0 +1,330 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz for 5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz;downloadfilename=5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz', '', '', {'downloadfilename': '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz;downloadfilename=5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz', '', '', {'downloadfilename': '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz;downloadfilename=5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz
+DEBUG: For url ['file', '', '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz;downloadfilename=5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz
+DEBUG: Searching for 5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo for 5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo;downloadfilename=5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo', '', '', {'downloadfilename': '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo;downloadfilename=5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo', '', '', {'downloadfilename': '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo;downloadfilename=5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/5e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo;downloadfilename=5e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:5e2efcbe5b5491d17d0c5e3e55288aa0_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/gettext-locale-sr
+pkgdata/runtime-reverse/gettext-locale-fi
+pkgdata/runtime-reverse/gettext-locale-da
+pkgdata/runtime-reverse/gettext-locale-it
+pkgdata/runtime-reverse/gettext-locale-ca
+pkgdata/runtime-reverse/gettext-locale-en+boldquot
+pkgdata/runtime-reverse/gettext-runtime
+pkgdata/runtime-reverse/gettext-locale-ga
+pkgdata/runtime-reverse/gettext-locale-pl
+pkgdata/runtime-reverse/gettext-locale-fr
+pkgdata/runtime-reverse/gettext-locale-ja
+pkgdata/runtime-reverse/gettext-locale-sl
+pkgdata/runtime-reverse/gettext
+pkgdata/runtime-reverse/gettext-locale-pa
+pkgdata/runtime-reverse/gettext-locale-bg
+pkgdata/runtime-reverse/gettext-locale-nb
+pkgdata/runtime-reverse/gettext-dbg
+pkgdata/runtime-reverse/gettext-locale-zh-hk
+pkgdata/runtime-reverse/gettext-locale-sv
+pkgdata/runtime-reverse/gettext-locale-zh-tw
+pkgdata/runtime-reverse/libgettextsrc
+pkgdata/runtime-reverse/gettext-locale-id
+pkgdata/runtime-reverse/gettext-locale-sk
+pkgdata/runtime-reverse/gettext-locale-eo
+pkgdata/runtime-reverse/gettext-locale-en+quot
+pkgdata/runtime-reverse/gettext-runtime-doc
+pkgdata/runtime-reverse/gettext-locale-el
+pkgdata/runtime-reverse/gettext-locale-ko
+pkgdata/runtime-reverse/gettext-locale-et
+pkgdata/runtime-reverse/gettext-locale-ru
+pkgdata/runtime-reverse/gettext-locale-eu
+pkgdata/runtime-reverse/gettext-locale-de
+pkgdata/runtime-reverse/gettext-locale-hr
+pkgdata/runtime-reverse/gettext-locale-pt
+pkgdata/runtime-reverse/gettext-locale-uk
+pkgdata/runtime-reverse/gettext-locale-vi
+pkgdata/runtime-reverse/gettext-locale-be
+pkgdata/runtime-reverse/gettext-locale-zh-cn
+pkgdata/runtime-reverse/gettext-locale-gl
+pkgdata/runtime-reverse/gettext-locale-nl
+pkgdata/runtime-reverse/gettext-locale-tr
+pkgdata/runtime-reverse/gettext-locale-pt-br
+pkgdata/runtime-reverse/gettext-locale-es
+pkgdata/runtime-reverse/gettext-locale-hu
+pkgdata/runtime-reverse/gettext-locale-nn
+pkgdata/runtime-reverse/gettext-dev
+pkgdata/runtime-reverse/gettext-locale-cs
+pkgdata/runtime-reverse/gettext-locale-ro
+pkgdata/runtime-reverse/libgettextlib
+pkgdata/runtime-reverse/gettext-doc
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/en+boldquot-translation/
+pkgdata/runtime-rprovides/en+boldquot-translation/gettext-locale-en+boldquot
+pkgdata/runtime-rprovides/sl-translation/
+pkgdata/runtime-rprovides/sl-translation/gettext-locale-sl
+pkgdata/runtime-rprovides/ja-translation/
+pkgdata/runtime-rprovides/ja-translation/gettext-locale-ja
+pkgdata/runtime-rprovides/nb-translation/
+pkgdata/runtime-rprovides/nb-translation/gettext-locale-nb
+pkgdata/runtime-rprovides/id-translation/
+pkgdata/runtime-rprovides/id-translation/gettext-locale-id
+pkgdata/runtime-rprovides/vi-translation/
+pkgdata/runtime-rprovides/vi-translation/gettext-locale-vi
+pkgdata/runtime-rprovides/en+quot-translation/
+pkgdata/runtime-rprovides/en+quot-translation/gettext-locale-en+quot
+pkgdata/runtime-rprovides/de-translation/
+pkgdata/runtime-rprovides/de-translation/gettext-locale-de
+pkgdata/runtime-rprovides/pt-translation/
+pkgdata/runtime-rprovides/pt-translation/gettext-locale-pt
+pkgdata/runtime-rprovides/cs-translation/
+pkgdata/runtime-rprovides/cs-translation/gettext-locale-cs
+pkgdata/runtime-rprovides/eu-translation/
+pkgdata/runtime-rprovides/eu-translation/gettext-locale-eu
+pkgdata/runtime-rprovides/nl-translation/
+pkgdata/runtime-rprovides/nl-translation/gettext-locale-nl
+pkgdata/runtime-rprovides/zh-tw-translation/
+pkgdata/runtime-rprovides/zh-tw-translation/gettext-locale-zh-tw
+pkgdata/runtime-rprovides/bg-translation/
+pkgdata/runtime-rprovides/bg-translation/gettext-locale-bg
+pkgdata/runtime-rprovides/da-translation/
+pkgdata/runtime-rprovides/da-translation/gettext-locale-da
+pkgdata/runtime-rprovides/hu-translation/
+pkgdata/runtime-rprovides/hu-translation/gettext-locale-hu
+pkgdata/runtime-rprovides/nn-translation/
+pkgdata/runtime-rprovides/nn-translation/gettext-locale-nn
+pkgdata/runtime-rprovides/ro-translation/
+pkgdata/runtime-rprovides/ro-translation/gettext-locale-ro
+pkgdata/runtime-rprovides/zh-hk-translation/
+pkgdata/runtime-rprovides/zh-hk-translation/gettext-locale-zh-hk
+pkgdata/runtime-rprovides/pl-translation/
+pkgdata/runtime-rprovides/pl-translation/gettext-locale-pl
+pkgdata/runtime-rprovides/ko-translation/
+pkgdata/runtime-rprovides/ko-translation/gettext-locale-ko
+pkgdata/runtime-rprovides/es-translation/
+pkgdata/runtime-rprovides/es-translation/gettext-locale-es
+pkgdata/runtime-rprovides/it-translation/
+pkgdata/runtime-rprovides/it-translation/gettext-locale-it
+pkgdata/runtime-rprovides/ru-translation/
+pkgdata/runtime-rprovides/ru-translation/gettext-locale-ru
+pkgdata/runtime-rprovides/sv-translation/
+pkgdata/runtime-rprovides/sv-translation/gettext-locale-sv
+pkgdata/runtime-rprovides/tr-translation/
+pkgdata/runtime-rprovides/tr-translation/gettext-locale-tr
+pkgdata/runtime-rprovides/gettext-locale/
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-sr
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-fi
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-da
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-it
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-ca
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-en+boldquot
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-ga
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-pl
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-fr
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-ja
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-sl
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-pa
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-bg
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-nb
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-zh-hk
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-sv
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-zh-tw
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-id
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-sk
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-eo
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-en+quot
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-el
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-ko
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-et
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-ru
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-eu
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-de
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-hr
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-pt
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-uk
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-vi
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-be
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-zh-cn
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-gl
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-nl
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-tr
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-pt-br
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-es
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-hu
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-nn
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-cs
+pkgdata/runtime-rprovides/gettext-locale/gettext-locale-ro
+pkgdata/runtime-rprovides/fi-translation/
+pkgdata/runtime-rprovides/fi-translation/gettext-locale-fi
+pkgdata/runtime-rprovides/fr-translation/
+pkgdata/runtime-rprovides/fr-translation/gettext-locale-fr
+pkgdata/runtime-rprovides/pa-translation/
+pkgdata/runtime-rprovides/pa-translation/gettext-locale-pa
+pkgdata/runtime-rprovides/et-translation/
+pkgdata/runtime-rprovides/et-translation/gettext-locale-et
+pkgdata/runtime-rprovides/ga-translation/
+pkgdata/runtime-rprovides/ga-translation/gettext-locale-ga
+pkgdata/runtime-rprovides/sk-translation/
+pkgdata/runtime-rprovides/sk-translation/gettext-locale-sk
+pkgdata/runtime-rprovides/el-translation/
+pkgdata/runtime-rprovides/el-translation/gettext-locale-el
+pkgdata/runtime-rprovides/gl-translation/
+pkgdata/runtime-rprovides/gl-translation/gettext-locale-gl
+pkgdata/runtime-rprovides/uk-translation/
+pkgdata/runtime-rprovides/uk-translation/gettext-locale-uk
+pkgdata/runtime-rprovides/pt-br-translation/
+pkgdata/runtime-rprovides/pt-br-translation/gettext-locale-pt-br
+pkgdata/runtime-rprovides/be-translation/
+pkgdata/runtime-rprovides/be-translation/gettext-locale-be
+pkgdata/runtime-rprovides/eo-translation/
+pkgdata/runtime-rprovides/eo-translation/gettext-locale-eo
+pkgdata/runtime-rprovides/ca-translation/
+pkgdata/runtime-rprovides/ca-translation/gettext-locale-ca
+pkgdata/runtime-rprovides/hr-translation/
+pkgdata/runtime-rprovides/hr-translation/gettext-locale-hr
+pkgdata/runtime-rprovides/zh-cn-translation/
+pkgdata/runtime-rprovides/zh-cn-translation/gettext-locale-zh-cn
+pkgdata/runtime-rprovides/sr-translation/
+pkgdata/runtime-rprovides/sr-translation/gettext-locale-sr
+pkgdata/runtime/
+pkgdata/runtime/gettext-locale-zh-tw.packaged
+pkgdata/runtime/gettext-locale-sr
+pkgdata/runtime/gettext-locale-fi
+pkgdata/runtime/gettext-locale-da
+pkgdata/runtime/gettext-locale-pt.packaged
+pkgdata/runtime/gettext-locale-it
+pkgdata/runtime/gettext-locale-ca
+pkgdata/runtime/gettext-runtime-doc.packaged
+pkgdata/runtime/gettext-locale-pa.packaged
+pkgdata/runtime/gettext-locale-en+boldquot
+pkgdata/runtime/gettext-runtime
+pkgdata/runtime/gettext-locale-ga
+pkgdata/runtime/gettext-locale-pl
+pkgdata/runtime/gettext-locale-fr
+pkgdata/runtime/gettext-locale-ja.packaged
+pkgdata/runtime/gettext-locale-ga.packaged
+pkgdata/runtime/gettext-locale-ja
+pkgdata/runtime/gettext-locale-sk.packaged
+pkgdata/runtime/gettext-locale-sl
+pkgdata/runtime/gettext-locale-nl.packaged
+pkgdata/runtime/gettext-doc.packaged
+pkgdata/runtime/gettext-locale-eo.packaged
+pkgdata/runtime/gettext-staticdev
+pkgdata/runtime/gettext-locale-eu.packaged
+pkgdata/runtime/gettext
+pkgdata/runtime/gettext-locale-pa
+pkgdata/runtime/gettext-locale-bg
+pkgdata/runtime/gettext-locale-nb
+pkgdata/runtime/gettext-dbg
+pkgdata/runtime/gettext-locale-vi.packaged
+pkgdata/runtime/gettext-locale-zh-hk
+pkgdata/runtime/gettext-locale-sv
+pkgdata/runtime/gettext-locale-el.packaged
+pkgdata/runtime/gettext-locale-be.packaged
+pkgdata/runtime/gettext-locale-nb.packaged
+pkgdata/runtime/gettext-locale-zh-tw
+pkgdata/runtime/gettext-runtime.packaged
+pkgdata/runtime/gettext-locale-nn.packaged
+pkgdata/runtime/libgettextsrc
+pkgdata/runtime/gettext-locale-it.packaged
+pkgdata/runtime/gettext-locale-bg.packaged
+pkgdata/runtime/gettext-locale-id
+pkgdata/runtime/gettext.packaged
+pkgdata/runtime/gettext-locale-sk
+pkgdata/runtime/gettext-runtime-dev
+pkgdata/runtime/gettext-locale-pl.packaged
+pkgdata/runtime/gettext-locale-da.packaged
+pkgdata/runtime/gettext-locale-tr.packaged
+pkgdata/runtime/gettext-locale-eo
+pkgdata/runtime/gettext-locale-en+quot
+pkgdata/runtime/gettext-locale-en+boldquot.packaged
+pkgdata/runtime/gettext-runtime-doc
+pkgdata/runtime/gettext-locale-el
+pkgdata/runtime/gettext-locale-ca.packaged
+pkgdata/runtime/gettext-locale-ko
+pkgdata/runtime/gettext-locale-et
+pkgdata/runtime/libgettextsrc.packaged
+pkgdata/runtime/gettext-locale-fr.packaged
+pkgdata/runtime/gettext-locale-sl.packaged
+pkgdata/runtime/gettext-locale-ru
+pkgdata/runtime/gettext-locale-eu
+pkgdata/runtime/gettext-locale-de
+pkgdata/runtime/gettext-locale-sr.packaged
+pkgdata/runtime/gettext-locale-hr
+pkgdata/runtime/gettext-locale-hu.packaged
+pkgdata/runtime/gettext-locale-pt-br.packaged
+pkgdata/runtime/gettext-locale-es.packaged
+pkgdata/runtime/gettext-locale-hr.packaged
+pkgdata/runtime/gettext-locale-pt
+pkgdata/runtime/gettext-locale-gl.packaged
+pkgdata/runtime/gettext-locale-zh-cn.packaged
+pkgdata/runtime/gettext-locale-sv.packaged
+pkgdata/runtime/gettext-locale-uk
+pkgdata/runtime/gettext-locale-fi.packaged
+pkgdata/runtime/gettext-dev.packaged
+pkgdata/runtime/gettext-locale-vi
+pkgdata/runtime/gettext-locale-ru.packaged
+pkgdata/runtime/gettext-locale-be
+pkgdata/runtime/gettext-locale-cs.packaged
+pkgdata/runtime/gettext-locale-en+quot.packaged
+pkgdata/runtime/gettext-locale-zh-cn
+pkgdata/runtime/gettext-locale-gl
+pkgdata/runtime/gettext-locale-nl
+pkgdata/runtime/gettext-locale-tr
+pkgdata/runtime/gettext-dbg.packaged
+pkgdata/runtime/gettext-locale-pt-br
+pkgdata/runtime/gettext-locale-es
+pkgdata/runtime/gettext-locale-id.packaged
+pkgdata/runtime/gettext-locale-et.packaged
+pkgdata/runtime/gettext-locale-hu
+pkgdata/runtime/gettext-locale-ko.packaged
+pkgdata/runtime/gettext-locale-nn
+pkgdata/runtime/gettext-dev
+pkgdata/runtime/gettext-locale-zh-hk.packaged
+pkgdata/runtime/gettext-locale-ro.packaged
+pkgdata/runtime/gettext-locale-de.packaged
+pkgdata/runtime/libgettextlib.packaged
+pkgdata/runtime/gettext-locale-cs
+pkgdata/runtime/gettext-locale-uk.packaged
+pkgdata/runtime/gettext-locale-ro
+pkgdata/runtime/libgettextlib
+pkgdata/runtime/gettext-doc
+pkgdata/gettext
+pkgdata/shlibs2/
+pkgdata/shlibs2/libgettextlib.list
+pkgdata/shlibs2/gettext.list
+pkgdata/shlibs2/libgettextsrc.list
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/gettext/0.19.6-r0/pkgdata to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/pkgdata
+DEBUG: Python function do_packagedata_setscene finished

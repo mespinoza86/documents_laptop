@@ -1,0 +1,287 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+DEBUG: Searching for rotation in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/rotation to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for nsswitch.conf in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/nsswitch.conf to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for motd in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/motd to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for host.conf in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/host.conf to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for profile in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/profile to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for shells in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/shells to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for fstab in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/fstab to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for filesystems in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/filesystems to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for issue.net in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/issue.net to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for issue in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/issue to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for usbd in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/usbd to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for share/dot.bashrc in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/share/dot.bashrc to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for share/dot.profile in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/share/dot.profile to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Searching for licenses/GPL-2 in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/plnx_arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/armv7a
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/zynq
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/arm
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files-3.0.14/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/files/
+NOTE: Unpacking /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-core/base-files/base-files/licenses/GPL-2 to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+NOTE: Checking has ${S} been created
+DEBUG: Python function do_qa_unpack finished

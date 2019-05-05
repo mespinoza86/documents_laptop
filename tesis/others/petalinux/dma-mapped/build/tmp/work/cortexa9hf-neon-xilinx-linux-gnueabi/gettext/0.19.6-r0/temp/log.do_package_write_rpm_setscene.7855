@@ -1,0 +1,94 @@
+DEBUG: Executing python function do_package_write_rpm_setscene
+DEBUG: Searching for 43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz for 43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz;downloadfilename=43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz', '', '', {'downloadfilename': '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz;downloadfilename=43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz', '', '', {'downloadfilename': '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz;downloadfilename=43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz
+DEBUG: For url ['file', '', '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz;downloadfilename=43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz
+DEBUG: Searching for 43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo for 43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo;downloadfilename=43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo', '', '', {'downloadfilename': '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo;downloadfilename=43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo', '', '', {'downloadfilename': '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo;downloadfilename=43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo
+DEBUG: For url ['file', '', '43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/43/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo;downloadfilename=43/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:435ba5be012609ad0e889e834b680dcb_package_write_rpm.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+deploy-rpms/
+deploy-rpms/cortexa9hf_neon/
+deploy-rpms/cortexa9hf_neon/gettext-locale-ru-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-ko-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-vi-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-da-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-et-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-dbg-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-zh-hk-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-doc-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-pa-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-it-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-be-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-nl-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-dev-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-sl-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-el-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-de-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-fi-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-runtime-doc-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-pt-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libgettextlib-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-sk-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-pt-br-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-ro-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-zh-tw-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-en+quot-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-eu-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-runtime-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-ca-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-en+boldquot-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-ja-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-sr-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-es-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-eo-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-ga-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-fr-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-nn-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-sv-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-bg-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-zh-cn-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-cs-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-tr-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-id-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-pl-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-uk-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-gl-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-nb-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-hr-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/libgettextsrc-0.19.6-r0.cortexa9hf_neon.rpm
+deploy-rpms/cortexa9hf_neon/gettext-locale-hu-0.19.6-r0.cortexa9hf_neon.rpm
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/gettext/0.19.6-r0/deploy-rpms to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/deploy/rpm
+DEBUG: Python function do_package_write_rpm_setscene finished

@@ -1,0 +1,8 @@
+DEBUG: Executing python function do_unpack
+DEBUG: Executing python function base_do_unpack
+NOTE: Unpacking /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/downloads/setuptools-19.4.tar.gz to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/python-setuptools-native/19.4-r0/
+DEBUG: Python function base_do_unpack finished
+DEBUG: Python function do_unpack finished
+DEBUG: Executing python function do_qa_unpack
+NOTE: Checking has ${S} been created
+DEBUG: Python function do_qa_unpack finished

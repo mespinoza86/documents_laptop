@@ -1,0 +1,144 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz for 88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz;downloadfilename=88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz', '', '', {'downloadfilename': '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz;downloadfilename=88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz', '', '', {'downloadfilename': '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz;downloadfilename=88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz
+DEBUG: For url ['file', '', '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz;downloadfilename=88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz
+DEBUG: Searching for 88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo for 88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo;downloadfilename=88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo', '', '', {'downloadfilename': '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo;downloadfilename=88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo', '', '', {'downloadfilename': '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo;downloadfilename=88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/88/sstate%3Agawk%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.1.3%3Ar0%3Acortexa9hf-neon%3A3%3A888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo;downloadfilename=88/sstate:gawk:cortexa9hf-neon-xilinx-linux-gnueabi:4.1.3:r0:cortexa9hf-neon:3:888e366752622cb1b2630155964e29c6_packagedata.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/gawk-dev
+pkgdata/runtime-reverse/gawk-locale-fi
+pkgdata/runtime-reverse/gawk-locale-es
+pkgdata/runtime-reverse/gawk-locale-ca
+pkgdata/runtime-reverse/gawk-locale-ja
+pkgdata/runtime-reverse/gawk
+pkgdata/runtime-reverse/gawk-locale-pl
+pkgdata/runtime-reverse/gawk-locale-sv
+pkgdata/runtime-reverse/gawk-locale-da
+pkgdata/runtime-reverse/gawk-locale-de
+pkgdata/runtime-reverse/gawk-locale-vi
+pkgdata/runtime-reverse/gawk-locale-nl
+pkgdata/runtime-reverse/gawk-locale-ms
+pkgdata/runtime-reverse/gawk-ptest
+pkgdata/runtime-reverse/gawk-doc
+pkgdata/runtime-reverse/gawk-dbg
+pkgdata/runtime-reverse/gawk-locale-it
+pkgdata/runtime-reverse/gawk-locale-fr
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/ja-translation/
+pkgdata/runtime-rprovides/ja-translation/gawk-locale-ja
+pkgdata/runtime-rprovides/vi-translation/
+pkgdata/runtime-rprovides/vi-translation/gawk-locale-vi
+pkgdata/runtime-rprovides/de-translation/
+pkgdata/runtime-rprovides/de-translation/gawk-locale-de
+pkgdata/runtime-rprovides/nl-translation/
+pkgdata/runtime-rprovides/nl-translation/gawk-locale-nl
+pkgdata/runtime-rprovides/da-translation/
+pkgdata/runtime-rprovides/da-translation/gawk-locale-da
+pkgdata/runtime-rprovides/pl-translation/
+pkgdata/runtime-rprovides/pl-translation/gawk-locale-pl
+pkgdata/runtime-rprovides/es-translation/
+pkgdata/runtime-rprovides/es-translation/gawk-locale-es
+pkgdata/runtime-rprovides/it-translation/
+pkgdata/runtime-rprovides/it-translation/gawk-locale-it
+pkgdata/runtime-rprovides/sv-translation/
+pkgdata/runtime-rprovides/sv-translation/gawk-locale-sv
+pkgdata/runtime-rprovides/fi-translation/
+pkgdata/runtime-rprovides/fi-translation/gawk-locale-fi
+pkgdata/runtime-rprovides/fr-translation/
+pkgdata/runtime-rprovides/fr-translation/gawk-locale-fr
+pkgdata/runtime-rprovides/gawk-locale/
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-fi
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-es
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-ca
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-ja
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-pl
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-sv
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-da
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-de
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-vi
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-nl
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-ms
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-it
+pkgdata/runtime-rprovides/gawk-locale/gawk-locale-fr
+pkgdata/runtime-rprovides/ms-translation/
+pkgdata/runtime-rprovides/ms-translation/gawk-locale-ms
+pkgdata/runtime-rprovides/ca-translation/
+pkgdata/runtime-rprovides/ca-translation/gawk-locale-ca
+pkgdata/gawk
+pkgdata/runtime/
+pkgdata/runtime/gawk-dev
+pkgdata/runtime/gawk-locale-fi
+pkgdata/runtime/gawk-ptest.packaged
+pkgdata/runtime/gawk-locale-es
+pkgdata/runtime/gawk-locale-de.packaged
+pkgdata/runtime/gawk-locale-ca
+pkgdata/runtime/gawk-locale-ja
+pkgdata/runtime/gawk-locale-ms.packaged
+pkgdata/runtime/gawk-dev.packaged
+pkgdata/runtime/gawk
+pkgdata/runtime/gawk-locale-pl
+pkgdata/runtime/gawk-locale-sv
+pkgdata/runtime/gawk-doc.packaged
+pkgdata/runtime/gawk-locale-da
+pkgdata/runtime/gawk-locale-fi.packaged
+pkgdata/runtime/gawk-locale-de
+pkgdata/runtime/gawk-locale-vi
+pkgdata/runtime/gawk-locale-fr.packaged
+pkgdata/runtime/gawk-locale-nl
+pkgdata/runtime/gawk-locale-ja.packaged
+pkgdata/runtime/gawk-locale-da.packaged
+pkgdata/runtime/gawk-locale-sv.packaged
+pkgdata/runtime/gawk-locale-ca.packaged
+pkgdata/runtime/gawk-locale-ms
+pkgdata/runtime/gawk-locale-pl.packaged
+pkgdata/runtime/gawk-ptest
+pkgdata/runtime/gawk-doc
+pkgdata/runtime/gawk-dbg
+pkgdata/runtime/gawk-locale-it
+pkgdata/runtime/gawk-locale-fr
+pkgdata/runtime/gawk-locale-it.packaged
+pkgdata/runtime/gawk-locale-vi.packaged
+pkgdata/runtime/gawk-locale-nl.packaged
+pkgdata/runtime/gawk-staticdev
+pkgdata/runtime/gawk-locale-es.packaged
+pkgdata/runtime/gawk-dbg.packaged
+pkgdata/runtime/gawk.packaged
+pkgdata/shlibs2/
+pkgdata/shlibs2/gawk.list
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/gawk/4.1.3-r0/pkgdata to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/pkgdata
+DEBUG: Python function do_packagedata_setscene finished

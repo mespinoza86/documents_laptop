@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349331.70 
+autoconf-native-2.69-r11: do_populate_lic_setscene: Elapsed time: 0.36 seconds 
+utime: 19
+stime: 0
+cutime: 10
+cstime: 16
+IO write_bytes: 184320
+IO read_bytes: 32768
+IO cancelled_write_bytes: 0
+IO syscr: 220
+IO wchar: 327632
+IO rchar: 361842
+IO syscw: 145
+rusage ru_utime: 0.196471
+rusage ru_stime: 0.007556
+rusage ru_maxrss: 97504
+rusage ru_minflt: 8415
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 63
+Child rusage ru_utime: 0.107124
+Child rusage ru_stime: 0.162939
+Child rusage ru_maxrss: 95772
+Child rusage ru_minflt: 2111
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 64
+Child rusage ru_oublock: 232
+Child rusage ru_nvcsw: 49
+Child rusage ru_nivcsw: 101
+Status: PASSED 
+Ended: 1541349332.06 

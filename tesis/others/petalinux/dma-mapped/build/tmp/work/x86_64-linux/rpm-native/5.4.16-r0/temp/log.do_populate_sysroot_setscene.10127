@@ -1,0 +1,256 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz for universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz;downloadfilename=universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz;downloadfilename=universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz;downloadfilename=universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz;downloadfilename=universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz
+DEBUG: Searching for universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo for universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo;downloadfilename=universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo;downloadfilename=universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo;downloadfilename=universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/5e/sstate%3Arpm-native%3Ax86_64-linux%3A5.4.16%3Ar0%3Ax86_64%3A3%3A5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo;downloadfilename=universal/5e/sstate:rpm-native:x86_64-linux:5.4.16:r0:x86_64:3:5e82ff02e84fea5be86d7e558af9b957_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/python-rpm-native
+x86_64-linux/sysroot-providers/rpm-native
+x86_64-linux/var/
+x86_64-linux/var/lib/
+x86_64-linux/var/lib/rpm/
+x86_64-linux/var/lib/rpm/log/
+x86_64-linux/var/lib/rpm/tmp/
+x86_64-linux/var/lib/rpm/DB_CONFIG
+x86_64-linux/var/lib/wdj/
+x86_64-linux/var/lib/wdj/l10n/
+x86_64-linux/var/lib/wdj/sql/
+x86_64-linux/var/lib/wdj/svn/
+x86_64-linux/var/lib/wdj/git/
+x86_64-linux/var/spool/
+x86_64-linux/var/spool/repackage/
+x86_64-linux/var/cache/
+x86_64-linux/var/cache/rpm/
+x86_64-linux/var/cache/wdj/
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/rpm
+x86_64-linux/usr/bin/rpmbuild
+x86_64-linux/usr/bin/rpmbuild.real
+x86_64-linux/usr/bin/rpm2cpio
+x86_64-linux/usr/bin/rpmconstant
+x86_64-linux/usr/bin/rpm2cpio.real
+x86_64-linux/usr/bin/gendiff
+x86_64-linux/usr/bin/rpm.real
+x86_64-linux/usr/bin/rpmconstant.real
+x86_64-linux/usr/lib/
+x86_64-linux/usr/lib/librpmdb-5.4.so
+x86_64-linux/usr/lib/librpmdb.so
+x86_64-linux/usr/lib/rpm/
+x86_64-linux/usr/lib/rpm/perl.prov
+x86_64-linux/usr/lib/rpm/brp-strip-comment-note
+x86_64-linux/usr/lib/rpm/perfile_rpmdeps.sh
+x86_64-linux/usr/lib/rpm/vpkg-provides.sh
+x86_64-linux/usr/lib/rpm/find-lang.sh
+x86_64-linux/usr/lib/rpm/rpmdb_loadcvt
+x86_64-linux/usr/lib/rpm/u_pkg.sh
+x86_64-linux/usr/lib/rpm/bin/
+x86_64-linux/usr/lib/rpm/bin/sqlite3
+x86_64-linux/usr/lib/rpm/bin/rpmrepo
+x86_64-linux/usr/lib/rpm/bin/debugedit.real
+x86_64-linux/usr/lib/rpm/bin/rpmdigest
+x86_64-linux/usr/lib/rpm/bin/rpmcache
+x86_64-linux/usr/lib/rpm/bin/mkinstalldirs
+x86_64-linux/usr/lib/rpm/bin/rpmrepo.real
+x86_64-linux/usr/lib/rpm/bin/rpmdeps
+x86_64-linux/usr/lib/rpm/bin/chroot
+x86_64-linux/usr/lib/rpm/bin/install-sh
+x86_64-linux/usr/lib/rpm/bin/cp
+x86_64-linux/usr/lib/rpm/bin/mtree
+x86_64-linux/usr/lib/rpm/bin/rpmdeps-oecore.real
+x86_64-linux/usr/lib/rpm/bin/rpmdeps-oecore
+x86_64-linux/usr/lib/rpm/bin/wget
+x86_64-linux/usr/lib/rpm/bin/rpmspecdump.real
+x86_64-linux/usr/lib/rpm/bin/rpmdeps.real
+x86_64-linux/usr/lib/rpm/bin/rpmcache.real
+x86_64-linux/usr/lib/rpm/bin/api-sanity-autotest.pl
+x86_64-linux/usr/lib/rpm/bin/debugedit
+x86_64-linux/usr/lib/rpm/bin/rpmcmp.real
+x86_64-linux/usr/lib/rpm/bin/find
+x86_64-linux/usr/lib/rpm/bin/rpmspecdump
+x86_64-linux/usr/lib/rpm/bin/rpmdigest.real
+x86_64-linux/usr/lib/rpm/bin/rpmcmp
+x86_64-linux/usr/lib/rpm/find-prov.pl
+x86_64-linux/usr/lib/rpm/vpkg-provides2.sh
+x86_64-linux/usr/lib/rpm/php.prov
+x86_64-linux/usr/lib/rpm/macros.rpmbuild
+x86_64-linux/usr/lib/rpm/http.req
+x86_64-linux/usr/lib/rpm/brp-nobuildrootpath
+x86_64-linux/usr/lib/rpm/perldeps.pl
+x86_64-linux/usr/lib/rpm/vcheck
+x86_64-linux/usr/lib/rpm/brp-strip-shared
+x86_64-linux/usr/lib/rpm/php.req
+x86_64-linux/usr/lib/rpm/rpm.log
+x86_64-linux/usr/lib/rpm/brp-strip-static-archive
+x86_64-linux/usr/lib/rpm/rpm2cpio
+x86_64-linux/usr/lib/rpm/qf/
+x86_64-linux/usr/lib/rpm/qf/yum_filelists_sqlite
+x86_64-linux/usr/lib/rpm/qf/wnh_primary_mongo
+x86_64-linux/usr/lib/rpm/qf/wdj_l10n_sqlite
+x86_64-linux/usr/lib/rpm/qf/deb_preinst
+x86_64-linux/usr/lib/rpm/qf/xiu_stdenv
+x86_64-linux/usr/lib/rpm/qf/yum_primary_sqlite
+x86_64-linux/usr/lib/rpm/qf/wnh_filelists_yaml
+x86_64-linux/usr/lib/rpm/qf/wnh_other_mongo
+x86_64-linux/usr/lib/rpm/qf/yum_other_sqlite
+x86_64-linux/usr/lib/rpm/qf/deb_Sources
+x86_64-linux/usr/lib/rpm/qf/yum_other_xml
+x86_64-linux/usr/lib/rpm/qf/wdj_srpm
+x86_64-linux/usr/lib/rpm/qf/deb_Packages
+x86_64-linux/usr/lib/rpm/qf/deb_control
+x86_64-linux/usr/lib/rpm/qf/psq_pkgng_yaml
+x86_64-linux/usr/lib/rpm/qf/nix_meta
+x86_64-linux/usr/lib/rpm/qf/deb_md5sums
+x86_64-linux/usr/lib/rpm/qf/wdj_srpm_mongo
+x86_64-linux/usr/lib/rpm/qf/wnh_filelists_mongo
+x86_64-linux/usr/lib/rpm/qf/deb_prerm
+x86_64-linux/usr/lib/rpm/qf/wnh_other_yaml
+x86_64-linux/usr/lib/rpm/qf/yum_filelists_xml
+x86_64-linux/usr/lib/rpm/qf/deb_postrm
+x86_64-linux/usr/lib/rpm/qf/wnh_primary_yaml
+x86_64-linux/usr/lib/rpm/qf/yum_primary_xml
+x86_64-linux/usr/lib/rpm/qf/deb_postinst
+x86_64-linux/usr/lib/rpm/perl.req
+x86_64-linux/usr/lib/rpm/brp-python-bytecompile
+x86_64-linux/usr/lib/rpm/cross-build
+x86_64-linux/usr/lib/rpm/brp-sparc64-linux
+x86_64-linux/usr/lib/rpm/tgpg
+x86_64-linux/usr/lib/rpm/find-requires.perl
+x86_64-linux/usr/lib/rpm/rpmpopt
+x86_64-linux/usr/lib/rpm/javadeps.sh
+x86_64-linux/usr/lib/rpm/pkgconfigdeps.sh
+x86_64-linux/usr/lib/rpm/helpers/
+x86_64-linux/usr/lib/rpm/helpers/makeshlibs
+x86_64-linux/usr/lib/rpm/brp-java-gcjcompile
+x86_64-linux/usr/lib/rpm/mono-find-provides
+x86_64-linux/usr/lib/rpm/rpm.xinetd
+x86_64-linux/usr/lib/rpm/check-files
+x86_64-linux/usr/lib/rpm/pythondeps.sh
+x86_64-linux/usr/lib/rpm/find-req.pl
+x86_64-linux/usr/lib/rpm/getpo.sh
+x86_64-linux/usr/lib/rpm/rpm.daily
+x86_64-linux/usr/lib/rpm/macros.d/
+x86_64-linux/usr/lib/rpm/macros.d/python
+x86_64-linux/usr/lib/rpm/macros.d/ruby
+x86_64-linux/usr/lib/rpm/macros.d/php
+x86_64-linux/usr/lib/rpm/macros.d/java
+x86_64-linux/usr/lib/rpm/macros.d/tcl
+x86_64-linux/usr/lib/rpm/macros.d/pkgconfig
+x86_64-linux/usr/lib/rpm/macros.d/selinux
+x86_64-linux/usr/lib/rpm/macros.d/perl
+x86_64-linux/usr/lib/rpm/macros.d/mandriva
+x86_64-linux/usr/lib/rpm/macros.d/mono
+x86_64-linux/usr/lib/rpm/macros.d/libtool
+x86_64-linux/usr/lib/rpm/macros.d/cmake
+x86_64-linux/usr/lib/rpm/brp-compress
+x86_64-linux/usr/lib/rpm/find-provides.perl
+x86_64-linux/usr/lib/rpm/macros
+x86_64-linux/usr/lib/rpm/cpuinfo.yaml
+x86_64-linux/usr/lib/rpm/find-debuginfo.sh
+x86_64-linux/usr/lib/rpm/brp-strip
+x86_64-linux/usr/lib/rpm/osgideps.pl
+x86_64-linux/usr/lib/rpm/mono-find-requires
+x86_64-linux/usr/lib/rpm/executabledeps.sh
+x86_64-linux/usr/lib/rpm/libtooldeps.sh
+x86_64-linux/usr/lib/librpmconstant.la
+x86_64-linux/usr/lib/librpmdb.la
+x86_64-linux/usr/lib/librpmio.la
+x86_64-linux/usr/lib/librpmbuild.la
+x86_64-linux/usr/lib/librpmmisc.so
+x86_64-linux/usr/lib/librpmmisc-5.4.so
+x86_64-linux/usr/lib/pkgconfig/
+x86_64-linux/usr/lib/pkgconfig/rpm.pc
+x86_64-linux/usr/lib/librpm.so
+x86_64-linux/usr/lib/librpmconstant-5.4.so
+x86_64-linux/usr/lib/librpmbuild.so
+x86_64-linux/usr/lib/librpmmisc.la
+x86_64-linux/usr/lib/librpmconstant.so
+x86_64-linux/usr/lib/librpm-5.4.so
+x86_64-linux/usr/lib/librpmio.so
+x86_64-linux/usr/lib/librpmbuild-5.4.so
+x86_64-linux/usr/lib/python2.7/
+x86_64-linux/usr/lib/python2.7/site-packages/
+x86_64-linux/usr/lib/python2.7/site-packages/rpm/
+x86_64-linux/usr/lib/python2.7/site-packages/rpm/_rpmmodule.so
+x86_64-linux/usr/lib/python2.7/site-packages/rpm/__init__.py
+x86_64-linux/usr/lib/python2.7/site-packages/rpm/_rpmmodule.la
+x86_64-linux/usr/lib/python2.7/site-packages/rpm/transaction.py
+x86_64-linux/usr/lib/python2.7/site-packages/rpm/_rpmbmodule.la
+x86_64-linux/usr/lib/python2.7/site-packages/rpm/_rpmbmodule.so
+x86_64-linux/usr/lib/librpmio-5.4.so
+x86_64-linux/usr/lib/librpm.la
+x86_64-linux/usr/include/
+x86_64-linux/usr/include/rpm/
+x86_64-linux/usr/include/rpm/rpmps.h
+x86_64-linux/usr/include/rpm/rpmns.h
+x86_64-linux/usr/include/rpm/rpmconstant.h
+x86_64-linux/usr/include/rpm/argv.h
+x86_64-linux/usr/include/rpm/rpmversion.h
+x86_64-linux/usr/include/rpm/rpmevr.h
+x86_64-linux/usr/include/rpm/rpmsw.h
+x86_64-linux/usr/include/rpm/rpmgi.h
+x86_64-linux/usr/include/rpm/rpm46compat.h
+x86_64-linux/usr/include/rpm/mire.h
+x86_64-linux/usr/include/rpm/rpmtag.h
+x86_64-linux/usr/include/rpm/rpmiotypes.h
+x86_64-linux/usr/include/rpm/rpmds.h
+x86_64-linux/usr/include/rpm/rpmbf.h
+x86_64-linux/usr/include/rpm/rpmte.h
+x86_64-linux/usr/include/rpm/rpmcb.h
+x86_64-linux/usr/include/rpm/rpmspec.h
+x86_64-linux/usr/include/rpm/rpmpgp.h
+x86_64-linux/usr/include/rpm/rpm4compat.h
+x86_64-linux/usr/include/rpm/rpmdb.h
+x86_64-linux/usr/include/rpm/rpmcli.h
+x86_64-linux/usr/include/rpm/rpmfi.h
+x86_64-linux/usr/include/rpm/rpmutil.h
+x86_64-linux/usr/include/rpm/rpmrc.h
+x86_64-linux/usr/include/rpm/rpmts.h
+x86_64-linux/usr/include/rpm/rpmio.h
+x86_64-linux/usr/include/rpm/rpmbuild.h
+x86_64-linux/usr/include/rpm/rpmmacro.h
+x86_64-linux/usr/include/rpm/rpmlog.h
+x86_64-linux/usr/include/rpm/rpmtypes.h
+x86_64-linux/usr/include/rpm/pkgio.h
+x86_64-linux/usr/include/rpm/rpmzlog.h
+x86_64-linux/usr/include/rpm/yarn.h
+x86_64-linux/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/rpm-native/5.4.16-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/rpm-native/5.4.16-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/rpm-native/5.4.16-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

@@ -1,0 +1,958 @@
+DEBUG: Executing shell function do_compile
+running build
+running build_py
+creating build
+creating build/lib.linux-x86_64-2.7
+creating build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/scanner.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/serializer.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/loader.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/resolver.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/parser.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/representer.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/__init__.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/cyaml.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/dumper.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/error.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/constructor.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/emitter.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/nodes.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/events.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/tokens.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/reader.py -> build/lib.linux-x86_64-2.7/yaml
+copying lib/yaml/composer.py -> build/lib.linux-x86_64-2.7/yaml
+running build_ext
+skipping 'ext/_yaml.c' Cython extension (up-to-date)
+building '_yaml' extension
+creating build/temp.linux-x86_64-2.7
+creating build/temp.linux-x86_64-2.7/ext
+gcc -DNDEBUG -g -O3 -Wall -Wstrict-prototypes -isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -fPIC -I/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7 -c ext/_yaml.c -o build/temp.linux-x86_64-2.7/ext/_yaml.o
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:0: warning: "PyUnicode_FromString" redefined
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+ ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:194:0: note: this is the location of the previous definition
+ # define PyUnicode_FromString PyUnicodeUCS2_FromString
+ ^
+ext/_yaml.c: In function '__pyx_pf_5_yaml_get_version_string':
+ext/_yaml.c:1346:17: warning: assignment discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   __pyx_v_value = yaml_get_version_string();
+                 ^
+ext/_yaml.c: In function '__pyx_pf_5_yaml_7CParser___init__':
+ext/_yaml.c:2471:52: warning: passing argument 2 of 'yaml_parser_set_input' from incompatible pointer type [-Wincompatible-pointer-types]
+     yaml_parser_set_input((&__pyx_v_self->parser), __pyx_f_5_yaml_input_handler, ((void *)__pyx_v_self));
+                                                    ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:1367:1: note: expected 'int (*)(void *, unsigned char *, size_t,  size_t *) {aka int (*)(void *, unsigned char *, long unsigned int,  long unsigned int *)}' but argument is of type 'int (*)(void *, char *, int,  int *)'
+ yaml_parser_set_input(yaml_parser_t *parser,
+ ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:94:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/stringobject.h:91:32: warning: pointer targets in passing argument 2 of 'yaml_parser_set_input_string' differ in signedness [-Wpointer-sign]
+ #define PyString_AS_STRING(op) (((PyStringObject *)(op))->ob_sval)
+                                ^
+ext/_yaml.c:2664:59: note: in expansion of macro 'PyString_AS_STRING'
+     yaml_parser_set_input_string((&__pyx_v_self->parser), PyString_AS_STRING(__pyx_v_stream), PyString_GET_SIZE(__pyx_v_stream));
+                                                           ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:1341:1: note: expected 'const unsigned char *' but argument is of type 'char *'
+ yaml_parser_set_input_string(yaml_parser_t *parser,
+ ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c: In function '__pyx_f_5_yaml_7CParser__token_to_object':
+ext/_yaml.c:4183:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:4183:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 417; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:4195:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.prefix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 418; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:4195:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag_directive.prefix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 418; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:4741:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.alias.value); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 448; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:4741:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.alias.value); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 448; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:4792:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_4 = PyUnicode_FromString(__pyx_v_token->data.anchor.value); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:4792:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_4 = PyUnicode_FromString(__pyx_v_token->data.anchor.value); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 451; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:4843:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 454; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:4843:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.handle); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 454; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:4855:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.suffix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 455; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:4855:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_token->data.tag.suffix); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 455; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:4938:38: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+     __pyx_t_2 = PyUnicode_DecodeUTF8(__pyx_v_token->data.scalar.value, __pyx_v_token->data.scalar.length, __pyx_k_strict); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 460; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:5092:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_plain); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 475; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:5092:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ext/_yaml.c: In function '__pyx_pf_5_yaml_7CParser_12check_token':
+ext/_yaml.c:5507:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_False);
+     ^
+ext/_yaml.c:5531:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_True);
+     ^
+ext/_yaml.c:5585:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       __Pyx_INCREF(Py_True);
+       ^
+ext/_yaml.c:5601:3: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   __Pyx_INCREF(Py_False);
+   ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c: In function '__pyx_f_5_yaml_7CParser__event_to_object':
+ext/_yaml.c:6435:42: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+         __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->handle); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 574; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                          ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:6435:21: note: in expansion of macro 'PyUnicode_FromString'
+         __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->handle); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 574; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                     ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:6447:42: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+         __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->prefix); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                          ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:6447:21: note: in expansion of macro 'PyUnicode_FromString'
+         __pyx_t_4 = PyUnicode_FromString(__pyx_v_tag_directive->prefix); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 575; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                     ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:6492:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_explicit); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 579; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:6492:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ext/_yaml.c:6578:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_explicit); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 584; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:6578:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:6616:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.alias.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 586; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:6616:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.alias.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 586; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:6687:40: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+       __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.anchor); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 591; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                        ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:6687:19: note: in expansion of macro 'PyUnicode_FromString'
+       __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.anchor); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 591; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                   ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:6722:40: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+       __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.tag); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 594; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                        ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:6722:19: note: in expansion of macro 'PyUnicode_FromString'
+       __pyx_t_1 = PyUnicode_FromString(__pyx_v_event->data.scalar.tag); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 594; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                   ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:6737:38: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+     __pyx_t_1 = PyUnicode_DecodeUTF8(__pyx_v_event->data.scalar.value, __pyx_v_event->data.scalar.length, __pyx_k_strict); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 595; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:6943:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_plain_implicit); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 615; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:6943:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ext/_yaml.c:6945:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_quoted_implicit); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 615; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:6945:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:7031:40: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+       __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 620; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                        ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:7031:19: note: in expansion of macro 'PyUnicode_FromString'
+       __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 620; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                   ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:7066:40: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+       __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.tag); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 623; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                        ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:7066:19: note: in expansion of macro 'PyUnicode_FromString'
+       __pyx_t_3 = PyUnicode_FromString(__pyx_v_event->data.sequence_start.tag); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 623; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                   ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:7132:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       __Pyx_INCREF(Py_True);
+       ^
+ext/_yaml.c:7154:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       __Pyx_INCREF(Py_False);
+       ^
+ext/_yaml.c:7170:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_implicit); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 632; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:7170:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:7253:40: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+       __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 637; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                        ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:7253:19: note: in expansion of macro 'PyUnicode_FromString'
+       __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.anchor); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 637; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                   ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:7288:40: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+       __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 640; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                        ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:7288:19: note: in expansion of macro 'PyUnicode_FromString'
+       __pyx_t_2 = PyUnicode_FromString(__pyx_v_event->data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 640; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                   ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:7354:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       __Pyx_INCREF(Py_True);
+       ^
+ext/_yaml.c:7376:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       __Pyx_INCREF(Py_False);
+       ^
+ext/_yaml.c:7392:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_1 = __Pyx_PyBool_FromLong(__pyx_v_implicit); if (unlikely(!__pyx_t_1)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 649; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:7392:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ext/_yaml.c: In function '__pyx_pf_5_yaml_7CParser_20check_event':
+ext/_yaml.c:7886:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_False);
+     ^
+ext/_yaml.c:7910:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_True);
+     ^
+ext/_yaml.c:7964:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       __Pyx_INCREF(Py_True);
+       ^
+ext/_yaml.c:7980:3: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   __Pyx_INCREF(Py_False);
+   ^
+ext/_yaml.c: In function '__pyx_pf_5_yaml_7CParser_22check_node':
+ext/_yaml.c:8095:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_True);
+     ^
+ext/_yaml.c:8108:3: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+   __Pyx_INCREF(Py_False);
+   ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c: In function '__pyx_f_5_yaml_7CParser__compose_node':
+ext/_yaml.c:8704:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.alias.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:8704:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_3 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.alias.anchor); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 734; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:8924:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 750; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:8924:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 750; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:8962:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 753; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:8962:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 753; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:9000:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 756; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:9000:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_6 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.anchor); if (unlikely(!__pyx_t_6)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 756; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c: In function '__pyx_f_5_yaml_7CParser__compose_scalar_node':
+ext/_yaml.c:9532:36: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+   __pyx_t_2 = PyUnicode_DecodeUTF8(__pyx_v_self->parsed_event.data.scalar.value, __pyx_v_self->parsed_event.data.scalar.length, __pyx_k_strict); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 791; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                    ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:9648:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_4 = __Pyx_PyBool_FromLong(__pyx_v_plain_implicit); if (unlikely(!__pyx_t_4)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 802; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:9648:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+ext/_yaml.c:9650:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_3 = __Pyx_PyBool_FromLong(__pyx_v_quoted_implicit); if (unlikely(!__pyx_t_3)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 802; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:9650:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:9688:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_9 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.tag); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 804; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:9688:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_9 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.scalar.tag); if (unlikely(!__pyx_t_9)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 804; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c: In function '__pyx_f_5_yaml_7CParser__compose_sequence_node':
+ext/_yaml.c:10098:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_implicit); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 835; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:10098:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:10128:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 837; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:10128:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.sequence_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 837; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:10170:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_True);
+     ^
+ext/_yaml.c:10190:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_False);
+     ^
+ext/_yaml.c: In function '__pyx_f_5_yaml_7CParser__compose_mapping_node':
+ext/_yaml.c:10624:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __pyx_t_2 = __Pyx_PyBool_FromLong(__pyx_v_implicit); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 874; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+     ^
+ext/_yaml.c:10624:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.c:10654:38: warning: pointer targets in passing argument 1 of 'strlen' differ in signedness [-Wpointer-sign]
+     __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 876; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                                      ^
+ext/_yaml.h:6:66: note: in definition of macro 'PyUnicode_FromString'
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                                  ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:38:0,
+                 from ext/_yaml.c:16:
+/usr/include/string.h:394:15: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ extern size_t strlen (const char *__s)
+               ^
+In file included from ext/_yaml.c:343:0:
+ext/_yaml.h:6:54: warning: pointer targets in passing argument 1 of 'PyUnicodeUCS2_DecodeUTF8' differ in signedness [-Wpointer-sign]
+ #define PyUnicode_FromString(s) PyUnicode_DecodeUTF8((s), strlen(s), "strict")
+                                                      ^
+ext/_yaml.c:10654:17: note: in expansion of macro 'PyUnicode_FromString'
+     __pyx_t_2 = PyUnicode_FromString(__pyx_v_self->parsed_event.data.mapping_start.tag); if (unlikely(!__pyx_t_2)) {__pyx_filename = __pyx_f[0]; __pyx_lineno = 876; __pyx_clineno = __LINE__; goto __pyx_L1_error;}
+                 ^
+In file included from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/Python.h:85:0,
+                 from ext/_yaml.c:16:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:174:31: note: expected 'const char *' but argument is of type 'yaml_char_t * {aka unsigned char *}'
+ # define PyUnicode_DecodeUTF8 PyUnicodeUCS2_DecodeUTF8
+                               ^
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/python2.7/unicodeobject.h:750:23: note: in expansion of macro 'PyUnicode_DecodeUTF8'
+ PyAPI_FUNC(PyObject*) PyUnicode_DecodeUTF8(
+                       ^
+ext/_yaml.c:10696:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_True);
+     ^
+ext/_yaml.c:10716:5: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+     __Pyx_INCREF(Py_False);
+     ^
+ext/_yaml.c: In function '__pyx_pf_5_yaml_8CEmitter___init__':
+ext/_yaml.c:11721:53: warning: passing argument 2 of 'yaml_emitter_set_output' from incompatible pointer type [-Wincompatible-pointer-types]
+   yaml_emitter_set_output((&__pyx_v_self->emitter), __pyx_f_5_yaml_output_handler, ((void *)__pyx_v_self));
+                                                     ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:1829:1: note: expected 'int (*)(void *, unsigned char *, size_t) {aka int (*)(void *, unsigned char *, long unsigned int)}' but argument is of type 'int (*)(void *, char *, int)'
+ yaml_emitter_set_output(yaml_emitter_t *emitter,
+ ^
+ext/_yaml.c: In function '__pyx_f_5_yaml_8CEmitter__object_to_event':
+ext/_yaml.c:12898:44: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+         __pyx_v_tag_directives_end->handle = PyString_AS_STRING(__pyx_v_handle);
+                                            ^
+ext/_yaml.c:12991:44: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+         __pyx_v_tag_directives_end->prefix = PyString_AS_STRING(__pyx_v_prefix);
+                                            ^
+ext/_yaml.c:13248:62: warning: pointer targets in passing argument 2 of 'yaml_alias_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_4 = ((yaml_alias_event_initialize(__pyx_v_event, __pyx_v_anchor) == 0) != 0);
+                                                              ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:553:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_alias_event_initialize(yaml_event_t *event, yaml_char_t *anchor);
+ ^
+ext/_yaml.c:13824:63: warning: pointer targets in passing argument 2 of 'yaml_scalar_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                               ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:578:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_scalar_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:13824:79: warning: pointer targets in passing argument 3 of 'yaml_scalar_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                               ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:578:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_scalar_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:13824:92: warning: pointer targets in passing argument 4 of 'yaml_scalar_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = ((yaml_scalar_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                                            ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:578:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_scalar_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:14166:71: warning: pointer targets in passing argument 2 of 'yaml_sequence_start_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_4 = ((yaml_sequence_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+                                                                       ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:601:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_sequence_start_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:14166:87: warning: pointer targets in passing argument 3 of 'yaml_sequence_start_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_4 = ((yaml_sequence_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+                                                                                       ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:601:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_sequence_start_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:14508:70: warning: pointer targets in passing argument 2 of 'yaml_mapping_start_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = ((yaml_mapping_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+                                                                      ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:633:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_mapping_start_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:14508:86: warning: pointer targets in passing argument 3 of 'yaml_mapping_start_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_3 = ((yaml_mapping_start_event_initialize(__pyx_v_event, __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+                                                                                      ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:633:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_mapping_start_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c: In function '__pyx_pf_5_yaml_8CEmitter_12serialize':
+ext/_yaml.c:15784:42: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+       __pyx_v_tag_directives_end->handle = PyString_AS_STRING(__pyx_v_handle);
+                                          ^
+ext/_yaml.c:15877:42: warning: pointer targets in assignment differ in signedness [-Wpointer-sign]
+       __pyx_v_tag_directives_end->prefix = PyString_AS_STRING(__pyx_v_prefix);
+                                          ^
+ext/_yaml.c: In function '__pyx_f_5_yaml_8CEmitter__serialize_node':
+ext/_yaml.c:16616:65: warning: pointer targets in passing argument 2 of 'yaml_alias_event_initialize' differ in signedness [-Wpointer-sign]
+     __pyx_t_2 = ((yaml_alias_event_initialize((&__pyx_v_event), __pyx_v_anchor) == 0) != 0);
+                                                                 ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:553:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_alias_event_initialize(yaml_event_t *event, yaml_char_t *anchor);
+ ^
+ext/_yaml.c:17195:68: warning: pointer targets in passing argument 2 of 'yaml_scalar_event_initialize' differ in signedness [-Wpointer-sign]
+       __pyx_t_8 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                    ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:578:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_scalar_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:17195:84: warning: pointer targets in passing argument 3 of 'yaml_scalar_event_initialize' differ in signedness [-Wpointer-sign]
+       __pyx_t_8 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                                    ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:578:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_scalar_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:17195:97: warning: pointer targets in passing argument 4 of 'yaml_scalar_event_initialize' differ in signedness [-Wpointer-sign]
+       __pyx_t_8 = ((yaml_scalar_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_value, __pyx_v_length, __pyx_v_plain_implicit, __pyx_v_quoted_implicit, __pyx_v_scalar_style) == 0) != 0);
+                                                                                                 ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:578:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_scalar_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:17298:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       __Pyx_INCREF(Py_True);
+       ^
+ext/_yaml.c:17473:76: warning: pointer targets in passing argument 2 of 'yaml_sequence_start_event_initialize' differ in signedness [-Wpointer-sign]
+       __pyx_t_8 = ((yaml_sequence_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+                                                                            ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:601:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_sequence_start_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:17473:92: warning: pointer targets in passing argument 3 of 'yaml_sequence_start_event_initialize' differ in signedness [-Wpointer-sign]
+       __pyx_t_8 = ((yaml_sequence_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_sequence_style) == 0) != 0);
+                                                                                            ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:601:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_sequence_start_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:17699:7: warning: dereferencing type-punned pointer will break strict-aliasing rules [-Wstrict-aliasing]
+       __Pyx_INCREF(Py_True);
+       ^
+ext/_yaml.c:17874:75: warning: pointer targets in passing argument 2 of 'yaml_mapping_start_event_initialize' differ in signedness [-Wpointer-sign]
+       __pyx_t_8 = ((yaml_mapping_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+                                                                           ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:633:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_mapping_start_event_initialize(yaml_event_t *event,
+ ^
+ext/_yaml.c:17874:91: warning: pointer targets in passing argument 3 of 'yaml_mapping_start_event_initialize' differ in signedness [-Wpointer-sign]
+       __pyx_t_8 = ((yaml_mapping_start_event_initialize((&__pyx_v_event), __pyx_v_anchor, __pyx_v_tag, __pyx_v_implicit, __pyx_v_mapping_style) == 0) != 0);
+                                                                                           ^
+In file included from ext/_yaml.h:2:0,
+                 from ext/_yaml.c:343:
+/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include/yaml.h:633:1: note: expected 'yaml_char_t * {aka unsigned char *}' but argument is of type 'char *'
+ yaml_mapping_start_event_initialize(yaml_event_t *event,
+ ^
+gcc -shared -L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1 -isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include build/temp.linux-x86_64-2.7/ext/_yaml.o -L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -lyaml -lpython2.7 -o build/lib.linux-x86_64-2.7/_yaml.so
+DEBUG: Shell function do_compile finished

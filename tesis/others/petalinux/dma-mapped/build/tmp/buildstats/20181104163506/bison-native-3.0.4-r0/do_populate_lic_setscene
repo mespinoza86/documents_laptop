@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349335.46 
+bison-native-3.0.4-r0: do_populate_lic_setscene: Elapsed time: 0.36 seconds 
+utime: 20
+stime: 2
+cutime: 13
+cstime: 13
+IO write_bytes: 143360
+IO read_bytes: 24576
+IO cancelled_write_bytes: 0
+IO syscr: 206
+IO wchar: 260443
+IO rchar: 329312
+IO syscw: 136
+rusage ru_utime: 0.206005
+rusage ru_stime: 0.023769
+rusage ru_maxrss: 97508
+rusage ru_minflt: 8394
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 108
+Child rusage ru_utime: 0.139678
+Child rusage ru_stime: 0.132805
+Child rusage ru_maxrss: 95780
+Child rusage ru_minflt: 2099
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 48
+Child rusage ru_oublock: 152
+Child rusage ru_nvcsw: 48
+Child rusage ru_nivcsw: 63
+Status: PASSED 
+Ended: 1541349335.82 

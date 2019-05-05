@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349375.63 
+python-setuptools-native-19.4-r0: do_populate_lic: Elapsed time: 0.43 seconds 
+utime: 16
+stime: 4
+cutime: 14
+cstime: 19
+IO write_bytes: 110592
+IO read_bytes: 16384
+IO cancelled_write_bytes: 0
+IO syscr: 357
+IO wchar: 151393
+IO rchar: 368576
+IO syscw: 90
+rusage ru_utime: 0.164845
+rusage ru_stime: 0.048704
+rusage ru_maxrss: 97036
+rusage ru_minflt: 10843
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 200
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 76
+Child rusage ru_utime: 0.146403
+Child rusage ru_stime: 0.196567
+Child rusage ru_maxrss: 95320
+Child rusage ru_minflt: 4689
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 70
+Child rusage ru_nivcsw: 70
+Status: PASSED 
+Ended: 1541349376.06 

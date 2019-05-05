@@ -1,0 +1,10 @@
+prefix=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr
+libdir=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include
+
+Name: popt
+Version: 1.16
+Description: popt library.
+Libs: -L${libdir} -lpopt
+Cflags: -I${includedir}

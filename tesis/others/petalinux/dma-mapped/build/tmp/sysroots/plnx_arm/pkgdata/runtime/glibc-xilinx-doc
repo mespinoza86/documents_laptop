@@ -1,0 +1,14 @@
+PN: glibc-xilinx
+PV: 2016.4
+PR: r1
+PKGV: 2.21
+PKGR: r1
+LICENSE: GPLv2 & LGPL-2.1
+DESCRIPTION_glibc-xilinx-doc: External Xilinx toolchain.  This package contains documentation.
+SUMMARY_glibc-xilinx-doc: External Xilinx toolchain - Documentation files
+RPROVIDES_glibc-xilinx-doc: eglibc-doc glibc-doc glibc-doc glibc-xilinx-doc (=2.21)
+SECTION_glibc-xilinx-doc: doc
+PKG_glibc-xilinx-doc: libc6-doc
+FILES_glibc-xilinx-doc: /usr/share/doc /usr/share/man /usr/share/info /usr/share/gtk-doc /usr/share/gnome/help
+FILES_INFO: {"/usr/share/info/libc.info-11": 241490, "/usr/share/info/libc.info-10": 339608, "/usr/share/info/libc.info-12": 326354, "/usr/share/info/libc.info-5": 362423, "/usr/share/info/libc.info-4": 354162, "/usr/share/info/libc.info-7": 364418, "/usr/share/info/libc.info-6": 362883, "/usr/share/info/libc.info": 88456, "/usr/share/info/libc.info-3": 363343, "/usr/share/info/libc.info-2": 363809, "/usr/share/info/libc.info-1": 363219, "/usr/share/info/libc.info-9": 259100, "/usr/share/info/libc.info-8": 363911}
+PKGSIZE_glibc-xilinx-doc: 4153176

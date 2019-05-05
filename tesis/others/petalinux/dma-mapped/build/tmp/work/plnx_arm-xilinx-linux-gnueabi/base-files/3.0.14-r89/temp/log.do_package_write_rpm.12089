@@ -1,0 +1,53 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_package_write_rpm
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+DEBUG: Executing python function do_package_rpm
+DEBUG: Executing python function write_specfile
+NOTE: Creating RPM package for base-files-doc
+NOTE: Creating RPM package for base-files
+NOTE: Creating RPM package for base-files
+NOTE: Creating EMPTY RPM Package for base-files-dev
+NOTE: Creating EMPTY RPM Package for base-files-dbg
+DEBUG: Python function write_specfile finished
+DEBUG: PKGWRITEDIR: /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/deploy-rpms/plnx_arm
+DEBUG: Executing shell function BUILDSPEC
+Building target platforms: plnx_arm-xilinx-linux-gnueabi
+Processing files: base-files-3.0.14-r89.plnx_arm
+Requires(interp): /bin/sh
+Requires(pre): /bin/sh
+Requires(interp): /bin/sh
+Requires(pre): /bin/sh
+Processing files: base-files-doc-3.0.14-r89.plnx_arm
+Processing files: base-files-dev-3.0.14-r89.plnx_arm
+Processing files: base-files-dbg-3.0.14-r89.plnx_arm
+Checking for unpackaged file(s): /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin/../lib/rpm/check-files /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/package
+warning: Unpackaged subdir(s) in base-files-doc-3.0.14-r89.plnx_arm:
+	/home/marco/Documents/tesis/others/petalinux/dma-mapped
+	/home/marco/Documents/tesis/others/petalinux/dma-mapped/build
+	/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp
+	/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work
+	/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi
+	/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files
+	/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89
+	/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/package
+Wrote: /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/deploy-rpms/plnx_arm/base-files-3.0.14-r89.plnx_arm.rpm
+Wrote: /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/deploy-rpms/plnx_arm/base-files-doc-3.0.14-r89.plnx_arm.rpm
+Wrote: /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/deploy-rpms/plnx_arm/base-files-dev-3.0.14-r89.plnx_arm.rpm
+Wrote: /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/deploy-rpms/plnx_arm/base-files-dbg-3.0.14-r89.plnx_arm.rpm
+DEBUG: Shell function BUILDSPEC finished
+DEBUG: Python function do_package_rpm finished
+DEBUG: Python function do_package_write_rpm finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/deploy-rpms to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/deploy/rpm
+NOTE: Using umask 002 (not 22) for sstate packaging
+DEBUG: Preparing tree /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/deploy-rpms for packaging at /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/sstate-build-package_write_rpm/deploy-rpms
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/sstate-build-package_write_rpm/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm' | tee /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/base-files/3.0.14-r89/sstate-build-package_write_rpm/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Python function sstate_task_postfunc finished

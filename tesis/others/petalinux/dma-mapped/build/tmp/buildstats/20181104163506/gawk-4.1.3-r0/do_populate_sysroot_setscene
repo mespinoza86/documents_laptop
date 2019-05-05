@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349353.63 
+gawk-4.1.3-r0: do_populate_sysroot_setscene: Elapsed time: 0.41 seconds 
+utime: 17
+stime: 4
+cutime: 15
+cstime: 14
+IO write_bytes: 3858432
+IO read_bytes: 208896
+IO cancelled_write_bytes: 0
+IO syscr: 4822
+IO wchar: 3084043
+IO rchar: 2219625
+IO syscw: 2254
+rusage ru_utime: 0.173378
+rusage ru_stime: 0.04032
+rusage ru_maxrss: 97484
+rusage ru_minflt: 6292
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 376
+rusage ru_nvcsw: 538
+rusage ru_nivcsw: 82
+Child rusage ru_utime: 0.159416
+Child rusage ru_stime: 0.14093
+Child rusage ru_maxrss: 95804
+Child rusage ru_minflt: 1912
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 408
+Child rusage ru_oublock: 7160
+Child rusage ru_nvcsw: 322
+Child rusage ru_nivcsw: 721
+Status: PASSED 
+Ended: 1541349354.04 

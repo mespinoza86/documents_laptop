@@ -1,0 +1,77 @@
+{
+
+"virtual/bootloader":{
+	"globalvar":{
+		"SRC_URI_append":" file://config.mk"
+	},
+	"DefineMethod":{
+		"do_compile_prepend ()":{
+			"CONFIG_SUBSYSTEM_ARCH_MICROBLAZE":
+			["install ${WORKDIR}/config.mk ${B}/source/board/xilinx/microblaze-generic/"]
+		}
+	}
+	},
+
+"virtual/fsboot":{
+	"globalvar":{
+		"export":"PETALINUX",
+		"inherit":"xsctyaml",
+		"XSCTH_WS":"${TOPDIR}/../components/plnx_workspace",
+		"do_configure[noexec]":["=","!CONFIG_SUBSYSTEM_AUTOCONFIG_FSBOOT", "1"],
+		"YAML_BSP_CONFIG":" STDIN STDOUT MAIN_MEMORY FLASH_MEMORY",
+		"YAML_BSP_CONFIG[STDIN]":"set,CONFIG_SUBSYSTEM_SERIAL_IP_NAME",
+		"YAML_BSP_CONFIG[STDOUT]":"set,CONFIG_SUBSYSTEM_SERIAL_IP_NAME",
+		"YAML_BSP_CONFIG[MAIN_MEMORY]":"set,CONFIG_SUBSYSTEM_MEMORY_IP_NAME",
+		"YAML_BSP_CONFIG[FLASH_MEMORY]":"set,CONFIG_SUBSYSTEM_FLASH_IP_NAME",
+		"YAML_FILE_PATH":"${WORKDIR}/fsboot.yaml",
+		"XSCTH_MISC":"-yamlconf ${YAML_FILE_PATH}",
+		"sysconf":"${TOPDIR}/../project-spec/configs",
+		"FILESEXTRAPATHS_prepend":"${sysconf}:",
+		"SYSCONFIG":"${WORKDIR}/config",
+		"EXTRA_OEMAKE_APP_append_microblaze":"CFLAGS=-O3\\ -DCONFIG_FS_BOOT_OFFSET=${boot_offset}",
+		"hsmoutf":"${WORKDIR}/offsets",
+		"SRC_URI_append":"  file://config",
+		"XSCTH_PROC_microblaze":"CONFIG_SUBSYSTEM_PROCESSOR0_IP_NAME"
+	},
+	"DefineMethod":{
+                "do_configure_append ()":{"ALL":
+			["hsmoutf=\"${WORKDIR}/offsets\"",
+			"touch ${hsmoutf}",
+			"ipinfof=\"${TOPDIR}/misc/config/data/ipinfo.yaml\"",
+			"xsct \"${PETALINUX}/etc/hsm/scripts/petalinux_hsm.tcl\"\\",
+			"\"get_flash_width_parts\" \"${SYSCONFIG}\" \"${ipinfof}\"\\",
+			"\"${XSCTH_HDF}\" \"${hsmoutf}\""]
+			},
+		"do_compile_prepend ()":{"ALL":
+			["boot_offset=$(egrep -e \"^boot=\" \"${hsmoutf}\" | cut -d \"=\" -f 2 | cut -d \" \" -f 1)"]
+			}
+	}
+	},
+
+"virtual/kernel":{
+        "globalvar":{
+                "KERNEL_IMAGETYPE":"simpleImage.mb",
+		"DEPENDS_append":" device-tree-generation"
+        },
+        "DefineMethod":{
+                "do_compile_prepend ()":{"ALL":
+                        ["install -d ${B}/arch/microblaze/boot/dts",
+                        "cp ${DEPLOY_DIR_IMAGE}/${MACHINE}-system.dts ${B}/arch/microblaze/boot/dts/mb.dts"]}
+        }
+        },
+
+"virtual/elfrealloc":{
+	"globalvar":{
+		"ELF_INFILE":"${DEPLOY_DIR_IMAGE}/u-boot.elf",
+		"OUTFILE_NAME":"u-boot-s",
+		"do_compile[depends]":"virtual/bootloader:do_deploy"
+	}
+	},
+
+"virtual/dtb":{
+	"globalvar":{
+		"XSCTH_PROC_microblaze":"CONFIG_SUBSYSTEM_PROCESSOR0_IP_NAME"
+	}
+	}
+
+}

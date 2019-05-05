@@ -1,0 +1,159 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz for universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz;downloadfilename=universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz;downloadfilename=universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz;downloadfilename=universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz;downloadfilename=universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz
+DEBUG: Searching for universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo for universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo;downloadfilename=universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo;downloadfilename=universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo;downloadfilename=universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/3c/sstate%3Aopenssl-native%3Ax86_64-linux%3A1.0.2h%3Ar0%3Ax86_64%3A3%3A3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo;downloadfilename=universal/3c/sstate:openssl-native:x86_64-linux:1.0.2h:r0:x86_64:3:3c70c090f339145d404215a1ae4d3395_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/openssl-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/openssl.real
+x86_64-linux/usr/bin/openssl
+x86_64-linux/usr/lib/
+x86_64-linux/usr/lib/libssl.a
+x86_64-linux/usr/lib/libcrypto.so
+x86_64-linux/usr/lib/ssl/
+x86_64-linux/usr/lib/ssl/misc/
+x86_64-linux/usr/lib/ssl/misc/CA.sh
+x86_64-linux/usr/lib/ssl/openssl.cnf
+x86_64-linux/usr/lib/ssl/private/
+x86_64-linux/usr/lib/ssl/certs/
+x86_64-linux/usr/lib/ssl/engines/
+x86_64-linux/usr/lib/ssl/engines/libubsec.so
+x86_64-linux/usr/lib/ssl/engines/libgmp.so
+x86_64-linux/usr/lib/ssl/engines/libpadlock.so
+x86_64-linux/usr/lib/ssl/engines/libaep.so
+x86_64-linux/usr/lib/ssl/engines/libchil.so
+x86_64-linux/usr/lib/ssl/engines/libcswift.so
+x86_64-linux/usr/lib/ssl/engines/libsureware.so
+x86_64-linux/usr/lib/ssl/engines/libgost.so
+x86_64-linux/usr/lib/ssl/engines/libcapi.so
+x86_64-linux/usr/lib/ssl/engines/libnuron.so
+x86_64-linux/usr/lib/ssl/engines/libatalla.so
+x86_64-linux/usr/lib/ssl/engines/lib4758cca.so
+x86_64-linux/usr/lib/libssl.so
+x86_64-linux/usr/lib/libssl.so.1.0.0
+x86_64-linux/usr/lib/pkgconfig/
+x86_64-linux/usr/lib/pkgconfig/openssl.pc
+x86_64-linux/usr/lib/pkgconfig/libssl.pc
+x86_64-linux/usr/lib/pkgconfig/libcrypto.pc
+x86_64-linux/usr/lib/libcrypto.a
+x86_64-linux/usr/lib/libcrypto.so.1.0.0
+x86_64-linux/usr/lib/engines/
+x86_64-linux/usr/include/
+x86_64-linux/usr/include/openssl/
+x86_64-linux/usr/include/openssl/bio.h
+x86_64-linux/usr/include/openssl/des_old.h
+x86_64-linux/usr/include/openssl/pqueue.h
+x86_64-linux/usr/include/openssl/ebcdic.h
+x86_64-linux/usr/include/openssl/ssl.h
+x86_64-linux/usr/include/openssl/dsa.h
+x86_64-linux/usr/include/openssl/dso.h
+x86_64-linux/usr/include/openssl/ocsp.h
+x86_64-linux/usr/include/openssl/rc4.h
+x86_64-linux/usr/include/openssl/opensslconf.h
+x86_64-linux/usr/include/openssl/ssl23.h
+x86_64-linux/usr/include/openssl/ssl3.h
+x86_64-linux/usr/include/openssl/sha.h
+x86_64-linux/usr/include/openssl/seed.h
+x86_64-linux/usr/include/openssl/pkcs12.h
+x86_64-linux/usr/include/openssl/modes.h
+x86_64-linux/usr/include/openssl/md5.h
+x86_64-linux/usr/include/openssl/evp.h
+x86_64-linux/usr/include/openssl/conf_api.h
+x86_64-linux/usr/include/openssl/comp.h
+x86_64-linux/usr/include/openssl/camellia.h
+x86_64-linux/usr/include/openssl/pkcs7.h
+x86_64-linux/usr/include/openssl/txt_db.h
+x86_64-linux/usr/include/openssl/safestack.h
+x86_64-linux/usr/include/openssl/ssl2.h
+x86_64-linux/usr/include/openssl/rc2.h
+x86_64-linux/usr/include/openssl/asn1t.h
+x86_64-linux/usr/include/openssl/objects.h
+x86_64-linux/usr/include/openssl/symhacks.h
+x86_64-linux/usr/include/openssl/buffer.h
+x86_64-linux/usr/include/openssl/asn1.h
+x86_64-linux/usr/include/openssl/engine.h
+x86_64-linux/usr/include/openssl/crypto.h
+x86_64-linux/usr/include/openssl/dtls1.h
+x86_64-linux/usr/include/openssl/e_os2.h
+x86_64-linux/usr/include/openssl/rsa.h
+x86_64-linux/usr/include/openssl/ossl_typ.h
+x86_64-linux/usr/include/openssl/hmac.h
+x86_64-linux/usr/include/openssl/opensslv.h
+x86_64-linux/usr/include/openssl/whrlpool.h
+x86_64-linux/usr/include/openssl/cmac.h
+x86_64-linux/usr/include/openssl/srp.h
+x86_64-linux/usr/include/openssl/lhash.h
+x86_64-linux/usr/include/openssl/cast.h
+x86_64-linux/usr/include/openssl/tls1.h
+x86_64-linux/usr/include/openssl/x509_vfy.h
+x86_64-linux/usr/include/openssl/des.h
+x86_64-linux/usr/include/openssl/srtp.h
+x86_64-linux/usr/include/openssl/conf.h
+x86_64-linux/usr/include/openssl/ts.h
+x86_64-linux/usr/include/openssl/x509v3.h
+x86_64-linux/usr/include/openssl/bn.h
+x86_64-linux/usr/include/openssl/ui.h
+x86_64-linux/usr/include/openssl/asn1_mac.h
+x86_64-linux/usr/include/openssl/blowfish.h
+x86_64-linux/usr/include/openssl/kssl.h
+x86_64-linux/usr/include/openssl/ec.h
+x86_64-linux/usr/include/openssl/md4.h
+x86_64-linux/usr/include/openssl/stack.h
+x86_64-linux/usr/include/openssl/aes.h
+x86_64-linux/usr/include/openssl/ripemd.h
+x86_64-linux/usr/include/openssl/err.h
+x86_64-linux/usr/include/openssl/pem.h
+x86_64-linux/usr/include/openssl/pem2.h
+x86_64-linux/usr/include/openssl/mdc2.h
+x86_64-linux/usr/include/openssl/rand.h
+x86_64-linux/usr/include/openssl/cms.h
+x86_64-linux/usr/include/openssl/x509.h
+x86_64-linux/usr/include/openssl/dh.h
+x86_64-linux/usr/include/openssl/ecdsa.h
+x86_64-linux/usr/include/openssl/ui_compat.h
+x86_64-linux/usr/include/openssl/ecdh.h
+x86_64-linux/usr/include/openssl/obj_mac.h
+x86_64-linux/usr/include/openssl/idea.h
+x86_64-linux/usr/include/openssl/krb5_asn.h
+x86_64-linux/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/openssl-native/1.0.2h-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/openssl-native/1.0.2h-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/openssl-native/1.0.2h-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

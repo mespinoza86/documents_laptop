@@ -1,0 +1,208 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz for 4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz;downloadfilename=4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz', '', '', {'downloadfilename': '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz;downloadfilename=4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz', '', '', {'downloadfilename': '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz;downloadfilename=4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz
+DEBUG: For url ['file', '', '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz;downloadfilename=4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz
+DEBUG: Searching for 4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo for 4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo;downloadfilename=4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo;downloadfilename=4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo;downloadfilename=4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/4e/sstate%3Agettext%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A0.19.6%3Ar0%3Acortexa9hf-neon%3A3%3A4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo;downloadfilename=4e/sstate:gettext:cortexa9hf-neon-xilinx-linux-gnueabi:0.19.6:r0:cortexa9hf-neon:3:4e2a92a6aa7028362d2a9b00664e99d3_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/gettext
+sysroot-destdir/sysroot-providers/virtual_gettext
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/libgettextpo.la
+sysroot-destdir/usr/lib/gettext/
+sysroot-destdir/usr/lib/gettext/project-id
+sysroot-destdir/usr/lib/gettext/hostname
+sysroot-destdir/usr/lib/gettext/user-email
+sysroot-destdir/usr/lib/gettext/cldr-plurals
+sysroot-destdir/usr/lib/gettext/urlget
+sysroot-destdir/usr/lib/libgettextpo.so
+sysroot-destdir/usr/lib/libgettextlib.la
+sysroot-destdir/usr/lib/libgettextpo.so.0.5.3
+sysroot-destdir/usr/lib/libgettextlib-0.19.6.so
+sysroot-destdir/usr/lib/libgettextsrc.so
+sysroot-destdir/usr/lib/libgettextpo.so.0
+sysroot-destdir/usr/lib/libgettextlib.so
+sysroot-destdir/usr/lib/libgettextsrc-0.19.6.so
+sysroot-destdir/usr/lib/libgettextsrc.la
+sysroot-destdir/usr/include/
+sysroot-destdir/usr/include/gettext-po.h
+sysroot-destdir/usr/share/
+sysroot-destdir/usr/share/aclocal/
+sysroot-destdir/usr/share/aclocal/codeset.m4
+sysroot-destdir/usr/share/aclocal/intl.m4
+sysroot-destdir/usr/share/aclocal/intdiv0.m4
+sysroot-destdir/usr/share/aclocal/glibc2.m4
+sysroot-destdir/usr/share/aclocal/lcmessage.m4
+sysroot-destdir/usr/share/aclocal/lib-ld.m4
+sysroot-destdir/usr/share/aclocal/visibility.m4
+sysroot-destdir/usr/share/aclocal/wchar_t.m4
+sysroot-destdir/usr/share/aclocal/intmax.m4
+sysroot-destdir/usr/share/aclocal/fcntl-o.m4
+sysroot-destdir/usr/share/aclocal/intlmacosx.m4
+sysroot-destdir/usr/share/aclocal/lib-link.m4
+sysroot-destdir/usr/share/aclocal/po.m4
+sysroot-destdir/usr/share/aclocal/longlong.m4
+sysroot-destdir/usr/share/aclocal/wint_t.m4
+sysroot-destdir/usr/share/aclocal/stdint_h.m4
+sysroot-destdir/usr/share/aclocal/uintmax_t.m4
+sysroot-destdir/usr/share/aclocal/iconv.m4
+sysroot-destdir/usr/share/aclocal/inttypes-pri.m4
+sysroot-destdir/usr/share/aclocal/xsize.m4
+sysroot-destdir/usr/share/aclocal/inttypes_h.m4
+sysroot-destdir/usr/share/aclocal/nls.m4
+sysroot-destdir/usr/share/aclocal/size_max.m4
+sysroot-destdir/usr/share/aclocal/extern-inline.m4
+sysroot-destdir/usr/share/aclocal/threadlib.m4
+sysroot-destdir/usr/share/aclocal/lib-prefix.m4
+sysroot-destdir/usr/share/aclocal/lock.m4
+sysroot-destdir/usr/share/aclocal/progtest.m4
+sysroot-destdir/usr/share/aclocal/glibc21.m4
+sysroot-destdir/usr/share/aclocal/printf-posix.m4
+sysroot-destdir/usr/share/aclocal/gettext.m4
+sysroot-destdir/usr/share/aclocal/intldir.m4
+sysroot-destdir/usr/share/gettext/
+sysroot-destdir/usr/share/gettext/po/
+sysroot-destdir/usr/share/gettext/po/quot.sed
+sysroot-destdir/usr/share/gettext/po/Makevars.template
+sysroot-destdir/usr/share/gettext/po/Makefile.in.in
+sysroot-destdir/usr/share/gettext/po/Rules-quot
+sysroot-destdir/usr/share/gettext/po/insert-header.sin
+sysroot-destdir/usr/share/gettext/po/en@quot.header
+sysroot-destdir/usr/share/gettext/po/remove-potcdate.sin
+sysroot-destdir/usr/share/gettext/po/boldquot.sed
+sysroot-destdir/usr/share/gettext/po/en@boldquot.header
+sysroot-destdir/usr/share/gettext/msgunfmt.tcl
+sysroot-destdir/usr/share/gettext/intl/
+sysroot-destdir/usr/share/gettext/intl/ref-add.sin
+sysroot-destdir/usr/share/gettext/intl/plural.y
+sysroot-destdir/usr/share/gettext/intl/dcgettext.c
+sysroot-destdir/usr/share/gettext/intl/dcngettext.c
+sysroot-destdir/usr/share/gettext/intl/threadlib.c
+sysroot-destdir/usr/share/gettext/intl/l10nflist.c
+sysroot-destdir/usr/share/gettext/intl/Makefile.in
+sysroot-destdir/usr/share/gettext/intl/gettext.c
+sysroot-destdir/usr/share/gettext/intl/localcharset.c
+sysroot-destdir/usr/share/gettext/intl/export.h
+sysroot-destdir/usr/share/gettext/intl/vasnprintf.c
+sysroot-destdir/usr/share/gettext/intl/ref-del.sin
+sysroot-destdir/usr/share/gettext/intl/explodename.c
+sysroot-destdir/usr/share/gettext/intl/loadinfo.h
+sysroot-destdir/usr/share/gettext/intl/setlocale.c
+sysroot-destdir/usr/share/gettext/intl/xsize.c
+sysroot-destdir/usr/share/gettext/intl/VERSION
+sysroot-destdir/usr/share/gettext/intl/verify.h
+sysroot-destdir/usr/share/gettext/intl/lock.h
+sysroot-destdir/usr/share/gettext/intl/bindtextdom.c
+sysroot-destdir/usr/share/gettext/intl/locale.alias
+sysroot-destdir/usr/share/gettext/intl/hash-string.c
+sysroot-destdir/usr/share/gettext/intl/libgnuintl.in.h
+sysroot-destdir/usr/share/gettext/intl/textdomain.c
+sysroot-destdir/usr/share/gettext/intl/hash-string.h
+sysroot-destdir/usr/share/gettext/intl/osdep.c
+sysroot-destdir/usr/share/gettext/intl/printf-args.h
+sysroot-destdir/usr/share/gettext/intl/printf-parse.c
+sysroot-destdir/usr/share/gettext/intl/COPYING.LIB
+sysroot-destdir/usr/share/gettext/intl/gettextP.h
+sysroot-destdir/usr/share/gettext/intl/gmo.h
+sysroot-destdir/usr/share/gettext/intl/libintl.rc
+sysroot-destdir/usr/share/gettext/intl/vasnwprintf.h
+sysroot-destdir/usr/share/gettext/intl/config.charset
+sysroot-destdir/usr/share/gettext/intl/lock.c
+sysroot-destdir/usr/share/gettext/intl/localename.c
+sysroot-destdir/usr/share/gettext/intl/plural-exp.c
+sysroot-destdir/usr/share/gettext/intl/version.c
+sysroot-destdir/usr/share/gettext/intl/plural-exp.h
+sysroot-destdir/usr/share/gettext/intl/langprefs.c
+sysroot-destdir/usr/share/gettext/intl/os2compat.c
+sysroot-destdir/usr/share/gettext/intl/intl-exports.c
+sysroot-destdir/usr/share/gettext/intl/vasnprintf.h
+sysroot-destdir/usr/share/gettext/intl/ngettext.c
+sysroot-destdir/usr/share/gettext/intl/xsize.h
+sysroot-destdir/usr/share/gettext/intl/printf-parse.h
+sysroot-destdir/usr/share/gettext/intl/tsearch.c
+sysroot-destdir/usr/share/gettext/intl/dgettext.c
+sysroot-destdir/usr/share/gettext/intl/relocatable.c
+sysroot-destdir/usr/share/gettext/intl/loadmsgcat.c
+sysroot-destdir/usr/share/gettext/intl/log.c
+sysroot-destdir/usr/share/gettext/intl/eval-plural.h
+sysroot-destdir/usr/share/gettext/intl/tsearch.h
+sysroot-destdir/usr/share/gettext/intl/dcigettext.c
+sysroot-destdir/usr/share/gettext/intl/relocatable.h
+sysroot-destdir/usr/share/gettext/intl/wprintf-parse.h
+sysroot-destdir/usr/share/gettext/intl/localcharset.h
+sysroot-destdir/usr/share/gettext/intl/localealias.c
+sysroot-destdir/usr/share/gettext/intl/printf.c
+sysroot-destdir/usr/share/gettext/intl/plural.c
+sysroot-destdir/usr/share/gettext/intl/intl-compat.c
+sysroot-destdir/usr/share/gettext/intl/os2compat.h
+sysroot-destdir/usr/share/gettext/intl/printf-args.c
+sysroot-destdir/usr/share/gettext/intl/dngettext.c
+sysroot-destdir/usr/share/gettext/intl/finddomain.c
+sysroot-destdir/usr/share/gettext/gettext.h
+sysroot-destdir/usr/share/gettext/archive.dir.tar.xz
+sysroot-destdir/usr/share/gettext/projects/
+sysroot-destdir/usr/share/gettext/projects/team-address
+sysroot-destdir/usr/share/gettext/projects/index
+sysroot-destdir/usr/share/gettext/projects/KDE/
+sysroot-destdir/usr/share/gettext/projects/KDE/team-address
+sysroot-destdir/usr/share/gettext/projects/KDE/teams.html
+sysroot-destdir/usr/share/gettext/projects/KDE/trigger
+sysroot-destdir/usr/share/gettext/projects/KDE/teams.url
+sysroot-destdir/usr/share/gettext/projects/TP/
+sysroot-destdir/usr/share/gettext/projects/TP/team-address
+sysroot-destdir/usr/share/gettext/projects/TP/teams.html
+sysroot-destdir/usr/share/gettext/projects/TP/trigger
+sysroot-destdir/usr/share/gettext/projects/TP/teams.url
+sysroot-destdir/usr/share/gettext/projects/GNOME/
+sysroot-destdir/usr/share/gettext/projects/GNOME/team-address
+sysroot-destdir/usr/share/gettext/projects/GNOME/teams.html
+sysroot-destdir/usr/share/gettext/projects/GNOME/trigger
+sysroot-destdir/usr/share/gettext/projects/GNOME/teams.url
+sysroot-destdir/usr/share/gettext/javaversion.class
+sysroot-destdir/usr/share/gettext/styles/
+sysroot-destdir/usr/share/gettext/styles/po-emacs-x.css
+sysroot-destdir/usr/share/gettext/styles/po-vim.css
+sysroot-destdir/usr/share/gettext/styles/po-default.css
+sysroot-destdir/usr/share/gettext/styles/po-emacs-xterm.css
+sysroot-destdir/usr/share/gettext/styles/po-emacs-xterm16.css
+sysroot-destdir/usr/share/gettext/styles/po-emacs-xterm256.css
+sysroot-destdir/usr/share/gettext/ABOUT-NLS
+sysroot-destdir/usr/share/gettext/config.rpath
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/gettext/0.19.6-r0/sysroot-destdir to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm
+DEBUG: Python function do_populate_sysroot_setscene finished

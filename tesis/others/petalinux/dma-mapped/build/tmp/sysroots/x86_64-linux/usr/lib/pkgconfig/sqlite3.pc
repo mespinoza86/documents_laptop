@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr
+exec_prefix=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr
+libdir=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib
+includedir=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.11.0
+Libs: -L${libdir} -lsqlite3
+Libs.private: -ldl -lpthread 
+Cflags: -I${includedir}

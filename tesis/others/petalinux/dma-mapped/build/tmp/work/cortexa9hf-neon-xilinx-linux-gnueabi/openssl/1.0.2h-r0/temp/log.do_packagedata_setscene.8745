@@ -1,0 +1,92 @@
+DEBUG: Executing python function do_packagedata_setscene
+DEBUG: Searching for 99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz for 99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz;downloadfilename=99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz', '', '', {'downloadfilename': '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz;downloadfilename=99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz', '', '', {'downloadfilename': '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz;downloadfilename=99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz
+DEBUG: For url ['file', '', '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz;downloadfilename=99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz
+DEBUG: Searching for 99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo for 99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo;downloadfilename=99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo', '', '', {'downloadfilename': '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo;downloadfilename=99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo', '', '', {'downloadfilename': '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo;downloadfilename=99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo
+DEBUG: For url ['file', '', '99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/99/sstate%3Aopenssl%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A1.0.2h%3Ar0%3Acortexa9hf-neon%3A3%3A994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo;downloadfilename=99/sstate:openssl:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.2h:r0:cortexa9hf-neon:3:994046429cc342a2e248572c636c1be2_packagedata.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+pkgdata/
+pkgdata/runtime-reverse/
+pkgdata/runtime-reverse/openssl-doc
+pkgdata/runtime-reverse/openssl-dev
+pkgdata/runtime-reverse/libcrypto1.0.0
+pkgdata/runtime-reverse/openssl-conf
+pkgdata/runtime-reverse/libssl1.0.0
+pkgdata/runtime-reverse/openssl
+pkgdata/runtime-reverse/openssl-dbg
+pkgdata/runtime-reverse/openssl-engines
+pkgdata/runtime-reverse/openssl-staticdev
+pkgdata/runtime-reverse/openssl-ptest
+pkgdata/runtime-reverse/openssl-misc
+pkgdata/runtime-rprovides/
+pkgdata/runtime-rprovides/(=1.0.2h)/
+pkgdata/runtime-rprovides/(=1.0.2h)/libcrypto
+pkgdata/runtime-rprovides/(=1.0.2h)/libssl
+pkgdata/runtime-rprovides/libcrypto/
+pkgdata/runtime-rprovides/libcrypto/libcrypto
+pkgdata/runtime-rprovides/libssl/
+pkgdata/runtime-rprovides/libssl/libssl
+pkgdata/runtime/
+pkgdata/runtime/libcrypto.packaged
+pkgdata/runtime/openssl-ptest.packaged
+pkgdata/runtime/openssl-doc
+pkgdata/runtime/libcrypto
+pkgdata/runtime/libssl
+pkgdata/runtime/openssl-dbg.packaged
+pkgdata/runtime/openssl-doc.packaged
+pkgdata/runtime/openssl-dev
+pkgdata/runtime/openssl-misc.packaged
+pkgdata/runtime/openssl-conf
+pkgdata/runtime/openssl-conf.packaged
+pkgdata/runtime/openssl-locale
+pkgdata/runtime/openssl-dev.packaged
+pkgdata/runtime/openssl.packaged
+pkgdata/runtime/openssl
+pkgdata/runtime/openssl-staticdev.packaged
+pkgdata/runtime/openssl-dbg
+pkgdata/runtime/openssl-engines
+pkgdata/runtime/openssl-staticdev
+pkgdata/runtime/openssl-engines.packaged
+pkgdata/runtime/libssl.packaged
+pkgdata/runtime/openssl-ptest
+pkgdata/runtime/openssl-misc
+pkgdata/shlibs2/
+pkgdata/shlibs2/libssl.list
+pkgdata/shlibs2/openssl-dev.pclist
+pkgdata/shlibs2/openssl-engines.list
+pkgdata/shlibs2/libcrypto.list
+pkgdata/openssl
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/openssl/1.0.2h-r0/pkgdata to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/pkgdata
+DEBUG: Python function do_packagedata_setscene finished

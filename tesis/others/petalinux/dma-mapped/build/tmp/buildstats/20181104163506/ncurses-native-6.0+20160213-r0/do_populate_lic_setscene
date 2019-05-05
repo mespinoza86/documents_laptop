@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349336.00 
+ncurses-native-6.0+20160213-r0: do_populate_lic_setscene: Elapsed time: 0.36 seconds 
+utime: 21
+stime: 3
+cutime: 9
+cstime: 17
+IO write_bytes: 77824
+IO read_bytes: 53248
+IO cancelled_write_bytes: 0
+IO syscr: 198
+IO wchar: 126721
+IO rchar: 260750
+IO syscw: 128
+rusage ru_utime: 0.211202
+rusage ru_stime: 0.033129
+rusage ru_maxrss: 97816
+rusage ru_minflt: 8427
+rusage ru_majflt: 0
+rusage ru_inblock: 96
+rusage ru_oublock: 128
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 47
+Child rusage ru_utime: 0.099902
+Child rusage ru_stime: 0.173016
+Child rusage ru_maxrss: 96076
+Child rusage ru_minflt: 2102
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 24
+Child rusage ru_nvcsw: 35
+Child rusage ru_nivcsw: 104
+Status: PASSED 
+Ended: 1541349336.36 

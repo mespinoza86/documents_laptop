@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349338.50 
+m4-native-1.4.17-r0: do_populate_lic_setscene: Elapsed time: 0.37 seconds 
+utime: 13
+stime: 1
+cutime: 11
+cstime: 16
+IO write_bytes: 110592
+IO read_bytes: 12288
+IO cancelled_write_bytes: 0
+IO syscr: 198
+IO wchar: 182998
+IO rchar: 277709
+IO syscw: 127
+rusage ru_utime: 0.135169
+rusage ru_stime: 0.018773
+rusage ru_maxrss: 96852
+rusage ru_minflt: 7909
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 78
+Child rusage ru_utime: 0.116221
+Child rusage ru_stime: 0.163132
+Child rusage ru_maxrss: 95136
+Child rusage ru_minflt: 2100
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 39
+Child rusage ru_nivcsw: 59
+Status: PASSED 
+Ended: 1541349338.87 

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349330.36 
+glibc-xilinx-2016.4-r1: do_populate_lic_setscene: Elapsed time: 0.44 seconds 
+utime: 20
+stime: 0
+cutime: 14
+cstime: 13
+IO write_bytes: 139264
+IO read_bytes: 16384
+IO cancelled_write_bytes: 0
+IO syscr: 203
+IO wchar: 235258
+IO rchar: 296814
+IO syscw: 131
+rusage ru_utime: 0.201417
+rusage ru_stime: 0.0076
+rusage ru_maxrss: 97636
+rusage ru_minflt: 8439
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 932
+Child rusage ru_utime: 0.142622
+Child rusage ru_stime: 0.133089
+Child rusage ru_maxrss: 95944
+Child rusage ru_minflt: 2109
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 144
+Child rusage ru_nvcsw: 41
+Child rusage ru_nivcsw: 100
+Status: PASSED 
+Ended: 1541349330.80 

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349354.22 
+gawk-4.1.3-r0: do_package_write_rpm_setscene: Elapsed time: 0.39 seconds 
+utime: 20
+stime: 1
+cutime: 15
+cstime: 17
+IO write_bytes: 2641920
+IO read_bytes: 2416640
+IO cancelled_write_bytes: 0
+IO syscr: 712
+IO wchar: 5219692
+IO rchar: 5210711
+IO syscw: 493
+rusage ru_utime: 0.209791
+rusage ru_stime: 0.019791
+rusage ru_maxrss: 97532
+rusage ru_minflt: 6233
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 22
+rusage ru_nivcsw: 18
+Child rusage ru_utime: 0.150679
+Child rusage ru_stime: 0.178781
+Child rusage ru_maxrss: 95852
+Child rusage ru_minflt: 1793
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 4720
+Child rusage ru_oublock: 5032
+Child rusage ru_nvcsw: 379
+Child rusage ru_nivcsw: 99
+Status: PASSED 
+Ended: 1541349354.61 

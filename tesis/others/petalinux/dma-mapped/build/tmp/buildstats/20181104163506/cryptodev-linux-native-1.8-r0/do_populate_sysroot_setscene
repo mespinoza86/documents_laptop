@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349363.83 
+cryptodev-linux-native-1.8-r0: do_populate_sysroot_setscene: Elapsed time: 0.31 seconds 
+utime: 14
+stime: 1
+cutime: 11
+cstime: 13
+IO write_bytes: 81920
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 188
+IO wchar: 135461
+IO rchar: 230192
+IO syscw: 122
+rusage ru_utime: 0.140192
+rusage ru_stime: 0.016022
+rusage ru_maxrss: 96968
+rusage ru_minflt: 6022
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 24
+Child rusage ru_utime: 0.119919
+Child rusage ru_stime: 0.139931
+Child rusage ru_maxrss: 95252
+Child rusage ru_minflt: 1772
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 32
+Child rusage ru_nvcsw: 34
+Child rusage ru_nivcsw: 11
+Status: PASSED 
+Ended: 1541349364.14 

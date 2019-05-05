@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349349.92 
+diffutils-3.3-r0: do_packagedata_setscene: Elapsed time: 0.35 seconds 
+utime: 17
+stime: 1
+cutime: 13
+cstime: 14
+IO write_bytes: 262144
+IO read_bytes: 12288
+IO cancelled_write_bytes: 0
+IO syscr: 353
+IO wchar: 383928
+IO rchar: 430544
+IO syscw: 384
+rusage ru_utime: 0.173784
+rusage ru_stime: 0.019748
+rusage ru_maxrss: 97516
+rusage ru_minflt: 6250
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 192
+rusage ru_nvcsw: 12
+rusage ru_nivcsw: 94
+Child rusage ru_utime: 0.130591
+Child rusage ru_stime: 0.143333
+Child rusage ru_maxrss: 95824
+Child rusage ru_minflt: 1804
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 320
+Child rusage ru_nvcsw: 57
+Child rusage ru_nivcsw: 52
+Status: PASSED 
+Ended: 1541349350.28 

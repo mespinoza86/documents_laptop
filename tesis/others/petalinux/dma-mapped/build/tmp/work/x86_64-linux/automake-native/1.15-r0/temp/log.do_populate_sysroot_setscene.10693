@@ -1,0 +1,169 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz for universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz;downloadfilename=universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz;downloadfilename=universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz;downloadfilename=universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz;downloadfilename=universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz
+DEBUG: Searching for universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo for universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo;downloadfilename=universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo;downloadfilename=universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo;downloadfilename=universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8d/sstate%3Aautomake-native%3Ax86_64-linux%3A1.15%3Ar0%3Ax86_64%3A3%3A8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo;downloadfilename=universal/8d/sstate:automake-native:x86_64-linux:1.15:r0:x86_64:3:8de23f3a310abb3749db79a7a7c455cd_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/automake-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/aclocal
+x86_64-linux/usr/bin/automake
+x86_64-linux/usr/bin/automake-1.15
+x86_64-linux/usr/bin/aclocal-1.15
+x86_64-linux/usr/share/
+x86_64-linux/usr/share/aclocal/
+x86_64-linux/usr/share/aclocal/README
+x86_64-linux/usr/share/automake-1.15/
+x86_64-linux/usr/share/automake-1.15/INSTALL
+x86_64-linux/usr/share/automake-1.15/mkinstalldirs
+x86_64-linux/usr/share/automake-1.15/install-sh
+x86_64-linux/usr/share/automake-1.15/depcomp
+x86_64-linux/usr/share/automake-1.15/mdate-sh
+x86_64-linux/usr/share/automake-1.15/compile
+x86_64-linux/usr/share/automake-1.15/tap-driver.sh
+x86_64-linux/usr/share/automake-1.15/COPYING
+x86_64-linux/usr/share/automake-1.15/ylwrap
+x86_64-linux/usr/share/automake-1.15/am/
+x86_64-linux/usr/share/automake-1.15/am/install.am
+x86_64-linux/usr/share/automake-1.15/am/texinfos.am
+x86_64-linux/usr/share/automake-1.15/am/inst-vars.am
+x86_64-linux/usr/share/automake-1.15/am/remake-hdr.am
+x86_64-linux/usr/share/automake-1.15/am/program.am
+x86_64-linux/usr/share/automake-1.15/am/libtool.am
+x86_64-linux/usr/share/automake-1.15/am/scripts.am
+x86_64-linux/usr/share/automake-1.15/am/clean.am
+x86_64-linux/usr/share/automake-1.15/am/python.am
+x86_64-linux/usr/share/automake-1.15/am/subdirs.am
+x86_64-linux/usr/share/automake-1.15/am/vala.am
+x86_64-linux/usr/share/automake-1.15/am/library.am
+x86_64-linux/usr/share/automake-1.15/am/lex.am
+x86_64-linux/usr/share/automake-1.15/am/mans.am
+x86_64-linux/usr/share/automake-1.15/am/libs.am
+x86_64-linux/usr/share/automake-1.15/am/configure.am
+x86_64-linux/usr/share/automake-1.15/am/yacc.am
+x86_64-linux/usr/share/automake-1.15/am/ltlibrary.am
+x86_64-linux/usr/share/automake-1.15/am/data.am
+x86_64-linux/usr/share/automake-1.15/am/header.am
+x86_64-linux/usr/share/automake-1.15/am/header-vars.am
+x86_64-linux/usr/share/automake-1.15/am/distdir.am
+x86_64-linux/usr/share/automake-1.15/am/depend2.am
+x86_64-linux/usr/share/automake-1.15/am/footer.am
+x86_64-linux/usr/share/automake-1.15/am/lisp.am
+x86_64-linux/usr/share/automake-1.15/am/check2.am
+x86_64-linux/usr/share/automake-1.15/am/dejagnu.am
+x86_64-linux/usr/share/automake-1.15/am/progs.am
+x86_64-linux/usr/share/automake-1.15/am/texi-vers.am
+x86_64-linux/usr/share/automake-1.15/am/depend.am
+x86_64-linux/usr/share/automake-1.15/am/tags.am
+x86_64-linux/usr/share/automake-1.15/am/texibuild.am
+x86_64-linux/usr/share/automake-1.15/am/lang-compile.am
+x86_64-linux/usr/share/automake-1.15/am/ltlib.am
+x86_64-linux/usr/share/automake-1.15/am/clean-hdr.am
+x86_64-linux/usr/share/automake-1.15/am/check.am
+x86_64-linux/usr/share/automake-1.15/am/mans-vars.am
+x86_64-linux/usr/share/automake-1.15/am/compile.am
+x86_64-linux/usr/share/automake-1.15/am/java.am
+x86_64-linux/usr/share/automake-1.15/ar-lib
+x86_64-linux/usr/share/automake-1.15/config.sub
+x86_64-linux/usr/share/automake-1.15/texinfo.tex
+x86_64-linux/usr/share/automake-1.15/config.guess
+x86_64-linux/usr/share/automake-1.15/test-driver
+x86_64-linux/usr/share/automake-1.15/missing
+x86_64-linux/usr/share/automake-1.15/Automake/
+x86_64-linux/usr/share/automake-1.15/Automake/RuleDef.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Getopt.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Wrap.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Item.pm
+x86_64-linux/usr/share/automake-1.15/Automake/XFile.pm
+x86_64-linux/usr/share/automake-1.15/Automake/DisjConditions.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Configure_ac.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Channels.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Variable.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Language.pm
+x86_64-linux/usr/share/automake-1.15/Automake/ChannelDefs.pm
+x86_64-linux/usr/share/automake-1.15/Automake/FileUtils.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Location.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Condition.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Config.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Version.pm
+x86_64-linux/usr/share/automake-1.15/Automake/General.pm
+x86_64-linux/usr/share/automake-1.15/Automake/ItemDef.pm
+x86_64-linux/usr/share/automake-1.15/Automake/VarDef.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Options.pm
+x86_64-linux/usr/share/automake-1.15/Automake/Rule.pm
+x86_64-linux/usr/share/automake-1.15/py-compile
+x86_64-linux/usr/share/aclocal-1.15/
+x86_64-linux/usr/share/aclocal-1.15/substnot.m4
+x86_64-linux/usr/share/aclocal-1.15/cond-if.m4
+x86_64-linux/usr/share/aclocal-1.15/strip.m4
+x86_64-linux/usr/share/aclocal-1.15/depend.m4
+x86_64-linux/usr/share/aclocal-1.15/cond.m4
+x86_64-linux/usr/share/aclocal-1.15/lead-dot.m4
+x86_64-linux/usr/share/aclocal-1.15/init.m4
+x86_64-linux/usr/share/aclocal-1.15/missing.m4
+x86_64-linux/usr/share/aclocal-1.15/lispdir.m4
+x86_64-linux/usr/share/aclocal-1.15/tar.m4
+x86_64-linux/usr/share/aclocal-1.15/extra-recurs.m4
+x86_64-linux/usr/share/aclocal-1.15/make.m4
+x86_64-linux/usr/share/aclocal-1.15/obsolete.m4
+x86_64-linux/usr/share/aclocal-1.15/options.m4
+x86_64-linux/usr/share/aclocal-1.15/silent.m4
+x86_64-linux/usr/share/aclocal-1.15/gcj.m4
+x86_64-linux/usr/share/aclocal-1.15/runlog.m4
+x86_64-linux/usr/share/aclocal-1.15/vala.m4
+x86_64-linux/usr/share/aclocal-1.15/ar-lib.m4
+x86_64-linux/usr/share/aclocal-1.15/as.m4
+x86_64-linux/usr/share/aclocal-1.15/depout.m4
+x86_64-linux/usr/share/aclocal-1.15/sanity.m4
+x86_64-linux/usr/share/aclocal-1.15/internal/
+x86_64-linux/usr/share/aclocal-1.15/internal/ac-config-macro-dirs.m4
+x86_64-linux/usr/share/aclocal-1.15/python.m4
+x86_64-linux/usr/share/aclocal-1.15/mkdirp.m4
+x86_64-linux/usr/share/aclocal-1.15/prog-cc-c-o.m4
+x86_64-linux/usr/share/aclocal-1.15/upc.m4
+x86_64-linux/usr/share/aclocal-1.15/auxdir.m4
+x86_64-linux/usr/share/aclocal-1.15/amversion.m4
+x86_64-linux/usr/share/aclocal-1.15/lex.m4
+x86_64-linux/usr/share/aclocal-1.15/dmalloc.m4
+x86_64-linux/usr/share/aclocal-1.15/install-sh.m4
+x86_64-linux/usr/share/aclocal-1.15/maintainer.m4
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/automake-native/1.15-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/automake-native/1.15-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/automake-native/1.15-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

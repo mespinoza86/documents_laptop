@@ -1,0 +1,17 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for setup.py in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml-3.11/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml-3.11/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml-3.11/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/files/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml-3.11/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/python-pyyaml/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-python/recipes-devtools/python/files/
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

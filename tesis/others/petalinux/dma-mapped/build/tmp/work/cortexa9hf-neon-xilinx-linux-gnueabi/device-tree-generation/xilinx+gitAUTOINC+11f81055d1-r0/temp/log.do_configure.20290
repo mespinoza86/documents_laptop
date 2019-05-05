@@ -1,0 +1,13 @@
+DEBUG: Executing python function sysroot_cleansstate
+DEBUG: Python function sysroot_cleansstate finished
+DEBUG: Executing shell function do_configure
+MISC_ARG is -yamlconf /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/device-tree-generation/xilinx+gitAUTOINC+11f81055d1-r0/devicetree.yaml
+APP_ARG is  -app "device-tree"
+cmd is: xsct /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/device-tree-generation/xilinx+gitAUTOINC+11f81055d1-r0/dtgen.tcl -ws /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/../components/plnx_workspace -pname device-tree-generation -rp /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/device-tree-generation/xilinx+gitAUTOINC+11f81055d1-r0/git -processor ps7_cortexa9_0 -hdf /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/deploy/images/plnx_arm/Xilinx-plnx_arm.hdf -arch 32  -app "device-tree" -yamlconf /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/device-tree-generation/xilinx+gitAUTOINC+11f81055d1-r0/devicetree.yaml
+INFO: [Hsi 55-1698] elapsed time for repository loading 1 seconds
+WARNING: ps7_ethernet_0: No reset found
+INFO: [Hsi 55-1698] elapsed time for repository loading 0 seconds
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+NOTE: device-tree-generation: md5 checksum matched for file://xadcps/data/xadcps.mdd;md5=f7fa1bfdaf99c7182fc0d8e7fd28e04a
+DEBUG: Python function do_qa_configure finished

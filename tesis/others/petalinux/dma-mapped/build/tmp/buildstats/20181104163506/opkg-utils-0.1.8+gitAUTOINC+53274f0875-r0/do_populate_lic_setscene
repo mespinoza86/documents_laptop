@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349337.11 
+opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: do_populate_lic_setscene: Elapsed time: 0.36 seconds 
+utime: 14
+stime: 2
+cutime: 9
+cstime: 18
+IO write_bytes: 135168
+IO read_bytes: 20480
+IO cancelled_write_bytes: 0
+IO syscr: 180
+IO wchar: 215728
+IO rchar: 270544
+IO syscw: 121
+rusage ru_utime: 0.143895
+rusage ru_stime: 0.023334
+rusage ru_maxrss: 96828
+rusage ru_minflt: 8160
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 68
+Child rusage ru_utime: 0.092677
+Child rusage ru_stime: 0.183971
+Child rusage ru_maxrss: 95140
+Child rusage ru_minflt: 2100
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 40
+Child rusage ru_oublock: 128
+Child rusage ru_nvcsw: 43
+Child rusage ru_nivcsw: 108
+Status: PASSED 
+Ended: 1541349337.48 

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349376.15 
+python-setuptools-native-19.4-r0: do_compile: Elapsed time: 0.58 seconds 
+utime: 20
+stime: 1
+cutime: 32
+cstime: 20
+IO write_bytes: 1110016
+IO read_bytes: 0
+IO cancelled_write_bytes: 53248
+IO syscr: 1435
+IO wchar: 941720
+IO rchar: 2516536
+IO syscw: 399
+rusage ru_utime: 0.204221
+rusage ru_stime: 0.018909
+rusage ru_maxrss: 97060
+rusage ru_minflt: 4614
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 56
+rusage ru_nvcsw: 69
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.321615
+Child rusage ru_stime: 0.202295
+Child rusage ru_maxrss: 95368
+Child rusage ru_minflt: 6288
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2112
+Child rusage ru_nvcsw: 8
+Child rusage ru_nivcsw: 125
+Status: PASSED 
+Ended: 1541349376.73 

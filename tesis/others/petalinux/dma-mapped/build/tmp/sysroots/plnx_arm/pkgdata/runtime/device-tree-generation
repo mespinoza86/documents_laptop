@@ -1,0 +1,13 @@
+PN: device-tree-generation
+PV: xilinx+gitAUTOINC+11f81055d1
+PR: r0
+PKGV: xilinx+git0+11f81055d1
+PKGR: r0
+LICENSE: GPLv2
+DESCRIPTION: DTS generator
+SUMMARY: device-tree-generation version xilinx+gitAUTOINC+11f81055d1-r0
+SECTION: base
+PKG_device-tree-generation: device-tree-generation
+FILES_device-tree-generation: /usr/bin/* /usr/sbin/* /usr/libexec/* /usr/lib/lib*.so.* /etc /com /var /bin/* /sbin/* /lib/*.so.* /lib/udev/rules.d /usr/lib/udev/rules.d /usr/share/device-tree-generation /usr/lib/device-tree-generation/* /usr/share/pixmaps /usr/share/applications /usr/share/idl /usr/share/omf /usr/share/sounds /usr/lib/bonobo/servers
+FILES_INFO: {}
+PKGSIZE_device-tree-generation: 0

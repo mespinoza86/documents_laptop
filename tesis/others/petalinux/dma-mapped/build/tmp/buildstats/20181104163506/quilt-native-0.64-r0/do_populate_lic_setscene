@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349329.09 
+quilt-native-0.64-r0: do_populate_lic_setscene: Elapsed time: 0.36 seconds 
+utime: 16
+stime: 1
+cutime: 13
+cstime: 13
+IO write_bytes: 114688
+IO read_bytes: 585728
+IO cancelled_write_bytes: 0
+IO syscr: 197
+IO wchar: 184607
+IO rchar: 266741
+IO syscw: 128
+rusage ru_utime: 0.166067
+rusage ru_stime: 0.015815
+rusage ru_maxrss: 96936
+rusage ru_minflt: 7998
+rusage ru_majflt: 0
+rusage ru_inblock: 40
+rusage ru_oublock: 136
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 71
+Child rusage ru_utime: 0.134633
+Child rusage ru_stime: 0.132186
+Child rusage ru_maxrss: 95196
+Child rusage ru_minflt: 2086
+Child rusage ru_majflt: 4
+Child rusage ru_inblock: 1104
+Child rusage ru_oublock: 88
+Child rusage ru_nvcsw: 46
+Child rusage ru_nivcsw: 64
+Status: PASSED 
+Ended: 1541349329.45 

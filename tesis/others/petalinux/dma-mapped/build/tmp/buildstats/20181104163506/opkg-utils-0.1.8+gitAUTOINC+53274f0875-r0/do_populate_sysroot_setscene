@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349357.15 
+opkg-utils-0.1.8+gitAUTOINC+53274f0875-r0: do_populate_sysroot_setscene: Elapsed time: 0.33 seconds 
+utime: 16
+stime: 1
+cutime: 12
+cstime: 13
+IO write_bytes: 69632
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 159
+IO wchar: 114278
+IO rchar: 205273
+IO syscw: 108
+rusage ru_utime: 0.162203
+rusage ru_stime: 0.011868
+rusage ru_maxrss: 96860
+rusage ru_minflt: 5956
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 46
+Child rusage ru_utime: 0.125902
+Child rusage ru_stime: 0.13806
+Child rusage ru_maxrss: 95168
+Child rusage ru_minflt: 1774
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 31
+Child rusage ru_nivcsw: 31
+Status: PASSED 
+Ended: 1541349357.49 

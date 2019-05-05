@@ -1,0 +1,20 @@
+PN: gcc-runtime-xilinx
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE_libatomic: GPL-3.0-with-GCC-exception
+DESCRIPTION: External Xilinx toolchain.
+SUMMARY: External Xilinx toolchain
+RDEPENDS_libatomic: glibc-xilinx (>= 2.21)
+RPROVIDES_libatomic:  libatomic (=5.2.1)
+SECTION: base
+PKG_libatomic: libatomic1
+FILES_libatomic: /usr/lib/libatomic.so.*
+pkg_postinst_libatomic: #!/bin/sh\nif [ x"$D" = "x" ]; then\n\tif [ -x /sbin/ldconfig ]; then /sbin/ldconfig ; fi\nfi\n
+FILERPROVIDESFLIST_libatomic: /usr/lib/libatomic.so.1.1.0
+FILES_INFO: {"/usr/lib/libatomic.so.1": 18, "/usr/lib/libatomic.so.1.1.0": 14656}
+FILERPROVIDES_/usr/lib/libatomic.so.1.1.0_libatomic: elf(buildid) (= d25eb90f099061167208e7bb2ce7215a9cc051f3) libatomic.so.1 libatomic.so.1(LIBATOMIC_1.0) libatomic.so.1(LIBATOMIC_1.1)
+FILERDEPENDSFLIST_libatomic: /usr/lib/libatomic.so.1.1.0
+FILERDEPENDS_/usr/lib/libatomic.so.1.1.0_libatomic: libc.so.6 libc.so.6(GLIBC_2.4) libpthread.so.0 libpthread.so.0(GLIBC_2.4)
+PKGSIZE_libatomic: 14674

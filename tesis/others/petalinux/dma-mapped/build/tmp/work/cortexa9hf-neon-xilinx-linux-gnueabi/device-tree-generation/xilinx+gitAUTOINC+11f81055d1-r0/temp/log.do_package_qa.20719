@@ -1,0 +1,23 @@
+DEBUG: Executing python function sstate_task_prefunc
+DEBUG: Python function sstate_task_prefunc finished
+DEBUG: Executing python function do_package_qa
+NOTE: DO PACKAGE QA
+DEBUG: Executing python function read_subpackage_metadata
+DEBUG: Python function read_subpackage_metadata finished
+NOTE: Checking Package: device-tree-generation-dbg
+NOTE: Checking Package: device-tree-generation-staticdev
+NOTE: Checking Package: device-tree-generation-doc
+NOTE: Checking Package: device-tree-generation-locale
+NOTE: Checking Package: device-tree-generation-dev
+NOTE: Checking Package: device-tree-generation
+NOTE: DONE with PACKAGE QA
+DEBUG: Python function do_package_qa finished
+DEBUG: Executing python function sstate_task_postfunc
+DEBUG: Executing python function sstate_hardcode_path
+NOTE: Removing hardcoded paths from sstate package: 'find /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/device-tree-generation/xilinx+gitAUTOINC+11f81055d1-r0/sstate-build-package_qa/ \( -name "*.la" -o -name "*-config" -o -name "*_config" \) -type f | xargs grep -l -e '/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm' | tee /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/device-tree-generation/xilinx+gitAUTOINC+11f81055d1-r0/sstate-build-package_qa/fixmepath | xargs --no-run-if-empty sed -i -e 's:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm:FIXMESTAGINGDIRHOST:g''
+DEBUG: Python function sstate_hardcode_path finished
+DEBUG: Executing shell function sstate_create_package
+DEBUG: Shell function sstate_create_package finished
+DEBUG: Executing python function sstate_sign_package
+DEBUG: Python function sstate_sign_package finished
+DEBUG: Python function sstate_task_postfunc finished

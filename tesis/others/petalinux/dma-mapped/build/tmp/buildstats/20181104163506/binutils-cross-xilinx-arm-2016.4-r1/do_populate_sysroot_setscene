@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349359.53 
+binutils-cross-xilinx-arm-2016.4-r1: do_populate_sysroot_setscene: Elapsed time: 0.40 seconds 
+utime: 21
+stime: 1
+cutime: 15
+cstime: 15
+IO write_bytes: 73728
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 169
+IO wchar: 114767
+IO rchar: 206298
+IO syscw: 111
+rusage ru_utime: 0.21861
+rusage ru_stime: 0.015898
+rusage ru_maxrss: 96816
+rusage ru_minflt: 6085
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 8
+rusage ru_nivcsw: 10
+Child rusage ru_utime: 0.158854
+Child rusage ru_stime: 0.152729
+Child rusage ru_maxrss: 95120
+Child rusage ru_minflt: 1767
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 6
+Status: PASSED 
+Ended: 1541349359.93 

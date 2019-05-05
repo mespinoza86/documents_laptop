@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349462.20 
+python-pyyaml-native-3.11-r0: do_install: Elapsed time: 0.34 seconds 
+utime: 11
+stime: 0
+cutime: 14
+cstime: 16
+IO write_bytes: 1384448
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 1527
+IO wchar: 1323705
+IO rchar: 3222724
+IO syscw: 339
+rusage ru_utime: 0.118095
+rusage ru_stime: 0.004072
+rusage ru_maxrss: 97008
+rusage ru_minflt: 6234
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 72
+rusage ru_nvcsw: 43
+rusage ru_nivcsw: 0
+Child rusage ru_utime: 0.149849
+Child rusage ru_stime: 0.164867
+Child rusage ru_maxrss: 95320
+Child rusage ru_minflt: 6499
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 2632
+Child rusage ru_nvcsw: 46
+Child rusage ru_nivcsw: 6
+Status: PASSED 
+Ended: 1541349462.54 

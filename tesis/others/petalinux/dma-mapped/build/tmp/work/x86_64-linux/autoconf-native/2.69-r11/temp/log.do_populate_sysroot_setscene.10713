@@ -1,0 +1,104 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz for universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz;downloadfilename=universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz;downloadfilename=universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz;downloadfilename=universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz;downloadfilename=universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz
+DEBUG: Searching for universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo for universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo;downloadfilename=universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo;downloadfilename=universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo;downloadfilename=universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/cf/sstate%3Aautoconf-native%3Ax86_64-linux%3A2.69%3Ar11%3Ax86_64%3A3%3Acff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo;downloadfilename=universal/cf/sstate:autoconf-native:x86_64-linux:2.69:r11:x86_64:3:cff2a658fe0d8f8a962af07788f42cff_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/autoconf-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/autoconf
+x86_64-linux/usr/bin/autoscan
+x86_64-linux/usr/bin/autoreconf
+x86_64-linux/usr/bin/ifnames
+x86_64-linux/usr/bin/autoheader
+x86_64-linux/usr/bin/autoupdate
+x86_64-linux/usr/bin/autom4te
+x86_64-linux/usr/share/
+x86_64-linux/usr/share/autoconf/
+x86_64-linux/usr/share/autoconf/INSTALL
+x86_64-linux/usr/share/autoconf/Autom4te/
+x86_64-linux/usr/share/autoconf/Autom4te/Getopt.pm
+x86_64-linux/usr/share/autoconf/Autom4te/XFile.pm
+x86_64-linux/usr/share/autoconf/Autom4te/Configure_ac.pm
+x86_64-linux/usr/share/autoconf/Autom4te/Channels.pm
+x86_64-linux/usr/share/autoconf/Autom4te/C4che.pm
+x86_64-linux/usr/share/autoconf/Autom4te/ChannelDefs.pm
+x86_64-linux/usr/share/autoconf/Autom4te/FileUtils.pm
+x86_64-linux/usr/share/autoconf/Autom4te/General.pm
+x86_64-linux/usr/share/autoconf/Autom4te/Request.pm
+x86_64-linux/usr/share/autoconf/autom4te.cfg
+x86_64-linux/usr/share/autoconf/autoconf/
+x86_64-linux/usr/share/autoconf/autoconf/functions.m4
+x86_64-linux/usr/share/autoconf/autoconf/autoupdate.m4
+x86_64-linux/usr/share/autoconf/autoconf/status.m4
+x86_64-linux/usr/share/autoconf/autoconf/autoscan.m4
+x86_64-linux/usr/share/autoconf/autoconf/libs.m4
+x86_64-linux/usr/share/autoconf/autoconf/autoconf.m4
+x86_64-linux/usr/share/autoconf/autoconf/general.m4
+x86_64-linux/usr/share/autoconf/autoconf/oldnames.m4
+x86_64-linux/usr/share/autoconf/autoconf/c.m4
+x86_64-linux/usr/share/autoconf/autoconf/headers.m4
+x86_64-linux/usr/share/autoconf/autoconf/types.m4
+x86_64-linux/usr/share/autoconf/autoconf/specific.m4
+x86_64-linux/usr/share/autoconf/autoconf/autoheader.m4
+x86_64-linux/usr/share/autoconf/autoconf/go.m4
+x86_64-linux/usr/share/autoconf/autoconf/fortran.m4
+x86_64-linux/usr/share/autoconf/autoconf/autotest.m4
+x86_64-linux/usr/share/autoconf/autoconf/autoconf.m4f
+x86_64-linux/usr/share/autoconf/autoconf/programs.m4
+x86_64-linux/usr/share/autoconf/autoconf/lang.m4
+x86_64-linux/usr/share/autoconf/autoconf/erlang.m4
+x86_64-linux/usr/share/autoconf/autotest/
+x86_64-linux/usr/share/autoconf/autotest/autotest.m4f
+x86_64-linux/usr/share/autoconf/autotest/general.m4
+x86_64-linux/usr/share/autoconf/autotest/specific.m4
+x86_64-linux/usr/share/autoconf/autotest/autotest.m4
+x86_64-linux/usr/share/autoconf/autoscan/
+x86_64-linux/usr/share/autoconf/autoscan/autoscan.list
+x86_64-linux/usr/share/autoconf/m4sugar/
+x86_64-linux/usr/share/autoconf/m4sugar/version.m4
+x86_64-linux/usr/share/autoconf/m4sugar/foreach.m4
+x86_64-linux/usr/share/autoconf/m4sugar/m4sugar.m4
+x86_64-linux/usr/share/autoconf/m4sugar/m4sh.m4f
+x86_64-linux/usr/share/autoconf/m4sugar/m4sugar.m4f
+x86_64-linux/usr/share/autoconf/m4sugar/m4sh.m4
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/autoconf-native/2.69-r11/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/autoconf-native/2.69-r11/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/autoconf-native/2.69-r11/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

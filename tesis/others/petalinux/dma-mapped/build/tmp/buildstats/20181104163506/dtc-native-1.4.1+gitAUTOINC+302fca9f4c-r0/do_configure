@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349396.17 
+dtc-native-1.4.1+gitAUTOINC+302fca9f4c-r0: do_configure: Elapsed time: 0.38 seconds 
+utime: 23
+stime: 1
+cutime: 10
+cstime: 15
+IO write_bytes: 57344
+IO read_bytes: 0
+IO cancelled_write_bytes: 8192
+IO syscr: 2205
+IO wchar: 45349
+IO rchar: 149996
+IO syscw: 43
+rusage ru_utime: 0.231673
+rusage ru_stime: 0.01178
+rusage ru_maxrss: 97248
+rusage ru_minflt: 4888
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 104
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 42
+Child rusage ru_utime: 0.107942
+Child rusage ru_stime: 0.154094
+Child rusage ru_maxrss: 95220
+Child rusage ru_minflt: 497
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 6
+Child rusage ru_nivcsw: 22
+Status: PASSED 
+Ended: 1541349396.55 

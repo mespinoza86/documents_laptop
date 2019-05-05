@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349346.49 
+sqlite3-3_3.11.0-r0: do_populate_lic_setscene: Elapsed time: 0.37 seconds 
+utime: 17
+stime: 2
+cutime: 14
+cstime: 13
+IO write_bytes: 487424
+IO read_bytes: 110592
+IO cancelled_write_bytes: 0
+IO syscr: 242
+IO wchar: 952793
+IO rchar: 758308
+IO syscw: 177
+rusage ru_utime: 0.177695
+rusage ru_stime: 0.020192
+rusage ru_maxrss: 96996
+rusage ru_minflt: 8297
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 11
+rusage ru_nivcsw: 88
+Child rusage ru_utime: 0.141891
+Child rusage ru_stime: 0.134879
+Child rusage ru_maxrss: 95320
+Child rusage ru_minflt: 2115
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 216
+Child rusage ru_oublock: 832
+Child rusage ru_nvcsw: 115
+Child rusage ru_nivcsw: 102
+Status: PASSED 
+Ended: 1541349346.85 

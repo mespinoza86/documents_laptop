@@ -1,0 +1,82 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz for universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz;downloadfilename=universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz;downloadfilename=universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz;downloadfilename=universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz;downloadfilename=universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz
+DEBUG: Searching for universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo for universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo;downloadfilename=universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo;downloadfilename=universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo;downloadfilename=universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/32/sstate%3Abison-native%3Ax86_64-linux%3A3.0.4%3Ar0%3Ax86_64%3A3%3A3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo;downloadfilename=universal/32/sstate:bison-native:x86_64-linux:3.0.4:r0:x86_64:3:3248c1cc4a210ccc0c266414a39edab7_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/bison-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/yacc
+x86_64-linux/usr/bin/bison
+x86_64-linux/usr/bin/bison.real
+x86_64-linux/usr/lib/
+x86_64-linux/usr/lib/liby.a
+x86_64-linux/usr/share/
+x86_64-linux/usr/share/aclocal/
+x86_64-linux/usr/share/aclocal/bison-i18n.m4
+x86_64-linux/usr/share/bison/
+x86_64-linux/usr/share/bison/lalr1.cc
+x86_64-linux/usr/share/bison/xslt/
+x86_64-linux/usr/share/bison/xslt/xml2dot.xsl
+x86_64-linux/usr/share/bison/xslt/bison.xsl
+x86_64-linux/usr/share/bison/xslt/xml2xhtml.xsl
+x86_64-linux/usr/share/bison/xslt/xml2text.xsl
+x86_64-linux/usr/share/bison/c-skel.m4
+x86_64-linux/usr/share/bison/c++-skel.m4
+x86_64-linux/usr/share/bison/c.m4
+x86_64-linux/usr/share/bison/variant.hh
+x86_64-linux/usr/share/bison/bison.m4
+x86_64-linux/usr/share/bison/c-like.m4
+x86_64-linux/usr/share/bison/glr.cc
+x86_64-linux/usr/share/bison/c++.m4
+x86_64-linux/usr/share/bison/README
+x86_64-linux/usr/share/bison/java.m4
+x86_64-linux/usr/share/bison/glr.c
+x86_64-linux/usr/share/bison/location.cc
+x86_64-linux/usr/share/bison/stack.hh
+x86_64-linux/usr/share/bison/java-skel.m4
+x86_64-linux/usr/share/bison/m4sugar/
+x86_64-linux/usr/share/bison/m4sugar/foreach.m4
+x86_64-linux/usr/share/bison/m4sugar/m4sugar.m4
+x86_64-linux/usr/share/bison/yacc.c
+x86_64-linux/usr/share/bison/lalr1.java
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/bison-native/3.0.4-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/bison-native/3.0.4-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/bison-native/3.0.4-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

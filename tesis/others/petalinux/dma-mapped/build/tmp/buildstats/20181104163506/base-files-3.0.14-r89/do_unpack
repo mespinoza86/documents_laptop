@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349372.30 
+base-files-3.0.14-r89: do_unpack: Elapsed time: 0.15 seconds 
+utime: 10
+stime: 6
+cutime: 2
+cstime: 3
+IO write_bytes: 106496
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 348
+IO wchar: 116675
+IO rchar: 244128
+IO syscw: 92
+rusage ru_utime: 0.102814
+rusage ru_stime: 0.067224
+rusage ru_maxrss: 96668
+rusage ru_minflt: 11254
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 96
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 85
+Child rusage ru_utime: 0.025643
+Child rusage ru_stime: 0.039197
+Child rusage ru_maxrss: 94976
+Child rusage ru_minflt: 6072
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 112
+Child rusage ru_nvcsw: 43
+Child rusage ru_nivcsw: 39
+Status: PASSED 
+Ended: 1541349372.45 

@@ -1,0 +1,28 @@
+PN: zlib
+PV: 1.2.8
+PR: r0
+PKGV: 1.2.8
+PKGR: r0
+LICENSE: Zlib
+DESCRIPTION_zlib-ptest: Zlib is a general-purpose, patent-free, lossless data compression library which is used by many different programs.  This package contains a test directory /usr/lib/zlib/ptest for package test purposes.
+SUMMARY_zlib-ptest: Zlib Compression Library - Package test files
+RDEPENDS_zlib-ptest: make zlib (>= 1.2.8) glibc-xilinx (>= 2.21)
+RPROVIDES_zlib-ptest:  zlib-ptest (=1.2.8)
+RRECOMMENDS_zlib-ptest:  ptest-runner
+SECTION_zlib-ptest: devel
+PKG_zlib-ptest: libz-ptest
+ALLOW_EMPTY_zlib-ptest: 1
+FILES_zlib-ptest: /usr/lib/zlib/ptest
+FILERPROVIDESFLIST_zlib-ptest: /usr/lib/zlib/ptest/minigzip /usr/lib/zlib/ptest/example /usr/lib/zlib/ptest/minigzipsh /usr/lib/zlib/ptest/examplesh
+FILES_INFO: {"/usr/lib/zlib/ptest/examplesh": 11176, "/usr/lib/zlib/ptest/run-ptest": 157, "/usr/lib/zlib/ptest/minigzipsh": 6444, "/usr/lib/zlib/ptest/minigzip": 64396, "/usr/lib/zlib/ptest/Makefile": 10749, "/usr/lib/zlib/ptest/example": 68236}
+FILERPROVIDES_/usr/lib/zlib/ptest/minigzip_zlib-ptest: elf(buildid) (= 82f2d0b0ba42306996035dfbcad5128e7a60ee7e)
+FILERPROVIDES_/usr/lib/zlib/ptest/example_zlib-ptest: elf(buildid) (= f606dcc0f1878f9fdebdb5495913afeabf9d5d50)
+FILERPROVIDES_/usr/lib/zlib/ptest/minigzipsh_zlib-ptest: elf(buildid) (= 1851ec2eab87179b277bce90b7b0038a946a56b6)
+FILERPROVIDES_/usr/lib/zlib/ptest/examplesh_zlib-ptest: elf(buildid) (= fafac21a98e0de4785453618fed469051b359d0e)
+FILERDEPENDSFLIST_zlib-ptest: /usr/lib/zlib/ptest/run-ptest /usr/lib/zlib/ptest/minigzip /usr/lib/zlib/ptest/example /usr/lib/zlib/ptest/minigzipsh /usr/lib/zlib/ptest/examplesh
+FILERDEPENDS_/usr/lib/zlib/ptest/run-ptest_zlib-ptest: /bin/sh
+FILERDEPENDS_/usr/lib/zlib/ptest/minigzip_zlib-ptest: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/zlib/ptest/example_zlib-ptest: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/zlib/ptest/minigzipsh_zlib-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/zlib/ptest/examplesh_zlib-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libz.so.1 libz.so.1(ZLIB_1.2.0.2) rtld(GNU_HASH)
+PKGSIZE_zlib-ptest: 161158

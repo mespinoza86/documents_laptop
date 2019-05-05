@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349334.61 
+libgcc-xilinx-2016.4-r1: do_populate_lic_setscene: Elapsed time: 0.36 seconds 
+utime: 14
+stime: 1
+cutime: 11
+cstime: 15
+IO write_bytes: 73728
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 187
+IO wchar: 110875
+IO rchar: 201115
+IO syscw: 116
+rusage ru_utime: 0.145168
+rusage ru_stime: 0.012808
+rusage ru_maxrss: 96792
+rusage ru_minflt: 8075
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 13
+rusage ru_nivcsw: 62
+Child rusage ru_utime: 0.118159
+Child rusage ru_stime: 0.154114
+Child rusage ru_maxrss: 95104
+Child rusage ru_minflt: 2071
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 16
+Child rusage ru_nvcsw: 30
+Child rusage ru_nivcsw: 63
+Status: PASSED 
+Ended: 1541349334.98 

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349352.61 
+bash-4.3.30-r0: do_packagedata_setscene: Elapsed time: 0.36 seconds 
+utime: 21
+stime: 1
+cutime: 9
+cstime: 17
+IO write_bytes: 135168
+IO read_bytes: 12288
+IO cancelled_write_bytes: 0
+IO syscr: 210
+IO wchar: 221691
+IO rchar: 303529
+IO syscw: 152
+rusage ru_utime: 0.216523
+rusage ru_stime: 0.018993
+rusage ru_maxrss: 97588
+rusage ru_minflt: 6232
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 114
+Child rusage ru_utime: 0.09738
+Child rusage ru_stime: 0.173541
+Child rusage ru_maxrss: 95908
+Child rusage ru_minflt: 1779
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 24
+Child rusage ru_oublock: 136
+Child rusage ru_nvcsw: 39
+Child rusage ru_nivcsw: 35
+Status: PASSED 
+Ended: 1541349352.97 

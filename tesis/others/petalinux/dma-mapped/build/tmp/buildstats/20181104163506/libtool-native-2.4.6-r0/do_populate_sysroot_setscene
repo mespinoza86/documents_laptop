@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349365.19 
+libtool-native-2.4.6-r0: do_populate_sysroot_setscene: Elapsed time: 0.31 seconds 
+utime: 10
+stime: 1
+cutime: 11
+cstime: 16
+IO write_bytes: 2867200
+IO read_bytes: 536576
+IO cancelled_write_bytes: 512000
+IO syscr: 1096
+IO wchar: 5015531
+IO rchar: 3548334
+IO syscw: 17629
+rusage ru_utime: 0.100216
+rusage ru_stime: 0.011563
+rusage ru_maxrss: 96860
+rusage ru_minflt: 6721
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 144
+rusage ru_nvcsw: 38
+rusage ru_nivcsw: 2
+Child rusage ru_utime: 0.112919
+Child rusage ru_stime: 0.160675
+Child rusage ru_maxrss: 95128
+Child rusage ru_minflt: 2419
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 1048
+Child rusage ru_oublock: 5456
+Child rusage ru_nvcsw: 257
+Child rusage ru_nivcsw: 5
+Status: PASSED 
+Ended: 1541349365.50 

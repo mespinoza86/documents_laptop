@@ -1,0 +1,197 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz for universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz;downloadfilename=universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz;downloadfilename=universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz;downloadfilename=universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz;downloadfilename=universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz
+DEBUG: Searching for universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo for universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo;downloadfilename=universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo;downloadfilename=universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo;downloadfilename=universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/8e/sstate%3Agettext-native%3Ax86_64-linux%3A0.19.6%3Ar0%3Ax86_64%3A3%3A8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo;downloadfilename=universal/8e/sstate:gettext-native:x86_64-linux:0.19.6:r0:x86_64:3:8e41321e834e14768be11749bb5e445b_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/virtual_gettext-native
+x86_64-linux/sysroot-providers/gettext-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/gettext.sh
+x86_64-linux/usr/bin/msgcat
+x86_64-linux/usr/bin/msgfmt
+x86_64-linux/usr/bin/gettext
+x86_64-linux/usr/bin/xgettext
+x86_64-linux/usr/bin/recode-sr-latin
+x86_64-linux/usr/bin/envsubst
+x86_64-linux/usr/bin/msgcomm
+x86_64-linux/usr/bin/gettextize
+x86_64-linux/usr/bin/msggrep
+x86_64-linux/usr/bin/msguniq
+x86_64-linux/usr/bin/msgmerge
+x86_64-linux/usr/bin/msgunfmt
+x86_64-linux/usr/bin/msgexec
+x86_64-linux/usr/bin/msgen
+x86_64-linux/usr/bin/autopoint
+x86_64-linux/usr/bin/ngettext
+x86_64-linux/usr/bin/msgcmp
+x86_64-linux/usr/bin/msgfilter
+x86_64-linux/usr/bin/msgattrib
+x86_64-linux/usr/bin/msgconv
+x86_64-linux/usr/bin/msginit
+x86_64-linux/usr/lib/
+x86_64-linux/usr/lib/libgettextpo.la
+x86_64-linux/usr/lib/gettext/
+x86_64-linux/usr/lib/gettext/project-id
+x86_64-linux/usr/lib/gettext/hostname
+x86_64-linux/usr/lib/gettext/user-email
+x86_64-linux/usr/lib/gettext/cldr-plurals
+x86_64-linux/usr/lib/gettext/urlget
+x86_64-linux/usr/lib/libgettextpo.so
+x86_64-linux/usr/lib/libgettextlib.la
+x86_64-linux/usr/lib/libgettextpo.so.0.5.3
+x86_64-linux/usr/lib/libgettextlib-0.19.6.so
+x86_64-linux/usr/lib/libgettextsrc.so
+x86_64-linux/usr/lib/libgettextpo.so.0
+x86_64-linux/usr/lib/libgettextlib.so
+x86_64-linux/usr/lib/libgettextsrc-0.19.6.so
+x86_64-linux/usr/lib/libgettextsrc.la
+x86_64-linux/usr/include/
+x86_64-linux/usr/include/gettext-po.h
+x86_64-linux/usr/share/
+x86_64-linux/usr/share/aclocal/
+x86_64-linux/usr/share/gettext/
+x86_64-linux/usr/share/gettext/po/
+x86_64-linux/usr/share/gettext/po/quot.sed
+x86_64-linux/usr/share/gettext/po/Makevars.template
+x86_64-linux/usr/share/gettext/po/Rules-quot
+x86_64-linux/usr/share/gettext/po/insert-header.sin
+x86_64-linux/usr/share/gettext/po/en@quot.header
+x86_64-linux/usr/share/gettext/po/boldquot.sed
+x86_64-linux/usr/share/gettext/po/en@boldquot.header
+x86_64-linux/usr/share/gettext/msgunfmt.tcl
+x86_64-linux/usr/share/gettext/intl/
+x86_64-linux/usr/share/gettext/intl/ref-add.sin
+x86_64-linux/usr/share/gettext/intl/plural.y
+x86_64-linux/usr/share/gettext/intl/dcgettext.c
+x86_64-linux/usr/share/gettext/intl/dcngettext.c
+x86_64-linux/usr/share/gettext/intl/threadlib.c
+x86_64-linux/usr/share/gettext/intl/l10nflist.c
+x86_64-linux/usr/share/gettext/intl/Makefile.in
+x86_64-linux/usr/share/gettext/intl/gettext.c
+x86_64-linux/usr/share/gettext/intl/localcharset.c
+x86_64-linux/usr/share/gettext/intl/export.h
+x86_64-linux/usr/share/gettext/intl/vasnprintf.c
+x86_64-linux/usr/share/gettext/intl/ref-del.sin
+x86_64-linux/usr/share/gettext/intl/explodename.c
+x86_64-linux/usr/share/gettext/intl/loadinfo.h
+x86_64-linux/usr/share/gettext/intl/setlocale.c
+x86_64-linux/usr/share/gettext/intl/xsize.c
+x86_64-linux/usr/share/gettext/intl/VERSION
+x86_64-linux/usr/share/gettext/intl/verify.h
+x86_64-linux/usr/share/gettext/intl/lock.h
+x86_64-linux/usr/share/gettext/intl/bindtextdom.c
+x86_64-linux/usr/share/gettext/intl/locale.alias
+x86_64-linux/usr/share/gettext/intl/hash-string.c
+x86_64-linux/usr/share/gettext/intl/libgnuintl.in.h
+x86_64-linux/usr/share/gettext/intl/textdomain.c
+x86_64-linux/usr/share/gettext/intl/hash-string.h
+x86_64-linux/usr/share/gettext/intl/osdep.c
+x86_64-linux/usr/share/gettext/intl/printf-args.h
+x86_64-linux/usr/share/gettext/intl/printf-parse.c
+x86_64-linux/usr/share/gettext/intl/COPYING.LIB
+x86_64-linux/usr/share/gettext/intl/gettextP.h
+x86_64-linux/usr/share/gettext/intl/gmo.h
+x86_64-linux/usr/share/gettext/intl/libintl.rc
+x86_64-linux/usr/share/gettext/intl/vasnwprintf.h
+x86_64-linux/usr/share/gettext/intl/config.charset
+x86_64-linux/usr/share/gettext/intl/lock.c
+x86_64-linux/usr/share/gettext/intl/localename.c
+x86_64-linux/usr/share/gettext/intl/plural-exp.c
+x86_64-linux/usr/share/gettext/intl/version.c
+x86_64-linux/usr/share/gettext/intl/plural-exp.h
+x86_64-linux/usr/share/gettext/intl/langprefs.c
+x86_64-linux/usr/share/gettext/intl/os2compat.c
+x86_64-linux/usr/share/gettext/intl/intl-exports.c
+x86_64-linux/usr/share/gettext/intl/vasnprintf.h
+x86_64-linux/usr/share/gettext/intl/ngettext.c
+x86_64-linux/usr/share/gettext/intl/xsize.h
+x86_64-linux/usr/share/gettext/intl/printf-parse.h
+x86_64-linux/usr/share/gettext/intl/tsearch.c
+x86_64-linux/usr/share/gettext/intl/dgettext.c
+x86_64-linux/usr/share/gettext/intl/relocatable.c
+x86_64-linux/usr/share/gettext/intl/loadmsgcat.c
+x86_64-linux/usr/share/gettext/intl/log.c
+x86_64-linux/usr/share/gettext/intl/eval-plural.h
+x86_64-linux/usr/share/gettext/intl/tsearch.h
+x86_64-linux/usr/share/gettext/intl/dcigettext.c
+x86_64-linux/usr/share/gettext/intl/relocatable.h
+x86_64-linux/usr/share/gettext/intl/wprintf-parse.h
+x86_64-linux/usr/share/gettext/intl/localcharset.h
+x86_64-linux/usr/share/gettext/intl/localealias.c
+x86_64-linux/usr/share/gettext/intl/printf.c
+x86_64-linux/usr/share/gettext/intl/plural.c
+x86_64-linux/usr/share/gettext/intl/intl-compat.c
+x86_64-linux/usr/share/gettext/intl/os2compat.h
+x86_64-linux/usr/share/gettext/intl/printf-args.c
+x86_64-linux/usr/share/gettext/intl/dngettext.c
+x86_64-linux/usr/share/gettext/intl/finddomain.c
+x86_64-linux/usr/share/gettext/gettext.h
+x86_64-linux/usr/share/gettext/archive.dir.tar.xz
+x86_64-linux/usr/share/gettext/projects/
+x86_64-linux/usr/share/gettext/projects/team-address
+x86_64-linux/usr/share/gettext/projects/index
+x86_64-linux/usr/share/gettext/projects/KDE/
+x86_64-linux/usr/share/gettext/projects/KDE/team-address
+x86_64-linux/usr/share/gettext/projects/KDE/teams.html
+x86_64-linux/usr/share/gettext/projects/KDE/trigger
+x86_64-linux/usr/share/gettext/projects/KDE/teams.url
+x86_64-linux/usr/share/gettext/projects/TP/
+x86_64-linux/usr/share/gettext/projects/TP/team-address
+x86_64-linux/usr/share/gettext/projects/TP/teams.html
+x86_64-linux/usr/share/gettext/projects/TP/trigger
+x86_64-linux/usr/share/gettext/projects/TP/teams.url
+x86_64-linux/usr/share/gettext/projects/GNOME/
+x86_64-linux/usr/share/gettext/projects/GNOME/team-address
+x86_64-linux/usr/share/gettext/projects/GNOME/teams.html
+x86_64-linux/usr/share/gettext/projects/GNOME/trigger
+x86_64-linux/usr/share/gettext/projects/GNOME/teams.url
+x86_64-linux/usr/share/gettext/javaversion.class
+x86_64-linux/usr/share/gettext/styles/
+x86_64-linux/usr/share/gettext/styles/po-emacs-x.css
+x86_64-linux/usr/share/gettext/styles/po-vim.css
+x86_64-linux/usr/share/gettext/styles/po-default.css
+x86_64-linux/usr/share/gettext/styles/po-emacs-xterm.css
+x86_64-linux/usr/share/gettext/styles/po-emacs-xterm16.css
+x86_64-linux/usr/share/gettext/styles/po-emacs-xterm256.css
+x86_64-linux/usr/share/gettext/ABOUT-NLS
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/gettext-native/0.19.6-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/gettext-native/0.19.6-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/gettext-native/0.19.6-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

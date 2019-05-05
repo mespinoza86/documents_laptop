@@ -1,0 +1,127 @@
+#!/bin/sh
+
+# Emit a useful diagnostic if something fails:
+bb_exit_handler() {
+    ret=$?
+    case $ret in
+    0)  ;;
+    *)  case $BASH_VERSION in
+        "") echo "WARNING: exit code $ret from a shell command.";;
+        *)  echo "WARNING: ${BASH_SOURCE[0]}:${BASH_LINENO[0]} exit $ret from '$BASH_COMMAND'";;
+        esac
+        exit $ret
+    esac
+}
+trap 'bb_exit_handler' 0
+set -e
+export prefix="/usr"
+export STRIP="arm-linux-gnueabihf-strip"
+export localstatedir="/var"
+export BUILD_CC="gcc "
+export USER="marco"
+export libexecdir="/usr/libexec"
+export READELF="arm-linux-gnueabihf-readelf"
+export PKG_CONFIG_SYSROOT_DIR="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm"
+export BUILD_CXX="g++ "
+export LD="arm-linux-gnueabihf-ld --sysroot=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm "
+export bindir="/usr/bin"
+export TARGET_CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/bzip2/1.0.6-r5=/usr/src/debug/bzip2/1.0.6-r5 -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux= -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm= "
+export BUILD_LDFLAGS="-L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+unset TARGET_ARCH
+export STRINGS="arm-linux-gnueabihf-strings"
+export CCACHE_DIR="/home/marco/.ccache"
+export BUILD_LD="ld "
+export LDFLAGS_FOR_BUILD="-L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -L/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath-link,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/lib -Wl,-rpath,/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/lib -Wl,-O1"
+export oldincludedir="/usr/include"
+export MAKE="make"
+export BUILD_CCLD="gcc "
+export BUILD_CFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export CXXFLAGS_FOR_BUILD="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -D_GLIBCXX_USE_CXX11_ABI=0"
+export PKG_CONFIG_SYSTEM_LIBRARY_PATH="/lib:/usr/lib"
+unset SHELL
+export docdir="/usr/share/doc"
+export infodir="/usr/share/info"
+export CC="arm-linux-gnueabihf-gcc  -march=armv7-a -marm -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a9 -Wl,--hash-style=gnu --sysroot=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm"
+export TERM="xterm-256color"
+export CPPFLAGS=""
+export CFLAGS_FOR_BUILD="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe"
+export PKG_CONFIG_SYSTEM_INCLUDE_PATH="/usr/include"
+export RANLIB="arm-linux-gnueabihf-ranlib"
+export base_sbindir="/sbin"
+export CXX="arm-linux-gnueabihf-g++  -march=armv7-a -marm -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a9 -Wl,--hash-style=gnu --sysroot=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm"
+export FC="arm-linux-gnueabihf-gfortran  -march=armv7-a -marm -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a9 -Wl,--hash-style=gnu --sysroot=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm"
+export HOME="/home/marco"
+export BUILD_FC="gfortran "
+export LD_FOR_BUILD="ld "
+export datadir="/usr/share"
+export lt_cv_sys_lib_dlsearch_path_spec="/usr/lib /lib"
+export AS="arm-linux-gnueabihf-as "
+export BUILD_RANLIB="ranlib"
+export BUILD_CPPFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include"
+export BUILD_AR="ar"
+export CPP="arm-linux-gnueabihf-gcc -E --sysroot=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm  -march=armv7-a -marm -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a9 -Wl,--hash-style=gnu"
+export mandir="/usr/share/man"
+export sharedstatedir="/com"
+export CONFIG_SITE="/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/site/endian-little /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/site/arm-common /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/site/arm-32 /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/site/common-linux /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/site/common-glibc /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/site/arm-linux /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/site/common /opt/pkg/petalinux/components/yocto/source/arm/layers/meta-oe/site/endian-little "
+export BUILD_CXXFLAGS="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include -O2 -pipe -D_GLIBCXX_USE_CXX11_ABI=0"
+export OBJCOPY="arm-linux-gnueabihf-objcopy"
+export base_libdir="/lib"
+export CCACHE_DISABLE="1"
+export servicedir="/srv"
+export PKG_CONFIG_PATH="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/usr/lib/pkgconfig:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/usr/share/pkgconfig"
+export systemd_unitdir="/lib/systemd"
+export LC_ALL="C"
+export CPP_FOR_BUILD="gcc  -E"
+export TARGET_CPPFLAGS=""
+export systemd_user_unitdir="/usr/lib/systemd/user"
+export PKG_CONFIG_DIR="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/usr/lib/pkgconfig"
+export LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export BUILD_NM="nm"
+export nonarch_libdir="/usr/lib"
+export sysconfdir="/etc"
+export CCLD="arm-linux-gnueabihf-gcc  -march=armv7-a -marm -mfpu=neon  -mfloat-abi=hard -mcpu=cortex-a9 -Wl,--hash-style=gnu --sysroot=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm"
+export LOGNAME="marco"
+export PATH="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots-uninative/x86_64-linux/usr/bin:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/scripts:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin/arm-xilinx-linux-gnueabi:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/usr/bin/crossscripts:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/sbin:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/bin:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/sbin:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-linux-gnueabi/bin:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/scripts:/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/bitbake/bin:/opt/pkg/petalinux/components/yocto/source/arm/sysroots/x86_64-petalinux-linux/usr/bin:/opt/pkg/petalinux/components/yocto/source/arm/buildtools/sysroots/x86_64-petalinux-linux/usr/bin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/sbin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/bin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/sbin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin/../x86_64-petalinux-linux/bin:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin/arm-xilinx-linux-gnueabi:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin/arm-xilinx-linux-uclibc:/opt/pkg/petalinux/components/yocto/source/arm/tmp/sysroots/x86_64-linux/usr/bin/arm-xilinx-linux-musl:/opt/pkg/petalinux/tools/linux-i386/microblaze-xilinx-elf/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-none-elf/bin:/opt/pkg/petalinux/tools/linux-i386/microblazeel-xilinx-linux-gnu/bin:/opt/pkg/petalinux/tools/linux-i386/arm-linux-gnueabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-linux-gnu/bin:/opt/pkg/petalinux/tools/common/petalinux/utils:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin/unexport:/opt/pkg/petalinux/tools/hsm/bin:/opt/pkg/petalinux/tools/webtalk/bin:/opt/pkg/petalinux/tools/linux-i386/microblaze-xilinx-elf/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-none-elf/bin:/opt/pkg/petalinux/tools/linux-i386/microblazeel-xilinx-linux-gnu/bin:/opt/pkg/petalinux/tools/linux-i386/arm-linux-gnueabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-linux-gnu/bin:/opt/pkg/petalinux/tools/common/petalinux/utils:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin/unexport:/opt/pkg/petalinux/tools/hsm/bin:/opt/pkg/petalinux/tools/webtalk/bin:/opt/pkg/petalinux/tools/linux-i386/petalinux/bin:/opt/pkg/petalinux/tools/common/petalinux/bin:/opt/pkg/petalinux/tools/linux-i386/microblaze-xilinx-elf/bin:/opt/pkg/petalinux/tools/linux-i386/microblazeel-xilinx-linux-gnu/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin:/opt/pkg/petalinux/tools/linux-i386/gcc-arm-linux-gnueabi/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-none-elf/bin:/opt/pkg/petalinux/tools/linux-i386/aarch64-linux-gnu/bin:/home/marco/bin:/home/marco/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
+export TARGET_CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/bzip2/1.0.6-r5=/usr/src/debug/bzip2/1.0.6-r5 -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux= -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm= "
+export base_bindir="/bin"
+export includedir="/usr/include"
+export PKG_CONFIG_LIBDIR="/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm/usr/lib/pkgconfig"
+unset MACHINE
+export sbindir="/usr/sbin"
+export CFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/bzip2/1.0.6-r5=/usr/src/debug/bzip2/1.0.6-r5 -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux= -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm=  -fPIC -fpic -Winline -fno-strength-reduce -D_FILE_OFFSET_BITS=64"
+export BUILD_AS="as "
+export OBJDUMP="arm-linux-gnueabihf-objdump"
+unset DISTRO
+export systemd_system_unitdir="/lib/systemd/system"
+export BUILD_STRIP="strip"
+export exec_prefix="/usr"
+export TARGET_LDFLAGS="-Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed"
+export PKG_CONFIG_DISABLE_UNINSTALLED="yes"
+export libdir="/usr/lib"
+export nonarch_base_libdir="/lib"
+export PSEUDO_DISABLED="1"
+export CPPFLAGS_FOR_BUILD="-isystem/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux/usr/include"
+export PSEUDO_UNLOAD="1"
+export CC_FOR_BUILD="gcc "
+export CXX_FOR_BUILD="g++ "
+export AR="arm-linux-gnueabihf-ar"
+export BUILD_CPP="gcc  -E"
+export CXXFLAGS=" -O2 -pipe -g -feliminate-unused-debug-types -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/bzip2/1.0.6-r5=/usr/src/debug/bzip2/1.0.6-r5 -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux= -fdebug-prefix-map=/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm=  -fvisibility-inlines-hidden"
+export NM="arm-linux-gnueabihf-nm"
+export base_prefix=""
+
+sstate_unpack_package() {
+	tar -xvzf /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz
+	# Use "! -w ||" to return true for read only files
+	[ ! -w /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz ] || touch --no-dereference /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz
+	[ ! -w /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz.sig ] || [ ! -e /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz.sig ] || touch --no-dereference /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz.sig
+	[ ! -w /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz.siginfo ] || [ ! -e /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz.siginfo ] || touch --no-dereference /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/69/sstate:bzip2:cortexa9hf-neon-xilinx-linux-gnueabi:1.0.6:r5:cortexa9hf-neon:3:690cf32d298bbc2b64337c6ddec16cb0_packagedata.tgz.siginfo
+}
+
+cd '/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/bzip2/1.0.6-r5/sstate-install-packagedata/'
+sstate_unpack_package
+
+# cleanup
+ret=$?
+trap '' 0
+exit $ret

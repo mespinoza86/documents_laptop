@@ -1,0 +1,262 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for 70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz for 70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz;downloadfilename=70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz', '', '', {'downloadfilename': '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz;downloadfilename=70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz', '', '', {'downloadfilename': '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz;downloadfilename=70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz
+DEBUG: For url ['file', '', '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz;downloadfilename=70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz
+DEBUG: Searching for 70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo for 70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo;downloadfilename=70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo;downloadfilename=70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo;downloadfilename=70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/70/sstate%3Ased%3Acortexa9hf-neon-xilinx-linux-gnueabi%3A4.2.2%3Ar0%3Acortexa9hf-neon%3A3%3A70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo;downloadfilename=70/sstate:sed:cortexa9hf-neon-xilinx-linux-gnueabi:4.2.2:r0:cortexa9hf-neon:3:70a03a073badb632983130e22897a2a7_populate_sysroot.tgz.siginfo
+DEBUG: SITE files ['endian-little', 'bit-32', 'arm-common', 'arm-32', 'common-linux', 'common-glibc', 'arm-linux', 'arm-linux-gnueabi', 'common']
+DEBUG: Executing shell function sstate_unpack_package
+sysroot-destdir/
+sysroot-destdir/sysroot-providers/
+sysroot-destdir/sysroot-providers/sed
+sysroot-destdir/usr/
+sysroot-destdir/usr/lib/
+sysroot-destdir/usr/lib/sed/
+sysroot-destdir/usr/lib/sed/ptest/
+sysroot-destdir/usr/lib/sed/ptest/testsuite/
+sysroot-destdir/usr/lib/sed/ptest/testsuite/badenc.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/head.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/brackets.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/distrib.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/uniq.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xabcx.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/wrtout1.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-3.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/0range.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/Makefile.tests
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub4.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-2.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/recall.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/noeol.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/recall2.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xemacs.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex28
+sysroot-destdir/usr/lib/sed/ptest/testsuite/allsub.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex14
+sysroot-destdir/usr/lib/sed/ptest/testsuite/readin.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/recall2.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/binary.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/allsub.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub5.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xbxcx.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/manis.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/distrib.sh
+sysroot-destdir/usr/lib/sed/ptest/testsuite/factor.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/recall.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-1.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/insert.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xbxcx3.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-2.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/Makefile
+sysroot-destdir/usr/lib/sed/ptest/testsuite/khadafy.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex15
+sysroot-destdir/usr/lib/sed/ptest/testsuite/flipcase.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/dc.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/subwrt1.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/inclib.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/mac-mf.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-1.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/classes.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/version.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/inclib.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/khadafy.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/head.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/appquit.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/runtest
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex16
+sysroot-destdir/usr/lib/sed/ptest/testsuite/middle.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/readin.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xemacs.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/cv-vars.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub3.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/cv-vars.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/8bit.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/y-bracket.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/distrib.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/middle.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/writeout.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex7
+sysroot-destdir/usr/lib/sed/ptest/testsuite/tst-rxspencer
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex9
+sysroot-destdir/usr/lib/sed/ptest/testsuite/noeol.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/runptests
+sysroot-destdir/usr/lib/sed/ptest/testsuite/manis.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/0range.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xemacs.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/writeout.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex27
+sysroot-destdir/usr/lib/sed/ptest/testsuite/brackets.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub4.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/modulo.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/factor.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/space.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/madding.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/PCRE.tests
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xbxcx3.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/empty.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/badenc.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/enable.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/recall.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/linecnt.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/recall2.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub3.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/badenc.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/noeolw.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-3.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/wrtout2.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/binary.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-3.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/modulo.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/cv-vars.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/tst-regex2
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex21
+sysroot-destdir/usr/lib/sed/ptest/testsuite/y-newline.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/binary2.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/0range.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/runtests
+sysroot-destdir/usr/lib/sed/ptest/testsuite/sep.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/amp-escape.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xbxcx.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex10
+sysroot-destdir/usr/lib/sed/ptest/testsuite/amp-escape.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/insens.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/insert.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/classes.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/fasts.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/middle.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/empty.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex13
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/subwrite.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/y-newline.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/head.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/insens.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xabcx.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/version.gin
+sysroot-destdir/usr/lib/sed/ptest/testsuite/newjis.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-4.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xabcx.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/eval.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/y-bracket.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/amp-escape.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/newjis.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bkslashes.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub3.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-4.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/BOOST.tests
+sysroot-destdir/usr/lib/sed/ptest/testsuite/binary3.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/mac-mf.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bsd.sh
+sysroot-destdir/usr/lib/sed/ptest/testsuite/dc.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/khadafy.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/noeolw.2good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/linecnt.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/distrib.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/binary.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-1.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/enable.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/subwrt2.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/tst-boost
+sysroot-destdir/usr/lib/sed/ptest/testsuite/8to7.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/appquit.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/eval.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-4.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bsd.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/noeolw.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/tst-pcre
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub2.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bkslashes.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/classes.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xbxcx3.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/uniq.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/tst-regex2.c
+sysroot-destdir/usr/lib/sed/ptest/testsuite/linecnt.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub2.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/allsub.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/flipcase.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/madding.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub5.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/utf8-2.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/xbxcx.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex8
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bkslashes.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/fasts.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/8bit.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/eval.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/sep.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/dc.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/fasts.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/dollar.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/newjis.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/noeol.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/modulo.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex12
+sysroot-destdir/usr/lib/sed/ptest/testsuite/space.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/dollar.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/8to7.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/uniq.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/inclib.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/madding.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/bug-regex11
+sysroot-destdir/usr/lib/sed/ptest/testsuite/insens.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/dollar.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/readin.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/8bit.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub5.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/manis.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/8to7.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub2.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/brackets.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/factor.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/flipcase.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/space.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/SPENCER.tests
+sysroot-destdir/usr/lib/sed/ptest/testsuite/insert.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/enable.good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/numsub4.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/y-newline.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/empty.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/y-bracket.sed
+sysroot-destdir/usr/lib/sed/ptest/testsuite/sep.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/appquit.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/noeolw.1good
+sysroot-destdir/usr/lib/sed/ptest/testsuite/subwrite.inp
+sysroot-destdir/usr/lib/sed/ptest/testsuite/mac-mf.inp
+sysroot-destdir/usr/lib/sed/ptest/run-ptest
+sysroot-destdir/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/cortexa9hf-neon-xilinx-linux-gnueabi/sed/4.2.2-r0/sysroot-destdir to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/plnx_arm
+DEBUG: Python function do_populate_sysroot_setscene finished

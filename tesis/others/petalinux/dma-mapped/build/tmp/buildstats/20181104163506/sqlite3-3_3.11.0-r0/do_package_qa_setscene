@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349346.81 
+sqlite3-3_3.11.0-r0: do_package_qa_setscene: Elapsed time: 0.35 seconds 
+utime: 17
+stime: 1
+cutime: 12
+cstime: 13
+IO write_bytes: 61440
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 85
+IO wchar: 108859
+IO rchar: 173650
+IO syscw: 105
+rusage ru_utime: 0.171126
+rusage ru_stime: 0.019446
+rusage ru_maxrss: 97016
+rusage ru_minflt: 5355
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 120
+rusage ru_nvcsw: 2
+rusage ru_nivcsw: 81
+Child rusage ru_utime: 0.126657
+Child rusage ru_stime: 0.132384
+Child rusage ru_maxrss: 95336
+Child rusage ru_minflt: 689
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 0
+Child rusage ru_nvcsw: 20
+Child rusage ru_nivcsw: 57
+Status: PASSED 
+Ended: 1541349347.16 

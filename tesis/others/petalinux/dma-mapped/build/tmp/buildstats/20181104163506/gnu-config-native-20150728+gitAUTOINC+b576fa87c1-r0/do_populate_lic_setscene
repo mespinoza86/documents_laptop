@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349332.21 
+gnu-config-native-20150728+gitAUTOINC+b576fa87c1-r0: do_populate_lic_setscene: Elapsed time: 0.36 seconds 
+utime: 16
+stime: 1
+cutime: 14
+cstime: 12
+IO write_bytes: 122880
+IO read_bytes: 16384
+IO cancelled_write_bytes: 0
+IO syscr: 181
+IO wchar: 200497
+IO rchar: 265269
+IO syscw: 122
+rusage ru_utime: 0.164737
+rusage ru_stime: 0.019611
+rusage ru_maxrss: 96996
+rusage ru_minflt: 8025
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 136
+rusage ru_nvcsw: 10
+rusage ru_nivcsw: 74
+Child rusage ru_utime: 0.146219
+Child rusage ru_stime: 0.128683
+Child rusage ru_maxrss: 95280
+Child rusage ru_minflt: 2089
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 32
+Child rusage ru_oublock: 104
+Child rusage ru_nvcsw: 41
+Child rusage ru_nivcsw: 84
+Status: PASSED 
+Ended: 1541349332.57 

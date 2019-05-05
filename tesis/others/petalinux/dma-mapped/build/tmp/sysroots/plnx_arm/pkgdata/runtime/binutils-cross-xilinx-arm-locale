@@ -1,0 +1,13 @@
+PN: binutils-cross-xilinx-arm
+PV: 2016.4
+PR: r1
+PKGV: 5.2.1
+PKGR: r1
+LICENSE: GPL-3.0
+DESCRIPTION: External Xilinx toolchain.
+SUMMARY: External Xilinx toolchain
+SECTION: base
+PKG_binutils-cross-xilinx-arm-locale: binutils-cross-xilinx-arm-locale
+FILES_binutils-cross-xilinx-arm-locale: /usr/share/locale
+FILES_INFO: {}
+PKGSIZE_binutils-cross-xilinx-arm-locale: 0

@@ -1,0 +1,18 @@
+DEBUG: Executing python function do_patch
+DEBUG: Executing python function patch_do_patch
+DEBUG: Searching for make_install.patch in paths:
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc-1.4.1+gitAUTOINC+302fca9f4c/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/files/petalinux
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc-1.4.1+gitAUTOINC+302fca9f4c/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/files/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc-1.4.1+gitAUTOINC+302fca9f4c/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/files/x86-64
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc-1.4.1+gitAUTOINC+302fca9f4c/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc/
+    /opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/files/
+NOTE: Applying patch 'make_install.patch' (/opt/pkg/petalinux/components/yocto/source/arm/layers/poky/meta/recipes-kernel/dtc/dtc/make_install.patch)
+DEBUG: Python function patch_do_patch finished
+DEBUG: Python function do_patch finished

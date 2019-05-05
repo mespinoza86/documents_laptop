@@ -1,0 +1,79 @@
+DEBUG: Executing python function do_populate_sysroot_setscene
+DEBUG: Searching for universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz for universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz;downloadfilename=universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz;downloadfilename=universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz', '', '', {'downloadfilename': 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz;downloadfilename=universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz
+DEBUG: For url ['file', '', 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz;downloadfilename=universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz
+DEBUG: Searching for universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo in paths:
+    /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+DEBUG: Defaulting to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo for universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo
+DEBUG: Trying PREMIRRORS
+DEBUG: For url ['file', '', 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/PATH', '', '', {}]
+DEBUG: For url file://universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo returning file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo;downloadfilename=universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', '/opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file:///opt/pkg/petalinux/components/yocto/source/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo;downloadfilename=universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo', '', '', {'downloadfilename': 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo'}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url ['file', '', 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'www.author.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo returning http://www.author.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo;downloadfilename=universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo
+DEBUG: For url ['file', '', 'universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo', '', '', {}] comparing ['file', '', '.*', '', '', {}] to ['http', 'petalinux.xilinx.com', '/sswreleases/rel-v2016.4/arm/sstate-cache/PATH', '', '', {'downloadfilename': 'PATH'}]
+DEBUG: For url file://universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo returning http://petalinux.xilinx.com/sswreleases/rel-v2016.4/arm/sstate-cache/universal/ab/sstate%3Adb-native%3Ax86_64-linux%3A6.0.30%3Ar0%3Ax86_64%3A3%3Aab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo;downloadfilename=universal/ab/sstate:db-native:x86_64-linux:6.0.30:r0:x86_64:3:ab496d144c70fba5de7fd4ea3f981d2d_populate_sysroot.tgz.siginfo
+DEBUG: Executing shell function sstate_unpack_package
+fixmepath
+x86_64-linux/
+x86_64-linux/sysroot-providers/
+x86_64-linux/sysroot-providers/db-native
+x86_64-linux/sysroot-providers/virtual_db-native
+x86_64-linux/usr/
+x86_64-linux/usr/bin/
+x86_64-linux/usr/bin/db_stat
+x86_64-linux/usr/bin/db_printlog
+x86_64-linux/usr/bin/db_archive
+x86_64-linux/usr/bin/db_verify
+x86_64-linux/usr/bin/db_dump
+x86_64-linux/usr/bin/db_hotbackup
+x86_64-linux/usr/bin/db_replicate
+x86_64-linux/usr/bin/db_checkpoint
+x86_64-linux/usr/bin/db_load
+x86_64-linux/usr/bin/db_recover
+x86_64-linux/usr/bin/db_log_verify
+x86_64-linux/usr/bin/db_deadlock
+x86_64-linux/usr/bin/db_upgrade
+x86_64-linux/usr/bin/db_tuner
+x86_64-linux/usr/lib/
+x86_64-linux/usr/lib/libdb-6.so
+x86_64-linux/usr/lib/libdb_cxx-6.so
+x86_64-linux/usr/lib/libdb-6.0.so
+x86_64-linux/usr/lib/libdb.so
+x86_64-linux/usr/lib/libdb-6.0.la
+x86_64-linux/usr/lib/libdb_cxx-6.0.la
+x86_64-linux/usr/lib/libdb_cxx-6.0.so
+x86_64-linux/usr/lib/libdb_cxx.so
+x86_64-linux/usr/include/
+x86_64-linux/usr/include/db.h
+x86_64-linux/usr/include/db60/
+x86_64-linux/usr/include/db60/db.h
+x86_64-linux/usr/include/db60/db_cxx.h
+x86_64-linux/usr/include/db_cxx.h
+x86_64-linux/usr/share/
+DEBUG: Shell function sstate_unpack_package finished
+DEBUG: Executing python function sstate_hardcode_path_unpack
+NOTE: Replacing fixme paths in sstate package: sed -e 's:^:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/db-native/6.0.30-r0/sstate-install-populate_sysroot/:g' /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/db-native/6.0.30-r0/sstate-install-populate_sysroot/fixmepath | xargs sed -i -e 's:FIXMESTAGINGDIR:/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots:g'
+DEBUG: Python function sstate_hardcode_path_unpack finished
+DEBUG: Executing python function uninative_changeinterp
+DEBUG: Python function uninative_changeinterp finished
+DEBUG: Staging files from /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/work/x86_64-linux/db-native/6.0.30-r0/sysroot-destdir/home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux to /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp/sysroots/x86_64-linux
+DEBUG: Python function do_populate_sysroot_setscene finished

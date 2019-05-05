@@ -1,0 +1,4 @@
+SANITY_VERSION 1
+TMPDIR /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/tmp
+SSTATE_DIR /home/marco/Documents/tesis/others/petalinux/dma-mapped/build/sstate-cache
+NATIVELSBSTRING Ubuntu-16.04

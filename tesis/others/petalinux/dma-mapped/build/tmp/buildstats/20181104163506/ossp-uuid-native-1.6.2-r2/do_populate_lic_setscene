@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349332.94 
+ossp-uuid-native-1.6.2-r2: do_populate_lic_setscene: Elapsed time: 0.36 seconds 
+utime: 22
+stime: 2
+cutime: 11
+cstime: 15
+IO write_bytes: 94208
+IO read_bytes: 8192
+IO cancelled_write_bytes: 0
+IO syscr: 191
+IO wchar: 158848
+IO rchar: 270205
+IO syscw: 128
+rusage ru_utime: 0.22254
+rusage ru_stime: 0.02023
+rusage ru_maxrss: 97624
+rusage ru_minflt: 8443
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 9
+rusage ru_nivcsw: 89
+Child rusage ru_utime: 0.116776
+Child rusage ru_stime: 0.151302
+Child rusage ru_maxrss: 95880
+Child rusage ru_minflt: 2087
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 16
+Child rusage ru_oublock: 56
+Child rusage ru_nvcsw: 33
+Child rusage ru_nivcsw: 89
+Status: PASSED 
+Ended: 1541349333.30 

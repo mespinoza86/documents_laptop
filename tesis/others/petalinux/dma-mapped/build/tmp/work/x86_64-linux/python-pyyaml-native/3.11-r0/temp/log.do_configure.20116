@@ -1,0 +1,7 @@
+DEBUG: Executing python function sysroot_cleansstate
+DEBUG: Python function sysroot_cleansstate finished
+DEBUG: Executing shell function do_configure
+DEBUG: Shell function do_configure finished
+DEBUG: Executing python function do_qa_configure
+NOTE: python-pyyaml-native: md5 checksum matched for file://LICENSE;md5=6015f088759b10e0bc2bf64898d4ae17
+DEBUG: Python function do_qa_configure finished

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349330.86 
+bash-4.3.30-r0: do_populate_sysroot_setscene: Elapsed time: 0.39 seconds 
+utime: 20
+stime: 1
+cutime: 13
+cstime: 15
+IO write_bytes: 2396160
+IO read_bytes: 266240
+IO cancelled_write_bytes: 0
+IO syscr: 717
+IO wchar: 2012531
+IO rchar: 1520695
+IO syscw: 1177
+rusage ru_utime: 0.203889
+rusage ru_stime: 0.015991
+rusage ru_maxrss: 97652
+rusage ru_minflt: 6324
+rusage ru_majflt: 0
+rusage ru_inblock: 168
+rusage ru_oublock: 296
+rusage ru_nvcsw: 29
+rusage ru_nivcsw: 110
+Child rusage ru_utime: 0.130607
+Child rusage ru_stime: 0.158875
+Child rusage ru_maxrss: 95960
+Child rusage ru_minflt: 1893
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 352
+Child rusage ru_oublock: 4384
+Child rusage ru_nvcsw: 220
+Child rusage ru_nivcsw: 189
+Status: PASSED 
+Ended: 1541349331.25 

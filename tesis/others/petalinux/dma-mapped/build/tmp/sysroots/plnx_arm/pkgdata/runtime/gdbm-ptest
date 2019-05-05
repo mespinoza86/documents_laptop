@@ -1,0 +1,51 @@
+PN: gdbm
+PV: 1.11
+PR: r0
+PKGV: 1.11
+PKGR: r0
+LICENSE: GPLv3
+DESCRIPTION_gdbm-ptest: Key/value database library with extensible hashing.  This package contains a test directory /usr/lib/gdbm/ptest for package test purposes.
+SUMMARY_gdbm-ptest: Key/value database library with extensible hashing - Package test files
+RDEPENDS_gdbm-ptest: diffutils gdbm (>= 1.11) glibc-xilinx (>= 2.21) gdbm-compat (>= 1.11)
+RPROVIDES_gdbm-ptest:  gdbm-ptest (=1.11)
+RRECOMMENDS_gdbm-ptest:  ptest-runner
+SECTION_gdbm-ptest: devel
+PKG_gdbm-ptest: libgdbm-ptest
+ALLOW_EMPTY_gdbm-ptest: 1
+FILES_gdbm-ptest: /usr/lib/gdbm/ptest
+FILERPROVIDESFLIST_gdbm-ptest: /usr/lib/gdbm/ptest/tests/gtfetch /usr/lib/gdbm/ptest/tests/gtload /usr/lib/gdbm/ptest/tests/num2word /usr/lib/gdbm/ptest/tests/gtdel /usr/lib/gdbm/ptest/tests/gtver /usr/lib/gdbm/ptest/tests/g@underscore@reorg@underscore@ce /usr/lib/gdbm/ptest/tests/d@underscore@creat@underscore@ce /usr/lib/gdbm/ptest/tests/dtdump /usr/lib/gdbm/ptest/tests/gtdump /usr/lib/gdbm/ptest/tests/gtopt /usr/lib/gdbm/ptest/tests/dtload /usr/lib/gdbm/ptest/tests/fdop /usr/lib/gdbm/ptest/tests/g@underscore@open@underscore@ce /usr/lib/gdbm/ptest/tests/dtdel /usr/lib/gdbm/ptest/tests/dtfetch
+FILES_INFO: {"/usr/lib/gdbm/ptest/tests/gtfetch": 5888, "/usr/lib/gdbm/ptest/tests/gtload": 6480, "/usr/lib/gdbm/ptest/tests/num2word": 6008, "/usr/lib/gdbm/ptest/tests/gtopt": 9360, "/usr/lib/gdbm/ptest/tests/g_reorg_ce": 4320, "/usr/lib/gdbm/ptest/tests/dtdump": 4984, "/usr/lib/gdbm/ptest/tests/testsuite": 80316, "/usr/lib/gdbm/ptest/tests/gtdump": 5508, "/usr/lib/gdbm/ptest/tests/g_open_ce": 4168, "/usr/lib/gdbm/ptest/run-ptest": 290, "/usr/lib/gdbm/ptest/tests/dtload": 5908, "/usr/lib/gdbm/ptest/tests/gtver": 4708, "/usr/lib/gdbm/ptest/tests/fdop": 3056, "/usr/lib/gdbm/ptest/tests/dtdel": 5104, "/usr/lib/gdbm/ptest/tests/dtfetch": 5196, "/usr/lib/gdbm/ptest/tests/gtdel": 5092, "/usr/lib/gdbm/ptest/tests/d_creat_ce": 4460}
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/gtfetch_gdbm-ptest: elf(buildid) (= 6fb545245cb64f8de76aae89bd83afa6d19ebce0)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/gtload_gdbm-ptest: elf(buildid) (= fff7d3e2e8f2ab9214944626b8cd8a61cce91d03)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/num2word_gdbm-ptest: elf(buildid) (= d1ac227de1f0845b806613cf5efc6668068feef8)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/gtdel_gdbm-ptest: elf(buildid) (= 253815335cabb1985cf6660242bc87122f0fb049)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/gtver_gdbm-ptest: elf(buildid) (= a2c426ff909030a7aacef0126e9423aba46eef3a)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/g@underscore@reorg@underscore@ce_gdbm-ptest: elf(buildid) (= ab4224fa168a934a2d164e3a1a1d073b244a4b1e)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/d@underscore@creat@underscore@ce_gdbm-ptest: elf(buildid) (= 955f4ad396acc21df262d9cebba557898184aac0)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/dtdump_gdbm-ptest: elf(buildid) (= 9634d5ebe5f6ed6a321a4cc018fe5d4e02713d0a)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/gtdump_gdbm-ptest: elf(buildid) (= 63c54420786f2669b24af7a58b93e0eb0fd672e3)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/gtopt_gdbm-ptest: elf(buildid) (= fd4be96eeeb04aa034b60d8e4b1bfa40fbca9656)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/dtload_gdbm-ptest: elf(buildid) (= 2589474cc640c0f72aee7aa394d3f319cc008354)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/fdop_gdbm-ptest: elf(buildid) (= 9307f61d6e5abdbefb2abcf2b30ca310fc058305)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/g@underscore@open@underscore@ce_gdbm-ptest: elf(buildid) (= 175b3dd5ed41d255889b58031b47927a15cf8c45)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/dtdel_gdbm-ptest: elf(buildid) (= b8babde2dcb3cacd23f7b982ba61440249577b20)
+FILERPROVIDES_/usr/lib/gdbm/ptest/tests/dtfetch_gdbm-ptest: elf(buildid) (= 0db85917aa2d2992f2e99e092fec886e925fc29f)
+FILERDEPENDSFLIST_gdbm-ptest: /usr/lib/gdbm/ptest/tests/gtfetch /usr/lib/gdbm/ptest/tests/gtload /usr/lib/gdbm/ptest/tests/num2word /usr/lib/gdbm/ptest/tests/gtopt /usr/lib/gdbm/ptest/tests/gtver /usr/lib/gdbm/ptest/tests/g@underscore@reorg@underscore@ce /usr/lib/gdbm/ptest/tests/d@underscore@creat@underscore@ce /usr/lib/gdbm/ptest/tests/dtdump /usr/lib/gdbm/ptest/tests/gtdump /usr/lib/gdbm/ptest/tests/testsuite /usr/lib/gdbm/ptest/tests/gtdel /usr/lib/gdbm/ptest/tests/dtload /usr/lib/gdbm/ptest/run-ptest /usr/lib/gdbm/ptest/tests/fdop /usr/lib/gdbm/ptest/tests/g@underscore@open@underscore@ce /usr/lib/gdbm/ptest/tests/dtdel /usr/lib/gdbm/ptest/tests/dtfetch
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/gtfetch_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/gtload_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/num2word_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/gtopt_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/gtver_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/g@underscore@reorg@underscore@ce_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/d@underscore@creat@underscore@ce_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm_compat.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/dtdump_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm_compat.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/gtdump_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/testsuite_gdbm-ptest: /bin/sh
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/gtdel_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/dtload_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm_compat.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/run-ptest_gdbm-ptest: /bin/sh
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/fdop_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/g@underscore@open@underscore@ce_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/dtdel_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm.so.4 libgdbm_compat.so.4 rtld(GNU_HASH)
+FILERDEPENDS_/usr/lib/gdbm/ptest/tests/dtfetch_gdbm-ptest: libc.so.6 libc.so.6(GLIBC_2.4) libgdbm_compat.so.4 rtld(GNU_HASH)
+PKGSIZE_gdbm-ptest: 160846

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349358.38 
+libgcc-xilinx-2016.4-r1: do_packagedata_setscene: Elapsed time: 0.42 seconds 
+utime: 15
+stime: 1
+cutime: 13
+cstime: 18
+IO write_bytes: 90112
+IO read_bytes: 4096
+IO cancelled_write_bytes: 0
+IO syscr: 280
+IO wchar: 130832
+IO rchar: 219576
+IO syscw: 155
+rusage ru_utime: 0.157739
+rusage ru_stime: 0.012133
+rusage ru_maxrss: 96764
+rusage ru_minflt: 5944
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 128
+rusage ru_nvcsw: 18
+rusage ru_nivcsw: 49
+Child rusage ru_utime: 0.139216
+Child rusage ru_stime: 0.188709
+Child rusage ru_maxrss: 95072
+Child rusage ru_minflt: 1790
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 8
+Child rusage ru_oublock: 48
+Child rusage ru_nvcsw: 31
+Child rusage ru_nivcsw: 310
+Status: PASSED 
+Ended: 1541349358.80 

@@ -1,0 +1,34 @@
+Event: TaskStarted 
+Started: 1541349392.08 
+python-pyyaml-native-3.11-r0: do_populate_lic: Elapsed time: 0.56 seconds 
+utime: 26
+stime: 4
+cutime: 16
+cstime: 21
+IO write_bytes: 98304
+IO read_bytes: 0
+IO cancelled_write_bytes: 0
+IO syscr: 351
+IO wchar: 123346
+IO rchar: 314615
+IO syscw: 85
+rusage ru_utime: 0.262858
+rusage ru_stime: 0.041071
+rusage ru_maxrss: 97020
+rusage ru_minflt: 10647
+rusage ru_majflt: 0
+rusage ru_inblock: 0
+rusage ru_oublock: 184
+rusage ru_nvcsw: 19
+rusage ru_nivcsw: 39
+Child rusage ru_utime: 0.168163
+Child rusage ru_stime: 0.218059
+Child rusage ru_maxrss: 95312
+Child rusage ru_minflt: 4682
+Child rusage ru_majflt: 0
+Child rusage ru_inblock: 0
+Child rusage ru_oublock: 8
+Child rusage ru_nvcsw: 72
+Child rusage ru_nivcsw: 68
+Status: PASSED 
+Ended: 1541349392.64 
